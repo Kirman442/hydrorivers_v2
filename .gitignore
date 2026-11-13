@@ -1,0 +1,20 @@
+# editors and OS
+.vscode/
+.idea/
+.spyproject/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# never in the site
+__pycache__/
+*.pyc
+*.parquet
+*.feather
+*.nc
+*.grib
+*.zip
+*.part
+.secrets/
+**/.secrets/
+site/local/

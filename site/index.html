@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flussströmung</title>
+  <link rel="stylesheet" href="vendor/maplibre-gl-5.24.0/maplibre-gl.css">
+  <link rel="stylesheet" href="style.css?v=18">
+</head>
+<body>
+  <div id="map"></div>
+
+  <aside id="panel">
+    <nav id="tabs">
+      <button type="button" data-tab="rivers" class="on">Flüsse</button>
+      <button type="button" data-tab="compare">Vergleich<span class="n" id="cmp-n" hidden>2</span></button>
+      <button type="button" data-tab="method">Methode</button>
+      <button type="button" data-tab="info">Info</button>
+    </nav>
+
+    <!-- Flüsse: the river on the map, or the list of all rivers -->
+    <section class="view" id="v-rivers">
+      <div id="river">
+        <button type="button" class="link" id="to-list">← Alle Flüsse</button>
+        <h1 id="title">…</h1>
+        <p class="sub" id="subtitle">Lädt …</p>
+        <div id="src-line"></div>
+        <div id="blocks"></div>
+        <section id="charts" hidden>
+          <h2>Klima &amp; Längsprofil</h2>
+          <div class="chart-head"><span>Niederschlag</span><span class="dim" id="pre-sum"></span></div>
+          <svg id="chart-pre" class="chart" viewBox="0 0 268 70" role="img" aria-label="Monatlicher Niederschlag"></svg>
+          <div class="chart-head"><span>Lufttemperatur</span><span class="dim" id="air-range"></span></div>
+          <svg id="chart-air" class="chart" viewBox="0 0 268 70" role="img" aria-label="Monatliche Lufttemperatur"></svg>
+          <div class="chart-head"><span>Längsprofil des Hauptlaufs</span><span class="dim" id="prof-info"></span></div>
+          <svg id="chart-prof" class="chart" viewBox="0 0 268 96" role="img" aria-label="Höhe entlang des Hauptlaufs"></svg>
+          <p class="dim small">Klima: RiverATLAS (WorldClim 1970–2000). Höhe: tiefster Punkt je Teileinzugsgebiet.</p>
+        </section>
+        <div id="tribs-wrap" hidden><h2>Größte Nebenflüsse</h2><ul id="card-tribs"></ul></div>
+        <button type="button" class="btn" id="go-cmp">Mit einem anderen Fluss vergleichen …</button>
+        <p class="method-link"><button type="button" class="link to-method">Wie wird das berechnet? → Methode</button></p>
+      </div>
+      <div id="list" hidden>
+        <button type="button" class="link" id="to-river"></button>
+        <div class="river-list" id="main-list"></div>
+      </div>
+    </section>
+
+    <!-- Vergleich: A on the map, B next to it -->
+    <section class="view" id="v-compare" hidden>
+      <div class="pair">
+        <button type="button" class="pick a" data-slot="a"><small id="pick-a-sub">A</small><span id="pick-a-name">–</span><span class="onmap">◉ auf der Karte</span></button>
+        <button type="button" class="pick b" data-slot="b"><small id="pick-b-sub">B · auswählen</small><span id="pick-b-name">+ Fluss wählen</span></button>
+      </div>
+      <div class="pair" id="cmp-actions" hidden>
+        <button type="button" class="btn swap" id="cmp-open">⇄ auf der Karte</button>
+        <button type="button" class="btn end" id="cmp-end">✕ Vergleich beenden</button>
+      </div>
+      <div class="picker" id="picker" hidden>
+        <div class="head"><span id="picker-head">Vergleichen mit …</span><button type="button" class="link" id="picker-close">schließen</button></div>
+        <div class="river-list" id="pick-list"></div>
+      </div>
+      <div id="cmp-body" hidden>
+        <h2>Kennzahlen</h2>
+        <div id="cmp-rows"></div>
+        <p class="method-link"><button type="button" class="link to-method">Wie wird das berechnet? → Methode</button></p>
+        <h2 class="h2-row">Jahresgang Abfluss
+          <span class="seg" id="cmp-pct"><button type="button" data-p="0" class="on">m³/s</button><button type="button" data-p="1">% des Mittels</button></span></h2>
+        <svg id="cmp-hyd" class="chart" viewBox="0 0 268 110" role="img" aria-label="Jahresgang des Abflusses im Vergleich"></svg>
+        <div class="legend-row"><span><i class="sw a"></i><span id="cmp-a"></span></span><span><i class="sw b"></i><span id="cmp-b"></span></span></div>
+        <p class="note dim" id="cmp-hyd-note"></p>
+        <div class="chart-head"><span>Niederschlag</span><span class="dim">mm pro Monat</span></div>
+        <svg id="cmp-pre" class="chart" viewBox="0 0 268 76" role="img" aria-label="Niederschlag im Vergleich"></svg>
+        <div class="chart-head"><span>Lufttemperatur</span><span class="dim">°C</span></div>
+        <svg id="cmp-air" class="chart" viewBox="0 0 268 76" role="img" aria-label="Lufttemperatur im Vergleich"></svg>
+        <div class="chart-head"><span>Längsprofil</span><span class="dim">Höhe in m, ab Quelle</span></div>
+        <svg id="cmp-prof" class="chart" viewBox="0 0 268 96" role="img" aria-label="Längsprofile im Vergleich"></svg>
+      </div>
+    </section>
+
+    <!-- Methode: how every number is computed (text in methode.html, loaded once) -->
+    <section class="view prose" id="v-method" hidden><p class="dim">Lädt …</p></section>
+
+    <!-- Info: view settings, how to read the map, sources -->
+    <section class="view" id="v-info" hidden>
+      <h2 style="margin-top:0">Ansicht</h2>
+      <label>Geschwindigkeit <span id="speed-val"></span>
+        <input id="speed" type="range" min="2" max="96" step="1" value="12">
+      </label>
+      <label>Partikelabstand <span id="spacing-val"></span>
+        <input id="spacing" type="range" min="6" max="96" step="1" value="24">
+      </label>
+      <label class="row"><input id="network" type="checkbox" checked> Flussnetz anzeigen</label>
+      <label class="row"><input id="labels" type="checkbox" checked> Flussnamen anzeigen</label>
+      <label class="row"><input id="baselabels" type="checkbox"> Ortsnamen der Grundkarte</label>
+      <label class="row"><input id="borders" type="checkbox" checked> Grenzen der Grundkarte</label>
+      <label class="row"><input id="relief" type="checkbox"> Relief (Schummerung)</label>
+
+      <h2>So liest man die Karte</h2>
+      <p class="dim">Jeder Lichtpunkt ist Wasser auf dem Weg zur Mündung. Je schneller er wandert, desto schneller fließt der Fluss im gewählten Monat. Ein Klick auf einen Fluss zeigt seine Werte; ein Klick daneben schließt sie.</p>
+      <div class="chart-head"><span>Farbe: Abfluss</span></div>
+      <div class="ramp"></div>
+      <div class="ticks"><span>1 m³/s</span><span>100</span><span>10.000+</span></div>
+      <div class="chart-head"><span>Farbe: Wassertemperatur (Schätzung)</span></div>
+      <div class="ramp temp"></div>
+      <div class="ticks"><span>0 °C</span><span>15</span><span>30 °C</span></div>
+
+      <h2>Wie gerechnet wird</h2>
+      <p class="note dim">Fließgeschwindigkeit: mit RiverATLAS nach Manning aus Abfluss und Gefälle (Gefälle über eine längere Flussstrecke gemittelt), sonst aus dem Abfluss allein (v = 0,45·Q<sup>0,1</sup> m/s); im gewählten Monat ändert sie sich mit (Q<sub>Monat</sub>/Q)<sup>0,2</sup>, die Fließzeiten auch. Wassertemperatur: Schätzung aus der monatlichen Lufttemperatur (Mohseni-Kurve), keine Messung. Monatswerte: wo GloFAS-Daten geladen sind, deren Jahresgang, skaliert auf den HydroRIVERS-Abfluss; sonst ein Modell (Regen, Schneeschmelze und Verdunstung je Teilgebiet, flussabwärts summiert und an den RiverATLAS-Abfluss des trockensten, mittleren und nassesten Monats angepasst). Der Abflussgipfel kommt oft ein bis drei Monate nach dem Niederschlagsgipfel: Regen und Schneeschmelze brauchen Zeit bis in den Fluss.</p>
+
+      <h2 id="sources">Daten &amp; Quellen</h2>
+      <dl class="gloss">
+        <dt>Flussnetz</dt><dd>HydroRIVERS v1.0 — Lehner, B., Grill, G. (2013): Global river hydrography and network routing. Hydrological Processes 27(15), 2171–2186.</dd>
+        <dt>Gefälle, Klima, Höhe</dt><dd>RiverATLAS v1.0 — Linke, S. et al. (2019): Global hydro-environmental sub-basin and river reach characteristics at high spatial resolution. Scientific Data 6, 283.</dd>
+        <dt>Flusstypen</dt><dd>GloRiC v1.0 — Ouellet Dallaire, C. et al. (2019): A multidisciplinary framework to derive global river reach classifications at high spatial resolution. Environmental Research Letters 14, 024003.</dd>
+        <dt>Monatswerte „GloFAS“</dt><dd>GloFAS-Reanalyse, Copernicus Emergency Management Service (CEMS), über den Early Warning Data Store (EWDS).</dd>
+        <dt>Monatswerte „Modell“</dt><dd>Eigene Schätzung aus Schnee, Bodenwasser und Verdunstung, angepasst an die Monatswerte von RiverATLAS.</dd>
+        <dt>Relief</dt><dd>Mapzen Terrain Tiles (AWS Open Data Registry), Terrarium-Kodierung; Quellen u. a. SRTM, GMTED2010, ETOPO1, NED. Schummerung im Browser mit MapLibre.</dd>
+        <dt>Flussnamen, Länder</dt><dd>Natural Earth (gemeinfrei).</dd>
+        <dt>Hintergrundkarte</dt><dd>© <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> (Dark Matter), Kartendaten © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>-Mitwirkende (ODbL); MapLibre GL, deck.gl.</dd>
+      </dl>
+      <h2>Begriffe</h2>
+      <dl class="gloss" id="gloss"></dl>
+    </section>
+  </aside>
+
+  <!-- legend, bottom left under the panel -->
+  <div id="maplegend">
+    <div class="hd">
+      <span class="seg" id="color-mode"><button type="button" data-c="q" class="on">Abfluss</button><button type="button" data-c="t">Wassertemperatur</button></span>
+      <button type="button" class="tog" id="lg-names" title="Ortsnamen der Grundkarte ein-/ausblenden">Namen</button>
+      <button type="button" class="tog" id="lg-relief" title="Relief (Schummerung) ein-/ausblenden">Relief</button>
+      <button type="button" class="x" id="lg-min" title="Legende ein-/ausklappen">▾</button>
+    </div>
+    <div class="body">
+      <div class="ramp" id="lg-ramp"></div>
+      <div class="ticks" id="lg-ticks"></div>
+      <div class="lg-note" id="lg-note"></div>
+    </div>
+  </div>
+
+  <!-- time: months as the hydrograph of the river on the map, single years, play -->
+  <div id="timebar">
+    <div id="tb-left">
+      <div><div class="t" id="tb-month">Jahresmittel</div><div class="s" id="tb-src"></div></div>
+      <button type="button" id="play">❚❚ Pause</button>
+    </div>
+    <div id="months"></div>
+    <div id="tb-speed" title="Wie viele Stunden Fließzeit pro Sekunde Animation">
+      <div class="lbl"><span>Tempo</span><span id="tb-speed-val"></span></div>
+      <input id="tb-speed-in" type="range" min="2" max="24" step="1" value="12" aria-label="Geschwindigkeit">
+      <div class="presets"><button type="button" data-v="6">¼</button><button type="button" data-v="12">½</button><button type="button" data-v="24">1×</button></div>
+    </div>
+    <div id="tb-right">
+      <div id="years"></div>
+      <label class="tgl"><input type="checkbox" id="cycle"> Monate durchlaufen</label>
+    </div>
+  </div>
+
+  <div id="credits">© <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>-Mitwirkende ·
+    HydroRIVERS / RiverATLAS · GloFAS (Copernicus EMS)<span id="cr-relief" hidden> · Relief: Mapzen Terrain Tiles (AWS Open Data; SRTM, GMTED, ETOPO1 u. a.)</span> ·
+    <a href="#sources" id="cr-more">Quellen</a></div>
+
+  <div id="tooltip" hidden></div>
+  <div id="pop" hidden></div>
+
+  <script src="vendor/maplibre-gl-5.24.0/maplibre-gl.js"></script>
+  <script src="vendor/deck.gl-9.3.12/dist.min.js"></script>
+  <script type="module" src="js/main.js?v=23"></script>
+</body>
+</html>

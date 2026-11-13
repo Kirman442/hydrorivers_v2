@@ -1,0 +1,2983 @@
+{
+ "continent": "as",
+ "label": "Asien",
+ "min_area_km2": 100000.0,
+ "format": "bin",
+ "source": "HydroRIVERS v1.0 (Lehner & Grill 2013); names: Natural Earth",
+ "basins": [
+  {
+   "slug": "amur",
+   "name": "Amur",
+   "main_riv": 40017702,
+   "bounds": [
+    107.5708,
+    41.7417,
+    141.0625,
+    55.9
+   ],
+   "segments": 75250,
+   "segments_total": 104987,
+   "max_ord_flow": 7,
+   "travel_time_h": 1853.7,
+   "monthly": "model",
+   "size_mb": 1.2,
+   "area_km2": 1998203,
+   "discharge_cms": 10899.8,
+   "main_length_km": 4883,
+   "network_length_km": 470248,
+   "drainage_density": 0.235,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 52870,
+    "2": 23678,
+    "3": 12476,
+    "4": 7646,
+    "5": 4325,
+    "6": 2113,
+    "7": 680,
+    "8": 914,
+    "9": 285
+   },
+   "runoff_mm": 172,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 0.507
+    },
+    {
+     "name": "Volksrepublik China",
+     "share": 0.429
+    },
+    {
+     "name": "Mongolei",
+     "share": 0.064
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Songhua",
+     "lon": 128.396,
+     "lat": 45.969,
+     "area_km2": 552630,
+     "discharge_cms": 2194.8,
+     "length_km": 2136,
+     "km_from_mouth": 1188
+    },
+    {
+     "name": "Zeya",
+     "lon": 128.486,
+     "lat": 51.935,
+     "area_km2": 232076,
+     "discharge_cms": 1487.6,
+     "length_km": 1192,
+     "km_from_mouth": 1916
+    },
+    {
+     "name": "Shilka",
+     "lon": 117.669,
+     "lat": 52.219,
+     "area_km2": 200833,
+     "discharge_cms": 571.0,
+     "length_km": 1580,
+     "km_from_mouth": 2823
+    },
+    {
+     "name": "Ussuri",
+     "lon": 134.152,
+     "lat": 47.244,
+     "area_km2": 195730,
+     "discharge_cms": 1624.2,
+     "length_km": 938,
+     "km_from_mouth": 930
+    },
+    {
+     "name": null,
+     "lon": 130.668,
+     "lat": 50.297,
+     "area_km2": 70141,
+     "discharge_cms": 852.0,
+     "length_km": 803,
+     "km_from_mouth": 1637
+    },
+    {
+     "name": "Amgun’",
+     "lon": 137.411,
+     "lat": 52.665,
+     "area_km2": 54603,
+     "discharge_cms": 472.9,
+     "length_km": 841,
+     "km_from_mouth": 92
+    }
+   ]
+  },
+  {
+   "slug": "jangtsekiang",
+   "name": "Jangtsekiang",
+   "main_riv": 40613666,
+   "bounds": [
+    90.5792,
+    24.4937,
+    120.3208,
+    35.7271
+   ],
+   "segments": 53537,
+   "segments_total": 140973,
+   "max_ord_flow": 6,
+   "travel_time_h": 1433.6,
+   "monthly": "model",
+   "size_mb": 0.7,
+   "area_km2": 1909199,
+   "discharge_cms": 31067.7,
+   "main_length_km": 5921,
+   "network_length_km": 510783,
+   "drainage_density": 0.268,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 71264,
+    "2": 32114,
+    "3": 17507,
+    "4": 9955,
+    "5": 4666,
+    "6": 2665,
+    "7": 1778,
+    "8": 397,
+    "9": 627
+   },
+   "runoff_mm": 513,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Volksrepublik China",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Yuan",
+     "lon": 111.135,
+     "lat": 28.848,
+     "area_km2": 260551,
+     "discharge_cms": 6374.1,
+     "length_km": 1240,
+     "km_from_mouth": 1134
+    },
+    {
+     "name": "Hudi",
+     "lon": 118.321,
+     "lat": 32.962,
+     "area_km2": 172079,
+     "discharge_cms": 1317.0,
+     "length_km": 1225,
+     "km_from_mouth": 67
+    },
+    {
+     "name": "Han",
+     "lon": 112.383,
+     "lat": 31.642,
+     "area_km2": 165306,
+     "discharge_cms": 1640.3,
+     "length_km": 1491,
+     "km_from_mouth": 902
+    },
+    {
+     "name": "Gan",
+     "lon": 115.78,
+     "lat": 28.209,
+     "area_km2": 162424,
+     "discharge_cms": 5981.1,
+     "length_km": 890,
+     "km_from_mouth": 623
+    },
+    {
+     "name": "Jialing",
+     "lon": 106.196,
+     "lat": 30.954,
+     "area_km2": 159180,
+     "discharge_cms": 2367.5,
+     "length_km": 1233,
+     "km_from_mouth": 2187
+    },
+    {
+     "name": "Dadu",
+     "lon": 103.154,
+     "lat": 29.279,
+     "area_km2": 135296,
+     "discharge_cms": 2286.0,
+     "length_km": 1189,
+     "km_from_mouth": 2573
+    }
+   ]
+  },
+  {
+   "slug": "ganges",
+   "name": "Ganges",
+   "main_riv": 41067217,
+   "bounds": [
+    73.4187,
+    22.4812,
+    97.7583,
+    31.4375
+   ],
+   "segments": 64981,
+   "segments_total": 163483,
+   "max_ord_flow": 6,
+   "travel_time_h": 1054.6,
+   "monthly": "glofas",
+   "size_mb": 1.3,
+   "area_km2": 1574223,
+   "discharge_cms": 40393.0,
+   "main_length_km": 3354,
+   "network_length_km": 476505,
+   "drainage_density": 0.303,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 83776,
+    "2": 35840,
+    "3": 19753,
+    "4": 12063,
+    "5": 6714,
+    "6": 2847,
+    "7": 1268,
+    "8": 1144,
+    "9": 78
+   },
+   "runoff_mm": 809,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Indien",
+     "share": 0.64
+    },
+    {
+     "name": "Volksrepublik China",
+     "share": 0.164
+    },
+    {
+     "name": "Nepal",
+     "share": 0.103
+    },
+    {
+     "name": "Bangladesch",
+     "share": 0.07
+    },
+    {
+     "name": "Bhutan",
+     "share": 0.021
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Brahmaputra",
+     "lon": 94.202,
+     "lat": 26.906,
+     "area_km2": 539868,
+     "discharge_cms": 21319.3,
+     "length_km": 3236,
+     "km_from_mouth": 123
+    },
+    {
+     "name": "Ghäghara",
+     "lon": 82.217,
+     "lat": 26.81,
+     "area_km2": 131948,
+     "discharge_cms": 3277.9,
+     "length_km": 1203,
+     "km_from_mouth": 878
+    },
+    {
+     "name": null,
+     "lon": 80.277,
+     "lat": 26.592,
+     "area_km2": 93854,
+     "discharge_cms": 1000.6,
+     "length_km": 1173,
+     "km_from_mouth": 1342
+    },
+    {
+     "name": "Sapt",
+     "lon": 86.921,
+     "lat": 26.529,
+     "area_km2": 88185,
+     "discharge_cms": 2293.1,
+     "length_km": 830,
+     "km_from_mouth": 522
+    },
+    {
+     "name": "Balak",
+     "lon": 91.228,
+     "lat": 24.566,
+     "area_km2": 85401,
+     "discharge_cms": 5599.8,
+     "length_km": 922,
+     "km_from_mouth": 7
+    },
+    {
+     "name": "Yamuna",
+     "lon": 78.177,
+     "lat": 27.177,
+     "area_km2": 79530,
+     "discharge_cms": 560.9,
+     "length_km": 1038,
+     "km_from_mouth": 1806
+    }
+   ]
+  },
+  {
+   "slug": "indus",
+   "name": "Indus",
+   "main_riv": 41023100,
+   "bounds": [
+    66.2,
+    24.0646,
+    82.4312,
+    37.05
+   ],
+   "segments": 32266,
+   "segments_total": 48035,
+   "max_ord_flow": 7,
+   "travel_time_h": 1251.7,
+   "monthly": "model",
+   "size_mb": 0.5,
+   "area_km2": 854650,
+   "discharge_cms": 4101.1,
+   "main_length_km": 3353,
+   "network_length_km": 207862,
+   "drainage_density": 0.243,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 24271,
+    "2": 10759,
+    "3": 5867,
+    "4": 3292,
+    "5": 1857,
+    "6": 1089,
+    "7": 325,
+    "8": 575
+   },
+   "runoff_mm": 151,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Pakistan",
+     "share": 0.585
+    },
+    {
+     "name": "Indien",
+     "share": 0.229
+    },
+    {
+     "name": "Volksrepublik China",
+     "share": 0.105
+    },
+    {
+     "name": "Afghanistan",
+     "share": 0.078
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Chenab",
+     "lon": 72.143,
+     "lat": 31.174,
+     "area_km2": 287890,
+     "discharge_cms": 2909.6,
+     "length_km": 1704,
+     "km_from_mouth": 1027
+    },
+    {
+     "name": null,
+     "lon": 67.64,
+     "lat": 27.302,
+     "area_km2": 97040,
+     "discharge_cms": 70.6,
+     "length_km": 799,
+     "km_from_mouth": 427
+    },
+    {
+     "name": null,
+     "lon": 71.09,
+     "lat": 34.231,
+     "area_km2": 92572,
+     "discharge_cms": 1243.1,
+     "length_km": 767,
+     "km_from_mouth": 1719
+    },
+    {
+     "name": null,
+     "lon": 77.214,
+     "lat": 34.728,
+     "area_km2": 60982,
+     "discharge_cms": 133.5,
+     "length_km": 710,
+     "km_from_mouth": 2400
+    },
+    {
+     "name": null,
+     "lon": 70.118,
+     "lat": 32.131,
+     "area_km2": 39412,
+     "discharge_cms": 13.2,
+     "length_km": 551,
+     "km_from_mouth": 1339
+    },
+    {
+     "name": null,
+     "lon": 74.306,
+     "lat": 36.197,
+     "area_km2": 27368,
+     "discharge_cms": 81.7,
+     "length_km": 308,
+     "km_from_mouth": 2202
+    }
+   ]
+  },
+  {
+   "slug": "euphrat",
+   "name": "Euphrat",
+   "main_riv": 20791150,
+   "bounds": [
+    36.8333,
+    28.6208,
+    51.9812,
+    40.3021
+   ],
+   "segments": 22305,
+   "segments_total": 40311,
+   "max_ord_flow": 7,
+   "travel_time_h": 2295.6,
+   "monthly": "model",
+   "size_mb": 0.3,
+   "area_km2": 829645,
+   "discharge_cms": 2957.9,
+   "main_length_km": 3049,
+   "network_length_km": 200123,
+   "drainage_density": 0.241,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 20309,
+    "2": 9219,
+    "3": 4822,
+    "4": 2896,
+    "5": 1283,
+    "6": 885,
+    "7": 741,
+    "8": 156
+   },
+   "runoff_mm": 112,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Irak",
+     "share": 0.465
+    },
+    {
+     "name": "Türkei",
+     "share": 0.209
+    },
+    {
+     "name": "Iran",
+     "share": 0.187
+    },
+    {
+     "name": "Syrien",
+     "share": 0.119
+    },
+    {
+     "name": "Saudi-Arabien",
+     "share": 0.02
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Tigris",
+     "lon": 44.901,
+     "lat": 32.928,
+     "area_km2": 221327,
+     "discharge_cms": 1527.1,
+     "length_km": 1917,
+     "km_from_mouth": 182
+    },
+    {
+     "name": null,
+     "lon": 48.756,
+     "lat": 31.399,
+     "area_km2": 72045,
+     "discharge_cms": 748.2,
+     "length_km": 902,
+     "km_from_mouth": 70
+    },
+    {
+     "name": null,
+     "lon": 42.827,
+     "lat": 32.131,
+     "area_km2": 68783,
+     "discharge_cms": 0.0,
+     "length_km": 833,
+     "km_from_mouth": 690
+    },
+    {
+     "name": "Karkheh",
+     "lon": 48.264,
+     "lat": 31.935,
+     "area_km2": 50661,
+     "discharge_cms": 245.7,
+     "length_km": 994,
+     "km_from_mouth": 177
+    },
+    {
+     "name": null,
+     "lon": 40.865,
+     "lat": 35.786,
+     "area_km2": 36300,
+     "discharge_cms": 48.0,
+     "length_km": 470,
+     "km_from_mouth": 1459
+    },
+    {
+     "name": null,
+     "lon": 43.094,
+     "lat": 34.271,
+     "area_km2": 27428,
+     "discharge_cms": 43.2,
+     "length_km": 461,
+     "km_from_mouth": 854
+    }
+   ]
+  },
+  {
+   "slug": "mekong",
+   "name": "Mekong",
+   "main_riv": 41392598,
+   "bounds": [
+    93.8896,
+    9.6146,
+    108.7542,
+    33.7896
+   ],
+   "segments": 65589,
+   "segments_total": 66695,
+   "max_ord_flow": 7,
+   "travel_time_h": 1044.2,
+   "monthly": "glofas",
+   "size_mb": 1.4,
+   "area_km2": 774281,
+   "discharge_cms": 15252.0,
+   "main_length_km": 4846,
+   "network_length_km": 224775,
+   "drainage_density": 0.29,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 33823,
+    "2": 15217,
+    "3": 8068,
+    "4": 4276,
+    "5": 2558,
+    "6": 1457,
+    "7": 968,
+    "8": 328
+   },
+   "runoff_mm": 621,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Laos",
+     "share": 0.291
+    },
+    {
+     "name": "Thailand",
+     "share": 0.219
+    },
+    {
+     "name": "Kambodscha",
+     "share": 0.219
+    },
+    {
+     "name": "Volksrepublik China",
+     "share": 0.18
+    },
+    {
+     "name": "Vietnam",
+     "share": 0.065
+    },
+    {
+     "name": "Myanmar",
+     "share": 0.026
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Mun",
+     "lon": 104.6,
+     "lat": 15.148,
+     "area_km2": 119868,
+     "discharge_cms": 1014.6,
+     "length_km": 774,
+     "km_from_mouth": 917
+    },
+    {
+     "name": "Tonle Sap",
+     "lon": 104.375,
+     "lat": 12.558,
+     "area_km2": 88254,
+     "discharge_cms": 1640.0,
+     "length_km": 566,
+     "km_from_mouth": 308
+    },
+    {
+     "name": "Srepok",
+     "lon": 106.798,
+     "lat": 13.456,
+     "area_km2": 79015,
+     "discharge_cms": 2940.1,
+     "length_km": 568,
+     "km_from_mouth": 661
+    },
+    {
+     "name": "Ou",
+     "lon": 102.708,
+     "lat": 21.048,
+     "area_km2": 26058,
+     "discharge_cms": 624.7,
+     "length_km": 467,
+     "km_from_mouth": 2136
+    },
+    {
+     "name": null,
+     "lon": 105.631,
+     "lat": 16.257,
+     "area_km2": 19978,
+     "discharge_cms": 555.0,
+     "length_km": 471,
+     "km_from_mouth": 1060
+    },
+    {
+     "name": null,
+     "lon": 96.405,
+     "lat": 31.71,
+     "area_km2": 16904,
+     "discharge_cms": 101.4,
+     "length_km": 477,
+     "km_from_mouth": 4275
+    }
+   ]
+  },
+  {
+   "slug": "tarim",
+   "name": "Tarim",
+   "main_riv": 40348332,
+   "bounds": [
+    73.0833,
+    34.8708,
+    90.8396,
+    42.625
+   ],
+   "segments": 6470,
+   "segments_total": 32286,
+   "max_ord_flow": 7,
+   "travel_time_h": 1156.3,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 767614,
+   "discharge_cms": 179.5,
+   "main_length_km": 2397,
+   "network_length_km": 212204,
+   "drainage_density": 0.276,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 16246,
+    "2": 7415,
+    "3": 4009,
+    "4": 2089,
+    "5": 1451,
+    "6": 617,
+    "7": 157,
+    "8": 302
+   },
+   "runoff_mm": 7,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Volksrepublik China",
+     "share": 0.972
+    },
+    {
+     "name": "Kirgisistan",
+     "share": 0.026
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 83.797,
+     "lat": 40.385,
+     "area_km2": 203048,
+     "discharge_cms": 98.0,
+     "length_km": 1229,
+     "km_from_mouth": 590
+    },
+    {
+     "name": null,
+     "lon": 77.21,
+     "lat": 39.088,
+     "area_km2": 76777,
+     "discharge_cms": 34.5,
+     "length_km": 741,
+     "km_from_mouth": 1347
+    },
+    {
+     "name": null,
+     "lon": 80.63,
+     "lat": 38.234,
+     "area_km2": 76060,
+     "discharge_cms": 9.4,
+     "length_km": 1130,
+     "km_from_mouth": 1160
+    },
+    {
+     "name": "Qarqan",
+     "lon": 86.525,
+     "lat": 38.677,
+     "area_km2": 53575,
+     "discharge_cms": 0.0,
+     "length_km": 864,
+     "km_from_mouth": 239
+    },
+    {
+     "name": "Toxkan",
+     "lon": 79.579,
+     "lat": 41.29,
+     "area_km2": 45293,
+     "discharge_cms": 87.5,
+     "length_km": 646,
+     "km_from_mouth": 1166
+    },
+    {
+     "name": "Tarim",
+     "lon": 84.327,
+     "lat": 41.469,
+     "area_km2": 40360,
+     "discharge_cms": 35.6,
+     "length_km": 785,
+     "km_from_mouth": 554
+    }
+   ]
+  },
+  {
+   "slug": "huang-he",
+   "name": "Huang He",
+   "main_riv": 40417973,
+   "bounds": [
+    95.95,
+    32.1875,
+    119.1729,
+    41.8
+   ],
+   "segments": 17272,
+   "segments_total": 37229,
+   "max_ord_flow": 7,
+   "travel_time_h": 1380.6,
+   "monthly": "model",
+   "size_mb": 0.3,
+   "area_km2": 761252,
+   "discharge_cms": 1490.6,
+   "main_length_km": 5469,
+   "network_length_km": 177514,
+   "drainage_density": 0.233,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 18788,
+    "2": 8568,
+    "3": 4297,
+    "4": 2587,
+    "5": 1104,
+    "6": 871,
+    "7": 751,
+    "8": 263
+   },
+   "runoff_mm": 62,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Volksrepublik China",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Wei",
+     "lon": 108.799,
+     "lat": 34.365,
+     "area_km2": 135139,
+     "discharge_cms": 328.9,
+     "length_km": 799,
+     "km_from_mouth": 1201
+    },
+    {
+     "name": "Fen",
+     "lon": 111.416,
+     "lat": 36.012,
+     "area_km2": 40073,
+     "discharge_cms": 66.6,
+     "length_km": 662,
+     "km_from_mouth": 1295
+    },
+    {
+     "name": "Wuding",
+     "lon": 110.157,
+     "lat": 37.768,
+     "area_km2": 36899,
+     "discharge_cms": 29.4,
+     "length_km": 435,
+     "km_from_mouth": 1554
+    },
+    {
+     "name": null,
+     "lon": 102.647,
+     "lat": 36.407,
+     "area_km2": 32884,
+     "discharge_cms": 65.7,
+     "length_km": 602,
+     "km_from_mouth": 3463
+    },
+    {
+     "name": "Wujia",
+     "lon": 108.462,
+     "lat": 41.181,
+     "area_km2": 26569,
+     "discharge_cms": 10.7,
+     "length_km": 361,
+     "km_from_mouth": 2361
+    },
+    {
+     "name": null,
+     "lon": 103.823,
+     "lat": 35.242,
+     "area_km2": 25429,
+     "discharge_cms": 133.6,
+     "length_km": 611,
+     "km_from_mouth": 3508
+    }
+   ]
+  },
+  {
+   "slug": "amudarja",
+   "name": "Amudarja",
+   "main_riv": 40190238,
+   "bounds": [
+    58.725,
+    34.5229,
+    75.1125,
+    45.0333
+   ],
+   "segments": 13763,
+   "segments_total": 23583,
+   "max_ord_flow": 7,
+   "travel_time_h": 1056.3,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 463253,
+   "discharge_cms": 1592.1,
+   "main_length_km": 2747,
+   "network_length_km": 111362,
+   "drainage_density": 0.24,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 11898,
+    "2": 5443,
+    "3": 2680,
+    "4": 1523,
+    "5": 1086,
+    "6": 390,
+    "7": 355,
+    "8": 208
+   },
+   "runoff_mm": 108,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Afghanistan",
+     "share": 0.347
+    },
+    {
+     "name": "Tadschikistan",
+     "share": 0.263
+    },
+    {
+     "name": "Usbekistan",
+     "share": 0.251
+    },
+    {
+     "name": "Turkmenistan",
+     "share": 0.12
+    },
+    {
+     "name": "Kirgisistan",
+     "share": 0.018
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Zarafshon",
+     "lon": 64.172,
+     "lat": 39.668,
+     "area_km2": 68070,
+     "discharge_cms": 112.5,
+     "length_km": 835,
+     "km_from_mouth": 1002
+    },
+    {
+     "name": null,
+     "lon": 69.483,
+     "lat": 38.408,
+     "area_km2": 38707,
+     "discharge_cms": 716.4,
+     "length_km": 753,
+     "km_from_mouth": 1616
+    },
+    {
+     "name": null,
+     "lon": 64.626,
+     "lat": 37.766,
+     "area_km2": 38328,
+     "discharge_cms": 40.5,
+     "length_km": 569,
+     "km_from_mouth": 1066
+    },
+    {
+     "name": null,
+     "lon": 68.835,
+     "lat": 36.36,
+     "area_km2": 37759,
+     "discharge_cms": 156.3,
+     "length_km": 524,
+     "km_from_mouth": 1600
+    },
+    {
+     "name": null,
+     "lon": 72.477,
+     "lat": 38.315,
+     "area_km2": 27801,
+     "discharge_cms": 123.8,
+     "length_km": 544,
+     "km_from_mouth": 2213
+    },
+    {
+     "name": null,
+     "lon": 66.585,
+     "lat": 36.727,
+     "area_km2": 24340,
+     "discharge_cms": 11.6,
+     "length_km": 593,
+     "km_from_mouth": 1299
+    }
+   ]
+  },
+  {
+   "slug": "xi",
+   "name": "Xi",
+   "main_riv": 41109275,
+   "bounds": [
+    102.2875,
+    21.5396,
+    114.7021,
+    26.7979
+   ],
+   "segments": 36062,
+   "segments_total": 36062,
+   "max_ord_flow": 7,
+   "travel_time_h": 711.8,
+   "monthly": "model",
+   "size_mb": 0.5,
+   "area_km2": 389564,
+   "discharge_cms": 9175.2,
+   "main_length_km": 2135,
+   "network_length_km": 119654,
+   "drainage_density": 0.307,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 18273,
+    "2": 8431,
+    "3": 4447,
+    "4": 2303,
+    "5": 1101,
+    "6": 789,
+    "7": 505,
+    "8": 213
+   },
+   "runoff_mm": 743,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Volksrepublik China",
+     "share": 0.974
+    },
+    {
+     "name": "Vietnam",
+     "share": 0.026
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Yu",
+     "lon": 109.206,
+     "lat": 22.656,
+     "area_km2": 88548,
+     "discharge_cms": 1603.8,
+     "length_km": 1033,
+     "km_from_mouth": 492
+    },
+    {
+     "name": "Rong",
+     "lon": 109.24,
+     "lat": 24.485,
+     "area_km2": 58112,
+     "discharge_cms": 1471.5,
+     "length_km": 719,
+     "km_from_mouth": 614
+    },
+    {
+     "name": "Bei",
+     "lon": 113.254,
+     "lat": 23.804,
+     "area_km2": 47780,
+     "discharge_cms": 1559.0,
+     "length_km": 487,
+     "km_from_mouth": 108
+    },
+    {
+     "name": null,
+     "lon": 105.781,
+     "lat": 25.477,
+     "area_km2": 24485,
+     "discharge_cms": 505.9,
+     "length_km": 453,
+     "km_from_mouth": 1265
+    },
+    {
+     "name": null,
+     "lon": 110.937,
+     "lat": 23.97,
+     "area_km2": 18792,
+     "discharge_cms": 600.5,
+     "length_km": 417,
+     "km_from_mouth": 321
+    },
+    {
+     "name": null,
+     "lon": 111.8,
+     "lat": 23.804,
+     "area_km2": 11597,
+     "discharge_cms": 300.8,
+     "length_km": 329,
+     "km_from_mouth": 298
+    }
+   ]
+  },
+  {
+   "slug": "ayeyarwady",
+   "name": "Ayeyarwady",
+   "main_riv": 41284417,
+   "bounds": [
+    93.4917,
+    16.3604,
+    98.8125,
+    28.7542
+   ],
+   "segments": 57592,
+   "segments_total": 57748,
+   "max_ord_flow": 7,
+   "travel_time_h": 529.1,
+   "monthly": "model",
+   "size_mb": 0.8,
+   "area_km2": 376349,
+   "discharge_cms": 17182.4,
+   "main_length_km": 2074,
+   "network_length_km": 140698,
+   "drainage_density": 0.374,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 29660,
+    "2": 13092,
+    "3": 7010,
+    "4": 3732,
+    "5": 1900,
+    "6": 1012,
+    "7": 755,
+    "8": 233,
+    "9": 354
+   },
+   "runoff_mm": 1440,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Myanmar",
+     "share": 0.892
+    },
+    {
+     "name": "Volksrepublik China",
+     "share": 0.062
+    },
+    {
+     "name": "Indien",
+     "share": 0.045
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Chindwin",
+     "lon": 94.431,
+     "lat": 23.735,
+     "area_km2": 114685,
+     "discharge_cms": 5663.9,
+     "length_km": 1212,
+     "km_from_mouth": 760
+    },
+    {
+     "name": "Mytinge",
+     "lon": 96.748,
+     "lat": 22.023,
+     "area_km2": 47023,
+     "discharge_cms": 723.6,
+     "length_km": 587,
+     "km_from_mouth": 883
+    },
+    {
+     "name": null,
+     "lon": 97.765,
+     "lat": 26.394,
+     "area_km2": 23221,
+     "discharge_cms": 2693.3,
+     "length_km": 392,
+     "km_from_mouth": 1535
+    },
+    {
+     "name": null,
+     "lon": 96.747,
+     "lat": 23.306,
+     "area_km2": 22908,
+     "discharge_cms": 1020.2,
+     "length_km": 663,
+     "km_from_mouth": 1147
+    },
+    {
+     "name": null,
+     "lon": 95.434,
+     "lat": 22.737,
+     "area_km2": 19740,
+     "discharge_cms": 375.5,
+     "length_km": 424,
+     "km_from_mouth": 839
+    },
+    {
+     "name": null,
+     "lon": 96.91,
+     "lat": 25.323,
+     "area_km2": 9352,
+     "discharge_cms": 853.9,
+     "length_km": 243,
+     "km_from_mouth": 1387
+    }
+   ]
+  },
+  {
+   "slug": "ghaggar-hakra-nara",
+   "name": "Ghaggar-Hakra (Nara)",
+   "main_riv": 41030263,
+   "bounds": [
+    68.05,
+    23.1875,
+    77.3687,
+    30.8687
+   ],
+   "segments": 4863,
+   "segments_total": 13866,
+   "max_ord_flow": 7,
+   "travel_time_h": 1005.6,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 319156,
+   "discharge_cms": 558.3,
+   "main_length_km": 1746,
+   "network_length_km": 78708,
+   "drainage_density": 0.247,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 6977,
+    "2": 3180,
+    "3": 1853,
+    "4": 1115,
+    "5": 290,
+    "6": 448,
+    "7": 3
+   },
+   "runoff_mm": 55,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Indien",
+     "share": 0.663
+    },
+    {
+     "name": "Pakistan",
+     "share": 0.337
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 71.169,
+     "lat": 24.354,
+     "area_km2": 106848,
+     "discharge_cms": 202.7,
+     "length_km": 865,
+     "km_from_mouth": 62
+    },
+    {
+     "name": null,
+     "lon": 72.372,
+     "lat": 29.477,
+     "area_km2": 22146,
+     "discharge_cms": 19.5,
+     "length_km": 719,
+     "km_from_mouth": 948
+    },
+    {
+     "name": null,
+     "lon": 74.701,
+     "lat": 29.515,
+     "area_km2": 20050,
+     "discharge_cms": 37.7,
+     "length_km": 470,
+     "km_from_mouth": 1285
+    },
+    {
+     "name": null,
+     "lon": 69.82,
+     "lat": 25.51,
+     "area_km2": 12677,
+     "discharge_cms": 2.6,
+     "length_km": 273,
+     "km_from_mouth": 237
+    },
+    {
+     "name": null,
+     "lon": 69.563,
+     "lat": 26.321,
+     "area_km2": 9947,
+     "discharge_cms": 1.5,
+     "length_km": 385,
+     "km_from_mouth": 340
+    },
+    {
+     "name": null,
+     "lon": 71.351,
+     "lat": 28.574,
+     "area_km2": 7552,
+     "discharge_cms": 3.0,
+     "length_km": 328,
+     "km_from_mouth": 821
+    }
+   ]
+  },
+  {
+   "slug": "syrdarja",
+   "name": "Syrdarja",
+   "main_riv": 40145639,
+   "bounds": [
+    60.7125,
+    39.4,
+    78.3187,
+    46.6292
+   ],
+   "segments": 8291,
+   "segments_total": 14987,
+   "max_ord_flow": 7,
+   "travel_time_h": 1559.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 310716,
+   "discharge_cms": 361.3,
+   "main_length_km": 2838,
+   "network_length_km": 77880,
+   "drainage_density": 0.251,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 7547,
+    "2": 3481,
+    "3": 1751,
+    "4": 1075,
+    "5": 478,
+    "6": 178,
+    "7": 160,
+    "8": 317
+   },
+   "runoff_mm": 37,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Kasachstan",
+     "share": 0.383
+    },
+    {
+     "name": "Kirgisistan",
+     "share": 0.327
+    },
+    {
+     "name": "Usbekistan",
+     "share": 0.245
+    },
+    {
+     "name": "Tadschikistan",
+     "share": 0.045
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 67.4,
+     "lat": 40.798,
+     "area_km2": 31438,
+     "discharge_cms": 0.0,
+     "length_km": 315,
+     "km_from_mouth": 1509
+    },
+    {
+     "name": null,
+     "lon": 72.378,
+     "lat": 40.899,
+     "area_km2": 28599,
+     "discharge_cms": 90.4,
+     "length_km": 357,
+     "km_from_mouth": 2041
+    },
+    {
+     "name": null,
+     "lon": 62.451,
+     "lat": 46.351,
+     "area_km2": 14788,
+     "discharge_cms": 19.1,
+     "length_km": 386,
+     "km_from_mouth": 124
+    },
+    {
+     "name": null,
+     "lon": 68.969,
+     "lat": 42.494,
+     "area_km2": 14379,
+     "discharge_cms": 37.5,
+     "length_km": 311,
+     "km_from_mouth": 1244
+    },
+    {
+     "name": null,
+     "lon": 69.743,
+     "lat": 41.572,
+     "area_km2": 13296,
+     "discharge_cms": 241.3,
+     "length_km": 376,
+     "km_from_mouth": 1597
+    },
+    {
+     "name": null,
+     "lon": 68.285,
+     "lat": 43.115,
+     "area_km2": 13198,
+     "discharge_cms": 53.8,
+     "length_km": 265,
+     "km_from_mouth": 1142
+    }
+   ]
+  },
+  {
+   "slug": "godavari",
+   "name": "Godavari",
+   "main_riv": 41275841,
+   "bounds": [
+    73.4854,
+    16.5583,
+    83.125,
+    22.675
+   ],
+   "segments": 17567,
+   "segments_total": 18702,
+   "max_ord_flow": 7,
+   "travel_time_h": 487.8,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 310380,
+   "discharge_cms": 3372.8,
+   "main_length_km": 1518,
+   "network_length_km": 75512,
+   "drainage_density": 0.243,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 9430,
+    "2": 4287,
+    "3": 2294,
+    "4": 1320,
+    "5": 684,
+    "6": 300,
+    "7": 250,
+    "8": 137
+   },
+   "runoff_mm": 343,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Indien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Wainganga",
+     "lon": 79.921,
+     "lat": 19.971,
+     "area_km2": 108513,
+     "discharge_cms": 1300.5,
+     "length_km": 910,
+     "km_from_mouth": 460
+    },
+    {
+     "name": "Indravati",
+     "lon": 80.69,
+     "lat": 19.295,
+     "area_km2": 40769,
+     "discharge_cms": 514.4,
+     "length_km": 541,
+     "km_from_mouth": 409
+    },
+    {
+     "name": null,
+     "lon": 78.077,
+     "lat": 17.902,
+     "area_km2": 30995,
+     "discharge_cms": 136.7,
+     "length_km": 711,
+     "km_from_mouth": 781
+    },
+    {
+     "name": null,
+     "lon": 81.523,
+     "lat": 18.227,
+     "area_km2": 21506,
+     "discharge_cms": 498.2,
+     "length_km": 419,
+     "km_from_mouth": 183
+    },
+    {
+     "name": null,
+     "lon": 76.725,
+     "lat": 19.729,
+     "area_km2": 15880,
+     "discharge_cms": 55.3,
+     "length_km": 373,
+     "km_from_mouth": 924
+    },
+    {
+     "name": null,
+     "lon": 79.458,
+     "lat": 18.396,
+     "area_km2": 13138,
+     "discharge_cms": 128.9,
+     "length_km": 283,
+     "km_from_mouth": 496
+    }
+   ]
+  },
+  {
+   "slug": "hari-rud-tedschen",
+   "name": "Hari Rud (Tedschen)",
+   "main_riv": 20628098,
+   "bounds": [
+    55.0875,
+    33.7,
+    66.7042,
+    39.7625
+   ],
+   "segments": 4374,
+   "segments_total": 13051,
+   "max_ord_flow": 7,
+   "travel_time_h": 1362.0,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 281403,
+   "discharge_cms": 227.6,
+   "main_length_km": 1719,
+   "network_length_km": 75308,
+   "drainage_density": 0.268,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 6568,
+    "2": 3014,
+    "3": 1574,
+    "4": 870,
+    "5": 530,
+    "6": 311,
+    "7": 184
+   },
+   "runoff_mm": 26,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Turkmenistan",
+     "share": 0.597
+    },
+    {
+     "name": "Afghanistan",
+     "share": 0.252
+    },
+    {
+     "name": "Iran",
+     "share": 0.151
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Harirud",
+     "lon": 61.231,
+     "lat": 35.652,
+     "area_km2": 85320,
+     "discharge_cms": 169.0,
+     "length_km": 1237,
+     "km_from_mouth": 485
+    },
+    {
+     "name": null,
+     "lon": 61.915,
+     "lat": 38.823,
+     "area_km2": 34101,
+     "discharge_cms": 1.8,
+     "length_km": 687,
+     "km_from_mouth": 602
+    },
+    {
+     "name": null,
+     "lon": 61.01,
+     "lat": 37.791,
+     "area_km2": 20656,
+     "discharge_cms": 9.8,
+     "length_km": 406,
+     "km_from_mouth": 570
+    },
+    {
+     "name": null,
+     "lon": 59.292,
+     "lat": 38.177,
+     "area_km2": 17015,
+     "discharge_cms": 21.8,
+     "length_km": 411,
+     "km_from_mouth": 384
+    },
+    {
+     "name": null,
+     "lon": 58.71,
+     "lat": 38.365,
+     "area_km2": 11410,
+     "discharge_cms": 3.3,
+     "length_km": 383,
+     "km_from_mouth": 340
+    },
+    {
+     "name": null,
+     "lon": 62.434,
+     "lat": 35.488,
+     "area_km2": 10684,
+     "discharge_cms": 20.7,
+     "length_km": 250,
+     "km_from_mouth": 1014
+    }
+   ]
+  },
+  {
+   "slug": "salween",
+   "name": "Salween",
+   "main_riv": 41279826,
+   "bounds": [
+    91.1875,
+    16.0583,
+    100.2042,
+    32.7396
+   ],
+   "segments": 20617,
+   "segments_total": 21106,
+   "max_ord_flow": 7,
+   "travel_time_h": 749.3,
+   "monthly": "model",
+   "size_mb": 0.3,
+   "area_km2": 265228,
+   "discharge_cms": 5217.5,
+   "main_length_km": 3248,
+   "network_length_km": 72072,
+   "drainage_density": 0.272,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 10722,
+    "2": 4692,
+    "3": 2383,
+    "4": 1458,
+    "5": 664,
+    "6": 863,
+    "7": 324
+   },
+   "runoff_mm": 620,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Volksrepublik China",
+     "share": 0.471
+    },
+    {
+     "name": "Myanmar",
+     "share": 0.45
+    },
+    {
+     "name": "Thailand",
+     "share": 0.079
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 97.402,
+     "lat": 19.535,
+     "area_km2": 19145,
+     "discharge_cms": 402.3,
+     "length_km": 394,
+     "km_from_mouth": 338
+    },
+    {
+     "name": null,
+     "lon": 98.233,
+     "lat": 20.487,
+     "area_km2": 15341,
+     "discharge_cms": 334.7,
+     "length_km": 454,
+     "km_from_mouth": 493
+    },
+    {
+     "name": null,
+     "lon": 98.092,
+     "lat": 17.394,
+     "area_km2": 14978,
+     "discharge_cms": 382.4,
+     "length_km": 333,
+     "km_from_mouth": 173
+    },
+    {
+     "name": null,
+     "lon": 93.705,
+     "lat": 32.0,
+     "area_km2": 13938,
+     "discharge_cms": 88.6,
+     "length_km": 271,
+     "km_from_mouth": 2732
+    },
+    {
+     "name": null,
+     "lon": 98.348,
+     "lat": 21.46,
+     "area_km2": 12427,
+     "discharge_cms": 226.5,
+     "length_km": 331,
+     "km_from_mouth": 716
+    },
+    {
+     "name": null,
+     "lon": 99.048,
+     "lat": 21.9,
+     "area_km2": 10326,
+     "discharge_cms": 202.0,
+     "length_km": 283,
+     "km_from_mouth": 832
+    }
+   ]
+  },
+  {
+   "slug": "krishna",
+   "name": "Krishna",
+   "main_riv": 41297283,
+   "bounds": [
+    73.3542,
+    13.1292,
+    80.9125,
+    19.4021
+   ],
+   "segments": 13278,
+   "segments_total": 16083,
+   "max_ord_flow": 7,
+   "travel_time_h": 461.4,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 258781,
+   "discharge_cms": 2046.8,
+   "main_length_km": 1516,
+   "network_length_km": 62469,
+   "drainage_density": 0.241,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 8137,
+    "2": 3619,
+    "3": 1922,
+    "4": 1158,
+    "5": 590,
+    "6": 442,
+    "7": 93,
+    "8": 122
+   },
+   "runoff_mm": 249,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Indien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Tungabhadra",
+     "lon": 76.84,
+     "lat": 15.631,
+     "area_km2": 71293,
+     "discharge_cms": 398.2,
+     "length_km": 733,
+     "km_from_mouth": 507
+    },
+    {
+     "name": null,
+     "lon": 75.871,
+     "lat": 16.346,
+     "area_km2": 55640,
+     "discharge_cms": 818.5,
+     "length_km": 741,
+     "km_from_mouth": 640
+    },
+    {
+     "name": null,
+     "lon": 75.694,
+     "lat": 17.798,
+     "area_km2": 12404,
+     "discharge_cms": 54.5,
+     "length_km": 335,
+     "km_from_mouth": 970
+    },
+    {
+     "name": null,
+     "lon": 79.409,
+     "lat": 17.344,
+     "area_km2": 11328,
+     "discharge_cms": 69.9,
+     "length_km": 301,
+     "km_from_mouth": 256
+    },
+    {
+     "name": null,
+     "lon": 80.161,
+     "lat": 17.047,
+     "area_km2": 10672,
+     "discharge_cms": 93.4,
+     "length_km": 260,
+     "km_from_mouth": 141
+    },
+    {
+     "name": null,
+     "lon": 77.119,
+     "lat": 17.181,
+     "area_km2": 9678,
+     "discharge_cms": 46.0,
+     "length_km": 211,
+     "km_from_mouth": 753
+    }
+   ]
+  },
+  {
+   "slug": "wadi-ad-dawasir",
+   "name": "Wadi ad-Dawasir",
+   "main_riv": 20872212,
+   "bounds": [
+    41.4458,
+    17.8333,
+    49.4875,
+    23.5792
+   ],
+   "segments": 1845,
+   "segments_total": 9731,
+   "max_ord_flow": 7,
+   "travel_time_h": 1101.5,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 218775,
+   "discharge_cms": 72.3,
+   "main_length_km": 1510,
+   "network_length_km": 57789,
+   "drainage_density": 0.264,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4890,
+    "2": 2302,
+    "3": 1329,
+    "4": 633,
+    "5": 320,
+    "6": 125,
+    "7": 132
+   },
+   "runoff_mm": 10,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Saudi-Arabien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 43.53,
+     "lat": 19.709,
+     "area_km2": 26049,
+     "discharge_cms": 57.0,
+     "length_km": 447,
+     "km_from_mouth": 848
+    },
+    {
+     "name": null,
+     "lon": 47.687,
+     "lat": 21.615,
+     "area_km2": 25895,
+     "discharge_cms": 0.0,
+     "length_km": 448,
+     "km_from_mouth": 234
+    },
+    {
+     "name": null,
+     "lon": 48.285,
+     "lat": 22.116,
+     "area_km2": 25448,
+     "discharge_cms": 0.0,
+     "length_km": 416,
+     "km_from_mouth": 174
+    },
+    {
+     "name": null,
+     "lon": 45.196,
+     "lat": 19.869,
+     "area_km2": 23376,
+     "discharge_cms": 0.0,
+     "length_km": 451,
+     "km_from_mouth": 652
+    },
+    {
+     "name": null,
+     "lon": 42.764,
+     "lat": 21.189,
+     "area_km2": 18724,
+     "discharge_cms": 11.5,
+     "length_km": 381,
+     "km_from_mouth": 993
+    },
+    {
+     "name": null,
+     "lon": 45.335,
+     "lat": 21.037,
+     "area_km2": 17621,
+     "discharge_cms": 0.0,
+     "length_km": 316,
+     "km_from_mouth": 713
+    }
+   ]
+  },
+  {
+   "slug": "ile",
+   "name": "Ile",
+   "main_riv": 40142747,
+   "bounds": [
+    72.525,
+    42.3042,
+    84.9583,
+    48.5542
+   ],
+   "segments": 3454,
+   "segments_total": 10252,
+   "max_ord_flow": 7,
+   "travel_time_h": 569.5,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 216798,
+   "discharge_cms": 240.3,
+   "main_length_km": 1405,
+   "network_length_km": 57055,
+   "drainage_density": 0.263,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 5162,
+    "2": 2451,
+    "3": 1282,
+    "4": 686,
+    "5": 375,
+    "6": 277,
+    "7": 19
+   },
+   "runoff_mm": 35,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Kasachstan",
+     "share": 0.743
+    },
+    {
+     "name": "Volksrepublik China",
+     "share": 0.255
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 74.065,
+     "lat": 45.19,
+     "area_km2": 52030,
+     "discharge_cms": 0.0,
+     "length_km": 442,
+     "km_from_mouth": 58
+    },
+    {
+     "name": null,
+     "lon": 74.322,
+     "lat": 47.061,
+     "area_km2": 18973,
+     "discharge_cms": 10.7,
+     "length_km": 313,
+     "km_from_mouth": 16
+    },
+    {
+     "name": null,
+     "lon": 76.291,
+     "lat": 43.677,
+     "area_km2": 12919,
+     "discharge_cms": 20.0,
+     "length_km": 292,
+     "km_from_mouth": 410
+    },
+    {
+     "name": null,
+     "lon": 82.527,
+     "lat": 43.748,
+     "area_km2": 9596,
+     "discharge_cms": 2.6,
+     "length_km": 339,
+     "km_from_mouth": 960
+    },
+    {
+     "name": null,
+     "lon": 78.789,
+     "lat": 43.045,
+     "area_km2": 8219,
+     "discharge_cms": 28.1,
+     "length_km": 332,
+     "km_from_mouth": 685
+    },
+    {
+     "name": "Künes",
+     "lon": 82.908,
+     "lat": 43.512,
+     "area_km2": 7664,
+     "discharge_cms": 1.8,
+     "length_km": 257,
+     "km_from_mouth": 1030
+    }
+   ]
+  },
+  {
+   "slug": "hai",
+   "name": "Hai",
+   "main_riv": 40381615,
+   "bounds": [
+    112.025,
+    35.0333,
+    117.7187,
+    41.5854
+   ],
+   "segments": 4148,
+   "segments_total": 9989,
+   "max_ord_flow": 7,
+   "travel_time_h": 593.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 211330,
+   "discharge_cms": 288.8,
+   "main_length_km": 920,
+   "network_length_km": 48738,
+   "drainage_density": 0.231,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 5030,
+    "2": 2161,
+    "3": 1225,
+    "4": 787,
+    "5": 455,
+    "6": 272,
+    "7": 59
+   },
+   "runoff_mm": 43,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Volksrepublik China",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Yongding",
+     "lon": 115.565,
+     "lat": 40.306,
+     "area_km2": 70425,
+     "discharge_cms": 57.4,
+     "length_km": 737,
+     "km_from_mouth": 70
+    },
+    {
+     "name": "Zhang",
+     "lon": 115.493,
+     "lat": 36.763,
+     "area_km2": 39855,
+     "discharge_cms": 80.2,
+     "length_km": 830,
+     "km_from_mouth": 104
+    },
+    {
+     "name": null,
+     "lon": 115.599,
+     "lat": 38.437,
+     "area_km2": 33106,
+     "discharge_cms": 40.5,
+     "length_km": 464,
+     "km_from_mouth": 101
+    },
+    {
+     "name": null,
+     "lon": 114.262,
+     "lat": 38.271,
+     "area_km2": 25586,
+     "discharge_cms": 60.4,
+     "length_km": 584,
+     "km_from_mouth": 244
+    },
+    {
+     "name": null,
+     "lon": 116.27,
+     "lat": 37.99,
+     "area_km2": 8032,
+     "discharge_cms": 4.8,
+     "length_km": 475,
+     "km_from_mouth": 111
+    },
+    {
+     "name": null,
+     "lon": 114.948,
+     "lat": 36.845,
+     "area_km2": 5854,
+     "discharge_cms": 4.9,
+     "length_km": 247,
+     "km_from_mouth": 376
+    }
+   ]
+  },
+  {
+   "slug": "helmand",
+   "name": "Helmand",
+   "main_riv": 20767089,
+   "bounds": [
+    61.6042,
+    29.3875,
+    69.5167,
+    34.7083
+   ],
+   "segments": 4239,
+   "segments_total": 9252,
+   "max_ord_flow": 7,
+   "travel_time_h": 581.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 192284,
+   "discharge_cms": 509.7,
+   "main_length_km": 1259,
+   "network_length_km": 46611,
+   "drainage_density": 0.242,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4667,
+    "2": 2070,
+    "3": 1037,
+    "4": 612,
+    "5": 425,
+    "6": 263,
+    "7": 178
+   },
+   "runoff_mm": 84,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Afghanistan",
+     "share": 0.97
+    },
+    {
+     "name": "Pakistan",
+     "share": 0.028
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Helmand",
+     "lon": 65.216,
+     "lat": 32.327,
+     "area_km2": 62032,
+     "discharge_cms": 223.2,
+     "length_km": 700,
+     "km_from_mouth": 530
+    },
+    {
+     "name": null,
+     "lon": 62.317,
+     "lat": 31.337,
+     "area_km2": 25777,
+     "discharge_cms": 18.7,
+     "length_km": 515,
+     "km_from_mouth": 63
+    },
+    {
+     "name": null,
+     "lon": 66.055,
+     "lat": 31.988,
+     "area_km2": 15197,
+     "discharge_cms": 61.6,
+     "length_km": 459,
+     "km_from_mouth": 635
+    },
+    {
+     "name": null,
+     "lon": 66.458,
+     "lat": 31.852,
+     "area_km2": 9426,
+     "discharge_cms": 32.0,
+     "length_km": 380,
+     "km_from_mouth": 669
+    },
+    {
+     "name": null,
+     "lon": 66.094,
+     "lat": 31.01,
+     "area_km2": 9248,
+     "discharge_cms": 22.9,
+     "length_km": 313,
+     "km_from_mouth": 698
+    },
+    {
+     "name": null,
+     "lon": 67.175,
+     "lat": 31.621,
+     "area_km2": 8819,
+     "discharge_cms": 23.6,
+     "length_km": 283,
+     "km_from_mouth": 792
+    }
+   ]
+  },
+  {
+   "slug": "liao",
+   "name": "Liao",
+   "main_riv": 40321805,
+   "bounds": [
+    116.8687,
+    40.9646,
+    125.5375,
+    45.1812
+   ],
+   "segments": 3703,
+   "segments_total": 8759,
+   "max_ord_flow": 7,
+   "travel_time_h": 510.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 191234,
+   "discharge_cms": 287.9,
+   "main_length_km": 1238,
+   "network_length_km": 45714,
+   "drainage_density": 0.239,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4401,
+    "2": 1955,
+    "3": 1139,
+    "4": 682,
+    "5": 307,
+    "6": 150,
+    "7": 125
+   },
+   "runoff_mm": 47,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Volksrepublik China",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 122.69,
+     "lat": 44.072,
+     "area_km2": 46629,
+     "discharge_cms": 33.3,
+     "length_km": 583,
+     "km_from_mouth": 509
+    },
+    {
+     "name": "Xar Moron",
+     "lon": 119.367,
+     "lat": 43.265,
+     "area_km2": 28242,
+     "discharge_cms": 18.7,
+     "length_km": 445,
+     "km_from_mouth": 800
+    },
+    {
+     "name": null,
+     "lon": 120.873,
+     "lat": 43.019,
+     "area_km2": 12667,
+     "discharge_cms": 6.0,
+     "length_km": 315,
+     "km_from_mouth": 693
+    },
+    {
+     "name": null,
+     "lon": 123.916,
+     "lat": 43.591,
+     "area_km2": 11137,
+     "discharge_cms": 37.0,
+     "length_km": 354,
+     "km_from_mouth": 429
+    },
+    {
+     "name": null,
+     "lon": 119.375,
+     "lat": 42.046,
+     "area_km2": 8254,
+     "discharge_cms": 10.2,
+     "length_km": 220,
+     "km_from_mouth": 1019
+    },
+    {
+     "name": null,
+     "lon": 122.045,
+     "lat": 41.32,
+     "area_km2": 6197,
+     "discharge_cms": 17.9,
+     "length_km": 196,
+     "km_from_mouth": 22
+    }
+   ]
+  },
+  {
+   "slug": "kura",
+   "name": "Kura",
+   "main_riv": 20629151,
+   "bounds": [
+    41.2292,
+    37.825,
+    49.3979,
+    42.625
+   ],
+   "segments": 5823,
+   "segments_total": 9317,
+   "max_ord_flow": 7,
+   "travel_time_h": 441.4,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 188377,
+   "discharge_cms": 703.5,
+   "main_length_km": 1167,
+   "network_length_km": 46255,
+   "drainage_density": 0.246,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4693,
+    "2": 2219,
+    "3": 1028,
+    "4": 678,
+    "5": 295,
+    "6": 380,
+    "7": 24
+   },
+   "runoff_mm": 118,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Aserbaidschan",
+     "share": 0.326
+    },
+    {
+     "name": "Iran",
+     "share": 0.199
+    },
+    {
+     "name": "Georgien",
+     "share": 0.177
+    },
+    {
+     "name": "Armenien",
+     "share": 0.149
+    },
+    {
+     "name": "Türkei",
+     "share": 0.148
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Kura",
+     "lon": 46.806,
+     "lat": 40.923,
+     "area_km2": 83523,
+     "discharge_cms": 520.5,
+     "length_km": 973,
+     "km_from_mouth": 198
+    },
+    {
+     "name": null,
+     "lon": 47.494,
+     "lat": 38.851,
+     "area_km2": 14283,
+     "discharge_cms": 35.9,
+     "length_km": 321,
+     "km_from_mouth": 333
+    },
+    {
+     "name": "Aras",
+     "lon": 43.631,
+     "lat": 40.519,
+     "area_km2": 9678,
+     "discharge_cms": 22.7,
+     "length_km": 258,
+     "km_from_mouth": 824
+    },
+    {
+     "name": null,
+     "lon": 45.128,
+     "lat": 38.69,
+     "area_km2": 9287,
+     "discharge_cms": 15.9,
+     "length_km": 206,
+     "km_from_mouth": 569
+    },
+    {
+     "name": null,
+     "lon": 44.647,
+     "lat": 40.451,
+     "area_km2": 7264,
+     "discharge_cms": 29.0,
+     "length_km": 237,
+     "km_from_mouth": 742
+    },
+    {
+     "name": null,
+     "lon": 48.608,
+     "lat": 40.179,
+     "area_km2": 5974,
+     "discharge_cms": 14.7,
+     "length_km": 220,
+     "km_from_mouth": 130
+    }
+   ]
+  },
+  {
+   "slug": "balchaschsee-ost-karatal-lepsy-ajagos",
+   "name": "Balchaschsee-Ost (Karatal, Lepsy, Ajagos)",
+   "main_riv": 40142243,
+   "bounds": [
+    74.3062,
+    44.175,
+    81.6917,
+    49.0875
+   ],
+   "segments": 2564,
+   "segments_total": 9076,
+   "max_ord_flow": 7,
+   "travel_time_h": 1132.2,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 185991,
+   "discharge_cms": 226.5,
+   "main_length_km": 832,
+   "network_length_km": 47269,
+   "drainage_density": 0.254,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4564,
+    "2": 2159,
+    "3": 1130,
+    "4": 605,
+    "5": 383,
+    "6": 99,
+    "7": 136
+   },
+   "runoff_mm": 38,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Kasachstan",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 75.723,
+     "lat": 47.6,
+     "area_km2": 21733,
+     "discharge_cms": 4.9,
+     "length_km": 362,
+     "km_from_mouth": 68
+    },
+    {
+     "name": null,
+     "lon": 79.691,
+     "lat": 47.29,
+     "area_km2": 20360,
+     "discharge_cms": 28.1,
+     "length_km": 428,
+     "km_from_mouth": 407
+    },
+    {
+     "name": null,
+     "lon": 77.25,
+     "lat": 45.766,
+     "area_km2": 18214,
+     "discharge_cms": 66.8,
+     "length_km": 442,
+     "km_from_mouth": 224
+    },
+    {
+     "name": null,
+     "lon": 76.177,
+     "lat": 46.267,
+     "area_km2": 14147,
+     "discharge_cms": 18.0,
+     "length_km": 429,
+     "km_from_mouth": 117
+    },
+    {
+     "name": null,
+     "lon": 78.804,
+     "lat": 46.204,
+     "area_km2": 10389,
+     "discharge_cms": 27.5,
+     "length_km": 360,
+     "km_from_mouth": 325
+    },
+    {
+     "name": null,
+     "lon": 76.103,
+     "lat": 47.223,
+     "area_km2": 9839,
+     "discharge_cms": 2.9,
+     "length_km": 288,
+     "km_from_mouth": 101
+    }
+   ]
+  },
+  {
+   "slug": "chao-phraya",
+   "name": "Chao Phraya",
+   "main_riv": 41337891,
+   "bounds": [
+    98.1021,
+    13.5771,
+    101.5333,
+    19.7771
+   ],
+   "segments": 5870,
+   "segments_total": 7055,
+   "max_ord_flow": 7,
+   "travel_time_h": 509.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 144308,
+   "discharge_cms": 835.9,
+   "main_length_km": 1051,
+   "network_length_km": 33344,
+   "drainage_density": 0.231,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3557,
+    "2": 1611,
+    "3": 728,
+    "4": 534,
+    "5": 465,
+    "6": 84,
+    "7": 76
+   },
+   "runoff_mm": 183,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Thailand",
+     "share": 0.998
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Ping",
+     "lon": 99.158,
+     "lat": 16.808,
+     "area_km2": 46631,
+     "discharge_cms": 133.5,
+     "length_km": 702,
+     "km_from_mouth": 337
+    },
+    {
+     "name": null,
+     "lon": 99.835,
+     "lat": 17.294,
+     "area_km2": 24675,
+     "discharge_cms": 90.6,
+     "length_km": 653,
+     "km_from_mouth": 367
+    },
+    {
+     "name": null,
+     "lon": 101.069,
+     "lat": 14.702,
+     "area_km2": 19588,
+     "discharge_cms": 236.4,
+     "length_km": 501,
+     "km_from_mouth": 102
+    },
+    {
+     "name": null,
+     "lon": 100.333,
+     "lat": 17.225,
+     "area_km2": 5319,
+     "discharge_cms": 45.8,
+     "length_km": 207,
+     "km_from_mouth": 530
+    },
+    {
+     "name": null,
+     "lon": 99.873,
+     "lat": 15.569,
+     "area_km2": 4531,
+     "discharge_cms": 32.2,
+     "length_km": 183,
+     "km_from_mouth": 276
+    },
+    {
+     "name": null,
+     "lon": 100.356,
+     "lat": 15.665,
+     "area_km2": 3637,
+     "discharge_cms": 25.0,
+     "length_km": 111,
+     "km_from_mouth": 336
+    }
+   ]
+  },
+  {
+   "slug": "hong",
+   "name": "Hong",
+   "main_riv": 41182380,
+   "bounds": [
+    100.1167,
+    20.2292,
+    106.5312,
+    25.5771
+   ],
+   "segments": 12955,
+   "segments_total": 12967,
+   "max_ord_flow": 7,
+   "travel_time_h": 404.1,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 138848,
+   "discharge_cms": 3380.1,
+   "main_length_km": 1217,
+   "network_length_km": 40328,
+   "drainage_density": 0.29,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 6573,
+    "2": 2956,
+    "3": 1504,
+    "4": 833,
+    "5": 384,
+    "6": 621,
+    "7": 44,
+    "8": 52
+   },
+   "runoff_mm": 768,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vietnam",
+     "share": 0.497
+    },
+    {
+     "name": "Volksrepublik China",
+     "share": 0.494
+    },
+    {
+     "name": "Laos",
+     "share": 0.009
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Hong",
+     "lon": 104.296,
+     "lat": 22.227,
+     "area_km2": 48717,
+     "discharge_cms": 790.5,
+     "length_km": 945,
+     "km_from_mouth": 236
+    },
+    {
+     "name": null,
+     "lon": 105.26,
+     "lat": 22.026,
+     "area_km2": 34809,
+     "discharge_cms": 1055.1,
+     "length_km": 508,
+     "km_from_mouth": 223
+    },
+    {
+     "name": null,
+     "lon": 101.572,
+     "lat": 23.236,
+     "area_km2": 7093,
+     "discharge_cms": 107.7,
+     "length_km": 257,
+     "km_from_mouth": 854
+    },
+    {
+     "name": null,
+     "lon": 103.196,
+     "lat": 22.425,
+     "area_km2": 6341,
+     "discharge_cms": 221.5,
+     "length_km": 240,
+     "km_from_mouth": 640
+    },
+    {
+     "name": null,
+     "lon": 103.82,
+     "lat": 21.808,
+     "area_km2": 3449,
+     "discharge_cms": 107.5,
+     "length_km": 154,
+     "km_from_mouth": 496
+    },
+    {
+     "name": null,
+     "lon": 103.292,
+     "lat": 21.796,
+     "area_km2": 2991,
+     "discharge_cms": 82.5,
+     "length_km": 148,
+     "km_from_mouth": 626
+    }
+   ]
+  },
+  {
+   "slug": "mahanadi",
+   "name": "Mahanadi",
+   "main_riv": 41181885,
+   "bounds": [
+    80.4625,
+    19.2917,
+    86.6583,
+    23.5333
+   ],
+   "segments": 10470,
+   "segments_total": 10470,
+   "max_ord_flow": 7,
+   "travel_time_h": 278.4,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 135524,
+   "discharge_cms": 2561.6,
+   "main_length_km": 1018,
+   "network_length_km": 37559,
+   "drainage_density": 0.277,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 5290,
+    "2": 2394,
+    "3": 1263,
+    "4": 854,
+    "5": 331,
+    "6": 101,
+    "7": 237
+   },
+   "runoff_mm": 596,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Indien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Tel",
+     "lon": 83.548,
+     "lat": 20.473,
+     "area_km2": 23015,
+     "discharge_cms": 385.5,
+     "length_km": 315,
+     "km_from_mouth": 355
+    },
+    {
+     "name": null,
+     "lon": 82.151,
+     "lat": 21.326,
+     "area_km2": 13254,
+     "discharge_cms": 234.7,
+     "length_km": 310,
+     "km_from_mouth": 636
+    },
+    {
+     "name": null,
+     "lon": 84.008,
+     "lat": 21.929,
+     "area_km2": 12701,
+     "discharge_cms": 276.1,
+     "length_km": 278,
+     "km_from_mouth": 455
+    },
+    {
+     "name": null,
+     "lon": 82.694,
+     "lat": 22.426,
+     "area_km2": 9986,
+     "discharge_cms": 190.1,
+     "length_km": 317,
+     "km_from_mouth": 605
+    },
+    {
+     "name": null,
+     "lon": 83.102,
+     "lat": 22.186,
+     "area_km2": 5324,
+     "discharge_cms": 104.2,
+     "length_km": 246,
+     "km_from_mouth": 542
+    },
+    {
+     "name": null,
+     "lon": 83.533,
+     "lat": 20.985,
+     "area_km2": 5171,
+     "discharge_cms": 91.3,
+     "length_km": 209,
+     "km_from_mouth": 372
+    }
+   ]
+  },
+  {
+   "slug": "steppenbecken-innere-mongolei",
+   "name": "Steppenbecken Innere Mongolei",
+   "main_riv": 40106648,
+   "bounds": [
+    112.8625,
+    43.4542,
+    119.9271,
+    47.7875
+   ],
+   "segments": 756,
+   "segments_total": 5675,
+   "max_ord_flow": 7,
+   "travel_time_h": 667.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 112602,
+   "discharge_cms": 36.1,
+   "main_length_km": 805,
+   "network_length_km": 27818,
+   "drainage_density": 0.247,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2855,
+    "2": 1348,
+    "3": 716,
+    "4": 333,
+    "5": 297,
+    "6": 126
+   },
+   "runoff_mm": 10,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Volksrepublik China",
+     "share": 0.649
+    },
+    {
+     "name": "Mongolei",
+     "share": 0.351
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 116.46,
+     "lat": 44.952,
+     "area_km2": 33674,
+     "discharge_cms": 7.7,
+     "length_km": 401,
+     "km_from_mouth": 356
+    },
+    {
+     "name": null,
+     "lon": 115.882,
+     "lat": 46.673,
+     "area_km2": 20206,
+     "discharge_cms": 0.3,
+     "length_km": 341,
+     "km_from_mouth": 95
+    },
+    {
+     "name": null,
+     "lon": 115.073,
+     "lat": 47.31,
+     "area_km2": 9674,
+     "discharge_cms": 0.0,
+     "length_km": 342,
+     "km_from_mouth": 27
+    },
+    {
+     "name": null,
+     "lon": 117.378,
+     "lat": 45.056,
+     "area_km2": 7326,
+     "discharge_cms": 2.4,
+     "length_km": 217,
+     "km_from_mouth": 451
+    },
+    {
+     "name": null,
+     "lon": 118.49,
+     "lat": 45.323,
+     "area_km2": 3229,
+     "discharge_cms": 2.1,
+     "length_km": 194,
+     "km_from_mouth": 535
+    },
+    {
+     "name": null,
+     "lon": 118.31,
+     "lat": 45.223,
+     "area_km2": 2746,
+     "discharge_cms": 1.4,
+     "length_km": 185,
+     "km_from_mouth": 529
+    }
+   ]
+  },
+  {
+   "slug": "turgai-irgis",
+   "name": "Turgai–Irgis",
+   "main_riv": 40097337,
+   "bounds": [
+    58.5792,
+    47.4771,
+    67.2875,
+    51.6312
+   ],
+   "segments": 1486,
+   "segments_total": 5565,
+   "max_ord_flow": 7,
+   "travel_time_h": 805.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 112236,
+   "discharge_cms": 74.5,
+   "main_length_km": 903,
+   "network_length_km": 26880,
+   "drainage_density": 0.239,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2804,
+    "2": 1262,
+    "3": 607,
+    "4": 413,
+    "5": 257,
+    "6": 123,
+    "7": 99
+   },
+   "runoff_mm": 21,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Kasachstan",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 60.605,
+     "lat": 48.593,
+     "area_km2": 29488,
+     "discharge_cms": 33.6,
+     "length_km": 527,
+     "km_from_mouth": 126
+    },
+    {
+     "name": null,
+     "lon": 64.368,
+     "lat": 50.518,
+     "area_km2": 23044,
+     "discharge_cms": 8.0,
+     "length_km": 322,
+     "km_from_mouth": 440
+    },
+    {
+     "name": null,
+     "lon": 62.391,
+     "lat": 49.429,
+     "area_km2": 12733,
+     "discharge_cms": 9.3,
+     "length_km": 363,
+     "km_from_mouth": 250
+    },
+    {
+     "name": null,
+     "lon": 65.646,
+     "lat": 50.409,
+     "area_km2": 8024,
+     "discharge_cms": 9.7,
+     "length_km": 232,
+     "km_from_mouth": 582
+    },
+    {
+     "name": null,
+     "lon": 62.892,
+     "lat": 48.112,
+     "area_km2": 5293,
+     "discharge_cms": 0.4,
+     "length_km": 178,
+     "km_from_mouth": 2
+    },
+    {
+     "name": null,
+     "lon": 63.733,
+     "lat": 49.624,
+     "area_km2": 5118,
+     "discharge_cms": 0.4,
+     "length_km": 218,
+     "km_from_mouth": 366
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4946 @@
+{
+ "continent": "af",
+ "label": "Afrika",
+ "min_area_km2": 50000.0,
+ "format": "bin",
+ "source": "HydroRIVERS v1.0 (Lehner & Grill 2013); names: Natural Earth",
+ "basins": [
+  {
+   "slug": "kongo",
+   "name": "Kongo",
+   "main_riv": 11137695,
+   "bounds": [
+    11.8562,
+    -13.4167,
+    33.9875,
+    9.2333
+   ],
+   "segments": 79115,
+   "segments_total": 218170,
+   "max_ord_flow": 6,
+   "travel_time_h": 1214.9,
+   "monthly": "glofas",
+   "size_mb": 1.7,
+   "area_km2": 3705302,
+   "discharge_cms": 39636.8,
+   "main_length_km": 4964,
+   "network_length_km": 881487,
+   "drainage_density": 0.238,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 110109,
+    "2": 50603,
+    "3": 25833,
+    "4": 14484,
+    "5": 8283,
+    "6": 5686,
+    "7": 1828,
+    "8": 996,
+    "9": 348
+   },
+   "runoff_mm": 337,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Demokratische Republik Kongo",
+     "share": 0.641
+    },
+    {
+     "name": "Zentralafrikanische Republik",
+     "share": 0.102
+    },
+    {
+     "name": "Republik Kongo",
+     "share": 0.072
+    },
+    {
+     "name": "Angola",
+     "share": 0.071
+    },
+    {
+     "name": "Sambia",
+     "share": 0.042
+    },
+    {
+     "name": "Tansania",
+     "share": 0.041
+    },
+    {
+     "name": "Kamerun",
+     "share": 0.026
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Kasai",
+     "lon": 20.142,
+     "lat": -4.3,
+     "area_km2": 894487,
+     "discharge_cms": 8896.9,
+     "length_km": 2153,
+     "km_from_mouth": 713
+    },
+    {
+     "name": "Uele",
+     "lon": 18.781,
+     "lat": 4.418,
+     "area_km2": 648280,
+     "discharge_cms": 5167.1,
+     "length_km": 2651,
+     "km_from_mouth": 1101
+    },
+    {
+     "name": "Sangha",
+     "lon": 16.135,
+     "lat": 1.525,
+     "area_km2": 285043,
+     "discharge_cms": 3341.0,
+     "length_km": 1471,
+     "km_from_mouth": 954
+    },
+    {
+     "name": "Lukuga",
+     "lon": 28.662,
+     "lat": -5.881,
+     "area_km2": 266514,
+     "discharge_cms": 1769.4,
+     "length_km": 1193,
+     "km_from_mouth": 3072
+    },
+    {
+     "name": "Tshuapa",
+     "lon": 20.891,
+     "lat": -0.252,
+     "area_km2": 189723,
+     "discharge_cms": 3855.1,
+     "length_km": 1304,
+     "km_from_mouth": 1197
+    },
+    {
+     "name": "Lualaba",
+     "lon": 26.558,
+     "lat": -8.256,
+     "area_km2": 165265,
+     "discharge_cms": 900.9,
+     "length_km": 1036,
+     "km_from_mouth": 3208
+    }
+   ]
+  },
+  {
+   "slug": "nil",
+   "name": "Nil",
+   "main_riv": 10047863,
+   "bounds": [
+    23.4896,
+    -3.9917,
+    39.775,
+    31.4437
+   ],
+   "segments": 58919,
+   "segments_total": 133797,
+   "max_ord_flow": 7,
+   "travel_time_h": 2997.5,
+   "monthly": "glofas",
+   "size_mb": 1.2,
+   "area_km2": 2916802,
+   "discharge_cms": 1934.1,
+   "main_length_km": 6846,
+   "network_length_km": 671502,
+   "drainage_density": 0.23,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 67386,
+    "2": 30946,
+    "3": 16947,
+    "4": 8786,
+    "5": 4681,
+    "6": 2727,
+    "7": 1005,
+    "8": 1319
+   },
+   "runoff_mm": 21,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Sudan",
+     "share": 0.432
+    },
+    {
+     "name": "Südsudan",
+     "share": 0.205
+    },
+    {
+     "name": "Äthiopien",
+     "share": 0.126
+    },
+    {
+     "name": "Uganda",
+     "share": 0.079
+    },
+    {
+     "name": "Ägypten",
+     "share": 0.075
+    },
+    {
+     "name": "Tansania",
+     "share": 0.038
+    },
+    {
+     "name": "Kenia",
+     "share": 0.018
+    },
+    {
+     "name": "Eritrea",
+     "share": 0.009
+    },
+    {
+     "name": "Demokratische Republik Kongo",
+     "share": 0.007
+    },
+    {
+     "name": "Ruanda",
+     "share": 0.007
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Bahr el Jebel",
+     "lon": 31.773,
+     "lat": 5.22,
+     "area_km2": 552637,
+     "discharge_cms": 1537.9,
+     "length_km": 2659,
+     "km_from_mouth": 4191
+    },
+    {
+     "name": "El Bahr el Azraq",
+     "lon": 33.981,
+     "lat": 12.975,
+     "area_km2": 308195,
+     "discharge_cms": 1554.7,
+     "length_km": 1965,
+     "km_from_mouth": 3187
+    },
+    {
+     "name": "Sobat",
+     "lon": 32.778,
+     "lat": 8.603,
+     "area_km2": 214881,
+     "discharge_cms": 317.6,
+     "length_km": 1138,
+     "km_from_mouth": 4061
+    },
+    {
+     "name": "Atbara",
+     "lon": 35.705,
+     "lat": 15.504,
+     "area_km2": 205095,
+     "discharge_cms": 366.2,
+     "length_km": 1372,
+     "km_from_mouth": 2846
+    },
+    {
+     "name": null,
+     "lon": 28.051,
+     "lat": 8.426,
+     "area_km2": 153965,
+     "discharge_cms": 554.9,
+     "length_km": 911,
+     "km_from_mouth": 4339
+    },
+    {
+     "name": null,
+     "lon": 27.46,
+     "lat": 11.248,
+     "area_km2": 145440,
+     "discharge_cms": 74.4,
+     "length_km": 1121,
+     "km_from_mouth": 4480
+    }
+   ]
+  },
+  {
+   "slug": "niger",
+   "name": "Niger",
+   "main_riv": 10877687,
+   "bounds": [
+    -11.5625,
+    4.3937,
+    15.8396,
+    23.9271
+   ],
+   "segments": 60771,
+   "segments_total": 104374,
+   "max_ord_flow": 7,
+   "travel_time_h": 3627.4,
+   "monthly": "glofas",
+   "size_mb": 1.2,
+   "area_km2": 2098664,
+   "discharge_cms": 6858.7,
+   "main_length_km": 4254,
+   "network_length_km": 461502,
+   "drainage_density": 0.22,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 52593,
+    "2": 23544,
+    "3": 12892,
+    "4": 7519,
+    "5": 4247,
+    "6": 1696,
+    "7": 1067,
+    "8": 816
+   },
+   "runoff_mm": 103,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Nigeria",
+     "share": 0.272
+    },
+    {
+     "name": "Mali",
+     "share": 0.257
+    },
+    {
+     "name": "Niger",
+     "share": 0.224
+    },
+    {
+     "name": "Algerien",
+     "share": 0.074
+    },
+    {
+     "name": "Guinea",
+     "share": 0.051
+    },
+    {
+     "name": "Kamerun",
+     "share": 0.046
+    },
+    {
+     "name": "Burkina Faso",
+     "share": 0.035
+    },
+    {
+     "name": "Benin",
+     "share": 0.02
+    },
+    {
+     "name": "Elfenbeinküste",
+     "share": 0.011
+    },
+    {
+     "name": "Tschad",
+     "share": 0.009
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 3.36,
+     "lat": 16.051,
+     "area_km2": 520942,
+     "discharge_cms": 22.8,
+     "length_km": 1957,
+     "km_from_mouth": 1383
+    },
+    {
+     "name": "Benue",
+     "lon": 9.176,
+     "lat": 7.915,
+     "area_km2": 338968,
+     "discharge_cms": 2832.5,
+     "length_km": 1448,
+     "km_from_mouth": 510
+    },
+    {
+     "name": "Sokoto",
+     "lon": 4.485,
+     "lat": 12.732,
+     "area_km2": 182447,
+     "discharge_cms": 294.1,
+     "length_km": 999,
+     "km_from_mouth": 1173
+    },
+    {
+     "name": "Bani",
+     "lon": -5.292,
+     "lat": 13.275,
+     "area_km2": 129494,
+     "discharge_cms": 207.2,
+     "length_km": 1146,
+     "km_from_mouth": 2943
+    },
+    {
+     "name": null,
+     "lon": 0.18,
+     "lat": 17.705,
+     "area_km2": 87305,
+     "discharge_cms": 81.9,
+     "length_km": 774,
+     "km_from_mouth": 2072
+    },
+    {
+     "name": null,
+     "lon": 4.098,
+     "lat": 13.33,
+     "area_km2": 71457,
+     "discharge_cms": 53.7,
+     "length_km": 1053,
+     "km_from_mouth": 1253
+    }
+   ]
+  },
+  {
+   "slug": "sambesi",
+   "name": "Sambesi",
+   "main_riv": 11371100,
+   "bounds": [
+    18.4146,
+    -20.4208,
+    36.2833,
+    -9.0042
+   ],
+   "segments": 44169,
+   "segments_total": 63304,
+   "max_ord_flow": 7,
+   "travel_time_h": 1617.4,
+   "monthly": "model",
+   "size_mb": 0.7,
+   "area_km2": 1378121,
+   "discharge_cms": 3896.2,
+   "main_length_km": 3152,
+   "network_length_km": 310741,
+   "drainage_density": 0.225,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 31880,
+    "2": 14374,
+    "3": 8088,
+    "4": 4703,
+    "5": 2154,
+    "6": 1102,
+    "7": 529,
+    "8": 474
+   },
+   "runoff_mm": 89,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Sambia",
+     "share": 0.415
+    },
+    {
+     "name": "Angola",
+     "share": 0.183
+    },
+    {
+     "name": "Simbabwe",
+     "share": 0.153
+    },
+    {
+     "name": "Mosambik",
+     "share": 0.118
+    },
+    {
+     "name": "Malawi",
+     "share": 0.081
+    },
+    {
+     "name": "Tansania",
+     "share": 0.021
+    },
+    {
+     "name": "Namibia",
+     "share": 0.015
+    },
+    {
+     "name": "Botswana",
+     "share": 0.014
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Shire",
+     "lon": 34.752,
+     "lat": -15.865,
+     "area_km2": 161058,
+     "discharge_cms": 601.5,
+     "length_km": 1269,
+     "km_from_mouth": 195
+    },
+    {
+     "name": "Kafue",
+     "lon": 26.541,
+     "lat": -15.655,
+     "area_km2": 156563,
+     "discharge_cms": 491.6,
+     "length_km": 1440,
+     "km_from_mouth": 1100
+    },
+    {
+     "name": "Cuando",
+     "lon": 23.31,
+     "lat": -17.968,
+     "area_km2": 155286,
+     "discharge_cms": 47.5,
+     "length_km": 1243,
+     "km_from_mouth": 1700
+    },
+    {
+     "name": "Luangwa",
+     "lon": 30.845,
+     "lat": -13.976,
+     "area_km2": 149540,
+     "discharge_cms": 715.6,
+     "length_km": 1027,
+     "km_from_mouth": 909
+    },
+    {
+     "name": "Kabompo",
+     "lon": 24.108,
+     "lat": -13.756,
+     "area_km2": 72292,
+     "discharge_cms": 430.5,
+     "length_km": 678,
+     "km_from_mouth": 2391
+    },
+    {
+     "name": "Mazoe",
+     "lon": 33.095,
+     "lat": -16.638,
+     "area_km2": 54758,
+     "discharge_cms": 359.7,
+     "length_km": 462,
+     "km_from_mouth": 465
+    }
+   ]
+  },
+  {
+   "slug": "oranje",
+   "name": "Oranje",
+   "main_riv": 11493634,
+   "bounds": [
+    16.1667,
+    -32.6292,
+    30.2792,
+    -21.6875
+   ],
+   "segments": 10178,
+   "segments_total": 40931,
+   "max_ord_flow": 7,
+   "travel_time_h": 1646.6,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 884883,
+   "discharge_cms": 309.8,
+   "main_length_km": 2542,
+   "network_length_km": 217314,
+   "drainage_density": 0.246,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 20590,
+    "2": 9101,
+    "3": 5230,
+    "4": 2562,
+    "5": 1687,
+    "6": 1007,
+    "7": 472,
+    "8": 88,
+    "9": 194
+   },
+   "runoff_mm": 11,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Südafrika",
+     "share": 0.539
+    },
+    {
+     "name": "Namibia",
+     "share": 0.25
+    },
+    {
+     "name": "Botswana",
+     "share": 0.18
+    },
+    {
+     "name": "Lesotho",
+     "share": 0.03
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Molopo",
+     "lon": 20.677,
+     "lat": -26.858,
+     "area_km2": 316424,
+     "discharge_cms": 123.4,
+     "length_km": 1250,
+     "km_from_mouth": 639
+    },
+    {
+     "name": null,
+     "lon": 24.881,
+     "lat": -30.153,
+     "area_km2": 97117,
+     "discharge_cms": 114.2,
+     "length_km": 1163,
+     "km_from_mouth": 1240
+    },
+    {
+     "name": null,
+     "lon": 17.696,
+     "lat": -26.917,
+     "area_km2": 83036,
+     "discharge_cms": 24.5,
+     "length_km": 967,
+     "km_from_mouth": 154
+    },
+    {
+     "name": null,
+     "lon": 21.118,
+     "lat": -29.699,
+     "area_km2": 78755,
+     "discharge_cms": 7.2,
+     "length_km": 703,
+     "km_from_mouth": 687
+    },
+    {
+     "name": null,
+     "lon": 24.692,
+     "lat": -27.848,
+     "area_km2": 31051,
+     "discharge_cms": 36.6,
+     "length_km": 461,
+     "km_from_mouth": 1386
+    },
+    {
+     "name": null,
+     "lon": 23.194,
+     "lat": -30.112,
+     "area_km2": 29988,
+     "discharge_cms": 6.8,
+     "length_km": 351,
+     "km_from_mouth": 1109
+    }
+   ]
+  },
+  {
+   "slug": "shabeelle",
+   "name": "Shabeelle",
+   "main_riv": 10999453,
+   "bounds": [
+    36.35,
+    -0.3875,
+    46.1042,
+    9.5583
+   ],
+   "segments": 13057,
+   "segments_total": 33030,
+   "max_ord_flow": 7,
+   "travel_time_h": 1101.2,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 745374,
+   "discharge_cms": 536.7,
+   "main_length_km": 2137,
+   "network_length_km": 179156,
+   "drainage_density": 0.24,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 16637,
+    "2": 7592,
+    "3": 4086,
+    "4": 2196,
+    "5": 1149,
+    "6": 1061,
+    "7": 295,
+    "8": 14
+   },
+   "runoff_mm": 23,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Äthiopien",
+     "share": 0.448
+    },
+    {
+     "name": "Somalia",
+     "share": 0.299
+    },
+    {
+     "name": "Kenia",
+     "share": 0.252
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 41.592,
+     "lat": 0.746,
+     "area_km2": 230634,
+     "discharge_cms": 248.1,
+     "length_km": 1063,
+     "km_from_mouth": 30
+    },
+    {
+     "name": "Jubba",
+     "lon": 42.322,
+     "lat": 2.39,
+     "area_km2": 214441,
+     "discharge_cms": 316.4,
+     "length_km": 1561,
+     "km_from_mouth": 74
+    },
+    {
+     "name": null,
+     "lon": 44.404,
+     "lat": 2.062,
+     "area_km2": 52927,
+     "discharge_cms": 45.2,
+     "length_km": 655,
+     "km_from_mouth": 301
+    },
+    {
+     "name": null,
+     "lon": 44.381,
+     "lat": 6.451,
+     "area_km2": 45572,
+     "discharge_cms": 37.5,
+     "length_km": 719,
+     "km_from_mouth": 974
+    },
+    {
+     "name": null,
+     "lon": 42.677,
+     "lat": 7.627,
+     "area_km2": 15233,
+     "discharge_cms": 13.8,
+     "length_km": 327,
+     "km_from_mouth": 1522
+    },
+    {
+     "name": null,
+     "lon": 42.044,
+     "lat": 8.003,
+     "area_km2": 14846,
+     "discharge_cms": 14.3,
+     "length_km": 269,
+     "km_from_mouth": 1574
+    }
+   ]
+  },
+  {
+   "slug": "chari",
+   "name": "Chari",
+   "main_riv": 10521208,
+   "bounds": [
+    13.4625,
+    5.3417,
+    24.3958,
+    15.0042
+   ],
+   "segments": 17843,
+   "segments_total": 28057,
+   "max_ord_flow": 7,
+   "travel_time_h": 1200.9,
+   "monthly": "model",
+   "size_mb": 0.3,
+   "area_km2": 609864,
+   "discharge_cms": 877.8,
+   "main_length_km": 2282,
+   "network_length_km": 132606,
+   "drainage_density": 0.217,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 14105,
+    "2": 6341,
+    "3": 3407,
+    "4": 1784,
+    "5": 1206,
+    "6": 816,
+    "7": 250,
+    "8": 148
+   },
+   "runoff_mm": 45,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Tschad",
+     "share": 0.436
+    },
+    {
+     "name": "Zentralafrikanische Republik",
+     "share": 0.35
+    },
+    {
+     "name": "Sudan",
+     "share": 0.161
+    },
+    {
+     "name": "Kamerun",
+     "share": 0.053
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 20.55,
+     "lat": 11.127,
+     "area_km2": 144860,
+     "discharge_cms": 130.1,
+     "length_km": 1533,
+     "km_from_mouth": 754
+    },
+    {
+     "name": "Logone",
+     "lon": 15.81,
+     "lat": 9.873,
+     "area_km2": 88321,
+     "discharge_cms": 341.2,
+     "length_km": 1053,
+     "km_from_mouth": 183
+    },
+    {
+     "name": "Ouham",
+     "lon": 17.747,
+     "lat": 7.593,
+     "area_km2": 83237,
+     "discharge_cms": 382.5,
+     "length_km": 929,
+     "km_from_mouth": 779
+    },
+    {
+     "name": "Bamingui",
+     "lon": 19.3,
+     "lat": 8.183,
+     "area_km2": 64648,
+     "discharge_cms": 253.5,
+     "length_km": 498,
+     "km_from_mouth": 882
+    },
+    {
+     "name": "Aoukalé",
+     "lon": 21.3,
+     "lat": 9.971,
+     "area_km2": 35403,
+     "discharge_cms": 42.9,
+     "length_km": 593,
+     "km_from_mouth": 1109
+    },
+    {
+     "name": null,
+     "lon": 19.26,
+     "lat": 9.46,
+     "area_km2": 24253,
+     "discharge_cms": 83.3,
+     "length_km": 611,
+     "km_from_mouth": 806
+    }
+   ]
+  },
+  {
+   "slug": "okavango",
+   "name": "Okavango",
+   "main_riv": 11405729,
+   "bounds": [
+    16.0333,
+    -24.8208,
+    26.8312,
+    -12.3333
+   ],
+   "segments": 8614,
+   "segments_total": 26579,
+   "max_ord_flow": 7,
+   "travel_time_h": 1095.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 601948,
+   "discharge_cms": 103.5,
+   "main_length_km": 2093,
+   "network_length_km": 156348,
+   "drainage_density": 0.26,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 13395,
+    "2": 5668,
+    "3": 3588,
+    "4": 2125,
+    "5": 903,
+    "6": 585,
+    "7": 280,
+    "8": 35
+   },
+   "runoff_mm": 5,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Botswana",
+     "share": 0.486
+    },
+    {
+     "name": "Namibia",
+     "share": 0.292
+    },
+    {
+     "name": "Angola",
+     "share": 0.211
+    },
+    {
+     "name": "Simbabwe",
+     "share": 0.01
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 24.05,
+     "lat": -22.177,
+     "area_km2": 136521,
+     "discharge_cms": 63.8,
+     "length_km": 943,
+     "km_from_mouth": 162
+    },
+    {
+     "name": null,
+     "lon": 22.121,
+     "lat": -20.217,
+     "area_km2": 129704,
+     "discharge_cms": 77.5,
+     "length_km": 773,
+     "km_from_mouth": 497
+    },
+    {
+     "name": null,
+     "lon": 19.681,
+     "lat": -18.765,
+     "area_km2": 60250,
+     "discharge_cms": 41.7,
+     "length_km": 792,
+     "km_from_mouth": 1045
+    },
+    {
+     "name": "Cuito",
+     "lon": 19.554,
+     "lat": -17.058,
+     "area_km2": 58302,
+     "discharge_cms": 74.2,
+     "length_km": 846,
+     "km_from_mouth": 1008
+    },
+    {
+     "name": null,
+     "lon": 25.54,
+     "lat": -20.3,
+     "area_km2": 26364,
+     "discharge_cms": 12.4,
+     "length_km": 391,
+     "km_from_mouth": 51
+    },
+    {
+     "name": null,
+     "lon": 23.556,
+     "lat": -21.606,
+     "area_km2": 19121,
+     "discharge_cms": 0.0,
+     "length_km": 521,
+     "km_from_mouth": 241
+    }
+   ]
+  },
+  {
+   "slug": "senegal",
+   "name": "Sénégal",
+   "main_riv": 10428478,
+   "bounds": [
+    -16.4917,
+    10.3854,
+    -6.2125,
+    18.4458
+   ],
+   "segments": 8732,
+   "segments_total": 20441,
+   "max_ord_flow": 7,
+   "travel_time_h": 2372.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 443987,
+   "discharge_cms": 125.9,
+   "main_length_km": 2009,
+   "network_length_km": 99306,
+   "drainage_density": 0.224,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 10303,
+    "2": 4748,
+    "3": 2582,
+    "4": 1344,
+    "5": 979,
+    "6": 326,
+    "7": 159
+   },
+   "runoff_mm": 9,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Mauretanien",
+     "share": 0.4
+    },
+    {
+     "name": "Mali",
+     "share": 0.365
+    },
+    {
+     "name": "Senegal",
+     "share": 0.165
+    },
+    {
+     "name": "Guinea",
+     "share": 0.071
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -10.615,
+     "lat": 15.423,
+     "area_km2": 102685,
+     "discharge_cms": 65.7,
+     "length_km": 839,
+     "km_from_mouth": 942
+    },
+    {
+     "name": null,
+     "lon": -15.588,
+     "lat": 15.721,
+     "area_km2": 45292,
+     "discharge_cms": 41.4,
+     "length_km": 586,
+     "km_from_mouth": 146
+    },
+    {
+     "name": null,
+     "lon": -11.683,
+     "lat": 15.605,
+     "area_km2": 42008,
+     "discharge_cms": 0.0,
+     "length_km": 576,
+     "km_from_mouth": 855
+    },
+    {
+     "name": "Bafing",
+     "lon": -10.28,
+     "lat": 12.94,
+     "area_km2": 38997,
+     "discharge_cms": 277.7,
+     "length_km": 749,
+     "km_from_mouth": 1077
+    },
+    {
+     "name": null,
+     "lon": -12.21,
+     "lat": 13.968,
+     "area_km2": 29993,
+     "discharge_cms": 113.0,
+     "length_km": 636,
+     "km_from_mouth": 832
+    },
+    {
+     "name": null,
+     "lon": -13.015,
+     "lat": 16.219,
+     "area_km2": 21670,
+     "discharge_cms": 66.0,
+     "length_km": 320,
+     "km_from_mouth": 534
+    }
+   ]
+  },
+  {
+   "slug": "volta",
+   "name": "Volta",
+   "main_riv": 10821582,
+   "bounds": [
+    -5.3104,
+    5.7937,
+    2.2417,
+    14.8208
+   ],
+   "segments": 13190,
+   "segments_total": 19909,
+   "max_ord_flow": 7,
+   "travel_time_h": 1522.1,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 412648,
+   "discharge_cms": 988.3,
+   "main_length_km": 1879,
+   "network_length_km": 88384,
+   "drainage_density": 0.214,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 10029,
+    "2": 4505,
+    "3": 2462,
+    "4": 1503,
+    "5": 488,
+    "6": 450,
+    "7": 358,
+    "8": 114
+   },
+   "runoff_mm": 76,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Ghana",
+     "share": 0.415
+    },
+    {
+     "name": "Burkina Faso",
+     "share": 0.401
+    },
+    {
+     "name": "Togo",
+     "share": 0.071
+    },
+    {
+     "name": "Mali",
+     "share": 0.046
+    },
+    {
+     "name": "Benin",
+     "share": 0.038
+    },
+    {
+     "name": "Elfenbeinküste",
+     "share": 0.03
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Nakanbé",
+     "lon": -1.071,
+     "lat": 10.123,
+     "area_km2": 111518,
+     "discharge_cms": 286.2,
+     "length_km": 1124,
+     "km_from_mouth": 467
+    },
+    {
+     "name": "Oti",
+     "lon": 0.232,
+     "lat": 9.044,
+     "area_km2": 75692,
+     "discharge_cms": 475.9,
+     "length_km": 1088,
+     "km_from_mouth": 280
+    },
+    {
+     "name": "Mouhoun",
+     "lon": -3.788,
+     "lat": 12.273,
+     "area_km2": 20527,
+     "discharge_cms": 14.5,
+     "length_km": 401,
+     "km_from_mouth": 1480
+    },
+    {
+     "name": null,
+     "lon": -3.301,
+     "lat": 11.06,
+     "area_km2": 15301,
+     "discharge_cms": 30.3,
+     "length_km": 307,
+     "km_from_mouth": 1092
+    },
+    {
+     "name": null,
+     "lon": -0.4,
+     "lat": 6.706,
+     "area_km2": 12441,
+     "discharge_cms": 96.2,
+     "length_km": 292,
+     "km_from_mouth": 139
+    },
+    {
+     "name": null,
+     "lon": -1.134,
+     "lat": 7.906,
+     "area_km2": 8948,
+     "discharge_cms": 52.7,
+     "length_km": 298,
+     "km_from_mouth": 380
+    }
+   ]
+  },
+  {
+   "slug": "limpopo",
+   "name": "Limpopo",
+   "main_riv": 11462479,
+   "bounds": [
+    25.1729,
+    -26.4958,
+    34.3958,
+    -19.8083
+   ],
+   "segments": 6996,
+   "segments_total": 18865,
+   "max_ord_flow": 7,
+   "travel_time_h": 629.8,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 407137,
+   "discharge_cms": 309.0,
+   "main_length_km": 1622,
+   "network_length_km": 94568,
+   "drainage_density": 0.232,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 9503,
+    "2": 4217,
+    "3": 2277,
+    "4": 1367,
+    "5": 738,
+    "6": 420,
+    "7": 343
+   },
+   "runoff_mm": 24,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Südafrika",
+     "share": 0.435
+    },
+    {
+     "name": "Mosambik",
+     "share": 0.212
+    },
+    {
+     "name": "Botswana",
+     "share": 0.201
+    },
+    {
+     "name": "Simbabwe",
+     "share": 0.152
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 31.346,
+     "lat": -24.075,
+     "area_km2": 81486,
+     "discharge_cms": 118.2,
+     "length_km": 878,
+     "km_from_mouth": 259
+    },
+    {
+     "name": null,
+     "lon": 33.81,
+     "lat": -24.118,
+     "area_km2": 59363,
+     "discharge_cms": 115.5,
+     "length_km": 600,
+     "km_from_mouth": 97
+    },
+    {
+     "name": null,
+     "lon": 28.84,
+     "lat": -21.74,
+     "area_km2": 29066,
+     "discharge_cms": 21.0,
+     "length_km": 403,
+     "km_from_mouth": 789
+    },
+    {
+     "name": null,
+     "lon": 28.194,
+     "lat": -21.886,
+     "area_km2": 19414,
+     "discharge_cms": 11.0,
+     "length_km": 424,
+     "km_from_mouth": 828
+    },
+    {
+     "name": "Notwani",
+     "lon": 26.511,
+     "lat": -24.099,
+     "area_km2": 17432,
+     "discharge_cms": 5.3,
+     "length_km": 337,
+     "km_from_mouth": 1205
+    },
+    {
+     "name": "Mogalakwena",
+     "lon": 28.675,
+     "lat": -23.102,
+     "area_km2": 16048,
+     "discharge_cms": 5.4,
+     "length_km": 411,
+     "km_from_mouth": 861
+    }
+   ]
+  },
+  {
+   "slug": "bahr-el-ghazal-tschad",
+   "name": "Bahr el Ghazal (Tschad)",
+   "main_riv": 10402242,
+   "bounds": [
+    14.9917,
+    13.2812,
+    22.7125,
+    18.1292
+   ],
+   "segments": 1938,
+   "segments_total": 10444,
+   "max_ord_flow": 7,
+   "travel_time_h": 1531.8,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 258311,
+   "discharge_cms": 12.8,
+   "main_length_km": 1041,
+   "network_length_km": 62918,
+   "drainage_density": 0.244,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 5257,
+    "2": 2464,
+    "3": 1269,
+    "4": 783,
+    "5": 430,
+    "6": 154,
+    "7": 81,
+    "8": 6
+   },
+   "runoff_mm": 2,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Tschad",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 19.05,
+     "lat": 17.279,
+     "area_km2": 88793,
+     "discharge_cms": 31.1,
+     "length_km": 741,
+     "km_from_mouth": 26
+    },
+    {
+     "name": null,
+     "lon": 18.547,
+     "lat": 14.749,
+     "area_km2": 47003,
+     "discharge_cms": 4.9,
+     "length_km": 705,
+     "km_from_mouth": 232
+    },
+    {
+     "name": null,
+     "lon": 17.843,
+     "lat": 14.261,
+     "area_km2": 30708,
+     "discharge_cms": 10.3,
+     "length_km": 676,
+     "km_from_mouth": 398
+    },
+    {
+     "name": null,
+     "lon": 19.468,
+     "lat": 15.635,
+     "area_km2": 13893,
+     "discharge_cms": 0.0,
+     "length_km": 533,
+     "km_from_mouth": 180
+    },
+    {
+     "name": null,
+     "lon": 19.229,
+     "lat": 15.246,
+     "area_km2": 11906,
+     "discharge_cms": 0.0,
+     "length_km": 518,
+     "km_from_mouth": 196
+    },
+    {
+     "name": null,
+     "lon": 17.211,
+     "lat": 14.014,
+     "area_km2": 5648,
+     "discharge_cms": 0.1,
+     "length_km": 231,
+     "km_from_mouth": 434
+    }
+   ]
+  },
+  {
+   "slug": "ogooue",
+   "name": "Ogooué",
+   "main_riv": 11021405,
+   "bounds": [
+    8.9062,
+    -3.1083,
+    14.5083,
+    2.6875
+   ],
+   "segments": 19852,
+   "segments_total": 19852,
+   "max_ord_flow": 7,
+   "travel_time_h": 330.2,
+   "monthly": "model",
+   "size_mb": 0.3,
+   "area_km2": 215217,
+   "discharge_cms": 4804.9,
+   "main_length_km": 1067,
+   "network_length_km": 66024,
+   "drainage_density": 0.307,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 10054,
+    "2": 4610,
+    "3": 2306,
+    "4": 1512,
+    "5": 841,
+    "6": 325,
+    "7": 204
+   },
+   "runoff_mm": 704,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Gabun",
+     "share": 0.875
+    },
+    {
+     "name": "Republik Kongo",
+     "share": 0.096
+    },
+    {
+     "name": "Kamerun",
+     "share": 0.02
+    },
+    {
+     "name": "Äquatorialguinea",
+     "share": 0.008
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Ivindo",
+     "lon": 12.819,
+     "lat": 0.49,
+     "area_km2": 63201,
+     "discharge_cms": 1057.8,
+     "length_km": 584,
+     "km_from_mouth": 485
+    },
+    {
+     "name": "Ngounie",
+     "lon": 10.692,
+     "lat": -1.125,
+     "area_km2": 32637,
+     "discharge_cms": 1002.4,
+     "length_km": 486,
+     "km_from_mouth": 198
+    },
+    {
+     "name": null,
+     "lon": 11.35,
+     "lat": 0.294,
+     "area_km2": 11257,
+     "discharge_cms": 192.9,
+     "length_km": 302,
+     "km_from_mouth": 317
+    },
+    {
+     "name": null,
+     "lon": 12.388,
+     "lat": -0.637,
+     "area_km2": 11213,
+     "discharge_cms": 219.4,
+     "length_km": 305,
+     "km_from_mouth": 516
+    },
+    {
+     "name": null,
+     "lon": 13.535,
+     "lat": -0.76,
+     "area_km2": 10070,
+     "discharge_cms": 237.0,
+     "length_km": 275,
+     "km_from_mouth": 686
+    },
+    {
+     "name": null,
+     "lon": 10.64,
+     "lat": 0.101,
+     "area_km2": 8204,
+     "discharge_cms": 190.3,
+     "length_km": 289,
+     "km_from_mouth": 244
+    }
+   ]
+  },
+  {
+   "slug": "rufiji",
+   "name": "Rufiji",
+   "main_riv": 11168273,
+   "bounds": [
+    33.5437,
+    -10.7292,
+    39.3521,
+    -5.4625
+   ],
+   "segments": 6685,
+   "segments_total": 8696,
+   "max_ord_flow": 7,
+   "travel_time_h": 323.1,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 177135,
+   "discharge_cms": 918.3,
+   "main_length_km": 1018,
+   "network_length_km": 41944,
+   "drainage_density": 0.237,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 4382,
+    "2": 2022,
+    "3": 1080,
+    "4": 655,
+    "5": 214,
+    "6": 197,
+    "7": 103,
+    "8": 43
+   },
+   "runoff_mm": 163,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Tansania",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Rufiji",
+     "lon": 37.192,
+     "lat": -8.404,
+     "area_km2": 72274,
+     "discharge_cms": 820.6,
+     "length_km": 618,
+     "km_from_mouth": 251
+    },
+    {
+     "name": null,
+     "lon": 35.29,
+     "lat": -6.954,
+     "area_km2": 27780,
+     "discharge_cms": 23.0,
+     "length_km": 362,
+     "km_from_mouth": 570
+    },
+    {
+     "name": null,
+     "lon": 38.478,
+     "lat": -8.243,
+     "area_km2": 8226,
+     "discharge_cms": 45.2,
+     "length_km": 190,
+     "km_from_mouth": 128
+    },
+    {
+     "name": null,
+     "lon": 35.594,
+     "lat": -7.798,
+     "area_km2": 5407,
+     "discharge_cms": 18.2,
+     "length_km": 265,
+     "km_from_mouth": 628
+    },
+    {
+     "name": null,
+     "lon": 34.76,
+     "lat": -8.165,
+     "area_km2": 4111,
+     "discharge_cms": 9.0,
+     "length_km": 183,
+     "km_from_mouth": 818
+    },
+    {
+     "name": null,
+     "lon": 34.044,
+     "lat": -8.432,
+     "area_km2": 3768,
+     "discharge_cms": 16.2,
+     "length_km": 120,
+     "km_from_mouth": 862
+    }
+   ]
+  },
+  {
+   "slug": "ruvuma",
+   "name": "Ruvuma",
+   "main_riv": 11207858,
+   "bounds": [
+    34.8875,
+    -15.0042,
+    40.3979,
+    -10.2167
+   ],
+   "segments": 9328,
+   "segments_total": 9379,
+   "max_ord_flow": 7,
+   "travel_time_h": 324.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 155316,
+   "discharge_cms": 2286.1,
+   "main_length_km": 975,
+   "network_length_km": 38819,
+   "drainage_density": 0.25,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4734,
+    "2": 2130,
+    "3": 1240,
+    "4": 632,
+    "5": 241,
+    "6": 305,
+    "7": 97
+   },
+   "runoff_mm": 464,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Mosambik",
+     "share": 0.653
+    },
+    {
+     "name": "Tansania",
+     "share": 0.335
+    },
+    {
+     "name": "Malawi",
+     "share": 0.012
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 37.929,
+     "lat": -12.229,
+     "area_km2": 60990,
+     "discharge_cms": 752.1,
+     "length_km": 680,
+     "km_from_mouth": 269
+    },
+    {
+     "name": null,
+     "lon": 37.697,
+     "lat": -11.015,
+     "area_km2": 10320,
+     "discharge_cms": 137.3,
+     "length_km": 227,
+     "km_from_mouth": 341
+    },
+    {
+     "name": null,
+     "lon": 36.049,
+     "lat": -12.031,
+     "area_km2": 9288,
+     "discharge_cms": 200.5,
+     "length_km": 273,
+     "km_from_mouth": 596
+    },
+    {
+     "name": null,
+     "lon": 35.337,
+     "lat": -11.271,
+     "area_km2": 6210,
+     "discharge_cms": 78.7,
+     "length_km": 194,
+     "km_from_mouth": 752
+    },
+    {
+     "name": null,
+     "lon": 35.932,
+     "lat": -11.216,
+     "area_km2": 5915,
+     "discharge_cms": 61.2,
+     "length_km": 164,
+     "km_from_mouth": 682
+    },
+    {
+     "name": null,
+     "lon": 38.671,
+     "lat": -11.06,
+     "area_km2": 3598,
+     "discharge_cms": 44.4,
+     "length_km": 141,
+     "km_from_mouth": 213
+    }
+   ]
+  },
+  {
+   "slug": "cuanza",
+   "name": "Cuanza",
+   "main_riv": 11189929,
+   "bounds": [
+    13.125,
+    -13.8375,
+    19.1,
+    -7.6438
+   ],
+   "segments": 8836,
+   "segments_total": 9125,
+   "max_ord_flow": 7,
+   "travel_time_h": 328.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 150085,
+   "discharge_cms": 1868.8,
+   "main_length_km": 1161,
+   "network_length_km": 35943,
+   "drainage_density": 0.239,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4599,
+    "2": 2035,
+    "3": 1266,
+    "4": 531,
+    "5": 279,
+    "6": 261,
+    "7": 154
+   },
+   "runoff_mm": 393,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Angola",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 17.347,
+     "lat": -10.501,
+     "area_km2": 27696,
+     "discharge_cms": 421.4,
+     "length_km": 469,
+     "km_from_mouth": 553
+    },
+    {
+     "name": "Lucala",
+     "lon": 15.224,
+     "lat": -9.369,
+     "area_km2": 22934,
+     "discharge_cms": 237.3,
+     "length_km": 495,
+     "km_from_mouth": 179
+    },
+    {
+     "name": null,
+     "lon": 16.558,
+     "lat": -11.188,
+     "area_km2": 13303,
+     "discharge_cms": 284.9,
+     "length_km": 347,
+     "km_from_mouth": 589
+    },
+    {
+     "name": null,
+     "lon": 17.476,
+     "lat": -12.393,
+     "area_km2": 9017,
+     "discharge_cms": 122.4,
+     "length_km": 238,
+     "km_from_mouth": 907
+    },
+    {
+     "name": null,
+     "lon": 15.827,
+     "lat": -10.212,
+     "area_km2": 6285,
+     "discharge_cms": 83.5,
+     "length_km": 241,
+     "km_from_mouth": 381
+    },
+    {
+     "name": null,
+     "lon": 17.983,
+     "lat": -12.142,
+     "area_km2": 4717,
+     "discharge_cms": 68.7,
+     "length_km": 151,
+     "km_from_mouth": 894
+    }
+   ]
+  },
+  {
+   "slug": "sanaga",
+   "name": "Sanaga",
+   "main_riv": 10899527,
+   "bounds": [
+    9.6521,
+    3.4917,
+    14.9125,
+    7.3562
+   ],
+   "segments": 9187,
+   "segments_total": 9197,
+   "max_ord_flow": 7,
+   "travel_time_h": 258.3,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 133624,
+   "discharge_cms": 1993.4,
+   "main_length_km": 1099,
+   "network_length_km": 35166,
+   "drainage_density": 0.263,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4645,
+    "2": 2154,
+    "3": 1051,
+    "4": 627,
+    "5": 369,
+    "6": 136,
+    "7": 215
+   },
+   "runoff_mm": 470,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kamerun",
+     "share": 0.994
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Mbam",
+     "lon": 11.077,
+     "lat": 5.198,
+     "area_km2": 43209,
+     "discharge_cms": 736.5,
+     "length_km": 524,
+     "km_from_mouth": 259
+    },
+    {
+     "name": "Lom",
+     "lon": 13.901,
+     "lat": 5.526,
+     "area_km2": 20268,
+     "discharge_cms": 258.7,
+     "length_km": 352,
+     "km_from_mouth": 619
+    },
+    {
+     "name": null,
+     "lon": 12.502,
+     "lat": 6.556,
+     "area_km2": 7986,
+     "discharge_cms": 145.1,
+     "length_km": 223,
+     "km_from_mouth": 791
+    },
+    {
+     "name": null,
+     "lon": 13.285,
+     "lat": 6.926,
+     "area_km2": 4596,
+     "discharge_cms": 71.2,
+     "length_km": 223,
+     "km_from_mouth": 881
+    },
+    {
+     "name": null,
+     "lon": 12.002,
+     "lat": 4.837,
+     "area_km2": 4417,
+     "discharge_cms": 40.0,
+     "length_km": 189,
+     "km_from_mouth": 357
+    },
+    {
+     "name": null,
+     "lon": 12.865,
+     "lat": 5.561,
+     "area_km2": 4024,
+     "discharge_cms": 49.2,
+     "length_km": 149,
+     "km_from_mouth": 672
+    }
+   ]
+  },
+  {
+   "slug": "wadi-howar",
+   "name": "Wadi Howar",
+   "main_riv": 10387852,
+   "bounds": [
+    21.8917,
+    14.2125,
+    27.4229,
+    18.1917
+   ],
+   "segments": 2913,
+   "segments_total": 5754,
+   "max_ord_flow": 7,
+   "travel_time_h": 480.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 130829,
+   "discharge_cms": 399.2,
+   "main_length_km": 881,
+   "network_length_km": 29888,
+   "drainage_density": 0.228,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2897,
+    "2": 1347,
+    "3": 720,
+    "4": 340,
+    "5": 297,
+    "6": 135,
+    "7": 18
+   },
+   "runoff_mm": 96,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Sudan",
+     "share": 0.853
+    },
+    {
+     "name": "Tschad",
+     "share": 0.147
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 26.973,
+     "lat": 16.506,
+     "area_km2": 35152,
+     "discharge_cms": 73.8,
+     "length_km": 582,
+     "km_from_mouth": 79
+    },
+    {
+     "name": null,
+     "lon": 25.446,
+     "lat": 17.129,
+     "area_km2": 16082,
+     "discharge_cms": 83.2,
+     "length_km": 506,
+     "km_from_mouth": 157
+    },
+    {
+     "name": null,
+     "lon": 25.985,
+     "lat": 16.736,
+     "area_km2": 11700,
+     "discharge_cms": 40.1,
+     "length_km": 302,
+     "km_from_mouth": 137
+    },
+    {
+     "name": null,
+     "lon": 24.54,
+     "lat": 15.519,
+     "area_km2": 9767,
+     "discharge_cms": 24.2,
+     "length_km": 258,
+     "km_from_mouth": 470
+    },
+    {
+     "name": null,
+     "lon": 24.297,
+     "lat": 15.368,
+     "area_km2": 6301,
+     "discharge_cms": 10.9,
+     "length_km": 194,
+     "km_from_mouth": 491
+    },
+    {
+     "name": null,
+     "lon": 24.952,
+     "lat": 15.976,
+     "area_km2": 4637,
+     "discharge_cms": 13.6,
+     "length_km": 149,
+     "km_from_mouth": 377
+    }
+   ]
+  },
+  {
+   "slug": "cuvelai-etosha-pfanne",
+   "name": "Cuvelai (Etosha-Pfanne)",
+   "main_riv": 11371989,
+   "bounds": [
+    13.9021,
+    -20.1125,
+    17.625,
+    -15.0646
+   ],
+   "segments": 1315,
+   "segments_total": 5099,
+   "max_ord_flow": 7,
+   "travel_time_h": 712.3,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 124059,
+   "discharge_cms": 99.2,
+   "main_length_km": 564,
+   "network_length_km": 29974,
+   "drainage_density": 0.242,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2567,
+    "2": 1103,
+    "3": 781,
+    "4": 384,
+    "5": 187,
+    "6": 65,
+    "7": 12
+   },
+   "runoff_mm": 25,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Namibia",
+     "share": 0.586
+    },
+    {
+     "name": "Angola",
+     "share": 0.414
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 16.08,
+     "lat": -17.776,
+     "area_km2": 36884,
+     "discharge_cms": 41.6,
+     "length_km": 545,
+     "km_from_mouth": 30
+    },
+    {
+     "name": null,
+     "lon": 15.546,
+     "lat": -18.492,
+     "area_km2": 27651,
+     "discharge_cms": 0.0,
+     "length_km": 335,
+     "km_from_mouth": 55
+    },
+    {
+     "name": null,
+     "lon": 15.69,
+     "lat": -19.24,
+     "area_km2": 11616,
+     "discharge_cms": 1.0,
+     "length_km": 275,
+     "km_from_mouth": 1
+    },
+    {
+     "name": null,
+     "lon": 16.073,
+     "lat": -16.952,
+     "area_km2": 9128,
+     "discharge_cms": 6.9,
+     "length_km": 342,
+     "km_from_mouth": 226
+    },
+    {
+     "name": null,
+     "lon": 15.543,
+     "lat": -17.973,
+     "area_km2": 7576,
+     "discharge_cms": 9.9,
+     "length_km": 224,
+     "km_from_mouth": 122
+    },
+    {
+     "name": null,
+     "lon": 15.217,
+     "lat": -17.95,
+     "area_km2": 6586,
+     "discharge_cms": 6.1,
+     "length_km": 301,
+     "km_from_mouth": 113
+    }
+   ]
+  },
+  {
+   "slug": "ogaden-wadis",
+   "name": "Ogaden-Wadis",
+   "main_riv": 10795931,
+   "bounds": [
+    42.7292,
+    4.7125,
+    48.7354,
+    9.8312
+   ],
+   "segments": 1079,
+   "segments_total": 4977,
+   "max_ord_flow": 7,
+   "travel_time_h": 753.8,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 120097,
+   "discharge_cms": 33.5,
+   "main_length_km": 1141,
+   "network_length_km": 31969,
+   "drainage_density": 0.266,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2504,
+    "2": 1242,
+    "3": 506,
+    "4": 393,
+    "5": 108,
+    "6": 203,
+    "7": 21
+   },
+   "runoff_mm": 9,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Somalia",
+     "share": 0.375
+    },
+    {
+     "name": "Äthiopien",
+     "share": 0.367
+    },
+    {
+     "name": "Somaliland",
+     "share": 0.258
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 47.875,
+     "lat": 5.502,
+     "area_km2": 29452,
+     "discharge_cms": 2.8,
+     "length_km": 582,
+     "km_from_mouth": 97
+    },
+    {
+     "name": null,
+     "lon": 46.405,
+     "lat": 7.557,
+     "area_km2": 12603,
+     "discharge_cms": 0.0,
+     "length_km": 491,
+     "km_from_mouth": 383
+    },
+    {
+     "name": null,
+     "lon": 46.601,
+     "lat": 6.669,
+     "area_km2": 10189,
+     "discharge_cms": 0.2,
+     "length_km": 503,
+     "km_from_mouth": 260
+    },
+    {
+     "name": null,
+     "lon": 47.936,
+     "lat": 6.372,
+     "area_km2": 7964,
+     "discharge_cms": 4.9,
+     "length_km": 444,
+     "km_from_mouth": 21
+    },
+    {
+     "name": null,
+     "lon": 46.738,
+     "lat": 6.841,
+     "area_km2": 7453,
+     "discharge_cms": 0.5,
+     "length_km": 304,
+     "km_from_mouth": 277
+    },
+    {
+     "name": null,
+     "lon": 44.703,
+     "lat": 9.285,
+     "area_km2": 4212,
+     "discharge_cms": 4.2,
+     "length_km": 144,
+     "km_from_mouth": 823
+    }
+   ]
+  },
+  {
+   "slug": "cunene",
+   "name": "Cunene",
+   "main_riv": 11338714,
+   "bounds": [
+    11.7562,
+    -18.0354,
+    16.3083,
+    -12.6625
+   ],
+   "segments": 2927,
+   "segments_total": 4909,
+   "max_ord_flow": 7,
+   "travel_time_h": 345.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 108938,
+   "discharge_cms": 221.7,
+   "main_length_km": 1137,
+   "network_length_km": 24433,
+   "drainage_density": 0.224,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2474,
+    "2": 1093,
+    "3": 619,
+    "4": 291,
+    "5": 207,
+    "6": 87,
+    "7": 138
+   },
+   "runoff_mm": 64,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Angola",
+     "share": 0.859
+    },
+    {
+     "name": "Namibia",
+     "share": 0.141
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 14.276,
+     "lat": -16.269,
+     "area_km2": 24372,
+     "discharge_cms": 38.6,
+     "length_km": 375,
+     "km_from_mouth": 474
+    },
+    {
+     "name": null,
+     "lon": 14.735,
+     "lat": -14.874,
+     "area_km2": 6992,
+     "discharge_cms": 23.6,
+     "length_km": 206,
+     "km_from_mouth": 765
+    },
+    {
+     "name": null,
+     "lon": 15.752,
+     "lat": -15.402,
+     "area_km2": 6958,
+     "discharge_cms": 19.9,
+     "length_km": 338,
+     "km_from_mouth": 584
+    },
+    {
+     "name": null,
+     "lon": 14.777,
+     "lat": -14.532,
+     "area_km2": 5239,
+     "discharge_cms": 36.0,
+     "length_km": 193,
+     "km_from_mouth": 781
+    },
+    {
+     "name": null,
+     "lon": 13.717,
+     "lat": -16.998,
+     "area_km2": 3996,
+     "discharge_cms": 7.4,
+     "length_km": 104,
+     "km_from_mouth": 248
+    },
+    {
+     "name": null,
+     "lon": 14.991,
+     "lat": -14.308,
+     "area_km2": 3759,
+     "discharge_cms": 40.9,
+     "length_km": 159,
+     "km_from_mouth": 790
+    }
+   ]
+  },
+  {
+   "slug": "save",
+   "name": "Save",
+   "main_riv": 11406289,
+   "bounds": [
+    29.3417,
+    -22.0125,
+    35.0604,
+    -18.1083
+   ],
+   "segments": 3326,
+   "segments_total": 4905,
+   "max_ord_flow": 7,
+   "travel_time_h": 234.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 102590,
+   "discharge_cms": 438.0,
+   "main_length_km": 848,
+   "network_length_km": 23132,
+   "drainage_density": 0.225,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2470,
+    "2": 1164,
+    "3": 549,
+    "4": 282,
+    "5": 199,
+    "6": 127,
+    "7": 114
+   },
+   "runoff_mm": 135,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Simbabwe",
+     "share": 0.831
+    },
+    {
+     "name": "Mosambik",
+     "share": 0.169
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 31.858,
+     "lat": -21.188,
+     "area_km2": 41379,
+     "discharge_cms": 140.5,
+     "length_km": 498,
+     "km_from_mouth": 354
+    },
+    {
+     "name": null,
+     "lon": 32.036,
+     "lat": -19.865,
+     "area_km2": 8156,
+     "discharge_cms": 33.7,
+     "length_km": 226,
+     "km_from_mouth": 532
+    },
+    {
+     "name": null,
+     "lon": 32.516,
+     "lat": -19.475,
+     "area_km2": 7339,
+     "discharge_cms": 88.2,
+     "length_km": 205,
+     "km_from_mouth": 560
+    },
+    {
+     "name": null,
+     "lon": 31.765,
+     "lat": -19.035,
+     "area_km2": 3637,
+     "discharge_cms": 10.8,
+     "length_km": 164,
+     "km_from_mouth": 659
+    },
+    {
+     "name": null,
+     "lon": 32.053,
+     "lat": -20.41,
+     "area_km2": 3030,
+     "discharge_cms": 11.4,
+     "length_km": 155,
+     "km_from_mouth": 477
+    },
+    {
+     "name": null,
+     "lon": 31.825,
+     "lat": -19.252,
+     "area_km2": 2641,
+     "discharge_cms": 9.2,
+     "length_km": 146,
+     "km_from_mouth": 637
+    }
+   ]
+  },
+  {
+   "slug": "omo",
+   "name": "Omo",
+   "main_riv": 10904194,
+   "bounds": [
+    35.0729,
+    3.2333,
+    38.3875,
+    9.3417
+   ],
+   "segments": 4425,
+   "segments_total": 5455,
+   "max_ord_flow": 7,
+   "travel_time_h": 374.6,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 101061,
+   "discharge_cms": 962.6,
+   "main_length_km": 1195,
+   "network_length_km": 25218,
+   "drainage_density": 0.25,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2754,
+    "2": 1313,
+    "3": 615,
+    "4": 338,
+    "5": 172,
+    "6": 263
+   },
+   "runoff_mm": 300,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Äthiopien",
+     "share": 0.789
+    },
+    {
+     "name": "Kenia",
+     "share": 0.211
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 35.819,
+     "lat": 4.995,
+     "area_km2": 12184,
+     "discharge_cms": 24.5,
+     "length_km": 303,
+     "km_from_mouth": 112
+    },
+    {
+     "name": null,
+     "lon": 37.043,
+     "lat": 7.243,
+     "area_km2": 7048,
+     "discharge_cms": 113.3,
+     "length_km": 259,
+     "km_from_mouth": 875
+    },
+    {
+     "name": null,
+     "lon": 37.352,
+     "lat": 7.881,
+     "area_km2": 5172,
+     "discharge_cms": 99.7,
+     "length_km": 190,
+     "km_from_mouth": 1010
+    },
+    {
+     "name": null,
+     "lon": 35.758,
+     "lat": 3.454,
+     "area_km2": 4948,
+     "discharge_cms": 18.0,
+     "length_km": 137,
+     "km_from_mouth": 24
+    },
+    {
+     "name": null,
+     "lon": 36.269,
+     "lat": 5.702,
+     "area_km2": 4464,
+     "discharge_cms": 25.9,
+     "length_km": 167,
+     "km_from_mouth": 336
+    },
+    {
+     "name": null,
+     "lon": 36.14,
+     "lat": 6.537,
+     "area_km2": 4212,
+     "discharge_cms": 39.8,
+     "length_km": 200,
+     "km_from_mouth": 556
+    }
+   ]
+  },
+  {
+   "slug": "bandama",
+   "name": "Bandama",
+   "main_riv": 10850962,
+   "bounds": [
+    -7.0042,
+    5.1396,
+    -3.8896,
+    10.2167
+   ],
+   "segments": 4163,
+   "segments_total": 4967,
+   "max_ord_flow": 7,
+   "travel_time_h": 411.5,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 99253,
+   "discharge_cms": 230.1,
+   "main_length_km": 969,
+   "network_length_km": 21755,
+   "drainage_density": 0.219,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2502,
+    "2": 1132,
+    "3": 552,
+    "4": 323,
+    "5": 207,
+    "6": 214,
+    "7": 37
+   },
+   "runoff_mm": 73,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Elfenbeinküste",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -4.487,
+     "lat": 6.717,
+     "area_km2": 35485,
+     "discharge_cms": 154.2,
+     "length_km": 685,
+     "km_from_mouth": 124
+    },
+    {
+     "name": null,
+     "lon": -6.113,
+     "lat": 7.3,
+     "area_km2": 21623,
+     "discharge_cms": 191.2,
+     "length_km": 504,
+     "km_from_mouth": 300
+    },
+    {
+     "name": null,
+     "lon": -5.872,
+     "lat": 8.782,
+     "area_km2": 5187,
+     "discharge_cms": 48.8,
+     "length_km": 229,
+     "km_from_mouth": 602
+    },
+    {
+     "name": null,
+     "lon": -5.451,
+     "lat": 6.463,
+     "area_km2": 2330,
+     "discharge_cms": 10.7,
+     "length_km": 102,
+     "km_from_mouth": 217
+    },
+    {
+     "name": null,
+     "lon": -5.477,
+     "lat": 7.311,
+     "area_km2": 2209,
+     "discharge_cms": 12.5,
+     "length_km": 111,
+     "km_from_mouth": 332
+    },
+    {
+     "name": "Bandama Blanc",
+     "lon": -5.866,
+     "lat": 9.669,
+     "area_km2": 2129,
+     "discharge_cms": 18.8,
+     "length_km": 92,
+     "km_from_mouth": 879
+    }
+   ]
+  },
+  {
+   "slug": "saoura",
+   "name": "Saoura",
+   "main_riv": 10091109,
+   "bounds": [
+    -4.3125,
+    28.8854,
+    -0.1542,
+    33.0562
+   ],
+   "segments": 1336,
+   "segments_total": 4357,
+   "max_ord_flow": 7,
+   "travel_time_h": 359.1,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 96569,
+   "discharge_cms": 92.1,
+   "main_length_km": 774,
+   "network_length_km": 25220,
+   "drainage_density": 0.261,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2196,
+    "2": 1051,
+    "3": 456,
+    "4": 337,
+    "5": 133,
+    "6": 184
+   },
+   "runoff_mm": 30,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Algerien",
+     "share": 0.772
+    },
+    {
+     "name": "Marokko",
+     "share": 0.228
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -0.296,
+     "lat": 30.892,
+     "area_km2": 15683,
+     "discharge_cms": 5.1,
+     "length_km": 599,
+     "km_from_mouth": 80
+    },
+    {
+     "name": null,
+     "lon": -1.954,
+     "lat": 31.35,
+     "area_km2": 14195,
+     "discharge_cms": 5.4,
+     "length_km": 408,
+     "km_from_mouth": 316
+    },
+    {
+     "name": null,
+     "lon": -2.89,
+     "lat": 32.122,
+     "area_km2": 8091,
+     "discharge_cms": 7.3,
+     "length_km": 242,
+     "km_from_mouth": 531
+    },
+    {
+     "name": null,
+     "lon": -2.462,
+     "lat": 30.999,
+     "area_km2": 6735,
+     "discharge_cms": 5.0,
+     "length_km": 228,
+     "km_from_mouth": 344
+    },
+    {
+     "name": null,
+     "lon": -1.381,
+     "lat": 29.893,
+     "area_km2": 4574,
+     "discharge_cms": 0.5,
+     "length_km": 318,
+     "km_from_mouth": 153
+    },
+    {
+     "name": null,
+     "lon": -3.44,
+     "lat": 31.956,
+     "area_km2": 4238,
+     "discharge_cms": 4.3,
+     "length_km": 185,
+     "km_from_mouth": 564
+    }
+   ]
+  },
+  {
+   "slug": "tana",
+   "name": "Tana",
+   "main_riv": 11067459,
+   "bounds": [
+    36.5937,
+    -2.9917,
+    40.5187,
+    0.4667
+   ],
+   "segments": 2291,
+   "segments_total": 3925,
+   "max_ord_flow": 7,
+   "travel_time_h": 257.1,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 95243,
+   "discharge_cms": 242.1,
+   "main_length_km": 912,
+   "network_length_km": 25531,
+   "drainage_density": 0.268,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1974,
+    "2": 928,
+    "3": 425,
+    "4": 300,
+    "5": 228,
+    "6": 70
+   },
+   "runoff_mm": 80,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kenia",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 39.319,
+     "lat": -1.535,
+     "area_km2": 13398,
+     "discharge_cms": 32.8,
+     "length_km": 360,
+     "km_from_mouth": 192
+    },
+    {
+     "name": null,
+     "lon": 39.289,
+     "lat": -2.094,
+     "area_km2": 12933,
+     "discharge_cms": 34.6,
+     "length_km": 480,
+     "km_from_mouth": 110
+    },
+    {
+     "name": null,
+     "lon": 39.663,
+     "lat": -2.565,
+     "area_km2": 7805,
+     "discharge_cms": 10.4,
+     "length_km": 320,
+     "km_from_mouth": 57
+    },
+    {
+     "name": null,
+     "lon": 39.505,
+     "lat": -1.06,
+     "area_km2": 5603,
+     "discharge_cms": 8.1,
+     "length_km": 227,
+     "km_from_mouth": 245
+    },
+    {
+     "name": null,
+     "lon": 39.969,
+     "lat": -1.836,
+     "area_km2": 4247,
+     "discharge_cms": 3.1,
+     "length_km": 164,
+     "km_from_mouth": 129
+    },
+    {
+     "name": null,
+     "lon": 39.454,
+     "lat": -0.649,
+     "area_km2": 4197,
+     "discharge_cms": 6.3,
+     "length_km": 258,
+     "km_from_mouth": 279
+    }
+   ]
+  },
+  {
+   "slug": "oued-tamanrasset",
+   "name": "Oued Tamanrasset",
+   "main_riv": 10262369,
+   "bounds": [
+    0.1042,
+    20.4125,
+    5.9042,
+    24.4542
+   ],
+   "segments": 1233,
+   "segments_total": 4110,
+   "max_ord_flow": 7,
+   "travel_time_h": 641.4,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 94594,
+   "discharge_cms": 73.5,
+   "main_length_km": 907,
+   "network_length_km": 21234,
+   "drainage_density": 0.224,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2065,
+    "2": 924,
+    "3": 538,
+    "4": 260,
+    "5": 227,
+    "6": 96
+   },
+   "runoff_mm": 24,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Algerien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 3.19,
+     "lat": 22.933,
+     "area_km2": 23002,
+     "discharge_cms": 9.5,
+     "length_km": 573,
+     "km_from_mouth": 335
+    },
+    {
+     "name": null,
+     "lon": 2.489,
+     "lat": 21.682,
+     "area_km2": 18994,
+     "discharge_cms": 0.0,
+     "length_km": 478,
+     "km_from_mouth": 208
+    },
+    {
+     "name": null,
+     "lon": 3.953,
+     "lat": 22.594,
+     "area_km2": 17285,
+     "discharge_cms": 11.9,
+     "length_km": 378,
+     "km_from_mouth": 463
+    },
+    {
+     "name": null,
+     "lon": 3.294,
+     "lat": 21.762,
+     "area_km2": 8045,
+     "discharge_cms": 5.1,
+     "length_km": 192,
+     "km_from_mouth": 455
+    },
+    {
+     "name": null,
+     "lon": 4.377,
+     "lat": 22.102,
+     "area_km2": 4705,
+     "discharge_cms": 0.6,
+     "length_km": 184,
+     "km_from_mouth": 580
+    },
+    {
+     "name": null,
+     "lon": 4.056,
+     "lat": 22.356,
+     "area_km2": 2576,
+     "discharge_cms": 0.4,
+     "length_km": 162,
+     "km_from_mouth": 530
+    }
+   ]
+  },
+  {
+   "slug": "draa",
+   "name": "Draa",
+   "main_riv": 10101070,
+   "bounds": [
+    -11.1917,
+    27.8,
+    -4.8979,
+    31.9667
+   ],
+   "segments": 1891,
+   "segments_total": 4472,
+   "max_ord_flow": 7,
+   "travel_time_h": 320.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 94290,
+   "discharge_cms": 240.9,
+   "main_length_km": 1183,
+   "network_length_km": 22892,
+   "drainage_density": 0.243,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2249,
+    "2": 1095,
+    "3": 497,
+    "4": 311,
+    "5": 96,
+    "6": 94,
+    "7": 130
+   },
+   "runoff_mm": 81,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Marokko",
+     "share": 0.775
+    },
+    {
+     "name": "Algerien",
+     "share": 0.225
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -9.58,
+     "lat": 28.29,
+     "area_km2": 9949,
+     "discharge_cms": 8.7,
+     "length_km": 213,
+     "km_from_mouth": 249
+    },
+    {
+     "name": null,
+     "lon": -7.419,
+     "lat": 29.877,
+     "area_km2": 8076,
+     "discharge_cms": 20.4,
+     "length_km": 188,
+     "km_from_mouth": 530
+    },
+    {
+     "name": null,
+     "lon": -6.41,
+     "lat": 31.048,
+     "area_km2": 7459,
+     "discharge_cms": 47.9,
+     "length_km": 210,
+     "km_from_mouth": 975
+    },
+    {
+     "name": null,
+     "lon": -5.731,
+     "lat": 29.644,
+     "area_km2": 6625,
+     "discharge_cms": 10.2,
+     "length_km": 211,
+     "km_from_mouth": 675
+    },
+    {
+     "name": null,
+     "lon": -7.515,
+     "lat": 29.148,
+     "area_km2": 5042,
+     "discharge_cms": 4.4,
+     "length_km": 199,
+     "km_from_mouth": 438
+    },
+    {
+     "name": null,
+     "lon": -6.375,
+     "lat": 29.806,
+     "area_km2": 3971,
+     "discharge_cms": 5.5,
+     "length_km": 191,
+     "km_from_mouth": 616
+    }
+   ]
+  },
+  {
+   "slug": "awash",
+   "name": "Awash",
+   "main_riv": 10586083,
+   "bounds": [
+    38.0,
+    7.9292,
+    43.2979,
+    12.1875
+   ],
+   "segments": 2615,
+   "segments_total": 4074,
+   "max_ord_flow": 7,
+   "travel_time_h": 337.8,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 90994,
+   "discharge_cms": 266.1,
+   "main_length_km": 1024,
+   "network_length_km": 23034,
+   "drainage_density": 0.253,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2051,
+    "2": 991,
+    "3": 487,
+    "4": 221,
+    "5": 268,
+    "6": 56
+   },
+   "runoff_mm": 92,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Äthiopien",
+     "share": 0.994
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 41.64,
+     "lat": 10.435,
+     "area_km2": 21200,
+     "discharge_cms": 82.8,
+     "length_km": 365,
+     "km_from_mouth": 3
+    },
+    {
+     "name": null,
+     "lon": 40.579,
+     "lat": 11.481,
+     "area_km2": 5834,
+     "discharge_cms": 27.7,
+     "length_km": 223,
+     "km_from_mouth": 215
+    },
+    {
+     "name": null,
+     "lon": 39.707,
+     "lat": 9.094,
+     "area_km2": 3744,
+     "discharge_cms": 13.9,
+     "length_km": 175,
+     "km_from_mouth": 603
+    },
+    {
+     "name": null,
+     "lon": 40.652,
+     "lat": 11.906,
+     "area_km2": 3520,
+     "discharge_cms": 11.8,
+     "length_km": 225,
+     "km_from_mouth": 178
+    },
+    {
+     "name": null,
+     "lon": 40.1,
+     "lat": 10.662,
+     "area_km2": 3278,
+     "discharge_cms": 14.3,
+     "length_km": 187,
+     "km_from_mouth": 372
+    },
+    {
+     "name": null,
+     "lon": 40.052,
+     "lat": 8.715,
+     "area_km2": 1814,
+     "discharge_cms": 3.4,
+     "length_km": 112,
+     "km_from_mouth": 653
+    }
+   ]
+  },
+  {
+   "slug": "el-beid-tschadsee",
+   "name": "El Beid (Tschadsee)",
+   "main_riv": 10520534,
+   "bounds": [
+    11.0437,
+    10.1292,
+    15.0125,
+    13.45
+   ],
+   "segments": 1837,
+   "segments_total": 3720,
+   "max_ord_flow": 7,
+   "travel_time_h": 647.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 89012,
+   "discharge_cms": 177.5,
+   "main_length_km": 628,
+   "network_length_km": 20799,
+   "drainage_density": 0.234,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1876,
+    "2": 836,
+    "3": 479,
+    "4": 285,
+    "5": 194,
+    "6": 33,
+    "7": 17
+   },
+   "runoff_mm": 63,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Nigeria",
+     "share": 0.811
+    },
+    {
+     "name": "Kamerun",
+     "share": 0.188
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Chari",
+     "lon": 14.483,
+     "lat": 12.35,
+     "area_km2": 37039,
+     "discharge_cms": 84.4,
+     "length_km": 518,
+     "km_from_mouth": 86
+    },
+    {
+     "name": null,
+     "lon": 13.352,
+     "lat": 12.047,
+     "area_km2": 12838,
+     "discharge_cms": 20.8,
+     "length_km": 294,
+     "km_from_mouth": 144
+    },
+    {
+     "name": null,
+     "lon": 12.821,
+     "lat": 12.087,
+     "area_km2": 8345,
+     "discharge_cms": 17.1,
+     "length_km": 303,
+     "km_from_mouth": 156
+    },
+    {
+     "name": null,
+     "lon": 13.504,
+     "lat": 13.012,
+     "area_km2": 6329,
+     "discharge_cms": 3.2,
+     "length_km": 277,
+     "km_from_mouth": 70
+    },
+    {
+     "name": null,
+     "lon": 13.001,
+     "lat": 12.594,
+     "area_km2": 3047,
+     "discharge_cms": 1.1,
+     "length_km": 138,
+     "km_from_mouth": 204
+    },
+    {
+     "name": null,
+     "lon": 12.104,
+     "lat": 12.462,
+     "area_km2": 2450,
+     "discharge_cms": 4.6,
+     "length_km": 142,
+     "km_from_mouth": 378
+    }
+   ]
+  },
+  {
+   "slug": "igharghar",
+   "name": "Igharghar",
+   "main_riv": 10034477,
+   "bounds": [
+    6.2042,
+    28.05,
+    9.9458,
+    32.5812
+   ],
+   "segments": 390,
+   "segments_total": 3819,
+   "max_ord_flow": 7,
+   "travel_time_h": 1961.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 88622,
+   "discharge_cms": 5.7,
+   "main_length_km": 750,
+   "network_length_km": 22777,
+   "drainage_density": 0.257,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1919,
+    "2": 854,
+    "3": 497,
+    "4": 303,
+    "5": 169,
+    "6": 44,
+    "7": 33
+   },
+   "runoff_mm": 2,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Algerien",
+     "share": 0.914
+    },
+    {
+     "name": "Tunesien",
+     "share": 0.086
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 6.385,
+     "lat": 31.798,
+     "area_km2": 31812,
+     "discharge_cms": 0.6,
+     "length_km": 723,
+     "km_from_mouth": 28
+    },
+    {
+     "name": null,
+     "lon": 8.096,
+     "lat": 31.077,
+     "area_km2": 20181,
+     "discharge_cms": 1.8,
+     "length_km": 514,
+     "km_from_mouth": 165
+    },
+    {
+     "name": null,
+     "lon": 7.905,
+     "lat": 31.56,
+     "area_km2": 8708,
+     "discharge_cms": 1.3,
+     "length_km": 412,
+     "km_from_mouth": 104
+    },
+    {
+     "name": null,
+     "lon": 7.356,
+     "lat": 30.695,
+     "area_km2": 8604,
+     "discharge_cms": 0.5,
+     "length_km": 345,
+     "km_from_mouth": 259
+    },
+    {
+     "name": null,
+     "lon": 8.152,
+     "lat": 30.532,
+     "area_km2": 4438,
+     "discharge_cms": 0.4,
+     "length_km": 196,
+     "km_from_mouth": 342
+    },
+    {
+     "name": null,
+     "lon": 7.269,
+     "lat": 31.32,
+     "area_km2": 1443,
+     "discharge_cms": 0.2,
+     "length_km": 124,
+     "km_from_mouth": 141
+    }
+   ]
+  },
+  {
+   "slug": "komoe",
+   "name": "Komoé",
+   "main_riv": 10848636,
+   "bounds": [
+    -5.7542,
+    5.1937,
+    -2.6875,
+    11.025
+   ],
+   "segments": 3153,
+   "segments_total": 4450,
+   "max_ord_flow": 7,
+   "travel_time_h": 537.4,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 83109,
+   "discharge_cms": 237.0,
+   "main_length_km": 1191,
+   "network_length_km": 18285,
+   "drainage_density": 0.22,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2239,
+    "2": 1001,
+    "3": 555,
+    "4": 320,
+    "5": 98,
+    "6": 237
+   },
+   "runoff_mm": 90,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Elfenbeinküste",
+     "share": 0.765
+    },
+    {
+     "name": "Burkina Faso",
+     "share": 0.199
+    },
+    {
+     "name": "Ghana",
+     "share": 0.03
+    },
+    {
+     "name": "Mali",
+     "share": 0.005
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -4.573,
+     "lat": 10.081,
+     "area_km2": 9281,
+     "discharge_cms": 21.0,
+     "length_km": 236,
+     "km_from_mouth": 918
+    },
+    {
+     "name": null,
+     "lon": -3.344,
+     "lat": 7.486,
+     "area_km2": 7574,
+     "discharge_cms": 49.9,
+     "length_km": 202,
+     "km_from_mouth": 398
+    },
+    {
+     "name": null,
+     "lon": -3.585,
+     "lat": 9.085,
+     "area_km2": 6125,
+     "discharge_cms": 21.3,
+     "length_km": 226,
+     "km_from_mouth": 699
+    },
+    {
+     "name": null,
+     "lon": -3.51,
+     "lat": 7.746,
+     "area_km2": 5075,
+     "discharge_cms": 12.6,
+     "length_km": 167,
+     "km_from_mouth": 416
+    },
+    {
+     "name": null,
+     "lon": -3.884,
+     "lat": 5.53,
+     "area_km2": 4838,
+     "discharge_cms": 65.6,
+     "length_km": 175,
+     "km_from_mouth": 5
+    },
+    {
+     "name": null,
+     "lon": -4.152,
+     "lat": 8.66,
+     "area_km2": 3360,
+     "discharge_cms": 8.2,
+     "length_km": 137,
+     "km_from_mouth": 660
+    }
+   ]
+  },
+  {
+   "slug": "sassandra",
+   "name": "Sassandra",
+   "main_riv": 10857729,
+   "bounds": [
+    -8.7354,
+    4.9521,
+    -5.7292,
+    9.6958
+   ],
+   "segments": 4242,
+   "segments_total": 4417,
+   "max_ord_flow": 7,
+   "travel_time_h": 231.6,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 75333,
+   "discharge_cms": 464.1,
+   "main_length_km": 802,
+   "network_length_km": 17865,
+   "drainage_density": 0.237,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2227,
+    "2": 1051,
+    "3": 477,
+    "4": 221,
+    "5": 267,
+    "6": 174
+   },
+   "runoff_mm": 194,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Elfenbeinküste",
+     "share": 0.879
+    },
+    {
+     "name": "Guinea",
+     "share": 0.121
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -6.639,
+     "lat": 6.435,
+     "area_km2": 12768,
+     "discharge_cms": 70.1,
+     "length_km": 299,
+     "km_from_mouth": 190
+    },
+    {
+     "name": null,
+     "lon": -7.548,
+     "lat": 7.885,
+     "area_km2": 8870,
+     "discharge_cms": 121.8,
+     "length_km": 268,
+     "km_from_mouth": 466
+    },
+    {
+     "name": null,
+     "lon": -7.46,
+     "lat": 6.539,
+     "area_km2": 8380,
+     "discharge_cms": 97.3,
+     "length_km": 261,
+     "km_from_mouth": 236
+    },
+    {
+     "name": null,
+     "lon": -5.973,
+     "lat": 5.502,
+     "area_km2": 6917,
+     "discharge_cms": 65.0,
+     "length_km": 265,
+     "km_from_mouth": 9
+    },
+    {
+     "name": null,
+     "lon": -7.605,
+     "lat": 8.381,
+     "area_km2": 6869,
+     "discharge_cms": 82.6,
+     "length_km": 257,
+     "km_from_mouth": 547
+    },
+    {
+     "name": null,
+     "lon": -7.219,
+     "lat": 8.904,
+     "area_km2": 4134,
+     "discharge_cms": 49.7,
+     "length_km": 164,
+     "km_from_mouth": 559
+    }
+   ]
+  },
+  {
+   "slug": "gambia",
+   "name": "Gambia",
+   "main_riv": 10508677,
+   "bounds": [
+    -16.1479,
+    11.3875,
+    -11.2896,
+    14.6479
+   ],
+   "segments": 2112,
+   "segments_total": 3388,
+   "max_ord_flow": 7,
+   "travel_time_h": 609.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 72616,
+   "discharge_cms": 143.1,
+   "main_length_km": 1111,
+   "network_length_km": 14573,
+   "drainage_density": 0.201,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1705,
+    "2": 776,
+    "3": 382,
+    "4": 233,
+    "5": 166,
+    "6": 126
+   },
+   "runoff_mm": 62,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Senegal",
+     "share": 0.729
+    },
+    {
+     "name": "Guinea",
+     "share": 0.174
+    },
+    {
+     "name": "Gambia",
+     "share": 0.097
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -14.065,
+     "lat": 13.71,
+     "area_km2": 11904,
+     "discharge_cms": 25.8,
+     "length_km": 300,
+     "km_from_mouth": 295
+    },
+    {
+     "name": null,
+     "lon": -13.207,
+     "lat": 13.576,
+     "area_km2": 11683,
+     "discharge_cms": 18.3,
+     "length_km": 240,
+     "km_from_mouth": 572
+    },
+    {
+     "name": null,
+     "lon": -13.494,
+     "lat": 12.906,
+     "area_km2": 6472,
+     "discharge_cms": 39.4,
+     "length_km": 272,
+     "km_from_mouth": 526
+    },
+    {
+     "name": null,
+     "lon": -12.894,
+     "lat": 13.048,
+     "area_km2": 4690,
+     "discharge_cms": 12.4,
+     "length_km": 208,
+     "km_from_mouth": 641
+    },
+    {
+     "name": null,
+     "lon": -14.849,
+     "lat": 13.922,
+     "area_km2": 4344,
+     "discharge_cms": 4.8,
+     "length_km": 178,
+     "km_from_mouth": 159
+    },
+    {
+     "name": null,
+     "lon": -15.625,
+     "lat": 13.767,
+     "area_km2": 3535,
+     "discharge_cms": 5.4,
+     "length_km": 165,
+     "km_from_mouth": 35
+    }
+   ]
+  },
+  {
+   "slug": "saguia-el-hamra",
+   "name": "Saguia el-Hamra",
+   "main_riv": 10133477,
+   "bounds": [
+    -13.7625,
+    24.3458,
+    -9.7042,
+    27.8083
+   ],
+   "segments": 700,
+   "segments_total": 3251,
+   "max_ord_flow": 7,
+   "travel_time_h": 913.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 69516,
+   "discharge_cms": 60.2,
+   "main_length_km": 580,
+   "network_length_km": 16747,
+   "drainage_density": 0.241,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1637,
+    "2": 757,
+    "3": 348,
+    "4": 238,
+    "5": 119,
+    "6": 142,
+    "7": 10
+   },
+   "runoff_mm": 27,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Marokko",
+     "share": 0.706
+    },
+    {
+     "name": "Westsahara",
+     "share": 0.236
+    },
+    {
+     "name": "Mauretanien",
+     "share": 0.058
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -13.235,
+     "lat": 26.075,
+     "area_km2": 32337,
+     "discharge_cms": 6.0,
+     "length_km": 533,
+     "km_from_mouth": 56
+    },
+    {
+     "name": null,
+     "lon": -10.923,
+     "lat": 27.234,
+     "area_km2": 10684,
+     "discharge_cms": 0.0,
+     "length_km": 263,
+     "km_from_mouth": 256
+    },
+    {
+     "name": null,
+     "lon": -10.735,
+     "lat": 26.658,
+     "area_km2": 7455,
+     "discharge_cms": 0.0,
+     "length_km": 273,
+     "km_from_mouth": 276
+    },
+    {
+     "name": null,
+     "lon": -11.085,
+     "lat": 26.548,
+     "area_km2": 2349,
+     "discharge_cms": 0.2,
+     "length_km": 131,
+     "km_from_mouth": 294
+    },
+    {
+     "name": null,
+     "lon": -11.506,
+     "lat": 26.331,
+     "area_km2": 1981,
+     "discharge_cms": 0.4,
+     "length_km": 121,
+     "km_from_mouth": 320
+    },
+    {
+     "name": null,
+     "lon": -12.582,
+     "lat": 26.744,
+     "area_km2": 1700,
+     "discharge_cms": 0.5,
+     "length_km": 125,
+     "km_from_mouth": 114
+    }
+   ]
+  },
+  {
+   "slug": "batha-fitri-see",
+   "name": "Batha (Fitri-See)",
+   "main_riv": 10528164,
+   "bounds": [
+    17.4312,
+    11.8042,
+    22.0417,
+    14.3958
+   ],
+   "segments": 1020,
+   "segments_total": 2913,
+   "max_ord_flow": 7,
+   "travel_time_h": 435.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 65903,
+   "discharge_cms": 31.5,
+   "main_length_km": 734,
+   "network_length_km": 14280,
+   "drainage_density": 0.217,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1469,
+    "2": 678,
+    "3": 351,
+    "4": 223,
+    "5": 78,
+    "6": 114
+   },
+   "runoff_mm": 15,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Tschad",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 20.902,
+     "lat": 13.533,
+     "area_km2": 9807,
+     "discharge_cms": 8.0,
+     "length_km": 317,
+     "km_from_mouth": 400
+    },
+    {
+     "name": null,
+     "lon": 18.284,
+     "lat": 12.92,
+     "area_km2": 7531,
+     "discharge_cms": 4.0,
+     "length_km": 280,
+     "km_from_mouth": 36
+    },
+    {
+     "name": null,
+     "lon": 17.881,
+     "lat": 12.744,
+     "area_km2": 6627,
+     "discharge_cms": 3.1,
+     "length_km": 185,
+     "km_from_mouth": 10
+    },
+    {
+     "name": null,
+     "lon": 20.38,
+     "lat": 12.691,
+     "area_km2": 5556,
+     "discharge_cms": 3.2,
+     "length_km": 136,
+     "km_from_mouth": 443
+    },
+    {
+     "name": null,
+     "lon": 20.406,
+     "lat": 12.938,
+     "area_km2": 3826,
+     "discharge_cms": 2.8,
+     "length_km": 137,
+     "km_from_mouth": 414
+    },
+    {
+     "name": null,
+     "lon": 18.843,
+     "lat": 12.645,
+     "area_km2": 3573,
+     "discharge_cms": 6.5,
+     "length_km": 175,
+     "km_from_mouth": 189
+    }
+   ]
+  },
+  {
+   "slug": "nugaal",
+   "name": "Nugaal",
+   "main_riv": 10719945,
+   "bounds": [
+    44.925,
+    7.9396,
+    49.8437,
+    10.725
+   ],
+   "segments": 944,
+   "segments_total": 2903,
+   "max_ord_flow": 7,
+   "travel_time_h": 250.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 64696,
+   "discharge_cms": 79.2,
+   "main_length_km": 722,
+   "network_length_km": 16966,
+   "drainage_density": 0.262,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1460,
+    "2": 713,
+    "3": 362,
+    "4": 171,
+    "5": 41,
+    "6": 156
+   },
+   "runoff_mm": 39,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Somaliland",
+     "share": 0.815
+    },
+    {
+     "name": "Somalia",
+     "share": 0.185
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 47.492,
+     "lat": 9.296,
+     "area_km2": 7765,
+     "discharge_cms": 3.9,
+     "length_km": 312,
+     "km_from_mouth": 323
+    },
+    {
+     "name": null,
+     "lon": 48.71,
+     "lat": 8.471,
+     "area_km2": 6061,
+     "discharge_cms": 5.6,
+     "length_km": 180,
+     "km_from_mouth": 140
+    },
+    {
+     "name": null,
+     "lon": 46.889,
+     "lat": 8.976,
+     "area_km2": 5535,
+     "discharge_cms": 4.4,
+     "length_km": 163,
+     "km_from_mouth": 392
+    },
+    {
+     "name": null,
+     "lon": 46.224,
+     "lat": 9.451,
+     "area_km2": 2951,
+     "discharge_cms": 2.1,
+     "length_km": 110,
+     "km_from_mouth": 508
+    },
+    {
+     "name": null,
+     "lon": 47.245,
+     "lat": 9.021,
+     "area_km2": 2411,
+     "discharge_cms": 1.4,
+     "length_km": 212,
+     "km_from_mouth": 362
+    },
+    {
+     "name": null,
+     "lon": 47.13,
+     "lat": 9.297,
+     "area_km2": 2356,
+     "discharge_cms": 1.5,
+     "length_km": 170,
+     "km_from_mouth": 414
+    }
+   ]
+  },
+  {
+   "slug": "barka",
+   "name": "Barka",
+   "main_riv": 10358589,
+   "bounds": [
+    36.2687,
+    14.9875,
+    38.9375,
+    18.6021
+   ],
+   "segments": 1366,
+   "segments_total": 3028,
+   "max_ord_flow": 7,
+   "travel_time_h": 190.2,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 63986,
+   "discharge_cms": 100.3,
+   "main_length_km": 580,
+   "network_length_km": 15031,
+   "drainage_density": 0.235,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1525,
+    "2": 712,
+    "3": 379,
+    "4": 208,
+    "5": 133,
+    "6": 71
+   },
+   "runoff_mm": 49,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Eritrea",
+     "share": 0.657
+    },
+    {
+     "name": "Sudan",
+     "share": 0.343
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 37.172,
+     "lat": 17.615,
+     "area_km2": 15364,
+     "discharge_cms": 13.9,
+     "length_km": 299,
+     "km_from_mouth": 118
+    },
+    {
+     "name": null,
+     "lon": 37.864,
+     "lat": 16.631,
+     "area_km2": 12508,
+     "discharge_cms": 20.8,
+     "length_km": 338,
+     "km_from_mouth": 217
+    },
+    {
+     "name": null,
+     "lon": 38.228,
+     "lat": 15.481,
+     "area_km2": 2352,
+     "discharge_cms": 1.8,
+     "length_km": 110,
+     "km_from_mouth": 472
+    },
+    {
+     "name": null,
+     "lon": 37.204,
+     "lat": 16.012,
+     "area_km2": 2095,
+     "discharge_cms": 5.2,
+     "length_km": 138,
+     "km_from_mouth": 326
+    },
+    {
+     "name": null,
+     "lon": 37.504,
+     "lat": 16.069,
+     "area_km2": 2045,
+     "discharge_cms": 3.2,
+     "length_km": 126,
+     "km_from_mouth": 314
+    },
+    {
+     "name": null,
+     "lon": 37.611,
+     "lat": 17.706,
+     "area_km2": 1950,
+     "discharge_cms": 4.0,
+     "length_km": 100,
+     "km_from_mouth": 104
+    }
+   ]
+  },
+  {
+   "slug": "tademait-wadis",
+   "name": "Tademaït-Wadis",
+   "main_riv": 10130490,
+   "bounds": [
+    4.5625,
+    23.3208,
+    7.3917,
+    27.3604
+   ],
+   "segments": 650,
+   "segments_total": 2933,
+   "max_ord_flow": 7,
+   "travel_time_h": 735.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 62977,
+   "discharge_cms": 58.3,
+   "main_length_km": 629,
+   "network_length_km": 15725,
+   "drainage_density": 0.25,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1477,
+    "2": 728,
+    "3": 368,
+    "4": 157,
+    "5": 176,
+    "6": 27
+   },
+   "runoff_mm": 29,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Algerien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 5.51,
+     "lat": 25.219,
+     "area_km2": 26472,
+     "discharge_cms": 0.0,
+     "length_km": 385,
+     "km_from_mouth": 198
+    },
+    {
+     "name": null,
+     "lon": 5.131,
+     "lat": 26.428,
+     "area_km2": 3966,
+     "discharge_cms": 0.9,
+     "length_km": 191,
+     "km_from_mouth": 100
+    },
+    {
+     "name": null,
+     "lon": 6.69,
+     "lat": 25.12,
+     "area_km2": 3832,
+     "discharge_cms": 0.0,
+     "length_km": 167,
+     "km_from_mouth": 392
+    },
+    {
+     "name": null,
+     "lon": 6.769,
+     "lat": 24.798,
+     "area_km2": 3152,
+     "discharge_cms": 0.9,
+     "length_km": 175,
+     "km_from_mouth": 395
+    },
+    {
+     "name": null,
+     "lon": 6.635,
+     "lat": 24.759,
+     "area_km2": 3070,
+     "discharge_cms": 1.8,
+     "length_km": 135,
+     "km_from_mouth": 453
+    },
+    {
+     "name": null,
+     "lon": 6.299,
+     "lat": 25.676,
+     "area_km2": 2348,
+     "discharge_cms": 0.2,
+     "length_km": 124,
+     "km_from_mouth": 311
+    }
+   ]
+  },
+  {
+   "slug": "lurio",
+   "name": "Lúrio",
+   "main_riv": 11259990,
+   "bounds": [
+    35.9958,
+    -15.5375,
+    40.5229,
+    -13.3292
+   ],
+   "segments": 3029,
+   "segments_total": 3077,
+   "max_ord_flow": 7,
+   "travel_time_h": 157.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 61392,
+   "discharge_cms": 686.2,
+   "main_length_km": 649,
+   "network_length_km": 13744,
+   "drainage_density": 0.224,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1551,
+    "2": 734,
+    "3": 395,
+    "4": 237,
+    "5": 85,
+    "6": 75
+   },
+   "runoff_mm": 352,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Mosambik",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 38.349,
+     "lat": -14.394,
+     "area_km2": 6768,
+     "discharge_cms": 72.5,
+     "length_km": 189,
+     "km_from_mouth": 256
+    },
+    {
+     "name": null,
+     "lon": 38.086,
+     "lat": -14.015,
+     "area_km2": 4016,
+     "discharge_cms": 44.3,
+     "length_km": 173,
+     "km_from_mouth": 296
+    },
+    {
+     "name": null,
+     "lon": 37.224,
+     "lat": -14.265,
+     "area_km2": 3541,
+     "discharge_cms": 31.2,
+     "length_km": 174,
+     "km_from_mouth": 409
+    },
+    {
+     "name": null,
+     "lon": 36.702,
+     "lat": -15.013,
+     "area_km2": 3323,
+     "discharge_cms": 47.5,
+     "length_km": 140,
+     "km_from_mouth": 516
+    },
+    {
+     "name": null,
+     "lon": 36.929,
+     "lat": -14.515,
+     "area_km2": 3309,
+     "discharge_cms": 33.2,
+     "length_km": 135,
+     "km_from_mouth": 485
+    },
+    {
+     "name": null,
+     "lon": 37.475,
+     "lat": -14.125,
+     "area_km2": 2748,
+     "discharge_cms": 18.4,
+     "length_km": 131,
+     "km_from_mouth": 398
+    }
+   ]
+  },
+  {
+   "slug": "oueme",
+   "name": "Ouémé",
+   "main_riv": 10795213,
+   "bounds": [
+    1.525,
+    6.3646,
+    3.3958,
+    10.1625
+   ],
+   "segments": 2571,
+   "segments_total": 3078,
+   "max_ord_flow": 7,
+   "travel_time_h": 254.5,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 59906,
+   "discharge_cms": 283.9,
+   "main_length_km": 618,
+   "network_length_km": 13217,
+   "drainage_density": 0.221,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1555,
+    "2": 674,
+    "3": 384,
+    "4": 224,
+    "5": 194,
+    "6": 47
+   },
+   "runoff_mm": 149,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Benin",
+     "share": 0.796
+    },
+    {
+     "name": "Nigeria",
+     "share": 0.203
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 2.698,
+     "lat": 8.342,
+     "area_km2": 11530,
+     "discharge_cms": 41.2,
+     "length_km": 357,
+     "km_from_mouth": 190
+    },
+    {
+     "name": null,
+     "lon": 2.24,
+     "lat": 7.34,
+     "area_km2": 8456,
+     "discharge_cms": 45.4,
+     "length_km": 253,
+     "km_from_mouth": 95
+    },
+    {
+     "name": null,
+     "lon": 2.894,
+     "lat": 6.502,
+     "area_km2": 7334,
+     "discharge_cms": 67.1,
+     "length_km": 203,
+     "km_from_mouth": 19
+    },
+    {
+     "name": null,
+     "lon": 2.044,
+     "lat": 9.102,
+     "area_km2": 3365,
+     "discharge_cms": 22.1,
+     "length_km": 149,
+     "km_from_mouth": 387
+    },
+    {
+     "name": null,
+     "lon": 2.435,
+     "lat": 9.519,
+     "area_km2": 2583,
+     "discharge_cms": 13.9,
+     "length_km": 140,
+     "km_from_mouth": 431
+    },
+    {
+     "name": null,
+     "lon": 1.968,
+     "lat": 8.54,
+     "area_km2": 2155,
+     "discharge_cms": 9.9,
+     "length_km": 142,
+     "km_from_mouth": 310
+    }
+   ]
+  },
+  {
+   "slug": "kouilou",
+   "name": "Kouilou",
+   "main_riv": 11110394,
+   "bounds": [
+    11.6208,
+    -4.825,
+    14.7167,
+    -1.825
+   ],
+   "segments": 4045,
+   "segments_total": 4045,
+   "max_ord_flow": 7,
+   "travel_time_h": 262.5,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 59759,
+   "discharge_cms": 965.6,
+   "main_length_km": 758,
+   "network_length_km": 15923,
+   "drainage_density": 0.266,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2042,
+    "2": 911,
+    "3": 539,
+    "4": 264,
+    "5": 148,
+    "6": 78,
+    "7": 63
+   },
+   "runoff_mm": 510,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Republik Kongo",
+     "share": 0.996
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 12.869,
+     "lat": -3.113,
+     "area_km2": 16119,
+     "discharge_cms": 295.3,
+     "length_km": 301,
+     "km_from_mouth": 214
+    },
+    {
+     "name": null,
+     "lon": 13.66,
+     "lat": -3.732,
+     "area_km2": 6284,
+     "discharge_cms": 129.3,
+     "length_km": 271,
+     "km_from_mouth": 478
+    },
+    {
+     "name": null,
+     "lon": 13.18,
+     "lat": -4.355,
+     "area_km2": 3880,
+     "discharge_cms": 46.8,
+     "length_km": 161,
+     "km_from_mouth": 361
+    },
+    {
+     "name": null,
+     "lon": 12.503,
+     "lat": -3.291,
+     "area_km2": 2371,
+     "discharge_cms": 35.8,
+     "length_km": 140,
+     "km_from_mouth": 208
+    },
+    {
+     "name": null,
+     "lon": 12.36,
+     "lat": -3.376,
+     "area_km2": 2141,
+     "discharge_cms": 32.0,
+     "length_km": 120,
+     "km_from_mouth": 195
+    },
+    {
+     "name": "Niari",
+     "lon": 14.523,
+     "lat": -3.59,
+     "area_km2": 1596,
+     "discharge_cms": 42.6,
+     "length_km": 102,
+     "km_from_mouth": 646
+    }
+   ]
+  },
+  {
+   "slug": "sibiti-eyasi-see",
+   "name": "Sibiti (Eyasi-See)",
+   "main_riv": 11093757,
+   "bounds": [
+    32.625,
+    -6.0375,
+    35.4521,
+    -3.0792
+   ],
+   "segments": 1550,
+   "segments_total": 2629,
+   "max_ord_flow": 7,
+   "travel_time_h": 296.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 57304,
+   "discharge_cms": 174.1,
+   "main_length_km": 446,
+   "network_length_km": 13667,
+   "drainage_density": 0.238,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1326,
+    "2": 613,
+    "3": 323,
+    "4": 203,
+    "5": 77,
+    "6": 43,
+    "7": 44
+   },
+   "runoff_mm": 96,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Tansania",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 33.727,
+     "lat": -3.927,
+     "area_km2": 11462,
+     "discharge_cms": 22.7,
+     "length_km": 226,
+     "km_from_mouth": 136
+    },
+    {
+     "name": null,
+     "lon": 34.035,
+     "lat": -5.083,
+     "area_km2": 6231,
+     "discharge_cms": 16.4,
+     "length_km": 150,
+     "km_from_mouth": 242
+    },
+    {
+     "name": null,
+     "lon": 34.566,
+     "lat": -4.349,
+     "area_km2": 5073,
+     "discharge_cms": 16.9,
+     "length_km": 211,
+     "km_from_mouth": 85
+    },
+    {
+     "name": null,
+     "lon": 33.626,
+     "lat": -5.422,
+     "area_km2": 3803,
+     "discharge_cms": 11.8,
+     "length_km": 146,
+     "km_from_mouth": 306
+    },
+    {
+     "name": null,
+     "lon": 33.644,
+     "lat": -4.84,
+     "area_km2": 2936,
+     "discharge_cms": 7.5,
+     "length_km": 119,
+     "km_from_mouth": 211
+    },
+    {
+     "name": null,
+     "lon": 34.164,
+     "lat": -3.851,
+     "area_km2": 2394,
+     "discharge_cms": 6.2,
+     "length_km": 162,
+     "km_from_mouth": 110
+    }
+   ]
+  },
+  {
+   "slug": "betsiboka",
+   "name": "Betsiboka",
+   "main_riv": 11310034,
+   "bounds": [
+    46.1542,
+    -19.4813,
+    48.1875,
+    -15.9729
+   ],
+   "segments": 6358,
+   "segments_total": 6358,
+   "max_ord_flow": 7,
+   "travel_time_h": 161.3,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 56180,
+   "discharge_cms": 1621.0,
+   "main_length_km": 586,
+   "network_length_km": 19296,
+   "drainage_density": 0.343,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3226,
+    "2": 1468,
+    "3": 837,
+    "4": 400,
+    "5": 271,
+    "6": 116,
+    "7": 40
+   },
+   "runoff_mm": 910,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Madagaskar",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 47.34,
+     "lat": -16.344,
+     "area_km2": 12917,
+     "discharge_cms": 426.6,
+     "length_km": 386,
+     "km_from_mouth": 92
+    },
+    {
+     "name": null,
+     "lon": 47.248,
+     "lat": -17.311,
+     "area_km2": 12798,
+     "discharge_cms": 354.9,
+     "length_km": 380,
+     "km_from_mouth": 131
+    },
+    {
+     "name": null,
+     "lon": 46.517,
+     "lat": -17.762,
+     "area_km2": 4858,
+     "discharge_cms": 152.7,
+     "length_km": 203,
+     "km_from_mouth": 269
+    },
+    {
+     "name": null,
+     "lon": 46.633,
+     "lat": -17.104,
+     "area_km2": 3697,
+     "discharge_cms": 118.5,
+     "length_km": 146,
+     "km_from_mouth": 170
+    },
+    {
+     "name": null,
+     "lon": 46.6,
+     "lat": -16.79,
+     "area_km2": 2468,
+     "discharge_cms": 77.2,
+     "length_km": 152,
+     "km_from_mouth": 101
+    },
+    {
+     "name": null,
+     "lon": 47.136,
+     "lat": -18.81,
+     "area_km2": 1730,
+     "discharge_cms": 46.0,
+     "length_km": 94,
+     "km_from_mouth": 411
+    }
+   ]
+  },
+  {
+   "slug": "mangoky",
+   "name": "Mangoky",
+   "main_riv": 11414397,
+   "bounds": [
+    43.5104,
+    -23.3854,
+    47.3792,
+    -20.5083
+   ],
+   "segments": 2572,
+   "segments_total": 3058,
+   "max_ord_flow": 7,
+   "travel_time_h": 218.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 54934,
+   "discharge_cms": 432.6,
+   "main_length_km": 678,
+   "network_length_km": 13490,
+   "drainage_density": 0.246,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1540,
+    "2": 718,
+    "3": 409,
+    "4": 159,
+    "5": 143,
+    "6": 89
+   },
+   "runoff_mm": 248,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Madagaskar",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 45.849,
+     "lat": -21.755,
+     "area_km2": 9786,
+     "discharge_cms": 92.9,
+     "length_km": 338,
+     "km_from_mouth": 278
+    },
+    {
+     "name": "Mananantanana",
+     "lon": 46.079,
+     "lat": -21.296,
+     "area_km2": 7721,
+     "discharge_cms": 99.2,
+     "length_km": 327,
+     "km_from_mouth": 304
+    },
+    {
+     "name": null,
+     "lon": 45.208,
+     "lat": -21.995,
+     "area_km2": 4176,
+     "discharge_cms": 13.9,
+     "length_km": 171,
+     "km_from_mouth": 238
+    },
+    {
+     "name": null,
+     "lon": 44.431,
+     "lat": -22.01,
+     "area_km2": 3165,
+     "discharge_cms": 7.8,
+     "length_km": 118,
+     "km_from_mouth": 144
+    },
+    {
+     "name": null,
+     "lon": 45.45,
+     "lat": -21.796,
+     "area_km2": 3081,
+     "discharge_cms": 13.0,
+     "length_km": 151,
+     "km_from_mouth": 268
+    },
+    {
+     "name": null,
+     "lon": 46.953,
+     "lat": -21.041,
+     "area_km2": 1688,
+     "discharge_cms": 31.0,
+     "length_km": 91,
+     "km_from_mouth": 521
+    }
+   ]
+  },
+  {
+   "slug": "moulouya",
+   "name": "Moulouya",
+   "main_riv": 10009741,
+   "bounds": [
+    -5.5875,
+    32.3458,
+    -1.2208,
+    35.1229
+   ],
+   "segments": 1171,
+   "segments_total": 2596,
+   "max_ord_flow": 7,
+   "travel_time_h": 161.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 54235,
+   "discharge_cms": 70.6,
+   "main_length_km": 555,
+   "network_length_km": 13736,
+   "drainage_density": 0.253,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1309,
+    "2": 657,
+    "3": 287,
+    "4": 127,
+    "5": 148,
+    "6": 68
+   },
+   "runoff_mm": 41,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Marokko",
+     "share": 0.967
+    },
+    {
+     "name": "Algerien",
+     "share": 0.033
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -2.365,
+     "lat": 34.24,
+     "area_km2": 18861,
+     "discharge_cms": 30.5,
+     "length_km": 349,
+     "km_from_mouth": 114
+    },
+    {
+     "name": null,
+     "lon": -3.721,
+     "lat": 34.091,
+     "area_km2": 2590,
+     "discharge_cms": 6.6,
+     "length_km": 148,
+     "km_from_mouth": 174
+    },
+    {
+     "name": null,
+     "lon": -3.591,
+     "lat": 34.273,
+     "area_km2": 2352,
+     "discharge_cms": 9.2,
+     "length_km": 134,
+     "km_from_mouth": 153
+    },
+    {
+     "name": null,
+     "lon": -2.607,
+     "lat": 34.606,
+     "area_km2": 1761,
+     "discharge_cms": 1.4,
+     "length_km": 101,
+     "km_from_mouth": 79
+    },
+    {
+     "name": null,
+     "lon": -4.713,
+     "lat": 32.89,
+     "area_km2": 1549,
+     "discharge_cms": 4.7,
+     "length_km": 108,
+     "km_from_mouth": 414
+    },
+    {
+     "name": null,
+     "lon": -4.249,
+     "lat": 33.099,
+     "area_km2": 1520,
+     "discharge_cms": 2.6,
+     "length_km": 98,
+     "km_from_mouth": 343
+    }
+   ]
+  },
+  {
+   "slug": "wadis-in-nord-darfur",
+   "name": "Wadis in Nord-Darfur",
+   "main_riv": 10357877,
+   "bounds": [
+    22.7042,
+    16.2854,
+    26.45,
+    18.8771
+   ],
+   "segments": 574,
+   "segments_total": 2150,
+   "max_ord_flow": 7,
+   "travel_time_h": 374.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 52951,
+   "discharge_cms": 23.9,
+   "main_length_km": 593,
+   "network_length_km": 13824,
+   "drainage_density": 0.261,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1083,
+    "2": 505,
+    "3": 273,
+    "4": 188,
+    "5": 85,
+    "6": 8,
+    "7": 8
+   },
+   "runoff_mm": 14,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Sudan",
+     "share": 0.801
+    },
+    {
+     "name": "Tschad",
+     "share": 0.199
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 25.106,
+     "lat": 18.32,
+     "area_km2": 18926,
+     "discharge_cms": 3.2,
+     "length_km": 336,
+     "km_from_mouth": 27
+    },
+    {
+     "name": null,
+     "lon": 25.302,
+     "lat": 17.901,
+     "area_km2": 9824,
+     "discharge_cms": 3.5,
+     "length_km": 401,
+     "km_from_mouth": 39
+    },
+    {
+     "name": null,
+     "lon": 25.892,
+     "lat": 18.258,
+     "area_km2": 9422,
+     "discharge_cms": 1.2,
+     "length_km": 213,
+     "km_from_mouth": 42
+    },
+    {
+     "name": null,
+     "lon": 23.651,
+     "lat": 16.715,
+     "area_km2": 1814,
+     "discharge_cms": 2.9,
+     "length_km": 142,
+     "km_from_mouth": 408
+    },
+    {
+     "name": null,
+     "lon": 25.471,
+     "lat": 17.537,
+     "area_km2": 1696,
+     "discharge_cms": 0.7,
+     "length_km": 136,
+     "km_from_mouth": 158
+    },
+    {
+     "name": null,
+     "lon": 25.624,
+     "lat": 18.122,
+     "area_km2": 615,
+     "discharge_cms": 0.2,
+     "length_km": 85,
+     "km_from_mouth": 87
+    }
+   ]
+  },
+  {
+   "slug": "cross-river",
+   "name": "Cross River",
+   "main_riv": 10863651,
+   "bounds": [
+    7.4083,
+    4.7104,
+    10.0812,
+    7.4
+   ],
+   "segments": 7811,
+   "segments_total": 7811,
+   "max_ord_flow": 7,
+   "travel_time_h": 157.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 52696,
+   "discharge_cms": 2465.5,
+   "main_length_km": 559,
+   "network_length_km": 20189,
+   "drainage_density": 0.383,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3979,
+    "2": 1822,
+    "3": 1066,
+    "4": 491,
+    "5": 202,
+    "6": 149,
+    "7": 102
+   },
+   "runoff_mm": 1475,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Nigeria",
+     "share": 0.726
+    },
+    {
+     "name": "Kamerun",
+     "share": 0.274
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 8.531,
+     "lat": 6.471,
+     "area_km2": 16368,
+     "discharge_cms": 508.6,
+     "length_km": 230,
+     "km_from_mouth": 236
+    },
+    {
+     "name": null,
+     "lon": 7.95,
+     "lat": 6.108,
+     "area_km2": 7125,
+     "discharge_cms": 264.9,
+     "length_km": 175,
+     "km_from_mouth": 167
+    },
+    {
+     "name": null,
+     "lon": 9.106,
+     "lat": 5.712,
+     "area_km2": 3336,
+     "discharge_cms": 199.7,
+     "length_km": 157,
+     "km_from_mouth": 359
+    },
+    {
+     "name": null,
+     "lon": 9.301,
+     "lat": 5.976,
+     "area_km2": 1916,
+     "discharge_cms": 102.2,
+     "length_km": 86,
+     "km_from_mouth": 387
+    },
+    {
+     "name": null,
+     "lon": 7.862,
+     "lat": 5.321,
+     "area_km2": 1888,
+     "discharge_cms": 94.2,
+     "length_km": 96,
+     "km_from_mouth": 66
+    },
+    {
+     "name": null,
+     "lon": 8.183,
+     "lat": 6.154,
+     "area_km2": 1804,
+     "discharge_cms": 69.9,
+     "length_km": 100,
+     "km_from_mouth": 196
+    }
+   ]
+  }
+ ]
+}

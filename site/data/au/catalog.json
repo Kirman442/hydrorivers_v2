@@ -1,0 +1,3452 @@
+{
+ "continent": "au",
+ "label": "Australien & Ozeanien",
+ "min_area_km2": 30000.0,
+ "format": "bin",
+ "source": "HydroRIVERS v1.0 (Lehner & Grill 2013); names: Natural Earth",
+ "basins": [
+  {
+   "slug": "murray",
+   "name": "Murray",
+   "main_riv": 50784762,
+   "bounds": [
+    138.8708,
+    -37.6604,
+    152.4583,
+    -24.6333
+   ],
+   "segments": 11723,
+   "segments_total": 32594,
+   "max_ord_flow": 7,
+   "travel_time_h": 1928.1,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 775219,
+   "discharge_cms": 255.5,
+   "main_length_km": 2830,
+   "network_length_km": 176454,
+   "drainage_density": 0.228,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 16384,
+    "2": 7593,
+    "3": 4066,
+    "4": 2166,
+    "5": 1184,
+    "6": 739,
+    "7": 99,
+    "8": 238,
+    "9": 125
+   },
+   "runoff_mm": 10,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Lachlan",
+     "lon": 143.44,
+     "lat": -34.685,
+     "area_km2": 249850,
+     "discharge_cms": 351.8,
+     "length_km": 1435,
+     "km_from_mouth": 659
+    },
+    {
+     "name": null,
+     "lon": 147.754,
+     "lat": -28.688,
+     "area_km2": 146317,
+     "discharge_cms": 88.5,
+     "length_km": 1172,
+     "km_from_mouth": 1668
+    },
+    {
+     "name": "Macquarie",
+     "lon": 148.037,
+     "lat": -31.892,
+     "area_km2": 56307,
+     "discharge_cms": 35.5,
+     "length_km": 794,
+     "km_from_mouth": 1817
+    },
+    {
+     "name": null,
+     "lon": 145.744,
+     "lat": -28.438,
+     "area_km2": 53422,
+     "discharge_cms": 53.5,
+     "length_km": 931,
+     "km_from_mouth": 1505
+    },
+    {
+     "name": null,
+     "lon": 149.814,
+     "lat": -30.376,
+     "area_km2": 39118,
+     "discharge_cms": 21.8,
+     "length_km": 642,
+     "km_from_mouth": 1909
+    },
+    {
+     "name": null,
+     "lon": 147.092,
+     "lat": -31.004,
+     "area_km2": 32196,
+     "discharge_cms": 16.1,
+     "length_km": 531,
+     "km_from_mouth": 1671
+    }
+   ]
+  },
+  {
+   "slug": "georgina-diamantina-eyre-see",
+   "name": "Georgina–Diamantina (Eyre-See)",
+   "main_riv": 50682651,
+   "bounds": [
+    132.375,
+    -28.7771,
+    143.7625,
+    -19.0292
+   ],
+   "segments": 6988,
+   "segments_total": 19743,
+   "max_ord_flow": 7,
+   "travel_time_h": 1048.4,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 442136,
+   "discharge_cms": 1034.2,
+   "main_length_km": 2014,
+   "network_length_km": 102096,
+   "drainage_density": 0.231,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 9946,
+    "2": 4555,
+    "3": 2617,
+    "4": 1224,
+    "5": 768,
+    "6": 290,
+    "7": 249,
+    "8": 94
+   },
+   "runoff_mm": 74,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 140.207,
+     "lat": -25.653,
+     "area_km2": 121113,
+     "discharge_cms": 166.4,
+     "length_km": 995,
+     "km_from_mouth": 374
+    },
+    {
+     "name": null,
+     "lon": 136.605,
+     "lat": -27.459,
+     "area_km2": 81906,
+     "discharge_cms": 69.3,
+     "length_km": 792,
+     "km_from_mouth": 1
+    },
+    {
+     "name": null,
+     "lon": 136.981,
+     "lat": -21.352,
+     "area_km2": 33116,
+     "discharge_cms": 57.7,
+     "length_km": 651,
+     "km_from_mouth": 1380
+    },
+    {
+     "name": null,
+     "lon": 138.225,
+     "lat": -22.358,
+     "area_km2": 25272,
+     "discharge_cms": 29.3,
+     "length_km": 447,
+     "km_from_mouth": 1106
+    },
+    {
+     "name": null,
+     "lon": 138.715,
+     "lat": -24.53,
+     "area_km2": 20969,
+     "discharge_cms": 13.9,
+     "length_km": 345,
+     "km_from_mouth": 634
+    },
+    {
+     "name": null,
+     "lon": 140.08,
+     "lat": -22.349,
+     "area_km2": 17134,
+     "discharge_cms": 33.1,
+     "length_km": 337,
+     "km_from_mouth": 1004
+    }
+   ]
+  },
+  {
+   "slug": "cooper-creek-eyre-see",
+   "name": "Cooper Creek (Eyre-See)",
+   "main_riv": 50682652,
+   "bounds": [
+    137.2062,
+    -29.0521,
+    146.7292,
+    -20.4042
+   ],
+   "segments": 3174,
+   "segments_total": 11275,
+   "max_ord_flow": 7,
+   "travel_time_h": 1421.1,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 247816,
+   "discharge_cms": 63.7,
+   "main_length_km": 1898,
+   "network_length_km": 57765,
+   "drainage_density": 0.233,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 5677,
+    "2": 2623,
+    "3": 1397,
+    "4": 746,
+    "5": 260,
+    "6": 339,
+    "7": 233
+   },
+   "runoff_mm": 8,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 143.904,
+     "lat": -24.788,
+     "area_km2": 53564,
+     "discharge_cms": 19.4,
+     "length_km": 613,
+     "km_from_mouth": 1116
+    },
+    {
+     "name": null,
+     "lon": 141.675,
+     "lat": -27.883,
+     "area_km2": 25837,
+     "discharge_cms": 0.0,
+     "length_km": 345,
+     "km_from_mouth": 726
+    },
+    {
+     "name": null,
+     "lon": 143.043,
+     "lat": -25.822,
+     "area_km2": 18703,
+     "discharge_cms": 5.8,
+     "length_km": 371,
+     "km_from_mouth": 1012
+    },
+    {
+     "name": null,
+     "lon": 141.74,
+     "lat": -26.118,
+     "area_km2": 16877,
+     "discharge_cms": 3.3,
+     "length_km": 335,
+     "km_from_mouth": 880
+    },
+    {
+     "name": null,
+     "lon": 144.287,
+     "lat": -22.183,
+     "area_km2": 10363,
+     "discharge_cms": 12.1,
+     "length_km": 211,
+     "km_from_mouth": 1524
+    },
+    {
+     "name": null,
+     "lon": 144.797,
+     "lat": -22.964,
+     "area_km2": 9748,
+     "discharge_cms": 7.7,
+     "length_km": 196,
+     "km_from_mouth": 1454
+    }
+   ]
+  },
+  {
+   "slug": "fitzroy",
+   "name": "Fitzroy",
+   "main_riv": 50585774,
+   "bounds": [
+    146.6167,
+    -26.3979,
+    150.9958,
+    -21.3042
+   ],
+   "segments": 2490,
+   "segments_total": 6342,
+   "max_ord_flow": 7,
+   "travel_time_h": 530.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 140914,
+   "discharge_cms": 211.3,
+   "main_length_km": 960,
+   "network_length_km": 31566,
+   "drainage_density": 0.224,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3183,
+    "2": 1551,
+    "3": 848,
+    "4": 347,
+    "5": 197,
+    "6": 127,
+    "7": 89
+   },
+   "runoff_mm": 47,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 149.968,
+     "lat": -24.656,
+     "area_km2": 50840,
+     "discharge_cms": 39.0,
+     "length_km": 628,
+     "km_from_mouth": 286
+    },
+    {
+     "name": null,
+     "lon": 148.931,
+     "lat": -22.494,
+     "area_km2": 22655,
+     "discharge_cms": 84.8,
+     "length_km": 318,
+     "km_from_mouth": 423
+    },
+    {
+     "name": "Mackenzie",
+     "lon": 148.566,
+     "lat": -24.116,
+     "area_km2": 17338,
+     "discharge_cms": 12.8,
+     "length_km": 291,
+     "km_from_mouth": 593
+    },
+    {
+     "name": null,
+     "lon": 147.964,
+     "lat": -23.231,
+     "area_km2": 8626,
+     "discharge_cms": 6.9,
+     "length_km": 216,
+     "km_from_mouth": 632
+    },
+    {
+     "name": null,
+     "lon": 147.857,
+     "lat": -24.224,
+     "area_km2": 2642,
+     "discharge_cms": 1.9,
+     "length_km": 121,
+     "km_from_mouth": 769
+    },
+    {
+     "name": null,
+     "lon": 148.842,
+     "lat": -23.01,
+     "area_km2": 2518,
+     "discharge_cms": 2.1,
+     "length_km": 107,
+     "km_from_mouth": 478
+    }
+   ]
+  },
+  {
+   "slug": "burdekin",
+   "name": "Burdekin",
+   "main_riv": 50517279,
+   "bounds": [
+    144.2625,
+    -24.4125,
+    148.6312,
+    -18.1688
+   ],
+   "segments": 2992,
+   "segments_total": 5816,
+   "max_ord_flow": 7,
+   "travel_time_h": 391.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 129695,
+   "discharge_cms": 334.7,
+   "main_length_km": 775,
+   "network_length_km": 29687,
+   "drainage_density": 0.229,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2926,
+    "2": 1395,
+    "3": 809,
+    "4": 297,
+    "5": 183,
+    "6": 166,
+    "7": 40
+   },
+   "runoff_mm": 81,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Burdekin",
+     "lon": 146.328,
+     "lat": -19.981,
+     "area_km2": 40333,
+     "discharge_cms": 164.5,
+     "length_km": 603,
+     "km_from_mouth": 180
+    },
+    {
+     "name": null,
+     "lon": 146.623,
+     "lat": -20.888,
+     "area_km2": 19649,
+     "discharge_cms": 25.8,
+     "length_km": 303,
+     "km_from_mouth": 207
+    },
+    {
+     "name": null,
+     "lon": 147.158,
+     "lat": -21.56,
+     "area_km2": 11338,
+     "discharge_cms": 17.4,
+     "length_km": 229,
+     "km_from_mouth": 298
+    },
+    {
+     "name": null,
+     "lon": 147.567,
+     "lat": -20.535,
+     "area_km2": 9431,
+     "discharge_cms": 44.4,
+     "length_km": 230,
+     "km_from_mouth": 122
+    },
+    {
+     "name": null,
+     "lon": 146.934,
+     "lat": -21.915,
+     "area_km2": 8119,
+     "discharge_cms": 8.2,
+     "length_km": 225,
+     "km_from_mouth": 323
+    },
+    {
+     "name": null,
+     "lon": 146.676,
+     "lat": -23.505,
+     "area_km2": 5371,
+     "discharge_cms": 3.9,
+     "length_km": 262,
+     "km_from_mouth": 519
+    }
+   ]
+  },
+  {
+   "slug": "flinders",
+   "name": "Flinders",
+   "main_riv": 50488324,
+   "bounds": [
+    139.8125,
+    -21.7917,
+    144.9292,
+    -17.5354
+   ],
+   "segments": 2088,
+   "segments_total": 4332,
+   "max_ord_flow": 7,
+   "travel_time_h": 398.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 107777,
+   "discharge_cms": 249.7,
+   "main_length_km": 945,
+   "network_length_km": 25770,
+   "drainage_density": 0.239,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2173,
+    "2": 984,
+    "3": 573,
+    "4": 340,
+    "5": 113,
+    "6": 80,
+    "7": 69
+   },
+   "runoff_mm": 73,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 141.165,
+     "lat": -19.79,
+     "area_km2": 47147,
+     "discharge_cms": 81.0,
+     "length_km": 541,
+     "km_from_mouth": 143
+    },
+    {
+     "name": null,
+     "lon": 142.171,
+     "lat": -20.705,
+     "area_km2": 12601,
+     "discharge_cms": 22.9,
+     "length_km": 347,
+     "km_from_mouth": 398
+    },
+    {
+     "name": null,
+     "lon": 141.14,
+     "lat": -19.091,
+     "area_km2": 10309,
+     "discharge_cms": 21.2,
+     "length_km": 466,
+     "km_from_mouth": 134
+    },
+    {
+     "name": null,
+     "lon": 143.246,
+     "lat": -20.229,
+     "area_km2": 8739,
+     "discharge_cms": 17.3,
+     "length_km": 280,
+     "km_from_mouth": 565
+    },
+    {
+     "name": null,
+     "lon": 143.488,
+     "lat": -20.583,
+     "area_km2": 4036,
+     "discharge_cms": 5.8,
+     "length_km": 203,
+     "km_from_mouth": 606
+    },
+    {
+     "name": null,
+     "lon": 143.746,
+     "lat": -20.867,
+     "area_km2": 3188,
+     "discharge_cms": 4.5,
+     "length_km": 132,
+     "km_from_mouth": 665
+    }
+   ]
+  },
+  {
+   "slug": "avon",
+   "name": "Avon",
+   "main_riv": 50749151,
+   "bounds": [
+    115.7437,
+    -33.575,
+    120.1833,
+    -29.6458
+   ],
+   "segments": 952,
+   "segments_total": 5043,
+   "max_ord_flow": 7,
+   "travel_time_h": 1467.8,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 99518,
+   "discharge_cms": 140.4,
+   "main_length_km": 876,
+   "network_length_km": 20789,
+   "drainage_density": 0.209,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2544,
+    "2": 1120,
+    "3": 653,
+    "4": 304,
+    "5": 172,
+    "6": 159,
+    "7": 91
+   },
+   "runoff_mm": 44,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 118.148,
+     "lat": -32.121,
+     "area_km2": 21097,
+     "discharge_cms": 6.3,
+     "length_km": 341,
+     "km_from_mouth": 345
+    },
+    {
+     "name": null,
+     "lon": 116.743,
+     "lat": -31.239,
+     "area_km2": 13414,
+     "discharge_cms": 6.3,
+     "length_km": 276,
+     "km_from_mouth": 146
+    },
+    {
+     "name": null,
+     "lon": 118.566,
+     "lat": -30.602,
+     "area_km2": 12187,
+     "discharge_cms": 0.0,
+     "length_km": 262,
+     "km_from_mouth": 476
+    },
+    {
+     "name": null,
+     "lon": 119.327,
+     "lat": -31.146,
+     "area_km2": 4689,
+     "discharge_cms": 0.8,
+     "length_km": 154,
+     "km_from_mouth": 679
+    },
+    {
+     "name": null,
+     "lon": 117.93,
+     "lat": -30.957,
+     "area_km2": 3923,
+     "discharge_cms": 0.0,
+     "length_km": 222,
+     "km_from_mouth": 437
+    },
+    {
+     "name": null,
+     "lon": 117.43,
+     "lat": -32.401,
+     "area_km2": 3204,
+     "discharge_cms": 2.0,
+     "length_km": 146,
+     "km_from_mouth": 257
+    }
+   ]
+  },
+  {
+   "slug": "victoria",
+   "name": "Victoria",
+   "main_riv": 50465922,
+   "bounds": [
+    129.125,
+    -19.2604,
+    132.4375,
+    -14.9125
+   ],
+   "segments": 2536,
+   "segments_total": 4596,
+   "max_ord_flow": 7,
+   "travel_time_h": 406.9,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 99412,
+   "discharge_cms": 345.7,
+   "main_length_km": 863,
+   "network_length_km": 21831,
+   "drainage_density": 0.22,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2316,
+    "2": 1082,
+    "3": 573,
+    "4": 321,
+    "5": 158,
+    "6": 146
+   },
+   "runoff_mm": 110,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 129.769,
+     "lat": -15.838,
+     "area_km2": 16043,
+     "discharge_cms": 86.8,
+     "length_km": 265,
+     "km_from_mouth": 28
+    },
+    {
+     "name": null,
+     "lon": 130.99,
+     "lat": -17.303,
+     "area_km2": 10765,
+     "discharge_cms": 10.2,
+     "length_km": 260,
+     "km_from_mouth": 392
+    },
+    {
+     "name": null,
+     "lon": 130.749,
+     "lat": -16.542,
+     "area_km2": 8019,
+     "discharge_cms": 21.1,
+     "length_km": 211,
+     "km_from_mouth": 314
+    },
+    {
+     "name": null,
+     "lon": 131.217,
+     "lat": -18.285,
+     "area_km2": 6871,
+     "discharge_cms": 14.6,
+     "length_km": 270,
+     "km_from_mouth": 537
+    },
+    {
+     "name": null,
+     "lon": 131.518,
+     "lat": -16.678,
+     "area_km2": 6406,
+     "discharge_cms": 9.5,
+     "length_km": 162,
+     "km_from_mouth": 374
+    },
+    {
+     "name": null,
+     "lon": 131.3,
+     "lat": -17.525,
+     "area_km2": 5252,
+     "discharge_cms": 8.2,
+     "length_km": 207,
+     "km_from_mouth": 452
+    }
+   ]
+  },
+  {
+   "slug": "fitzroy-australien",
+   "name": "Fitzroy (Australien)",
+   "main_riv": 50489059,
+   "bounds": [
+    123.0708,
+    -19.5792,
+    127.5958,
+    -16.1458
+   ],
+   "segments": 2572,
+   "segments_total": 4510,
+   "max_ord_flow": 7,
+   "travel_time_h": 262.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 95693,
+   "discharge_cms": 483.4,
+   "main_length_km": 728,
+   "network_length_km": 21392,
+   "drainage_density": 0.224,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2268,
+    "2": 1030,
+    "3": 618,
+    "4": 366,
+    "5": 94,
+    "6": 58,
+    "7": 76
+   },
+   "runoff_mm": 159,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 126.027,
+     "lat": -17.669,
+     "area_km2": 21903,
+     "discharge_cms": 106.8,
+     "length_km": 388,
+     "km_from_mouth": 347
+    },
+    {
+     "name": null,
+     "lon": 125.93,
+     "lat": -19.013,
+     "area_km2": 17041,
+     "discharge_cms": 68.3,
+     "length_km": 344,
+     "km_from_mouth": 271
+    },
+    {
+     "name": null,
+     "lon": 126.377,
+     "lat": -17.985,
+     "area_km2": 5887,
+     "discharge_cms": 23.1,
+     "length_km": 212,
+     "km_from_mouth": 434
+    },
+    {
+     "name": null,
+     "lon": 123.74,
+     "lat": -18.356,
+     "area_km2": 5241,
+     "discharge_cms": 11.9,
+     "length_km": 170,
+     "km_from_mouth": 82
+    },
+    {
+     "name": null,
+     "lon": 124.79,
+     "lat": -18.706,
+     "area_km2": 4861,
+     "discharge_cms": 1.9,
+     "length_km": 139,
+     "km_from_mouth": 212
+    },
+    {
+     "name": null,
+     "lon": 126.91,
+     "lat": -18.198,
+     "area_km2": 3983,
+     "discharge_cms": 15.7,
+     "length_km": 179,
+     "km_from_mouth": 479
+    }
+   ]
+  },
+  {
+   "slug": "sepik",
+   "name": "Sepik",
+   "main_riv": 50282846,
+   "bounds": [
+    140.6583,
+    -5.8292,
+    145.0125,
+    -3.1563
+   ],
+   "segments": 13845,
+   "segments_total": 13845,
+   "max_ord_flow": 7,
+   "travel_time_h": 318.5,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 80124,
+   "discharge_cms": 3817.9,
+   "main_length_km": 992,
+   "network_length_km": 33057,
+   "drainage_density": 0.413,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 7125,
+    "2": 3156,
+    "3": 1713,
+    "4": 922,
+    "5": 497,
+    "6": 187,
+    "7": 197,
+    "8": 48
+   },
+   "runoff_mm": 1503,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Papua-Neuguinea",
+     "share": 0.952
+    },
+    {
+     "name": "Indonesien",
+     "share": 0.048
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 143.922,
+     "lat": -4.851,
+     "area_km2": 11952,
+     "discharge_cms": 623.5,
+     "length_km": 338,
+     "km_from_mouth": 137
+    },
+    {
+     "name": null,
+     "lon": 143.498,
+     "lat": -4.477,
+     "area_km2": 7566,
+     "discharge_cms": 373.6,
+     "length_km": 194,
+     "km_from_mouth": 206
+    },
+    {
+     "name": null,
+     "lon": 144.196,
+     "lat": -4.371,
+     "area_km2": 5599,
+     "discharge_cms": 306.9,
+     "length_km": 235,
+     "km_from_mouth": 100
+    },
+    {
+     "name": null,
+     "lon": 141.448,
+     "lat": -3.804,
+     "area_km2": 4107,
+     "discharge_cms": 149.2,
+     "length_km": 135,
+     "km_from_mouth": 651
+    },
+    {
+     "name": null,
+     "lon": 141.693,
+     "lat": -4.344,
+     "area_km2": 3301,
+     "discharge_cms": 243.6,
+     "length_km": 148,
+     "km_from_mouth": 546
+    },
+    {
+     "name": null,
+     "lon": 142.96,
+     "lat": -3.86,
+     "area_km2": 3204,
+     "discharge_cms": 87.8,
+     "length_km": 148,
+     "km_from_mouth": 320
+    }
+   ]
+  },
+  {
+   "slug": "roper",
+   "name": "Roper",
+   "main_riv": 50460169,
+   "bounds": [
+    132.1792,
+    -16.5833,
+    135.4458,
+    -13.025
+   ],
+   "segments": 2240,
+   "segments_total": 3566,
+   "max_ord_flow": 7,
+   "travel_time_h": 463.5,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 77473,
+   "discharge_cms": 296.9,
+   "main_length_km": 595,
+   "network_length_km": 16752,
+   "drainage_density": 0.216,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1797,
+    "2": 826,
+    "3": 423,
+    "4": 311,
+    "5": 124,
+    "6": 85
+   },
+   "runoff_mm": 121,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 134.24,
+     "lat": -15.085,
+     "area_km2": 13070,
+     "discharge_cms": 46.9,
+     "length_km": 317,
+     "km_from_mouth": 125
+    },
+    {
+     "name": null,
+     "lon": 134.515,
+     "lat": -14.288,
+     "area_km2": 12606,
+     "discharge_cms": 85.0,
+     "length_km": 276,
+     "km_from_mouth": 132
+    },
+    {
+     "name": null,
+     "lon": 133.685,
+     "lat": -15.122,
+     "area_km2": 7159,
+     "discharge_cms": 18.0,
+     "length_km": 216,
+     "km_from_mouth": 244
+    },
+    {
+     "name": null,
+     "lon": 132.759,
+     "lat": -15.485,
+     "area_km2": 6314,
+     "discharge_cms": 11.3,
+     "length_km": 208,
+     "km_from_mouth": 380
+    },
+    {
+     "name": null,
+     "lon": 133.085,
+     "lat": -14.71,
+     "area_km2": 5951,
+     "discharge_cms": 22.5,
+     "length_km": 198,
+     "km_from_mouth": 319
+    },
+    {
+     "name": null,
+     "lon": 135.283,
+     "lat": -14.479,
+     "area_km2": 5464,
+     "discharge_cms": 40.0,
+     "length_km": 160,
+     "km_from_mouth": 20
+    }
+   ]
+  },
+  {
+   "slug": "ashburton",
+   "name": "Ashburton",
+   "main_riv": 50552041,
+   "bounds": [
+    114.8354,
+    -24.8063,
+    119.7792,
+    -21.6938
+   ],
+   "segments": 1211,
+   "segments_total": 3615,
+   "max_ord_flow": 7,
+   "travel_time_h": 345.4,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 77104,
+   "discharge_cms": 47.9,
+   "main_length_km": 749,
+   "network_length_km": 17723,
+   "drainage_density": 0.23,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1819,
+    "2": 847,
+    "3": 444,
+    "4": 294,
+    "5": 105,
+    "6": 106
+   },
+   "runoff_mm": 20,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 117.853,
+     "lat": -23.377,
+     "area_km2": 7395,
+     "discharge_cms": 5.9,
+     "length_km": 235,
+     "km_from_mouth": 439
+    },
+    {
+     "name": null,
+     "lon": 116.572,
+     "lat": -22.518,
+     "area_km2": 6938,
+     "discharge_cms": 12.4,
+     "length_km": 331,
+     "km_from_mouth": 211
+    },
+    {
+     "name": null,
+     "lon": 116.662,
+     "lat": -22.919,
+     "area_km2": 6143,
+     "discharge_cms": 4.9,
+     "length_km": 235,
+     "km_from_mouth": 243
+    },
+    {
+     "name": null,
+     "lon": 115.7,
+     "lat": -23.05,
+     "area_km2": 5539,
+     "discharge_cms": 3.2,
+     "length_km": 169,
+     "km_from_mouth": 178
+    },
+    {
+     "name": null,
+     "lon": 118.105,
+     "lat": -23.632,
+     "area_km2": 4930,
+     "discharge_cms": 2.5,
+     "length_km": 201,
+     "km_from_mouth": 479
+    },
+    {
+     "name": null,
+     "lon": 116.54,
+     "lat": -23.292,
+     "area_km2": 3297,
+     "discharge_cms": 2.2,
+     "length_km": 133,
+     "km_from_mouth": 301
+    }
+   ]
+  },
+  {
+   "slug": "gascoyne",
+   "name": "Gascoyne",
+   "main_riv": 50611851,
+   "bounds": [
+    113.6562,
+    -25.9958,
+    119.9042,
+    -23.5167
+   ],
+   "segments": 920,
+   "segments_total": 3500,
+   "max_ord_flow": 7,
+   "travel_time_h": 678.4,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 73671,
+   "discharge_cms": 24.5,
+   "main_length_km": 903,
+   "network_length_km": 17479,
+   "drainage_density": 0.237,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1763,
+    "2": 823,
+    "3": 486,
+    "4": 124,
+    "5": 269,
+    "6": 35
+   },
+   "runoff_mm": 10,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 115.556,
+     "lat": -24.219,
+     "area_km2": 21852,
+     "discharge_cms": 7.8,
+     "length_km": 475,
+     "km_from_mouth": 178
+    },
+    {
+     "name": null,
+     "lon": 118.412,
+     "lat": -24.963,
+     "area_km2": 2487,
+     "discharge_cms": 1.1,
+     "length_km": 111,
+     "km_from_mouth": 654
+    },
+    {
+     "name": null,
+     "lon": 116.464,
+     "lat": -24.648,
+     "area_km2": 2407,
+     "discharge_cms": 1.1,
+     "length_km": 139,
+     "km_from_mouth": 366
+    },
+    {
+     "name": null,
+     "lon": 116.229,
+     "lat": -24.558,
+     "area_km2": 2051,
+     "discharge_cms": 1.0,
+     "length_km": 78,
+     "km_from_mouth": 338
+    },
+    {
+     "name": null,
+     "lon": 117.081,
+     "lat": -25.316,
+     "area_km2": 1942,
+     "discharge_cms": 0.9,
+     "length_km": 84,
+     "km_from_mouth": 495
+    },
+    {
+     "name": null,
+     "lon": 115.673,
+     "lat": -25.402,
+     "area_km2": 1886,
+     "discharge_cms": 1.9,
+     "length_km": 97,
+     "km_from_mouth": 234
+    }
+   ]
+  },
+  {
+   "slug": "hanson-tanami",
+   "name": "Hanson (Tanami)",
+   "main_riv": 50504049,
+   "bounds": [
+    132.2333,
+    -23.1604,
+    134.9583,
+    -18.5563
+   ],
+   "segments": 718,
+   "segments_total": 3220,
+   "max_ord_flow": 7,
+   "travel_time_h": 471.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 72015,
+   "discharge_cms": 21.6,
+   "main_length_km": 753,
+   "network_length_km": 18138,
+   "drainage_density": 0.252,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1621,
+    "2": 798,
+    "3": 404,
+    "4": 184,
+    "5": 98,
+    "6": 60,
+    "7": 55
+   },
+   "runoff_mm": 9,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 133.49,
+     "lat": -20.706,
+     "area_km2": 25407,
+     "discharge_cms": 12.1,
+     "length_km": 530,
+     "km_from_mouth": 228
+    },
+    {
+     "name": null,
+     "lon": 132.785,
+     "lat": -19.773,
+     "area_km2": 10166,
+     "discharge_cms": 1.6,
+     "length_km": 260,
+     "km_from_mouth": 158
+    },
+    {
+     "name": null,
+     "lon": 133.854,
+     "lat": -19.991,
+     "area_km2": 4436,
+     "discharge_cms": 0.5,
+     "length_km": 195,
+     "km_from_mouth": 300
+    },
+    {
+     "name": null,
+     "lon": 134.139,
+     "lat": -20.856,
+     "area_km2": 3030,
+     "discharge_cms": 1.2,
+     "length_km": 159,
+     "km_from_mouth": 413
+    },
+    {
+     "name": null,
+     "lon": 133.674,
+     "lat": -19.832,
+     "area_km2": 2486,
+     "discharge_cms": 0.3,
+     "length_km": 189,
+     "km_from_mouth": 246
+    },
+    {
+     "name": null,
+     "lon": 134.286,
+     "lat": -21.256,
+     "area_km2": 2448,
+     "discharge_cms": 1.2,
+     "length_km": 144,
+     "km_from_mouth": 487
+    }
+   ]
+  },
+  {
+   "slug": "murchison",
+   "name": "Murchison",
+   "main_riv": 50668155,
+   "bounds": [
+    114.1604,
+    -28.0771,
+    119.3417,
+    -25.4458
+   ],
+   "segments": 611,
+   "segments_total": 3295,
+   "max_ord_flow": 7,
+   "travel_time_h": 1672.1,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 65654,
+   "discharge_cms": 22.0,
+   "main_length_km": 937,
+   "network_length_km": 15679,
+   "drainage_density": 0.239,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1662,
+    "2": 738,
+    "3": 367,
+    "4": 209,
+    "5": 156,
+    "6": 163
+   },
+   "runoff_mm": 11,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 116.329,
+     "lat": -27.323,
+     "area_km2": 9635,
+     "discharge_cms": 5.3,
+     "length_km": 223,
+     "km_from_mouth": 332
+    },
+    {
+     "name": null,
+     "lon": 118.03,
+     "lat": -25.708,
+     "area_km2": 6240,
+     "discharge_cms": 1.6,
+     "length_km": 215,
+     "km_from_mouth": 658
+    },
+    {
+     "name": null,
+     "lon": 118.298,
+     "lat": -26.119,
+     "area_km2": 6084,
+     "discharge_cms": 0.0,
+     "length_km": 193,
+     "km_from_mouth": 706
+    },
+    {
+     "name": null,
+     "lon": 116.96,
+     "lat": -26.29,
+     "area_km2": 5661,
+     "discharge_cms": 1.8,
+     "length_km": 179,
+     "km_from_mouth": 516
+    },
+    {
+     "name": null,
+     "lon": 116.44,
+     "lat": -26.969,
+     "area_km2": 5619,
+     "discharge_cms": 2.5,
+     "length_km": 176,
+     "km_from_mouth": 418
+    },
+    {
+     "name": null,
+     "lon": 114.396,
+     "lat": -27.435,
+     "area_km2": 1146,
+     "discharge_cms": 0.9,
+     "length_km": 75,
+     "km_from_mouth": 39
+    }
+   ]
+  },
+  {
+   "slug": "fly",
+   "name": "Fly",
+   "main_riv": 50420287,
+   "bounds": [
+    140.6542,
+    -8.6708,
+    143.7125,
+    -4.8708
+   ],
+   "segments": 14867,
+   "segments_total": 14867,
+   "max_ord_flow": 7,
+   "travel_time_h": 294.5,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 63708,
+   "discharge_cms": 4787.7,
+   "main_length_km": 974,
+   "network_length_km": 29943,
+   "drainage_density": 0.47,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 7686,
+    "2": 3350,
+    "3": 1799,
+    "4": 1027,
+    "5": 425,
+    "6": 379,
+    "7": 134,
+    "8": 67
+   },
+   "runoff_mm": 2370,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Papua-Neuguinea",
+     "share": 0.967
+    },
+    {
+     "name": "Indonesien",
+     "share": 0.033
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Fly",
+     "lon": 140.948,
+     "lat": -6.881,
+     "area_km2": 19528,
+     "discharge_cms": 2005.2,
+     "length_km": 554,
+     "km_from_mouth": 234
+    },
+    {
+     "name": null,
+     "lon": 141.523,
+     "lat": -6.967,
+     "area_km2": 7250,
+     "discharge_cms": 547.3,
+     "length_km": 202,
+     "km_from_mouth": 316
+    },
+    {
+     "name": null,
+     "lon": 142.341,
+     "lat": -6.412,
+     "area_km2": 2379,
+     "discharge_cms": 209.9,
+     "length_km": 131,
+     "km_from_mouth": 560
+    },
+    {
+     "name": null,
+     "lon": 142.175,
+     "lat": -5.098,
+     "area_km2": 1994,
+     "discharge_cms": 152.4,
+     "length_km": 85,
+     "km_from_mouth": 750
+    },
+    {
+     "name": null,
+     "lon": 142.29,
+     "lat": -6.543,
+     "area_km2": 1280,
+     "discharge_cms": 122.3,
+     "length_km": 111,
+     "km_from_mouth": 522
+    },
+    {
+     "name": null,
+     "lon": 141.727,
+     "lat": -8.013,
+     "area_km2": 1279,
+     "discharge_cms": 37.2,
+     "length_km": 77,
+     "km_from_mouth": 116
+    }
+   ]
+  },
+  {
+   "slug": "mitchell",
+   "name": "Mitchell",
+   "main_riv": 50464082,
+   "bounds": [
+    141.6771,
+    -18.2333,
+    145.5,
+    -14.9375
+   ],
+   "segments": 2302,
+   "segments_total": 2795,
+   "max_ord_flow": 7,
+   "travel_time_h": 223.1,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 63659,
+   "discharge_cms": 531.0,
+   "main_length_km": 640,
+   "network_length_km": 14781,
+   "drainage_density": 0.232,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1405,
+    "2": 656,
+    "3": 328,
+    "4": 204,
+    "5": 128,
+    "6": 74
+   },
+   "runoff_mm": 263,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 142.301,
+     "lat": -15.571,
+     "area_km2": 12811,
+     "discharge_cms": 171.3,
+     "length_km": 232,
+     "km_from_mouth": 42
+    },
+    {
+     "name": null,
+     "lon": 143.531,
+     "lat": -17.138,
+     "area_km2": 12046,
+     "discharge_cms": 36.6,
+     "length_km": 317,
+     "km_from_mouth": 271
+    },
+    {
+     "name": null,
+     "lon": 144.171,
+     "lat": -16.984,
+     "area_km2": 8720,
+     "discharge_cms": 43.0,
+     "length_km": 327,
+     "km_from_mouth": 324
+    },
+    {
+     "name": null,
+     "lon": 143.711,
+     "lat": -15.978,
+     "area_km2": 8169,
+     "discharge_cms": 58.7,
+     "length_km": 376,
+     "km_from_mouth": 183
+    },
+    {
+     "name": null,
+     "lon": 142.322,
+     "lat": -15.215,
+     "area_km2": 2650,
+     "discharge_cms": 41.1,
+     "length_km": 136,
+     "km_from_mouth": 30
+    },
+    {
+     "name": null,
+     "lon": 143.105,
+     "lat": -16.299,
+     "area_km2": 1995,
+     "discharge_cms": 11.3,
+     "length_km": 118,
+     "km_from_mouth": 218
+    }
+   ]
+  },
+  {
+   "slug": "paroo",
+   "name": "Paroo",
+   "main_riv": 50727788,
+   "bounds": [
+    143.275,
+    -30.9979,
+    145.7062,
+    -26.1
+   ],
+   "segments": 858,
+   "segments_total": 2700,
+   "max_ord_flow": 7,
+   "travel_time_h": 663.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 58974,
+   "discharge_cms": 55.3,
+   "main_length_km": 739,
+   "network_length_km": 12780,
+   "drainage_density": 0.217,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1358,
+    "2": 626,
+    "3": 298,
+    "4": 180,
+    "5": 128,
+    "6": 110
+   },
+   "runoff_mm": 30,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 144.318,
+     "lat": -29.861,
+     "area_km2": 13904,
+     "discharge_cms": 11.4,
+     "length_km": 427,
+     "km_from_mouth": 92
+    },
+    {
+     "name": null,
+     "lon": 144.516,
+     "lat": -30.396,
+     "area_km2": 8111,
+     "discharge_cms": 3.6,
+     "length_km": 321,
+     "km_from_mouth": 69
+    },
+    {
+     "name": null,
+     "lon": 145.379,
+     "lat": -27.158,
+     "area_km2": 4916,
+     "discharge_cms": 2.1,
+     "length_km": 190,
+     "km_from_mouth": 554
+    },
+    {
+     "name": null,
+     "lon": 143.735,
+     "lat": -30.553,
+     "area_km2": 3498,
+     "discharge_cms": 2.7,
+     "length_km": 150,
+     "km_from_mouth": 7
+    },
+    {
+     "name": null,
+     "lon": 144.827,
+     "lat": -28.098,
+     "area_km2": 3032,
+     "discharge_cms": 3.0,
+     "length_km": 142,
+     "km_from_mouth": 430
+    },
+    {
+     "name": null,
+     "lon": 145.371,
+     "lat": -28.113,
+     "area_km2": 2660,
+     "discharge_cms": 2.4,
+     "length_km": 170,
+     "km_from_mouth": 457
+    }
+   ]
+  },
+  {
+   "slug": "daly",
+   "name": "Daly",
+   "main_riv": 50451134,
+   "bounds": [
+    130.2083,
+    -16.1708,
+    133.475,
+    -13.2542
+   ],
+   "segments": 2344,
+   "segments_total": 2854,
+   "max_ord_flow": 7,
+   "travel_time_h": 276.4,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 54522,
+   "discharge_cms": 548.8,
+   "main_length_km": 668,
+   "network_length_km": 12381,
+   "drainage_density": 0.227,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1440,
+    "2": 675,
+    "3": 391,
+    "4": 141,
+    "5": 96,
+    "6": 111
+   },
+   "runoff_mm": 317,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Katherine",
+     "lon": 132.281,
+     "lat": -14.431,
+     "area_km2": 9883,
+     "discharge_cms": 59.6,
+     "length_km": 289,
+     "km_from_mouth": 383
+    },
+    {
+     "name": null,
+     "lon": 131.53,
+     "lat": -14.82,
+     "area_km2": 6876,
+     "discharge_cms": 27.2,
+     "length_km": 138,
+     "km_from_mouth": 347
+    },
+    {
+     "name": null,
+     "lon": 131.825,
+     "lat": -14.319,
+     "area_km2": 4834,
+     "discharge_cms": 30.6,
+     "length_km": 173,
+     "km_from_mouth": 316
+    },
+    {
+     "name": null,
+     "lon": 130.44,
+     "lat": -13.785,
+     "area_km2": 2456,
+     "discharge_cms": 49.5,
+     "length_km": 126,
+     "km_from_mouth": 54
+    },
+    {
+     "name": null,
+     "lon": 132.255,
+     "lat": -15.447,
+     "area_km2": 2315,
+     "discharge_cms": 5.6,
+     "length_km": 141,
+     "km_from_mouth": 503
+    },
+    {
+     "name": null,
+     "lon": 132.56,
+     "lat": -14.915,
+     "area_km2": 2103,
+     "discharge_cms": 7.5,
+     "length_km": 103,
+     "km_from_mouth": 444
+    }
+   ]
+  },
+  {
+   "slug": "barkly-tafelland-becken",
+   "name": "Barkly-Tafelland-Becken",
+   "main_riv": 50506414,
+   "bounds": [
+    134.5333,
+    -21.1271,
+    137.4333,
+    -18.5792
+   ],
+   "segments": 626,
+   "segments_total": 2404,
+   "max_ord_flow": 7,
+   "travel_time_h": 440.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 53579,
+   "discharge_cms": 14.8,
+   "main_length_km": 437,
+   "network_length_km": 12492,
+   "drainage_density": 0.233,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1211,
+    "2": 550,
+    "3": 343,
+    "4": 196,
+    "5": 83,
+    "6": 21
+   },
+   "runoff_mm": 9,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 135.619,
+     "lat": -19.173,
+     "area_km2": 14724,
+     "discharge_cms": 3.3,
+     "length_km": 309,
+     "km_from_mouth": 8
+    },
+    {
+     "name": null,
+     "lon": 136.435,
+     "lat": -19.244,
+     "area_km2": 9604,
+     "discharge_cms": 9.6,
+     "length_km": 243,
+     "km_from_mouth": 86
+    },
+    {
+     "name": null,
+     "lon": 135.574,
+     "lat": -20.267,
+     "area_km2": 5182,
+     "discharge_cms": 1.3,
+     "length_km": 197,
+     "km_from_mouth": 197
+    },
+    {
+     "name": null,
+     "lon": 135.714,
+     "lat": -19.714,
+     "area_km2": 3372,
+     "discharge_cms": 1.5,
+     "length_km": 245,
+     "km_from_mouth": 114
+    },
+    {
+     "name": null,
+     "lon": 135.935,
+     "lat": -18.885,
+     "area_km2": 3334,
+     "discharge_cms": 1.5,
+     "length_km": 126,
+     "km_from_mouth": 11
+    },
+    {
+     "name": null,
+     "lon": 136.244,
+     "lat": -19.888,
+     "area_km2": 2283,
+     "discharge_cms": 0.3,
+     "length_km": 129,
+     "km_from_mouth": 144
+    }
+   ]
+  },
+  {
+   "slug": "de-grey",
+   "name": "De Grey",
+   "main_riv": 50522077,
+   "bounds": [
+    118.9396,
+    -23.1521,
+    121.5833,
+    -20.0021
+   ],
+   "segments": 1063,
+   "segments_total": 2502,
+   "max_ord_flow": 7,
+   "travel_time_h": 268.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 53452,
+   "discharge_cms": 86.7,
+   "main_length_km": 566,
+   "network_length_km": 12240,
+   "drainage_density": 0.229,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1257,
+    "2": 614,
+    "3": 286,
+    "4": 239,
+    "5": 89,
+    "6": 17
+   },
+   "runoff_mm": 51,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 119.327,
+     "lat": -21.315,
+     "area_km2": 7626,
+     "discharge_cms": 15.7,
+     "length_km": 320,
+     "km_from_mouth": 52
+    },
+    {
+     "name": null,
+     "lon": 120.512,
+     "lat": -21.209,
+     "area_km2": 7223,
+     "discharge_cms": 7.7,
+     "length_km": 283,
+     "km_from_mouth": 209
+    },
+    {
+     "name": null,
+     "lon": 119.749,
+     "lat": -21.097,
+     "area_km2": 7022,
+     "discharge_cms": 10.8,
+     "length_km": 255,
+     "km_from_mouth": 93
+    },
+    {
+     "name": null,
+     "lon": 120.89,
+     "lat": -21.976,
+     "area_km2": 4984,
+     "discharge_cms": 4.2,
+     "length_km": 169,
+     "km_from_mouth": 366
+    },
+    {
+     "name": null,
+     "lon": 119.268,
+     "lat": -20.538,
+     "area_km2": 2726,
+     "discharge_cms": 8.0,
+     "length_km": 148,
+     "km_from_mouth": 40
+    },
+    {
+     "name": null,
+     "lon": 121.056,
+     "lat": -22.313,
+     "area_km2": 1987,
+     "discharge_cms": 1.3,
+     "length_km": 120,
+     "km_from_mouth": 414
+    }
+   ]
+  },
+  {
+   "slug": "finke",
+   "name": "Finke",
+   "main_riv": 50665574,
+   "bounds": [
+    131.575,
+    -27.5729,
+    136.8396,
+    -23.4688
+   ],
+   "segments": 1026,
+   "segments_total": 2393,
+   "max_ord_flow": 7,
+   "travel_time_h": 392.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 53353,
+   "discharge_cms": 71.4,
+   "main_length_km": 995,
+   "network_length_km": 12498,
+   "drainage_density": 0.234,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1208,
+    "2": 562,
+    "3": 303,
+    "4": 144,
+    "5": 98,
+    "6": 78
+   },
+   "runoff_mm": 42,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 134.058,
+     "lat": -24.674,
+     "area_km2": 8572,
+     "discharge_cms": 12.1,
+     "length_km": 319,
+     "km_from_mouth": 560
+    },
+    {
+     "name": null,
+     "lon": 132.935,
+     "lat": -24.652,
+     "area_km2": 8080,
+     "discharge_cms": 15.3,
+     "length_km": 292,
+     "km_from_mouth": 706
+    },
+    {
+     "name": null,
+     "lon": 136.195,
+     "lat": -26.937,
+     "area_km2": 3964,
+     "discharge_cms": 3.3,
+     "length_km": 156,
+     "km_from_mouth": 78
+    },
+    {
+     "name": null,
+     "lon": 134.922,
+     "lat": -25.926,
+     "area_km2": 3540,
+     "discharge_cms": 3.8,
+     "length_km": 155,
+     "km_from_mouth": 340
+    },
+    {
+     "name": null,
+     "lon": 135.782,
+     "lat": -26.385,
+     "area_km2": 2281,
+     "discharge_cms": 2.2,
+     "length_km": 88,
+     "km_from_mouth": 185
+    },
+    {
+     "name": null,
+     "lon": 132.883,
+     "lat": -23.956,
+     "area_km2": 1630,
+     "discharge_cms": 3.7,
+     "length_km": 114,
+     "km_from_mouth": 859
+    }
+   ]
+  },
+  {
+   "slug": "ord",
+   "name": "Ord",
+   "main_riv": 50466395,
+   "bounds": [
+    127.2917,
+    -18.6521,
+    130.0375,
+    -15.3542
+   ],
+   "segments": 1813,
+   "segments_total": 2538,
+   "max_ord_flow": 7,
+   "travel_time_h": 243.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 52660,
+   "discharge_cms": 363.0,
+   "main_length_km": 590,
+   "network_length_km": 11679,
+   "drainage_density": 0.222,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1284,
+    "2": 582,
+    "3": 306,
+    "4": 228,
+    "5": 67,
+    "6": 71
+   },
+   "runoff_mm": 217,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 129.209,
+     "lat": -17.175,
+     "area_km2": 8900,
+     "discharge_cms": 72.5,
+     "length_km": 208,
+     "km_from_mouth": 296
+    },
+    {
+     "name": null,
+     "lon": 128.435,
+     "lat": -16.81,
+     "area_km2": 6979,
+     "discharge_cms": 36.4,
+     "length_km": 238,
+     "km_from_mouth": 217
+    },
+    {
+     "name": null,
+     "lon": 128.154,
+     "lat": -17.513,
+     "area_km2": 4844,
+     "discharge_cms": 7.2,
+     "length_km": 187,
+     "km_from_mouth": 402
+    },
+    {
+     "name": null,
+     "lon": 128.534,
+     "lat": -15.969,
+     "area_km2": 4106,
+     "discharge_cms": 27.7,
+     "length_km": 171,
+     "km_from_mouth": 97
+    },
+    {
+     "name": null,
+     "lon": 128.512,
+     "lat": -17.906,
+     "area_km2": 3197,
+     "discharge_cms": 7.8,
+     "length_km": 174,
+     "km_from_mouth": 375
+    },
+    {
+     "name": null,
+     "lon": 128.055,
+     "lat": -17.87,
+     "area_km2": 2820,
+     "discharge_cms": 5.0,
+     "length_km": 113,
+     "km_from_mouth": 443
+    }
+   ]
+  },
+  {
+   "slug": "bulloo",
+   "name": "Bulloo",
+   "main_riv": 50700504,
+   "bounds": [
+    141.6458,
+    -29.6,
+    145.4875,
+    -24.7875
+   ],
+   "segments": 812,
+   "segments_total": 2385,
+   "max_ord_flow": 7,
+   "travel_time_h": 645.5,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 51864,
+   "discharge_cms": 110.5,
+   "main_length_km": 756,
+   "network_length_km": 11428,
+   "drainage_density": 0.22,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1199,
+    "2": 577,
+    "3": 306,
+    "4": 151,
+    "5": 39,
+    "6": 113
+   },
+   "runoff_mm": 67,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 144.335,
+     "lat": -27.194,
+     "area_km2": 5006,
+     "discharge_cms": 8.5,
+     "length_km": 191,
+     "km_from_mouth": 407
+    },
+    {
+     "name": null,
+     "lon": 142.275,
+     "lat": -29.331,
+     "area_km2": 3663,
+     "discharge_cms": 4.7,
+     "length_km": 159,
+     "km_from_mouth": 15
+    },
+    {
+     "name": null,
+     "lon": 144.569,
+     "lat": -25.554,
+     "area_km2": 3590,
+     "discharge_cms": 6.0,
+     "length_km": 165,
+     "km_from_mouth": 594
+    },
+    {
+     "name": null,
+     "lon": 142.639,
+     "lat": -28.499,
+     "area_km2": 2696,
+     "discharge_cms": 0.2,
+     "length_km": 121,
+     "km_from_mouth": 135
+    },
+    {
+     "name": null,
+     "lon": 143.435,
+     "lat": -27.965,
+     "area_km2": 2538,
+     "discharge_cms": 0.3,
+     "length_km": 111,
+     "km_from_mouth": 270
+    },
+    {
+     "name": null,
+     "lon": 143.835,
+     "lat": -27.615,
+     "area_km2": 2422,
+     "discharge_cms": 2.7,
+     "length_km": 129,
+     "km_from_mouth": 336
+    }
+   ]
+  },
+  {
+   "slug": "sturt-creek-gregory-see",
+   "name": "Sturt Creek (Gregory-See)",
+   "main_riv": 50525237,
+   "bounds": [
+    127.1125,
+    -20.2333,
+    130.1792,
+    -17.7083
+   ],
+   "segments": 820,
+   "segments_total": 2234,
+   "max_ord_flow": 7,
+   "travel_time_h": 581.9,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 50241,
+   "discharge_cms": 341.4,
+   "main_length_km": 567,
+   "network_length_km": 10989,
+   "drainage_density": 0.219,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1124,
+    "2": 505,
+    "3": 295,
+    "4": 117,
+    "5": 78,
+    "6": 115
+   },
+   "runoff_mm": 214,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 128.327,
+     "lat": -19.498,
+     "area_km2": 14349,
+     "discharge_cms": 5.3,
+     "length_km": 322,
+     "km_from_mouth": 102
+    },
+    {
+     "name": null,
+     "lon": 129.419,
+     "lat": -18.765,
+     "area_km2": 4172,
+     "discharge_cms": 0.0,
+     "length_km": 151,
+     "km_from_mouth": 376
+    },
+    {
+     "name": null,
+     "lon": 129.599,
+     "lat": -18.448,
+     "area_km2": 3158,
+     "discharge_cms": 1.5,
+     "length_km": 134,
+     "km_from_mouth": 399
+    },
+    {
+     "name": null,
+     "lon": 128.587,
+     "lat": -18.927,
+     "area_km2": 2210,
+     "discharge_cms": 1.2,
+     "length_km": 153,
+     "km_from_mouth": 222
+    },
+    {
+     "name": null,
+     "lon": 127.576,
+     "lat": -19.306,
+     "area_km2": 2042,
+     "discharge_cms": 4.8,
+     "length_km": 87,
+     "km_from_mouth": 136
+    },
+    {
+     "name": null,
+     "lon": 127.765,
+     "lat": -19.097,
+     "area_km2": 1782,
+     "discharge_cms": 4.2,
+     "length_km": 115,
+     "km_from_mouth": 143
+    }
+   ]
+  },
+  {
+   "slug": "norman",
+   "name": "Norman",
+   "main_riv": 50488325,
+   "bounds": [
+    140.7896,
+    -19.9438,
+    143.4667,
+    -17.3438
+   ],
+   "segments": 1049,
+   "segments_total": 1533,
+   "max_ord_flow": 7,
+   "travel_time_h": 278.3,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 49405,
+   "discharge_cms": 271.9,
+   "main_length_km": 543,
+   "network_length_km": 12614,
+   "drainage_density": 0.255,
+   "max_strahler": 5,
+   "strahler_counts": {
+    "1": 771,
+    "2": 404,
+    "3": 209,
+    "4": 112,
+    "5": 37
+   },
+   "runoff_mm": 174,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 141.614,
+     "lat": -19.139,
+     "area_km2": 6000,
+     "discharge_cms": 18.2,
+     "length_km": 337,
+     "km_from_mouth": 206
+    },
+    {
+     "name": null,
+     "lon": 142.005,
+     "lat": -18.616,
+     "area_km2": 4903,
+     "discharge_cms": 18.4,
+     "length_km": 276,
+     "km_from_mouth": 166
+    },
+    {
+     "name": null,
+     "lon": 142.266,
+     "lat": -18.882,
+     "area_km2": 4303,
+     "discharge_cms": 17.0,
+     "length_km": 365,
+     "km_from_mouth": 189
+    },
+    {
+     "name": null,
+     "lon": 141.523,
+     "lat": -17.752,
+     "area_km2": 3912,
+     "discharge_cms": 25.2,
+     "length_km": 217,
+     "km_from_mouth": 86
+    },
+    {
+     "name": null,
+     "lon": 141.649,
+     "lat": -18.195,
+     "area_km2": 3478,
+     "discharge_cms": 13.0,
+     "length_km": 192,
+     "km_from_mouth": 142
+    },
+    {
+     "name": null,
+     "lon": 141.157,
+     "lat": -17.477,
+     "area_km2": 3217,
+     "discharge_cms": 22.6,
+     "length_km": 211,
+     "km_from_mouth": 25
+    }
+   ]
+  },
+  {
+   "slug": "fortescue",
+   "name": "Fortescue",
+   "main_riv": 50538951,
+   "bounds": [
+    116.0542,
+    -23.7667,
+    120.9958,
+    -21.0021
+   ],
+   "segments": 857,
+   "segments_total": 2228,
+   "max_ord_flow": 7,
+   "travel_time_h": 638.5,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 47927,
+   "discharge_cms": 15.3,
+   "main_length_km": 812,
+   "network_length_km": 11510,
+   "drainage_density": 0.24,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1120,
+    "2": 545,
+    "3": 264,
+    "4": 89,
+    "5": 14,
+    "6": 196
+   },
+   "runoff_mm": 10,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 119.943,
+     "lat": -23.18,
+     "area_km2": 6545,
+     "discharge_cms": 3.9,
+     "length_km": 247,
+     "km_from_mouth": 577
+    },
+    {
+     "name": null,
+     "lon": 119.242,
+     "lat": -22.785,
+     "area_km2": 4344,
+     "discharge_cms": 3.8,
+     "length_km": 180,
+     "km_from_mouth": 460
+    },
+    {
+     "name": null,
+     "lon": 119.671,
+     "lat": -22.65,
+     "area_km2": 3303,
+     "discharge_cms": 1.8,
+     "length_km": 168,
+     "km_from_mouth": 506
+    },
+    {
+     "name": null,
+     "lon": 120.567,
+     "lat": -23.002,
+     "area_km2": 3089,
+     "discharge_cms": 2.4,
+     "length_km": 146,
+     "km_from_mouth": 598
+    },
+    {
+     "name": null,
+     "lon": 120.245,
+     "lat": -22.765,
+     "area_km2": 1349,
+     "discharge_cms": 0.8,
+     "length_km": 70,
+     "km_from_mouth": 580
+    },
+    {
+     "name": null,
+     "lon": 118.031,
+     "lat": -22.185,
+     "area_km2": 1254,
+     "discharge_cms": 2.1,
+     "length_km": 97,
+     "km_from_mouth": 318
+    }
+   ]
+  },
+  {
+   "slug": "lander",
+   "name": "Lander",
+   "main_riv": 50507912,
+   "bounds": [
+    129.8833,
+    -22.3792,
+    133.0375,
+    -18.9167
+   ],
+   "segments": 513,
+   "segments_total": 2018,
+   "max_ord_flow": 7,
+   "travel_time_h": 440.1,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 44466,
+   "discharge_cms": 23.7,
+   "main_length_km": 598,
+   "network_length_km": 10431,
+   "drainage_density": 0.235,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1016,
+    "2": 505,
+    "3": 271,
+    "4": 101,
+    "5": 60,
+    "6": 65
+   },
+   "runoff_mm": 17,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 131.234,
+     "lat": -19.374,
+     "area_km2": 11184,
+     "discharge_cms": 8.2,
+     "length_km": 255,
+     "km_from_mouth": 105
+    },
+    {
+     "name": null,
+     "lon": 132.431,
+     "lat": -21.452,
+     "area_km2": 4546,
+     "discharge_cms": 4.8,
+     "length_km": 208,
+     "km_from_mouth": 392
+    },
+    {
+     "name": null,
+     "lon": 131.333,
+     "lat": -19.723,
+     "area_km2": 4495,
+     "discharge_cms": 1.4,
+     "length_km": 143,
+     "km_from_mouth": 155
+    },
+    {
+     "name": null,
+     "lon": 131.901,
+     "lat": -20.444,
+     "area_km2": 2779,
+     "discharge_cms": 0.7,
+     "length_km": 105,
+     "km_from_mouth": 268
+    },
+    {
+     "name": null,
+     "lon": 131.769,
+     "lat": -19.552,
+     "area_km2": 2336,
+     "discharge_cms": 0.9,
+     "length_km": 119,
+     "km_from_mouth": 104
+    },
+    {
+     "name": null,
+     "lon": 132.752,
+     "lat": -21.344,
+     "area_km2": 1826,
+     "discharge_cms": 1.4,
+     "length_km": 102,
+     "km_from_mouth": 415
+    }
+   ]
+  },
+  {
+   "slug": "nicholson",
+   "name": "Nicholson",
+   "main_riv": 50488494,
+   "bounds": [
+    136.6667,
+    -19.9083,
+    139.6021,
+    -17.525
+   ],
+   "segments": 1087,
+   "segments_total": 1894,
+   "max_ord_flow": 7,
+   "travel_time_h": 281.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 43396,
+   "discharge_cms": 159.4,
+   "main_length_km": 449,
+   "network_length_km": 9299,
+   "drainage_density": 0.214,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 954,
+    "2": 455,
+    "3": 263,
+    "4": 121,
+    "5": 94,
+    "6": 7
+   },
+   "runoff_mm": 116,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 138.265,
+     "lat": -17.885,
+     "area_km2": 15052,
+     "discharge_cms": 70.5,
+     "length_km": 386,
+     "km_from_mouth": 72
+    },
+    {
+     "name": null,
+     "lon": 138.474,
+     "lat": -18.299,
+     "area_km2": 11323,
+     "discharge_cms": 40.0,
+     "length_km": 349,
+     "km_from_mouth": 92
+    },
+    {
+     "name": null,
+     "lon": 138.465,
+     "lat": -19.127,
+     "area_km2": 5470,
+     "discharge_cms": 8.5,
+     "length_km": 173,
+     "km_from_mouth": 248
+    },
+    {
+     "name": null,
+     "lon": 138.915,
+     "lat": -19.448,
+     "area_km2": 1753,
+     "discharge_cms": 2.3,
+     "length_km": 103,
+     "km_from_mouth": 298
+    },
+    {
+     "name": null,
+     "lon": 138.905,
+     "lat": -18.462,
+     "area_km2": 1706,
+     "discharge_cms": 4.9,
+     "length_km": 110,
+     "km_from_mouth": 112
+    },
+    {
+     "name": null,
+     "lon": 139.2,
+     "lat": -18.454,
+     "area_km2": 1074,
+     "discharge_cms": 4.2,
+     "length_km": 97,
+     "km_from_mouth": 121
+    }
+   ]
+  },
+  {
+   "slug": "grose-victoria-wuste-becken",
+   "name": "Große-Victoria-Wüste-Becken",
+   "main_riv": 50668299,
+   "bounds": [
+    126.6208,
+    -27.7458,
+    129.8292,
+    -25.0333
+   ],
+   "segments": 325,
+   "segments_total": 2030,
+   "max_ord_flow": 7,
+   "travel_time_h": 468.9,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 43107,
+   "discharge_cms": 7.5,
+   "main_length_km": 567,
+   "network_length_km": 10841,
+   "drainage_density": 0.251,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1022,
+    "2": 505,
+    "3": 278,
+    "4": 79,
+    "5": 113,
+    "6": 33
+   },
+   "runoff_mm": 5,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 127.869,
+     "lat": -26.126,
+     "area_km2": 14384,
+     "discharge_cms": 2.5,
+     "length_km": 397,
+     "km_from_mouth": 158
+    },
+    {
+     "name": null,
+     "lon": 127.611,
+     "lat": -26.326,
+     "area_km2": 2831,
+     "discharge_cms": 0.6,
+     "length_km": 174,
+     "km_from_mouth": 177
+    },
+    {
+     "name": null,
+     "lon": 127.058,
+     "lat": -26.585,
+     "area_km2": 2665,
+     "discharge_cms": 0.6,
+     "length_km": 102,
+     "km_from_mouth": 191
+    },
+    {
+     "name": null,
+     "lon": 127.771,
+     "lat": -26.933,
+     "area_km2": 2613,
+     "discharge_cms": 0.5,
+     "length_km": 126,
+     "km_from_mouth": 101
+    },
+    {
+     "name": null,
+     "lon": 127.312,
+     "lat": -27.39,
+     "area_km2": 2356,
+     "discharge_cms": 0.5,
+     "length_km": 113,
+     "km_from_mouth": 38
+    },
+    {
+     "name": null,
+     "lon": 127.056,
+     "lat": -26.385,
+     "area_km2": 1756,
+     "discharge_cms": 0.3,
+     "length_km": 104,
+     "km_from_mouth": 210
+    }
+   ]
+  },
+  {
+   "slug": "gilbert",
+   "name": "Gilbert",
+   "main_riv": 50478600,
+   "bounds": [
+    141.2062,
+    -19.6063,
+    144.75,
+    -16.6896
+   ],
+   "segments": 1200,
+   "segments_total": 1843,
+   "max_ord_flow": 7,
+   "travel_time_h": 215.2,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 40548,
+   "discharge_cms": 180.0,
+   "main_length_km": 637,
+   "network_length_km": 9460,
+   "drainage_density": 0.233,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 928,
+    "2": 419,
+    "3": 222,
+    "4": 153,
+    "5": 100,
+    "6": 21
+   },
+   "runoff_mm": 140,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 143.261,
+     "lat": -18.315,
+     "area_km2": 14165,
+     "discharge_cms": 50.4,
+     "length_km": 450,
+     "km_from_mouth": 170
+    },
+    {
+     "name": null,
+     "lon": 143.326,
+     "lat": -18.139,
+     "area_km2": 3882,
+     "discharge_cms": 16.1,
+     "length_km": 184,
+     "km_from_mouth": 265
+    },
+    {
+     "name": null,
+     "lon": 144.14,
+     "lat": -18.728,
+     "area_km2": 3092,
+     "discharge_cms": 8.4,
+     "length_km": 172,
+     "km_from_mouth": 469
+    },
+    {
+     "name": null,
+     "lon": 142.562,
+     "lat": -17.731,
+     "area_km2": 2839,
+     "discharge_cms": 16.6,
+     "length_km": 135,
+     "km_from_mouth": 203
+    },
+    {
+     "name": null,
+     "lon": 144.265,
+     "lat": -18.198,
+     "area_km2": 1974,
+     "discharge_cms": 6.1,
+     "length_km": 129,
+     "km_from_mouth": 415
+    },
+    {
+     "name": null,
+     "lon": 144.398,
+     "lat": -19.027,
+     "area_km2": 1397,
+     "discharge_cms": 3.8,
+     "length_km": 103,
+     "km_from_mouth": 535
+    }
+   ]
+  },
+  {
+   "slug": "yarra-yarra-seen",
+   "name": "Yarra-Yarra-Seen",
+   "main_riv": 50707499,
+   "bounds": [
+    115.6833,
+    -30.15,
+    118.1458,
+    -27.7458
+   ],
+   "segments": 174,
+   "segments_total": 1881,
+   "max_ord_flow": 7,
+   "travel_time_h": 889.4,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 36519,
+   "discharge_cms": 9.7,
+   "main_length_km": 452,
+   "network_length_km": 8021,
+   "drainage_density": 0.22,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 947,
+    "2": 444,
+    "3": 218,
+    "4": 76,
+    "5": 156,
+    "6": 40
+   },
+   "runoff_mm": 8,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 116.68,
+     "lat": -29.351,
+     "area_km2": 15151,
+     "discharge_cms": 0.0,
+     "length_km": 310,
+     "km_from_mouth": 120
+    },
+    {
+     "name": null,
+     "lon": 116.65,
+     "lat": -28.11,
+     "area_km2": 2294,
+     "discharge_cms": 0.0,
+     "length_km": 110,
+     "km_from_mouth": 229
+    },
+    {
+     "name": null,
+     "lon": 116.655,
+     "lat": -28.613,
+     "area_km2": 1727,
+     "discharge_cms": 0.2,
+     "length_km": 87,
+     "km_from_mouth": 187
+    },
+    {
+     "name": null,
+     "lon": 116.004,
+     "lat": -28.983,
+     "area_km2": 1660,
+     "discharge_cms": 1.2,
+     "length_km": 111,
+     "km_from_mouth": 86
+    },
+    {
+     "name": null,
+     "lon": 117.818,
+     "lat": -28.203,
+     "area_km2": 1096,
+     "discharge_cms": 0.1,
+     "length_km": 63,
+     "km_from_mouth": 374
+    },
+    {
+     "name": null,
+     "lon": 115.931,
+     "lat": -29.633,
+     "area_km2": 932,
+     "discharge_cms": 0.5,
+     "length_km": 77,
+     "km_from_mouth": 25
+    }
+   ]
+  },
+  {
+   "slug": "burnett",
+   "name": "Burnett",
+   "main_riv": 50611274,
+   "bounds": [
+    150.3312,
+    -26.9208,
+    152.3875,
+    -24.4208
+   ],
+   "segments": 564,
+   "segments_total": 1579,
+   "max_ord_flow": 7,
+   "travel_time_h": 375.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 33204,
+   "discharge_cms": 40.6,
+   "main_length_km": 479,
+   "network_length_km": 7419,
+   "drainage_density": 0.223,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 797,
+    "2": 359,
+    "3": 214,
+    "4": 114,
+    "5": 48,
+    "6": 47
+   },
+   "runoff_mm": 39,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 150.821,
+     "lat": -25.763,
+     "area_km2": 7311,
+     "discharge_cms": 2.7,
+     "length_km": 233,
+     "km_from_mouth": 252
+    },
+    {
+     "name": null,
+     "lon": 151.721,
+     "lat": -26.092,
+     "area_km2": 5892,
+     "discharge_cms": 8.7,
+     "length_km": 257,
+     "km_from_mouth": 186
+    },
+    {
+     "name": null,
+     "lon": 151.461,
+     "lat": -25.877,
+     "area_km2": 5716,
+     "discharge_cms": 3.3,
+     "length_km": 228,
+     "km_from_mouth": 249
+    },
+    {
+     "name": null,
+     "lon": 150.982,
+     "lat": -25.132,
+     "area_km2": 2519,
+     "discharge_cms": 1.1,
+     "length_km": 130,
+     "km_from_mouth": 311
+    },
+    {
+     "name": null,
+     "lon": 151.305,
+     "lat": -25.112,
+     "area_km2": 1611,
+     "discharge_cms": 1.0,
+     "length_km": 93,
+     "km_from_mouth": 339
+    },
+    {
+     "name": null,
+     "lon": 151.517,
+     "lat": -25.442,
+     "area_km2": 803,
+     "discharge_cms": 1.4,
+     "length_km": 79,
+     "km_from_mouth": 202
+    }
+   ]
+  },
+  {
+   "slug": "leichhardt",
+   "name": "Leichhardt",
+   "main_riv": 50491191,
+   "bounds": [
+    139.0083,
+    -21.0667,
+    140.5792,
+    -17.6104
+   ],
+   "segments": 740,
+   "segments_total": 1413,
+   "max_ord_flow": 7,
+   "travel_time_h": 267.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 32657,
+   "discharge_cms": 101.2,
+   "main_length_km": 560,
+   "network_length_km": 7180,
+   "drainage_density": 0.22,
+   "max_strahler": 5,
+   "strahler_counts": {
+    "1": 712,
+    "2": 331,
+    "3": 199,
+    "4": 71,
+    "5": 100
+   },
+   "runoff_mm": 98,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 140.176,
+     "lat": -18.351,
+     "area_km2": 7319,
+     "discharge_cms": 28.2,
+     "length_km": 287,
+     "km_from_mouth": 67
+    },
+    {
+     "name": null,
+     "lon": 139.533,
+     "lat": -19.454,
+     "area_km2": 6154,
+     "discharge_cms": 13.0,
+     "length_km": 208,
+     "km_from_mouth": 259
+    },
+    {
+     "name": null,
+     "lon": 139.723,
+     "lat": -18.506,
+     "area_km2": 2527,
+     "discharge_cms": 8.3,
+     "length_km": 165,
+     "km_from_mouth": 132
+    },
+    {
+     "name": null,
+     "lon": 139.446,
+     "lat": -18.921,
+     "area_km2": 2358,
+     "discharge_cms": 5.3,
+     "length_km": 137,
+     "km_from_mouth": 185
+    },
+    {
+     "name": null,
+     "lon": 139.794,
+     "lat": -20.705,
+     "area_km2": 1086,
+     "discharge_cms": 1.6,
+     "length_km": 83,
+     "km_from_mouth": 472
+    },
+    {
+     "name": null,
+     "lon": 139.601,
+     "lat": -20.223,
+     "area_km2": 941,
+     "discharge_cms": 1.6,
+     "length_km": 70,
+     "km_from_mouth": 419
+    }
+   ]
+  },
+  {
+   "slug": "purari",
+   "name": "Purari",
+   "main_riv": 50410395,
+   "bounds": [
+    143.3542,
+    -7.8146,
+    146.0292,
+    -5.575
+   ],
+   "segments": 5480,
+   "segments_total": 5480,
+   "max_ord_flow": 7,
+   "travel_time_h": 127.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 31683,
+   "discharge_cms": 1564.5,
+   "main_length_km": 625,
+   "network_length_km": 12787,
+   "drainage_density": 0.404,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2820,
+    "2": 1297,
+    "3": 557,
+    "4": 354,
+    "5": 194,
+    "6": 128,
+    "7": 130
+   },
+   "runoff_mm": 1557,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Papua-Neuguinea",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 144.172,
+     "lat": -6.64,
+     "area_km2": 5875,
+     "discharge_cms": 381.3,
+     "length_km": 256,
+     "km_from_mouth": 297
+    },
+    {
+     "name": null,
+     "lon": 145.352,
+     "lat": -6.898,
+     "area_km2": 4370,
+     "discharge_cms": 143.3,
+     "length_km": 154,
+     "km_from_mouth": 145
+    },
+    {
+     "name": null,
+     "lon": 144.382,
+     "lat": -6.24,
+     "area_km2": 3847,
+     "discharge_cms": 221.0,
+     "length_km": 151,
+     "km_from_mouth": 346
+    },
+    {
+     "name": null,
+     "lon": 145.277,
+     "lat": -6.283,
+     "area_km2": 3129,
+     "discharge_cms": 105.9,
+     "length_km": 97,
+     "km_from_mouth": 438
+    },
+    {
+     "name": null,
+     "lon": 144.931,
+     "lat": -6.74,
+     "area_km2": 2000,
+     "discharge_cms": 102.8,
+     "length_km": 118,
+     "km_from_mouth": 274
+    },
+    {
+     "name": null,
+     "lon": 145.0,
+     "lat": -5.983,
+     "area_km2": 633,
+     "discharge_cms": 32.2,
+     "length_km": 45,
+     "km_from_mouth": 495
+    }
+   ]
+  },
+  {
+   "slug": "todd-hale",
+   "name": "Todd–Hale",
+   "main_riv": 50628407,
+   "bounds": [
+    133.575,
+    -25.8313,
+    135.8354,
+    -23.3792
+   ],
+   "segments": 450,
+   "segments_total": 1403,
+   "max_ord_flow": 7,
+   "travel_time_h": 268.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 31219,
+   "discharge_cms": 29.8,
+   "main_length_km": 464,
+   "network_length_km": 8746,
+   "drainage_density": 0.28,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 707,
+    "2": 346,
+    "3": 151,
+    "4": 118,
+    "5": 70,
+    "6": 11
+   },
+   "runoff_mm": 30,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Australien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 135.256,
+     "lat": -24.574,
+     "area_km2": 9078,
+     "discharge_cms": 2.4,
+     "length_km": 352,
+     "km_from_mouth": 79
+    },
+    {
+     "name": null,
+     "lon": 135.456,
+     "lat": -25.409,
+     "area_km2": 9065,
+     "discharge_cms": 2.8,
+     "length_km": 221,
+     "km_from_mouth": 8
+    },
+    {
+     "name": null,
+     "lon": 134.493,
+     "lat": -23.636,
+     "area_km2": 1584,
+     "discharge_cms": 3.9,
+     "length_km": 95,
+     "km_from_mouth": 334
+    },
+    {
+     "name": null,
+     "lon": 134.752,
+     "lat": -23.731,
+     "area_km2": 1169,
+     "discharge_cms": 2.9,
+     "length_km": 88,
+     "km_from_mouth": 308
+    },
+    {
+     "name": null,
+     "lon": 133.877,
+     "lat": -23.71,
+     "area_km2": 641,
+     "discharge_cms": 1.6,
+     "length_km": 83,
+     "km_from_mouth": 392
+    },
+    {
+     "name": null,
+     "lon": 135.531,
+     "lat": -24.34,
+     "area_km2": 589,
+     "discharge_cms": 1.1,
+     "length_km": 73,
+     "km_from_mouth": 168
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+<!-- Inhalt des Reiters „Methode“: wird von main.js geladen und in die Panel-Registerkarte eingesetzt.
+     Nur Markup ohne Skripte; Überschriften h3, Absätze p, Listen ul. -->
+<p class="lead">Die Karte rechnet mit globalen, frei verfügbaren Datensätzen und einigen eigenen Schätzungen. Das ist gut genug, um große Flüsse zu vergleichen, aber es ist keine Messung. Hier steht, wie jede Zahl entsteht und wo sie von dem abweicht, was man aus Atlas oder Lehrbuch kennt.</p>
+
+<h3>Daten</h3>
+<ul>
+  <li><b>HydroRIVERS v1.0</b>: Flussnetz der ganzen Welt aus dem Höhenmodell HydroSHEDS (Auflösung etwa 500 m), jeder Abschnitt mit Abfluss, Einzugsgebiet und Entfernung zur Mündung.</li>
+  <li><b>RiverATLAS v1.0</b>: zu jedem Abschnitt rund 280 Umweltwerte, davon hier Abfluss (Jahresmittel, kleinster und größter Monat), Höhe, Gefälle, Niederschlag und Lufttemperatur.</li>
+  <li><b>GloFAS</b> (Copernicus Emergency Management Service): täglicher Abfluss aus einem hydrologischen Modell auf einem Raster von etwa 5 km, hier 2022–2025.</li>
+  <li><b>WorldClim</b> (über RiverATLAS): Klimamittel 1970–2000.</li>
+  <li><b>Natural Earth</b>: Flussnamen, Länder und Kontinente.</li>
+</ul>
+<p>Alle Kennzahlen gelten für das Einzugsgebiet bis zur Mündung ins Meer oder in einen Endsee, wie HydroRIVERS es abgrenzt.</p>
+
+<h3>Hauptlauf und Quelle</h3>
+<p>An jedem Zusammenfluss folgt der Hauptlauf dem Arm mit dem <b>größeren Einzugsgebiet</b>. Das ist eine eindeutige Regel, aber nicht immer der Fluss, der traditionell als Quellfluss gilt.</p>
+<ul>
+  <li>Beispiel Ganges: Ab Prayagraj ist das Gebiet der Yamuna größer als das des oberen Ganges, weiter oben das des Chambal größer als das der oberen Yamuna. Der Hauptlauf endet deshalb auf dem Malwa-Plateau (Madhya Pradesh) statt am Gletscher Gangotri im Himalaya.</li>
+  <li>Folgte man stattdessen dem größeren Abfluss, käme man beim Ganges in den Karnali (Ghaghara) nach Tibet, also ebenfalls nicht nach Gangotri. Eine Regel, die überall die „klassische“ Quelle trifft, gibt es nicht. Dort entscheiden Geschichte und Konvention.</li>
+  <li><b>Längster Lauf</b> ist dagegen die längste Fließstrecke im ganzen Netz (HydroRIVERS, Entfernung zur entferntesten Quelle). Sie kann einem anderen Arm folgen als der Hauptlauf. Beim Ganges ist der längste Lauf 3.354 km, das Längsprofil entlang des Hauptlaufs aber nur 2.782 km.</li>
+  <li>Längsprofil, „Quelle des Hauptlaufs“ und die Nebenflüsse im Profil beziehen sich immer auf den Hauptlauf.</li>
+  <li><b>Warum weichen die Längen vom Atlas ab?</b> HydroRIVERS misst auf einem Raster von etwa 500 m. Kleine Mäander werden dabei abgeschnitten, Seen und Deltas anders durchlaufen. Atlaslängen stammen aus unterschiedlichen Messungen und Konventionen (Quelle, Mündungsarm) und sind selbst umstritten. Abweichungen von einigen Prozent sind normal, der Nil kommt hier zum Beispiel nicht auf die bekannten 6.650 km.</li>
+</ul>
+
+<h3>Höhen und Längsprofil</h3>
+<p>RiverATLAS kennt keine Höhe des Flussbetts, nur den <b>tiefsten Punkt im Teileinzugsgebiet</b> jedes Abschnitts. Daraus wird das Profil gebaut:</p>
+<ul>
+  <li>Einzelne Senken im Höhenmodell werden mit einem gleitenden Median über 9 Punkte geglättet, dann wird von der Mündung aus aufgefüllt, damit das Profil flussabwärts nie ansteigt.</li>
+  <li>An steilen Oberläufen schneidet das die höchsten Punkte ab. Die angezeigte Quellhöhe ist deshalb eher zu niedrig, im Hochgebirge um mehrere hundert Meter.</li>
+  <li>Seen und Stauseen erscheinen als flache Stufen.</li>
+</ul>
+
+<h3>Abfluss</h3>
+<ul>
+  <li><b>Abfluss Mündung</b> ist das langjährige Mittel aus RiverATLAS. Es ist mit dem globalen Modell WaterGAP berechnet (1971–2000), nicht an Pegeln gemessen. Entnahmen für Bewässerung und Stauseen sind nur zum Teil berücksichtigt. Bei stark genutzten Flüssen (Nil, Colorado, Indus) liegt der Wert deshalb über dem, was heute tatsächlich ankommt.</li>
+  <li><b>Abflusshöhe</b> = Jahresabfluss ÷ Fläche des Einzugsgebiets, als Wassersäule in mm.</li>
+  <li><b>Gezeigt</b> werden Abschnitte ab einer Abflussklasse (HydroRIVERS teilt in Klassen je Faktor 10). Bei großen Becken ist die Grenze höher, damit die Karte flüssig bleibt. Gewässernetz, Flussdichte und Strahler-Ordnung sind trotzdem aus dem vollständigen Netz berechnet.</li>
+</ul>
+
+<h3>Monatswerte: GloFAS oder Modell</h3>
+<p><b>GloFAS</b> (Flüsse mit „G“): Für jeden Abschnitt wird in der Nähe die GloFAS-Zelle mit passendem Abfluss gesucht. Von ihr wird nur der <b>Jahresgang</b> übernommen, also das Verhältnis jedes Monats zum Mittel. Dieser Jahresgang wird mit dem RiverATLAS-Mittel multipliziert. Absolute Werte und Jahresmittel stimmen deshalb mit den anderen Kennzahlen überein, die Form der Jahreszeiten kommt aus GloFAS.</p>
+<ul>
+  <li>Abgefragt ist nur jeder fünfte Tag (1., 6., 11., 16., 21. und 26.), das reicht für Monatsmittel.</li>
+  <li>Bei den einzelnen Jahren ist jeder Monat auf das Mittel aller Jahre bezogen, so bleiben nasse und trockene Jahre sichtbar.</li>
+  <li>GloFAS ist selbst ein Modell. Ein Beispiel: Beim Mekong liegt die Trockenzeit 2023–2025 deutlich unter älteren Pegelwerten (Stauseen, trockene Jahre und die Grenzen des Modells spielen zusammen).</li>
+  <li>Die Zuordnung der Zellen hat einen mittleren Fehler von 0,11 bis 0,23 in log10 (Faktor 1,3 bis 1,7). Kleine Nebenflüsse treffen schlechter als der Hauptstrom.</li>
+</ul>
+<p><b>Modell</b> (alle anderen Flüsse): eine eigene, einfache Schätzung.</p>
+<ul>
+  <li>Für jedes Teileinzugsgebiet gibt es einen Schneespeicher (unter etwa −1 °C fällt Schnee, bei Wärme schmilzt er) und einen Bodenspeicher (Verdunstung je nach Temperatur).</li>
+  <li>Das Wasser wird flussabwärts summiert und mit einer Verzögerung weitergegeben, die mit der Größe des Gebiets wächst.</li>
+  <li>Zum Schluss wird alles an den kleinsten, mittleren und größten Monatsabfluss aus RiverATLAS angepasst.</li>
+</ul>
+<p>Was das Modell nicht kennt:</p>
+<ul>
+  <li>Eisaufbruch: Die Lena hat ihre Flut abrupt im Juni, das Modell verteilt sie über den Sommer.</li>
+  <li>Große Feuchtgebiete und Stauseen: Pantanal und Itaipú machen den Paraná fast gleichmäßig, das Modell zeigt einen Sommergipfel.</li>
+  <li>Stauseen allgemein: Assuan dämpft die Nilflut.</li>
+</ul>
+<p>Im Vergleich mit GloFAS (Korrelation am Orinoco etwa 0,9) stimmt die Form meist, der Zeitpunkt des Gipfels kann um einen Monat danebenliegen.</p>
+<h3>Niederschlag und Abfluss im selben Monat</h3>
+<p>Ein Klick auf einen Monat im Niederschlags-Diagramm färbt die Karte nach dem Abfluss <b>desselben</b> Monats. Der regenreichste Monat ist dabei oft nicht der Monat mit dem meisten Wasser im Fluss: Regen braucht Wochen bis Monate, bis er aus dem Einzugsgebiet an der Mündung ankommt, Schnee schmilzt erst im Frühjahr. Bei großen Flüssen liegt der Abflussgipfel deshalb meist ein bis drei Monate nach dem Niederschlagsgipfel. Das ist keine Ungenauigkeit, sondern die Speicherwirkung des Einzugsgebiets.</p>
+
+<h3>Fließgeschwindigkeit und Fließzeit</h3>
+<ul>
+  <li>Die Geschwindigkeit wird nach der <b>Manning-Formel</b> geschätzt: aus Abfluss und Gefälle, mit einer typischen Breite (w ≈ 7,2·Q<sup>0,5</sup>) und Rauheit n = 0,035, begrenzt auf 0,1–4 m/s.</li>
+  <li>Das Gefälle wird über eine längere Strecke gemittelt (3·√Q km, 10–300 km), weil es zwischen benachbarten Abschnitten stark springt.</li>
+  <li>Im gewählten Monat ändert sich die Geschwindigkeit mit (Q<sub>Monat</sub>/Q)<sup>0,2</sup>. Hochwasser fließt also etwas schneller.</li>
+  <li><b>Längste Fließzeit</b> ist die Summe über die längste Strecke von einer Quelle bis zur Mündung.</li>
+  <li>Seen und Stauseen werden wie Fluss gerechnet. Dort ist die echte Verweilzeit viel länger (Wochen bis Jahre), die Fließzeit ist also eher zu kurz.</li>
+</ul>
+
+<h3>Wassertemperatur</h3>
+<p>Die Wassertemperatur wird aus der monatlichen Lufttemperatur geschätzt (Kurve nach Mohseni). Wasser folgt der Luft gedämpft und friert nicht unter 0 °C.</p>
+<ul>
+  <li>Nicht berücksichtigt sind Schmelzwasser aus Gletschern, Grundwasser, kaltes Tiefenwasser aus Stauseen und Kraftwerkskühlung.</li>
+  <li>Gebirgsflüsse sind deshalb in Wirklichkeit oft kälter als gezeigt.</li>
+</ul>
+
+<h3>Klima, Namen und Kontinente</h3>
+<ul>
+  <li>Niederschlag und Lufttemperatur sind Mittel über das ganze Einzugsgebiet (WorldClim 1970–2000), keine Werte am Fluss selbst.</li>
+  <li>Namen stammen aus Natural Earth und einer kleinen Korrekturliste. Wo nichts passt, steht „Becken“ mit der HydroRIVERS-Nummer.</li>
+  <li>Natural Earth zählt ganz Russland zu Europa. Hier gehören Becken östlich von 60° O zu Sibirien bzw. Asien, das gilt auch für Kasachstan.</li>
+  <li>Die Kataloge zeigen Becken ab einer Mindestgröße. Kleine Küstenflüsse fehlen deshalb.</li>
+  <li><b>Warum sind Ganges und Brahmaputra ein Becken?</b> Ein Becken ist hier alles, was an derselben Stelle ins Meer fließt. Ganges und Brahmaputra münden gemeinsam über das Delta in Bangladesch, darum gehören sie zusammen, und der Abfluss an der Mündung ist die Summe beider. Ähnlich ist es bei anderen Deltas mit mehreren großen Zuflüssen.</li>
+</ul>
+
+<h3>Kurz gesagt</h3>
+<p>Größe, Abfluss und Klima sind solide globale Schätzungen. Quellhöhe, Fließzeit, Wassertemperatur und der Monatsverlauf ohne „G“ sind Modellwerte und eher als Größenordnung zu lesen. Wer einen Fluss genau kennt, wird Abweichungen finden. Hinweise sind willkommen.</p>

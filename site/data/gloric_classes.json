@@ -1,0 +1,8 @@
+{
+ "source": "GloRiC v1.0, River Reach Types (Ouellet Dallaire et al. 2019). Code = Region (1-10) + Größe (1-5) + Geomorphologie (0-3).",
+ "region": {"1": "kalt, trocken bis mäßig feucht", "2": "kalt, feucht", "3": "warm bis heiß, trocken",
+            "4": "warm, mäßig feucht", "5": "warm, feucht", "6": "heiß, feucht", "7": "sehr heiß, trocken",
+            "8": "sehr heiß, feucht", "9": "kalt bis warm, Hochland", "10": "heiß, Hochland"},
+ "size": {"1": "sehr kleiner Fluss", "2": "kleiner Fluss", "3": "mittlerer Fluss", "4": "großer Fluss", "5": "sehr großer Strom"},
+ "geom": {"0": "", "1": "geringe Strömungsenergie", "2": "mittlere bis hohe Strömungsenergie", "3": "von Seen oder Feuchtgebieten geprägt"}
+}

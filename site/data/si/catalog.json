@@ -1,0 +1,1377 @@
+{
+ "continent": "si",
+ "label": "Sibirien",
+ "min_area_km2": 100000.0,
+ "format": "bin",
+ "source": "HydroRIVERS v1.0 (Lehner & Grill 2013); names: Natural Earth",
+ "basins": [
+  {
+   "slug": "jenissei",
+   "name": "Jenissei",
+   "main_riv": 30069252,
+   "bounds": [
+    84.0583,
+    46.4833,
+    113.7792,
+    71.6021
+   ],
+   "segments": 110966,
+   "segments_total": 136544,
+   "max_ord_flow": 7,
+   "travel_time_h": 1854.0,
+   "monthly": "glofas",
+   "size_mb": 2.5,
+   "area_km2": 2489751,
+   "discharge_cms": 19719.1,
+   "main_length_km": 5267,
+   "network_length_km": 578359,
+   "drainage_density": 0.232,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 68868,
+    "2": 31657,
+    "3": 16763,
+    "4": 9028,
+    "5": 5492,
+    "6": 1936,
+    "7": 1338,
+    "8": 928,
+    "9": 534
+   },
+   "runoff_mm": 250,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 0.878
+    },
+    {
+     "name": "Mongolei",
+     "share": 0.122
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Lower Tunguska",
+     "lon": 95.127,
+     "lat": 64.035,
+     "area_km2": 456464,
+     "discharge_cms": 4138.6,
+     "length_km": 3126,
+     "km_from_mouth": 662
+    },
+    {
+     "name": "Verkhniy Yenisey",
+     "lon": 91.544,
+     "lat": 55.098,
+     "area_km2": 359329,
+     "discharge_cms": 3067.8,
+     "length_km": 1985,
+     "km_from_mouth": 1818
+    },
+    {
+     "name": "Podkamennaya Tunguska",
+     "lon": 94.235,
+     "lat": 61.835,
+     "area_km2": 237673,
+     "discharge_cms": 1945.0,
+     "length_km": 1761,
+     "km_from_mouth": 1253
+    },
+    {
+     "name": "Orhon",
+     "lon": 104.844,
+     "lat": 48.965,
+     "area_km2": 131779,
+     "discharge_cms": 110.5,
+     "length_km": 933,
+     "km_from_mouth": 4239
+    },
+    {
+     "name": "Chuna",
+     "lon": 97.387,
+     "lat": 57.423,
+     "area_km2": 126372,
+     "discharge_cms": 750.6,
+     "length_km": 1326,
+     "km_from_mouth": 1891
+    },
+    {
+     "name": null,
+     "lon": 108.053,
+     "lat": 53.307,
+     "area_km2": 101799,
+     "discharge_cms": 688.4,
+     "length_km": 904,
+     "km_from_mouth": 3801
+    }
+   ]
+  },
+  {
+   "slug": "ob",
+   "name": "Ob",
+   "main_riv": 30145067,
+   "bounds": [
+    59.0167,
+    46.7521,
+    92.6271,
+    68.0312
+   ],
+   "segments": 90515,
+   "segments_total": 128797,
+   "max_ord_flow": 7,
+   "travel_time_h": 2278.0,
+   "monthly": "glofas",
+   "size_mb": 2.2,
+   "area_km2": 2467589,
+   "discharge_cms": 13754.5,
+   "main_length_km": 5487,
+   "network_length_km": 591278,
+   "drainage_density": 0.24,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 64839,
+    "2": 29591,
+    "3": 15565,
+    "4": 8628,
+    "5": 4597,
+    "6": 2730,
+    "7": 1989,
+    "8": 481,
+    "9": 377
+   },
+   "runoff_mm": 176,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 0.82
+    },
+    {
+     "name": "Kasachstan",
+     "share": 0.16
+    },
+    {
+     "name": "Volksrepublik China",
+     "share": 0.02
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Ob",
+     "lon": 79.14,
+     "lat": 59.695,
+     "area_km2": 1037761,
+     "discharge_cms": 7409.7,
+     "length_km": 3336,
+     "km_from_mouth": 1187
+    },
+    {
+     "name": "Tobol",
+     "lon": 65.895,
+     "lat": 56.163,
+     "area_km2": 385684,
+     "discharge_cms": 921.7,
+     "length_km": 1402,
+     "km_from_mouth": 1847
+    },
+    {
+     "name": "Ishim",
+     "lon": 68.874,
+     "lat": 54.648,
+     "area_km2": 139340,
+     "discharge_cms": 221.2,
+     "length_km": 1967,
+     "km_from_mouth": 2228
+    },
+    {
+     "name": "Malaya Ob",
+     "lon": 65.213,
+     "lat": 64.779,
+     "area_km2": 130409,
+     "discharge_cms": 1412.5,
+     "length_km": 1030,
+     "km_from_mouth": 276
+    },
+    {
+     "name": null,
+     "lon": 68.477,
+     "lat": 59.686,
+     "area_km2": 73287,
+     "discharge_cms": 426.0,
+     "length_km": 853,
+     "km_from_mouth": 1283
+    },
+    {
+     "name": null,
+     "lon": 74.942,
+     "lat": 55.423,
+     "area_km2": 63357,
+     "discharge_cms": 109.3,
+     "length_km": 818,
+     "km_from_mouth": 3070
+    }
+   ]
+  },
+  {
+   "slug": "lena",
+   "name": "Lena",
+   "main_riv": 30028172,
+   "bounds": [
+    103.2917,
+    52.175,
+    141.4708,
+    73.0521
+   ],
+   "segments": 99089,
+   "segments_total": 124646,
+   "max_ord_flow": 7,
+   "travel_time_h": 1635.6,
+   "monthly": "glofas",
+   "size_mb": 2.2,
+   "area_km2": 2453574,
+   "discharge_cms": 15803.9,
+   "main_length_km": 5082,
+   "network_length_km": 552072,
+   "drainage_density": 0.225,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 62802,
+    "2": 28584,
+    "3": 15210,
+    "4": 9150,
+    "5": 5062,
+    "6": 1664,
+    "7": 1089,
+    "8": 715,
+    "9": 370
+   },
+   "runoff_mm": 203,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Aldan",
+     "lon": 135.746,
+     "lat": 62.027,
+     "area_km2": 728243,
+     "discharge_cms": 5273.7,
+     "length_km": 2346,
+     "km_from_mouth": 1555
+    },
+    {
+     "name": "Vilyuy",
+     "lon": 117.937,
+     "lat": 63.265,
+     "area_km2": 455223,
+     "discharge_cms": 1682.7,
+     "length_km": 2352,
+     "km_from_mouth": 1299
+    },
+    {
+     "name": "Olëkma",
+     "lon": 121.481,
+     "lat": 58.694,
+     "area_km2": 208376,
+     "discharge_cms": 1909.6,
+     "length_km": 1380,
+     "km_from_mouth": 2418
+    },
+    {
+     "name": null,
+     "lon": 108.973,
+     "lat": 58.19,
+     "area_km2": 197264,
+     "discharge_cms": 1811.3,
+     "length_km": 1546,
+     "km_from_mouth": 3092
+    },
+    {
+     "name": null,
+     "lon": 114.854,
+     "lat": 55.04,
+     "area_km2": 42046,
+     "discharge_cms": 303.8,
+     "length_km": 695,
+     "km_from_mouth": 3981
+    },
+    {
+     "name": null,
+     "lon": 114.679,
+     "lat": 60.835,
+     "area_km2": 37643,
+     "discharge_cms": 267.4,
+     "length_km": 696,
+     "km_from_mouth": 2775
+    }
+   ]
+  },
+  {
+   "slug": "kolyma",
+   "name": "Kolyma",
+   "main_riv": 30076707,
+   "bounds": [
+    144.5042,
+    60.5458,
+    170.8667,
+    69.3562
+   ],
+   "segments": 27873,
+   "segments_total": 32586,
+   "max_ord_flow": 7,
+   "travel_time_h": 889.0,
+   "monthly": "model",
+   "size_mb": 0.4,
+   "area_km2": 652964,
+   "discharge_cms": 3704.0,
+   "main_length_km": 2346,
+   "network_length_km": 147189,
+   "drainage_density": 0.225,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 16445,
+    "2": 7757,
+    "3": 3997,
+    "4": 2280,
+    "5": 1148,
+    "6": 635,
+    "7": 155,
+    "8": 169
+   },
+   "runoff_mm": 179,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Omolon",
+     "lon": 159.556,
+     "lat": 66.844,
+     "area_km2": 113949,
+     "discharge_cms": 787.7,
+     "length_km": 966,
+     "km_from_mouth": 227
+    },
+    {
+     "name": "Bol’shoy Anyuy",
+     "lon": 162.29,
+     "lat": 67.477,
+     "area_km2": 108246,
+     "discharge_cms": 557.5,
+     "length_km": 659,
+     "km_from_mouth": 100
+    },
+    {
+     "name": null,
+     "lon": 155.384,
+     "lat": 65.035,
+     "area_km2": 42307,
+     "discharge_cms": 197.2,
+     "length_km": 410,
+     "km_from_mouth": 1152
+    },
+    {
+     "name": null,
+     "lon": 150.595,
+     "lat": 64.831,
+     "area_km2": 41461,
+     "discharge_cms": 261.4,
+     "length_km": 470,
+     "km_from_mouth": 890
+    },
+    {
+     "name": null,
+     "lon": 156.192,
+     "lat": 67.194,
+     "area_km2": 28315,
+     "discharge_cms": 140.1,
+     "length_km": 387,
+     "km_from_mouth": 470
+    },
+    {
+     "name": null,
+     "lon": 153.594,
+     "lat": 62.515,
+     "area_km2": 25383,
+     "discharge_cms": 175.2,
+     "length_km": 375,
+     "km_from_mouth": 1468
+    }
+   ]
+  },
+  {
+   "slug": "indigirka",
+   "name": "Indigirka",
+   "main_riv": 30043062,
+   "bounds": [
+    136.6625,
+    61.7729,
+    152.3417,
+    71.4646
+   ],
+   "segments": 12852,
+   "segments_total": 16384,
+   "max_ord_flow": 7,
+   "travel_time_h": 652.4,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 341225,
+   "discharge_cms": 1826.3,
+   "main_length_km": 1714,
+   "network_length_km": 77940,
+   "drainage_density": 0.228,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 8262,
+    "2": 3883,
+    "3": 2007,
+    "4": 1154,
+    "5": 604,
+    "6": 153,
+    "7": 321
+   },
+   "runoff_mm": 169,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 143.8,
+     "lat": 68.458,
+     "area_km2": 41142,
+     "discharge_cms": 267.4,
+     "length_km": 526,
+     "km_from_mouth": 559
+    },
+    {
+     "name": "Moma",
+     "lon": 144.553,
+     "lat": 66.027,
+     "area_km2": 30056,
+     "discharge_cms": 139.7,
+     "length_km": 414,
+     "km_from_mouth": 953
+    },
+    {
+     "name": "Selennyakh",
+     "lon": 141.998,
+     "lat": 67.91,
+     "area_km2": 29893,
+     "discharge_cms": 165.1,
+     "length_km": 577,
+     "km_from_mouth": 675
+    },
+    {
+     "name": null,
+     "lon": 144.24,
+     "lat": 64.431,
+     "area_km2": 24120,
+     "discharge_cms": 136.3,
+     "length_km": 328,
+     "km_from_mouth": 1210
+    },
+    {
+     "name": null,
+     "lon": 141.73,
+     "lat": 63.347,
+     "area_km2": 23481,
+     "discharge_cms": 118.4,
+     "length_km": 252,
+     "km_from_mouth": 1375
+    },
+    {
+     "name": null,
+     "lon": 141.235,
+     "lat": 64.723,
+     "area_km2": 22798,
+     "discharge_cms": 131.4,
+     "length_km": 371,
+     "km_from_mouth": 1286
+    }
+   ]
+  },
+  {
+   "slug": "khatanga",
+   "name": "Khatanga",
+   "main_riv": 30019629,
+   "bounds": [
+    91.8583,
+    65.8146,
+    109.4583,
+    73.4021
+   ],
+   "segments": 12656,
+   "segments_total": 14558,
+   "max_ord_flow": 7,
+   "travel_time_h": 800.1,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 300820,
+   "discharge_cms": 2241.8,
+   "main_length_km": 1428,
+   "network_length_km": 66268,
+   "drainage_density": 0.22,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 7351,
+    "2": 3446,
+    "3": 1725,
+    "4": 971,
+    "5": 548,
+    "6": 185,
+    "7": 290,
+    "8": 42
+   },
+   "runoff_mm": 235,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Kheta",
+     "lon": 98.055,
+     "lat": 71.1,
+     "area_km2": 98774,
+     "discharge_cms": 983.7,
+     "length_km": 894,
+     "km_from_mouth": 177
+    },
+    {
+     "name": null,
+     "lon": 104.691,
+     "lat": 68.26,
+     "area_km2": 30632,
+     "discharge_cms": 128.8,
+     "length_km": 637,
+     "km_from_mouth": 708
+    },
+    {
+     "name": null,
+     "lon": 105.615,
+     "lat": 70.702,
+     "area_km2": 24199,
+     "discharge_cms": 168.1,
+     "length_km": 397,
+     "km_from_mouth": 407
+    },
+    {
+     "name": null,
+     "lon": 101.431,
+     "lat": 72.594,
+     "area_km2": 18860,
+     "discharge_cms": 148.9,
+     "length_km": 356,
+     "km_from_mouth": 100
+    },
+    {
+     "name": null,
+     "lon": 100.669,
+     "lat": 66.573,
+     "area_km2": 11888,
+     "discharge_cms": 78.7,
+     "length_km": 242,
+     "km_from_mouth": 999
+    },
+    {
+     "name": null,
+     "lon": 101.12,
+     "lat": 68.069,
+     "area_km2": 10918,
+     "discharge_cms": 55.6,
+     "length_km": 243,
+     "km_from_mouth": 848
+    }
+   ]
+  },
+  {
+   "slug": "yana",
+   "name": "Yana",
+   "main_riv": 30035020,
+   "bounds": [
+    128.1083,
+    64.3125,
+    140.4833,
+    71.6187
+   ],
+   "segments": 8128,
+   "segments_total": 11455,
+   "max_ord_flow": 7,
+   "travel_time_h": 551.1,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 233390,
+   "discharge_cms": 1075.1,
+   "main_length_km": 1204,
+   "network_length_km": 52402,
+   "drainage_density": 0.225,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 5788,
+    "2": 2679,
+    "3": 1378,
+    "4": 721,
+    "5": 489,
+    "6": 285,
+    "7": 115
+   },
+   "runoff_mm": 145,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Sartang",
+     "lon": 133.186,
+     "lat": 67.477,
+     "area_km2": 54041,
+     "discharge_cms": 181.6,
+     "length_km": 599,
+     "km_from_mouth": 526
+    },
+    {
+     "name": "Bytantay",
+     "lon": 132.275,
+     "lat": 68.377,
+     "area_km2": 40240,
+     "discharge_cms": 145.8,
+     "length_km": 544,
+     "km_from_mouth": 453
+    },
+    {
+     "name": null,
+     "lon": 136.895,
+     "lat": 67.673,
+     "area_km2": 19864,
+     "discharge_cms": 121.0,
+     "length_km": 398,
+     "km_from_mouth": 585
+    },
+    {
+     "name": null,
+     "lon": 136.045,
+     "lat": 68.695,
+     "area_km2": 16022,
+     "discharge_cms": 59.4,
+     "length_km": 271,
+     "km_from_mouth": 506
+    },
+    {
+     "name": null,
+     "lon": 135.512,
+     "lat": 66.108,
+     "area_km2": 15116,
+     "discharge_cms": 93.4,
+     "length_km": 416,
+     "km_from_mouth": 796
+    },
+    {
+     "name": "Adycha",
+     "lon": 137.431,
+     "lat": 65.849,
+     "area_km2": 11084,
+     "discharge_cms": 79.2,
+     "length_km": 249,
+     "km_from_mouth": 856
+    }
+   ]
+  },
+  {
+   "slug": "olenek",
+   "name": "Olenëk",
+   "main_riv": 30018093,
+   "bounds": [
+    104.6917,
+    65.8729,
+    126.0042,
+    73.0062
+   ],
+   "segments": 8073,
+   "segments_total": 10829,
+   "max_ord_flow": 7,
+   "travel_time_h": 1312.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 217723,
+   "discharge_cms": 1279.9,
+   "main_length_km": 2201,
+   "network_length_km": 47715,
+   "drainage_density": 0.219,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 5461,
+    "2": 2534,
+    "3": 1291,
+    "4": 696,
+    "5": 335,
+    "6": 111,
+    "7": 401
+   },
+   "runoff_mm": 185,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 111.561,
+     "lat": 67.798,
+     "area_km2": 41042,
+     "discharge_cms": 215.7,
+     "length_km": 639,
+     "km_from_mouth": 1566
+    },
+    {
+     "name": null,
+     "lon": 122.063,
+     "lat": 71.715,
+     "area_km2": 15204,
+     "discharge_cms": 120.3,
+     "length_km": 303,
+     "km_from_mouth": 241
+    },
+    {
+     "name": null,
+     "lon": 108.783,
+     "lat": 68.419,
+     "area_km2": 14038,
+     "discharge_cms": 85.5,
+     "length_km": 251,
+     "km_from_mouth": 1725
+    },
+    {
+     "name": null,
+     "lon": 114.253,
+     "lat": 67.895,
+     "area_km2": 12048,
+     "discharge_cms": 78.2,
+     "length_km": 300,
+     "km_from_mouth": 1387
+    },
+    {
+     "name": null,
+     "lon": 119.624,
+     "lat": 72.495,
+     "area_km2": 9256,
+     "discharge_cms": 39.7,
+     "length_km": 250,
+     "km_from_mouth": 11
+    },
+    {
+     "name": null,
+     "lon": 117.175,
+     "lat": 69.39,
+     "area_km2": 9154,
+     "discharge_cms": 4.7,
+     "length_km": 254,
+     "km_from_mouth": 713
+    }
+   ]
+  },
+  {
+   "slug": "anadyr",
+   "name": "Anadyr’",
+   "main_riv": 30212092,
+   "bounds": [
+    165.3458,
+    62.2896,
+    177.3833,
+    68.2458
+   ],
+   "segments": 8178,
+   "segments_total": 8480,
+   "max_ord_flow": 7,
+   "travel_time_h": 536.0,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 172104,
+   "discharge_cms": 1639.6,
+   "main_length_km": 941,
+   "network_length_km": 38895,
+   "drainage_density": 0.226,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4288,
+    "2": 2031,
+    "3": 1052,
+    "4": 533,
+    "5": 335,
+    "6": 186,
+    "7": 55
+   },
+   "runoff_mm": 300,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 173.685,
+     "lat": 66.356,
+     "area_km2": 45507,
+     "discharge_cms": 345.9,
+     "length_km": 442,
+     "km_from_mouth": 172
+    },
+    {
+     "name": null,
+     "lon": 171.122,
+     "lat": 64.524,
+     "area_km2": 35347,
+     "discharge_cms": 303.4,
+     "length_km": 460,
+     "km_from_mouth": 248
+    },
+    {
+     "name": null,
+     "lon": 167.769,
+     "lat": 65.177,
+     "area_km2": 10698,
+     "discharge_cms": 106.4,
+     "length_km": 216,
+     "km_from_mouth": 585
+    },
+    {
+     "name": null,
+     "lon": 174.633,
+     "lat": 64.508,
+     "area_km2": 9830,
+     "discharge_cms": 97.7,
+     "length_km": 225,
+     "km_from_mouth": 27
+    },
+    {
+     "name": null,
+     "lon": 167.946,
+     "lat": 65.604,
+     "area_km2": 9400,
+     "discharge_cms": 79.5,
+     "length_km": 241,
+     "km_from_mouth": 586
+    },
+    {
+     "name": null,
+     "lon": 172.015,
+     "lat": 65.602,
+     "area_km2": 6175,
+     "discharge_cms": 49.8,
+     "length_km": 217,
+     "km_from_mouth": 262
+    }
+   ]
+  },
+  {
+   "slug": "pyasina",
+   "name": "Pyasina",
+   "main_riv": 30012029,
+   "bounds": [
+    81.7792,
+    68.5271,
+    98.2396,
+    74.5104
+   ],
+   "segments": 10651,
+   "segments_total": 10657,
+   "max_ord_flow": 7,
+   "travel_time_h": 883.2,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 169629,
+   "discharge_cms": 2329.1,
+   "main_length_km": 1164,
+   "network_length_km": 44980,
+   "drainage_density": 0.265,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 5392,
+    "2": 2511,
+    "3": 1313,
+    "4": 616,
+    "5": 407,
+    "6": 240,
+    "7": 178
+   },
+   "runoff_mm": 433,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 92.177,
+     "lat": 71.173,
+     "area_km2": 34539,
+     "discharge_cms": 392.4,
+     "length_km": 505,
+     "km_from_mouth": 657
+    },
+    {
+     "name": null,
+     "lon": 85.487,
+     "lat": 72.742,
+     "area_km2": 25881,
+     "discharge_cms": 340.8,
+     "length_km": 412,
+     "km_from_mouth": 140
+    },
+    {
+     "name": null,
+     "lon": 88.368,
+     "lat": 71.348,
+     "area_km2": 15667,
+     "discharge_cms": 224.7,
+     "length_km": 237,
+     "km_from_mouth": 582
+    },
+    {
+     "name": null,
+     "lon": 92.11,
+     "lat": 72.348,
+     "area_km2": 13152,
+     "discharge_cms": 149.4,
+     "length_km": 304,
+     "km_from_mouth": 368
+    },
+    {
+     "name": null,
+     "lon": 91.11,
+     "lat": 73.556,
+     "area_km2": 9411,
+     "discharge_cms": 98.1,
+     "length_km": 277,
+     "km_from_mouth": 309
+    },
+    {
+     "name": null,
+     "lon": 89.117,
+     "lat": 68.96,
+     "area_km2": 7196,
+     "discharge_cms": 125.4,
+     "length_km": 254,
+     "km_from_mouth": 911
+    }
+   ]
+  },
+  {
+   "slug": "taz",
+   "name": "Taz",
+   "main_riv": 30134938,
+   "bounds": [
+    78.5125,
+    62.4646,
+    86.0875,
+    67.9333
+   ],
+   "segments": 8206,
+   "segments_total": 8280,
+   "max_ord_flow": 7,
+   "travel_time_h": 661.0,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 150288,
+   "discharge_cms": 1358.6,
+   "main_length_km": 968,
+   "network_length_km": 35827,
+   "drainage_density": 0.238,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4181,
+    "2": 1968,
+    "3": 993,
+    "4": 613,
+    "5": 289,
+    "6": 118,
+    "7": 118
+   },
+   "runoff_mm": 285,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 83.202,
+     "lat": 66.327,
+     "area_km2": 19057,
+     "discharge_cms": 259.0,
+     "length_km": 327,
+     "km_from_mouth": 259
+    },
+    {
+     "name": null,
+     "lon": 81.505,
+     "lat": 64.06,
+     "area_km2": 14520,
+     "discharge_cms": 106.4,
+     "length_km": 274,
+     "km_from_mouth": 526
+    },
+    {
+     "name": null,
+     "lon": 83.174,
+     "lat": 65.452,
+     "area_km2": 12289,
+     "discharge_cms": 181.7,
+     "length_km": 288,
+     "km_from_mouth": 285
+    },
+    {
+     "name": null,
+     "lon": 84.058,
+     "lat": 64.0,
+     "area_km2": 10354,
+     "discharge_cms": 130.1,
+     "length_km": 228,
+     "km_from_mouth": 642
+    },
+    {
+     "name": null,
+     "lon": 80.76,
+     "lat": 64.949,
+     "area_km2": 9331,
+     "discharge_cms": 91.9,
+     "length_km": 194,
+     "km_from_mouth": 398
+    },
+    {
+     "name": null,
+     "lon": 81.358,
+     "lat": 65.944,
+     "area_km2": 6946,
+     "discharge_cms": 61.3,
+     "length_km": 188,
+     "km_from_mouth": 229
+    }
+   ]
+  },
+  {
+   "slug": "dsawchan-chjargas-see",
+   "name": "Dsawchan (Chjargas-See)",
+   "main_riv": 30649806,
+   "bounds": [
+    87.7792,
+    46.1625,
+    99.0354,
+    50.4333
+   ],
+   "segments": 1999,
+   "segments_total": 6916,
+   "max_ord_flow": 7,
+   "travel_time_h": 399.5,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 140356,
+   "discharge_cms": 51.5,
+   "main_length_km": 836,
+   "network_length_km": 34464,
+   "drainage_density": 0.246,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3484,
+    "2": 1631,
+    "3": 845,
+    "4": 438,
+    "5": 214,
+    "6": 280,
+    "7": 24
+   },
+   "runoff_mm": 12,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Mongolei",
+     "share": 0.985
+    },
+    {
+     "name": "Russland",
+     "share": 0.015
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 94.92,
+     "lat": 47.669,
+     "area_km2": 45113,
+     "discharge_cms": 21.7,
+     "length_km": 696,
+     "km_from_mouth": 119
+    },
+    {
+     "name": null,
+     "lon": 94.137,
+     "lat": 48.533,
+     "area_km2": 11704,
+     "discharge_cms": 3.0,
+     "length_km": 296,
+     "km_from_mouth": 26
+    },
+    {
+     "name": null,
+     "lon": 92.171,
+     "lat": 48.0,
+     "area_km2": 10916,
+     "discharge_cms": 0.0,
+     "length_km": 240,
+     "km_from_mouth": 232
+    },
+    {
+     "name": null,
+     "lon": 90.31,
+     "lat": 49.565,
+     "area_km2": 10386,
+     "discharge_cms": 4.7,
+     "length_km": 203,
+     "km_from_mouth": 471
+    },
+    {
+     "name": null,
+     "lon": 93.34,
+     "lat": 47.798,
+     "area_km2": 8925,
+     "discharge_cms": 0.0,
+     "length_km": 146,
+     "km_from_mouth": 142
+    },
+    {
+     "name": null,
+     "lon": 91.496,
+     "lat": 47.921,
+     "area_km2": 7879,
+     "discharge_cms": 1.8,
+     "length_km": 227,
+     "km_from_mouth": 280
+    }
+   ]
+  },
+  {
+   "slug": "nizhnyaya-taymyra",
+   "name": "Nizhnyaya Taymyra",
+   "main_riv": 30002534,
+   "bounds": [
+    91.5562,
+    72.1625,
+    109.9667,
+    76.2958
+   ],
+   "segments": 5402,
+   "segments_total": 5899,
+   "max_ord_flow": 7,
+   "travel_time_h": 713.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 123854,
+   "discharge_cms": 1067.0,
+   "main_length_km": 796,
+   "network_length_km": 30842,
+   "drainage_density": 0.249,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2972,
+    "2": 1374,
+    "3": 675,
+    "4": 459,
+    "5": 186,
+    "6": 181,
+    "7": 52
+   },
+   "runoff_mm": 272,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 103.149,
+     "lat": 74.66,
+     "area_km2": 37746,
+     "discharge_cms": 206.1,
+     "length_km": 425,
+     "km_from_mouth": 180
+    },
+    {
+     "name": null,
+     "lon": 97.849,
+     "lat": 75.302,
+     "area_km2": 17465,
+     "discharge_cms": 156.3,
+     "length_km": 324,
+     "km_from_mouth": 76
+    },
+    {
+     "name": null,
+     "lon": 96.437,
+     "lat": 73.178,
+     "area_km2": 10564,
+     "discharge_cms": 92.5,
+     "length_km": 266,
+     "km_from_mouth": 486
+    },
+    {
+     "name": null,
+     "lon": 101.178,
+     "lat": 75.635,
+     "area_km2": 8175,
+     "discharge_cms": 75.2,
+     "length_km": 292,
+     "km_from_mouth": 98
+    },
+    {
+     "name": null,
+     "lon": 95.073,
+     "lat": 72.936,
+     "area_km2": 6042,
+     "discharge_cms": 63.6,
+     "length_km": 161,
+     "km_from_mouth": 536
+    },
+    {
+     "name": null,
+     "lon": 93.307,
+     "lat": 73.115,
+     "area_km2": 5797,
+     "discharge_cms": 63.8,
+     "length_km": 166,
+     "km_from_mouth": 581
+    }
+   ]
+  },
+  {
+   "slug": "pur",
+   "name": "Pur",
+   "main_riv": 30127586,
+   "bounds": [
+    73.1167,
+    62.5104,
+    80.6042,
+    67.6083
+   ],
+   "segments": 5588,
+   "segments_total": 5624,
+   "max_ord_flow": 7,
+   "travel_time_h": 522.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 111252,
+   "discharge_cms": 1070.3,
+   "main_length_km": 758,
+   "network_length_km": 26282,
+   "drainage_density": 0.236,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2825,
+    "2": 1337,
+    "3": 661,
+    "4": 496,
+    "5": 193,
+    "6": 106,
+    "7": 6
+   },
+   "runoff_mm": 303,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Russland",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": 78.019,
+     "lat": 64.34,
+     "area_km2": 28795,
+     "discharge_cms": 221.2,
+     "length_km": 411,
+     "km_from_mouth": 336
+    },
+    {
+     "name": null,
+     "lon": 77.835,
+     "lat": 67.115,
+     "area_km2": 15956,
+     "discharge_cms": 181.1,
+     "length_km": 309,
+     "km_from_mouth": 39
+    },
+    {
+     "name": null,
+     "lon": 76.73,
+     "lat": 64.084,
+     "area_km2": 7265,
+     "discharge_cms": 63.7,
+     "length_km": 231,
+     "km_from_mouth": 414
+    },
+    {
+     "name": null,
+     "lon": 77.654,
+     "lat": 65.169,
+     "area_km2": 6131,
+     "discharge_cms": 68.2,
+     "length_km": 182,
+     "km_from_mouth": 267
+    },
+    {
+     "name": null,
+     "lon": 76.698,
+     "lat": 64.669,
+     "area_km2": 5843,
+     "discharge_cms": 55.1,
+     "length_km": 246,
+     "km_from_mouth": 352
+    },
+    {
+     "name": null,
+     "lon": 78.884,
+     "lat": 65.741,
+     "area_km2": 5502,
+     "discharge_cms": 58.6,
+     "length_km": 158,
+     "km_from_mouth": 189
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4375 @@
+{
+ "continent": "na",
+ "label": "Nordamerika",
+ "min_area_km2": 50000.0,
+ "format": "bin",
+ "source": "HydroRIVERS v1.0 (Lehner & Grill 2013); names: Natural Earth",
+ "basins": [
+  {
+   "slug": "mississippi",
+   "name": "Mississippi",
+   "main_riv": 70814357,
+   "bounds": [
+    -113.9063,
+    29.1104,
+    -77.8708,
+    49.7125
+   ],
+   "segments": 49284,
+   "segments_total": 170530,
+   "max_ord_flow": 6,
+   "travel_time_h": 1998.8,
+   "monthly": "glofas",
+   "size_mb": 1.2,
+   "area_km2": 3179496,
+   "discharge_cms": 21894.2,
+   "main_length_km": 6025,
+   "network_length_km": 775001,
+   "drainage_density": 0.244,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 85877,
+    "2": 38712,
+    "3": 21165,
+    "4": 12230,
+    "5": 6300,
+    "6": 3407,
+    "7": 1675,
+    "8": 692,
+    "9": 472
+   },
+   "runoff_mm": 217,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.992
+    },
+    {
+     "name": "Kanada",
+     "share": 0.008
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Ohio",
+     "lon": -85.931,
+     "lat": 38.019,
+     "area_km2": 527761,
+     "discharge_cms": 7860.5,
+     "length_km": 2123,
+     "km_from_mouth": 1586
+    },
+    {
+     "name": null,
+     "lon": -90.598,
+     "lat": 41.51,
+     "area_km2": 446351,
+     "discharge_cms": 3594.0,
+     "length_km": 1736,
+     "km_from_mouth": 1913
+    },
+    {
+     "name": "Arkansas",
+     "lon": -95.119,
+     "lat": 35.506,
+     "area_km2": 409027,
+     "discharge_cms": 1316.6,
+     "length_km": 2260,
+     "km_from_mouth": 968
+    },
+    {
+     "name": "Red",
+     "lon": -94.076,
+     "lat": 33.581,
+     "area_km2": 239195,
+     "discharge_cms": 2186.6,
+     "length_km": 2024,
+     "km_from_mouth": 510
+    },
+    {
+     "name": "Platte",
+     "lon": -100.165,
+     "lat": 40.91,
+     "area_km2": 219601,
+     "discharge_cms": 328.0,
+     "length_km": 1605,
+     "km_from_mouth": 2887
+    },
+    {
+     "name": "Yellowstone",
+     "lon": -105.58,
+     "lat": 46.604,
+     "area_km2": 180349,
+     "discharge_cms": 457.1,
+     "length_km": 1127,
+     "km_from_mouth": 4500
+    }
+   ]
+  },
+  {
+   "slug": "mackenzie",
+   "name": "Mackenzie",
+   "main_riv": 80044492,
+   "bounds": [
+    -140.0625,
+    52.1521,
+    -102.8375,
+    69.2521
+   ],
+   "segments": 63796,
+   "segments_total": 86017,
+   "max_ord_flow": 7,
+   "travel_time_h": 1505.8,
+   "monthly": "model",
+   "size_mb": 1.0,
+   "area_km2": 1795841,
+   "discharge_cms": 9232.3,
+   "main_length_km": 4296,
+   "network_length_km": 424028,
+   "drainage_density": 0.236,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 43373,
+    "2": 19820,
+    "3": 10421,
+    "4": 5697,
+    "5": 3288,
+    "6": 1481,
+    "7": 1113,
+    "8": 134,
+    "9": 690
+   },
+   "runoff_mm": 162,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Athabasca",
+     "lon": -111.945,
+     "lat": 56.594,
+     "area_km2": 292497,
+     "discharge_cms": 1197.7,
+     "length_km": 1546,
+     "km_from_mouth": 2400
+    },
+    {
+     "name": "Liard",
+     "lon": -123.415,
+     "lat": 60.419,
+     "area_km2": 275686,
+     "discharge_cms": 2441.1,
+     "length_km": 1258,
+     "km_from_mouth": 1431
+    },
+    {
+     "name": null,
+     "lon": -110.844,
+     "lat": 62.835,
+     "area_km2": 267547,
+     "discharge_cms": 891.3,
+     "length_km": 1146,
+     "km_from_mouth": 1936
+    },
+    {
+     "name": "Great Bear",
+     "lon": -122.246,
+     "lat": 65.327,
+     "area_km2": 162693,
+     "discharge_cms": 893.0,
+     "length_km": 991,
+     "km_from_mouth": 914
+    },
+    {
+     "name": null,
+     "lon": -134.76,
+     "lat": 66.772,
+     "area_km2": 74656,
+     "discharge_cms": 685.8,
+     "length_km": 701,
+     "km_from_mouth": 198
+    },
+    {
+     "name": null,
+     "lon": -116.822,
+     "lat": 60.053,
+     "area_km2": 51764,
+     "discharge_cms": 131.2,
+     "length_km": 852,
+     "km_from_mouth": 1830
+    }
+   ]
+  },
+  {
+   "slug": "sankt-lorenz-strom",
+   "name": "Sankt-Lorenz-Strom",
+   "main_riv": 70367865,
+   "bounds": [
+    -93.2021,
+    40.4146,
+    -70.2958,
+    50.7375
+   ],
+   "segments": 63354,
+   "segments_total": 65156,
+   "max_ord_flow": 7,
+   "travel_time_h": 1324.0,
+   "monthly": "model",
+   "size_mb": 1.0,
+   "area_km2": 1053294,
+   "discharge_cms": 12343.9,
+   "main_length_km": 2993,
+   "network_length_km": 270754,
+   "drainage_density": 0.257,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 32912,
+    "2": 14594,
+    "3": 9054,
+    "4": 4650,
+    "5": 2275,
+    "6": 758,
+    "7": 379,
+    "8": 534
+   },
+   "runoff_mm": 370,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 0.555
+    },
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.445
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -86.008,
+     "lat": 45.542,
+     "area_km2": 184283,
+     "discharge_cms": 2728.5,
+     "length_km": 928,
+     "km_from_mouth": 1869
+    },
+    {
+     "name": "Ottawa",
+     "lon": -76.538,
+     "lat": 45.519,
+     "area_km2": 147406,
+     "discharge_cms": 1924.2,
+     "length_km": 1258,
+     "km_from_mouth": 302
+    },
+    {
+     "name": null,
+     "lon": -81.529,
+     "lat": 45.444,
+     "area_km2": 68518,
+     "discharge_cms": 496.0,
+     "length_km": 569,
+     "km_from_mouth": 1676
+    },
+    {
+     "name": "St.-Maurice",
+     "lon": -72.856,
+     "lat": 47.277,
+     "area_km2": 41991,
+     "discharge_cms": 663.8,
+     "length_km": 600,
+     "km_from_mouth": 133
+    },
+    {
+     "name": "Nipigon",
+     "lon": -87.481,
+     "lat": 48.583,
+     "area_km2": 33651,
+     "discharge_cms": 475.8,
+     "length_km": 515,
+     "km_from_mouth": 2257
+    },
+    {
+     "name": null,
+     "lon": -83.273,
+     "lat": 44.14,
+     "area_km2": 31268,
+     "discharge_cms": 183.2,
+     "length_km": 398,
+     "km_from_mouth": 1652
+    }
+   ]
+  },
+  {
+   "slug": "nelson",
+   "name": "Nelson",
+   "main_riv": 70045262,
+   "bounds": [
+    -117.35,
+    45.4792,
+    -89.9,
+    57.1562
+   ],
+   "segments": 24470,
+   "segments_total": 49039,
+   "max_ord_flow": 7,
+   "travel_time_h": 1354.9,
+   "monthly": "model",
+   "size_mb": 0.4,
+   "area_km2": 1004347,
+   "discharge_cms": 2749.6,
+   "main_length_km": 3091,
+   "network_length_km": 248309,
+   "drainage_density": 0.247,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 24679,
+    "2": 11324,
+    "3": 6001,
+    "4": 3438,
+    "5": 1702,
+    "6": 936,
+    "7": 547,
+    "8": 242,
+    "9": 170
+   },
+   "runoff_mm": 86,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 0.859
+    },
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.141
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Saskatchewan",
+     "lon": -104.076,
+     "lat": 53.312,
+     "area_km2": 335030,
+     "discharge_cms": 598.4,
+     "length_km": 2355,
+     "km_from_mouth": 740
+    },
+    {
+     "name": "Winnipeg",
+     "lon": -94.785,
+     "lat": 50.113,
+     "area_km2": 139661,
+     "discharge_cms": 962.4,
+     "length_km": 1004,
+     "km_from_mouth": 1025
+    },
+    {
+     "name": "Red",
+     "lon": -97.039,
+     "lat": 47.939,
+     "area_km2": 110940,
+     "discharge_cms": 190.8,
+     "length_km": 1017,
+     "km_from_mouth": 1187
+    },
+    {
+     "name": null,
+     "lon": -98.927,
+     "lat": 51.29,
+     "area_km2": 86416,
+     "discharge_cms": 179.0,
+     "length_km": 1041,
+     "km_from_mouth": 802
+    },
+    {
+     "name": null,
+     "lon": -100.922,
+     "lat": 48.851,
+     "area_km2": 60502,
+     "discharge_cms": 60.3,
+     "length_km": 883,
+     "km_from_mouth": 1496
+    },
+    {
+     "name": "Assiniboine",
+     "lon": -101.417,
+     "lat": 51.088,
+     "area_km2": 20845,
+     "discharge_cms": 14.2,
+     "length_km": 406,
+     "km_from_mouth": 1702
+    }
+   ]
+  },
+  {
+   "slug": "yukon",
+   "name": "Yukon",
+   "main_riv": 80176904,
+   "bounds": [
+    -164.4646,
+    58.8604,
+    -129.2375,
+    69.0562
+   ],
+   "segments": 38083,
+   "segments_total": 42703,
+   "max_ord_flow": 7,
+   "travel_time_h": 1372.9,
+   "monthly": "model",
+   "size_mb": 0.6,
+   "area_km2": 832689,
+   "discharge_cms": 6493.2,
+   "main_length_km": 3184,
+   "network_length_km": 186764,
+   "drainage_density": 0.224,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 21569,
+    "2": 9844,
+    "3": 5312,
+    "4": 3007,
+    "5": 1283,
+    "6": 1012,
+    "7": 392,
+    "8": 284
+   },
+   "runoff_mm": 246,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.636
+    },
+    {
+     "name": "Kanada",
+     "share": 0.364
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Tanana",
+     "lon": -148.935,
+     "lat": 64.585,
+     "area_km2": 114608,
+     "discharge_cms": 962.9,
+     "length_km": 1017,
+     "km_from_mouth": 1137
+    },
+    {
+     "name": "Porcupine",
+     "lon": -142.623,
+     "lat": 67.01,
+     "area_km2": 91659,
+     "discharge_cms": 479.7,
+     "length_km": 815,
+     "km_from_mouth": 1613
+    },
+    {
+     "name": "Koyukuk",
+     "lon": -156.377,
+     "lat": 65.506,
+     "area_km2": 80725,
+     "discharge_cms": 762.1,
+     "length_km": 814,
+     "km_from_mouth": 797
+    },
+    {
+     "name": "Stewart",
+     "lon": -137.477,
+     "lat": 63.556,
+     "area_km2": 51110,
+     "discharge_cms": 456.4,
+     "length_km": 688,
+     "km_from_mouth": 2258
+    },
+    {
+     "name": "Pelly",
+     "lon": -135.444,
+     "lat": 62.76,
+     "area_km2": 50636,
+     "discharge_cms": 405.5,
+     "length_km": 632,
+     "km_from_mouth": 2433
+    },
+    {
+     "name": "Donjek",
+     "lon": -139.888,
+     "lat": 62.606,
+     "area_km2": 47666,
+     "discharge_cms": 457.0,
+     "length_km": 487,
+     "km_from_mouth": 2275
+    }
+   ]
+  },
+  {
+   "slug": "columbia",
+   "name": "Columbia",
+   "main_riv": 70386275,
+   "bounds": [
+    -123.7458,
+    41.1562,
+    -109.8,
+    52.8604
+   ],
+   "segments": 36413,
+   "segments_total": 42147,
+   "max_ord_flow": 7,
+   "travel_time_h": 608.7,
+   "monthly": "model",
+   "size_mb": 0.6,
+   "area_km2": 651407,
+   "discharge_cms": 7583.2,
+   "main_length_km": 2188,
+   "network_length_km": 167958,
+   "drainage_density": 0.258,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 21288,
+    "2": 9714,
+    "3": 5083,
+    "4": 2967,
+    "5": 1440,
+    "6": 1148,
+    "7": 339,
+    "8": 168
+   },
+   "runoff_mm": 367,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.838
+    },
+    {
+     "name": "Kanada",
+     "share": 0.162
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Snake",
+     "lon": -117.136,
+     "lat": 44.576,
+     "area_km2": 260939,
+     "discharge_cms": 1755.6,
+     "length_km": 1703,
+     "km_from_mouth": 490
+    },
+    {
+     "name": "Pend Orielle",
+     "lon": -116.542,
+     "lat": 48.254,
+     "area_km2": 67056,
+     "discharge_cms": 850.2,
+     "length_km": 818,
+     "km_from_mouth": 1181
+    },
+    {
+     "name": null,
+     "lon": -118.006,
+     "lat": 50.79,
+     "area_km2": 36708,
+     "discharge_cms": 1136.3,
+     "length_km": 773,
+     "km_from_mouth": 1227
+    },
+    {
+     "name": "Willamette",
+     "lon": -123.044,
+     "lat": 45.093,
+     "area_km2": 28949,
+     "discharge_cms": 1098.7,
+     "length_km": 459,
+     "km_from_mouth": 110
+    },
+    {
+     "name": null,
+     "lon": -121.078,
+     "lat": 44.843,
+     "area_km2": 27550,
+     "discharge_cms": 215.7,
+     "length_km": 487,
+     "km_from_mouth": 286
+    },
+    {
+     "name": null,
+     "lon": -119.463,
+     "lat": 48.637,
+     "area_km2": 21386,
+     "discharge_cms": 99.0,
+     "length_km": 366,
+     "km_from_mouth": 835
+    }
+   ]
+  },
+  {
+   "slug": "colorado",
+   "name": "Colorado",
+   "main_riv": 70765249,
+   "bounds": [
+    -115.6583,
+    30.9937,
+    -105.6542,
+    43.4292
+   ],
+   "segments": 11554,
+   "segments_total": 31454,
+   "max_ord_flow": 7,
+   "travel_time_h": 988.8,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 620424,
+   "discharge_cms": 89.3,
+   "main_length_km": 2592,
+   "network_length_km": 150239,
+   "drainage_density": 0.242,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 15876,
+    "2": 7171,
+    "3": 3836,
+    "4": 2093,
+    "5": 1228,
+    "6": 539,
+    "7": 669,
+    "8": 42
+   },
+   "runoff_mm": 5,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.991
+    },
+    {
+     "name": "Mexiko",
+     "share": 0.009
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Gila",
+     "lon": -112.729,
+     "lat": 33.006,
+     "area_km2": 148872,
+     "discharge_cms": 58.6,
+     "length_km": 997,
+     "km_from_mouth": 184
+    },
+    {
+     "name": null,
+     "lon": -108.996,
+     "lat": 39.154,
+     "area_km2": 67936,
+     "discharge_cms": 256.2,
+     "length_km": 640,
+     "km_from_mouth": 1543
+    },
+    {
+     "name": null,
+     "lon": -111.094,
+     "lat": 35.398,
+     "area_km2": 67720,
+     "discharge_cms": 27.3,
+     "length_km": 555,
+     "km_from_mouth": 1140
+    },
+    {
+     "name": "San Juan",
+     "lon": -109.712,
+     "lat": 37.213,
+     "area_km2": 64725,
+     "discharge_cms": 94.5,
+     "length_km": 587,
+     "km_from_mouth": 1334
+    },
+    {
+     "name": null,
+     "lon": -114.902,
+     "lat": 36.833,
+     "area_km2": 35202,
+     "discharge_cms": 41.0,
+     "length_km": 447,
+     "km_from_mouth": 725
+    },
+    {
+     "name": null,
+     "lon": -108.433,
+     "lat": 40.479,
+     "area_km2": 21303,
+     "discharge_cms": 41.3,
+     "length_km": 345,
+     "km_from_mouth": 2034
+    }
+   ]
+  },
+  {
+   "slug": "rio-grande",
+   "name": "Rio Grande",
+   "main_riv": 70842751,
+   "bounds": [
+    -108.3479,
+    24.875,
+    -97.1479,
+    38.4167
+   ],
+   "segments": 6699,
+   "segments_total": 22769,
+   "max_ord_flow": 7,
+   "travel_time_h": 1035.4,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 475503,
+   "discharge_cms": 63.4,
+   "main_length_km": 2748,
+   "network_length_km": 116388,
+   "drainage_density": 0.245,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 11486,
+    "2": 5208,
+    "3": 2758,
+    "4": 1395,
+    "5": 595,
+    "6": 868,
+    "7": 459
+   },
+   "runoff_mm": 4,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.526
+    },
+    {
+     "name": "Mexiko",
+     "share": 0.474
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Pecos",
+     "lon": -102.721,
+     "lat": 31.306,
+     "area_km2": 101080,
+     "discharge_cms": 13.8,
+     "length_km": 1233,
+     "km_from_mouth": 858
+    },
+    {
+     "name": "Conchos",
+     "lon": -105.319,
+     "lat": 28.925,
+     "area_km2": 66775,
+     "discharge_cms": 57.5,
+     "length_km": 798,
+     "km_from_mouth": 1354
+    },
+    {
+     "name": null,
+     "lon": -100.094,
+     "lat": 27.169,
+     "area_km2": 59082,
+     "discharge_cms": 35.2,
+     "length_km": 596,
+     "km_from_mouth": 363
+    },
+    {
+     "name": "San Juan",
+     "lon": -99.804,
+     "lat": 25.727,
+     "area_km2": 32964,
+     "discharge_cms": 35.8,
+     "length_km": 552,
+     "km_from_mouth": 266
+    },
+    {
+     "name": null,
+     "lon": -107.015,
+     "lat": 34.862,
+     "area_km2": 16671,
+     "discharge_cms": 6.9,
+     "length_km": 273,
+     "km_from_mouth": 2108
+    },
+    {
+     "name": null,
+     "lon": -100.996,
+     "lat": 29.896,
+     "area_km2": 11030,
+     "discharge_cms": 10.3,
+     "length_km": 279,
+     "km_from_mouth": 791
+    }
+   ]
+  },
+  {
+   "slug": "churchill",
+   "name": "Churchill",
+   "main_riv": 70016589,
+   "bounds": [
+    -112.7646,
+    53.1354,
+    -94.0417,
+    59.4958
+   ],
+   "segments": 9410,
+   "segments_total": 15370,
+   "max_ord_flow": 7,
+   "travel_time_h": 1087.8,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 302500,
+   "discharge_cms": 360.9,
+   "main_length_km": 2227,
+   "network_length_km": 75736,
+   "drainage_density": 0.25,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 7734,
+    "2": 3678,
+    "3": 1841,
+    "4": 921,
+    "5": 591,
+    "6": 199,
+    "7": 406
+   },
+   "runoff_mm": 38,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -102.394,
+     "lat": 57.148,
+     "area_km2": 69050,
+     "discharge_cms": 412.1,
+     "length_km": 1046,
+     "km_from_mouth": 1065
+    },
+    {
+     "name": null,
+     "lon": -108.694,
+     "lat": 55.928,
+     "area_km2": 26924,
+     "discharge_cms": 37.5,
+     "length_km": 310,
+     "km_from_mouth": 1619
+    },
+    {
+     "name": null,
+     "lon": -105.153,
+     "lat": 55.114,
+     "area_km2": 15410,
+     "discharge_cms": 57.3,
+     "length_km": 358,
+     "km_from_mouth": 1164
+    },
+    {
+     "name": null,
+     "lon": -108.61,
+     "lat": 54.415,
+     "area_km2": 11191,
+     "discharge_cms": 19.8,
+     "length_km": 358,
+     "km_from_mouth": 1730
+    },
+    {
+     "name": null,
+     "lon": -106.326,
+     "lat": 55.165,
+     "area_km2": 9712,
+     "discharge_cms": 33.0,
+     "length_km": 307,
+     "km_from_mouth": 1383
+    },
+    {
+     "name": null,
+     "lon": -95.631,
+     "lat": 56.974,
+     "area_km2": 9465,
+     "discharge_cms": 35.5,
+     "length_km": 338,
+     "km_from_mouth": 193
+    }
+   ]
+  },
+  {
+   "slug": "thelon",
+   "name": "Thelon",
+   "main_riv": 80157080,
+   "bounds": [
+    -107.4271,
+    59.2625,
+    -93.9521,
+    65.4646
+   ],
+   "segments": 9880,
+   "segments_total": 11616,
+   "max_ord_flow": 7,
+   "travel_time_h": 712.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 244855,
+   "discharge_cms": 1538.2,
+   "main_length_km": 1233,
+   "network_length_km": 59720,
+   "drainage_density": 0.244,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 5890,
+    "2": 2766,
+    "3": 1382,
+    "4": 743,
+    "5": 162,
+    "6": 549,
+    "7": 124
+   },
+   "runoff_mm": 198,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Thelon",
+     "lon": -97.572,
+     "lat": 63.098,
+     "area_km2": 74257,
+     "discharge_cms": 540.3,
+     "length_km": 1071,
+     "km_from_mouth": 35
+    },
+    {
+     "name": null,
+     "lon": -101.15,
+     "lat": 63.25,
+     "area_km2": 65380,
+     "discharge_cms": 365.9,
+     "length_km": 825,
+     "km_from_mouth": 411
+    },
+    {
+     "name": null,
+     "lon": -105.268,
+     "lat": 63.602,
+     "area_km2": 8979,
+     "discharge_cms": 39.2,
+     "length_km": 282,
+     "km_from_mouth": 745
+    },
+    {
+     "name": null,
+     "lon": -105.138,
+     "lat": 62.16,
+     "area_km2": 7018,
+     "discharge_cms": 32.9,
+     "length_km": 192,
+     "km_from_mouth": 945
+    },
+    {
+     "name": null,
+     "lon": -102.236,
+     "lat": 63.948,
+     "area_km2": 6609,
+     "discharge_cms": 36.4,
+     "length_km": 194,
+     "km_from_mouth": 552
+    },
+    {
+     "name": null,
+     "lon": -102.498,
+     "lat": 64.648,
+     "area_km2": 5020,
+     "discharge_cms": 26.4,
+     "length_km": 177,
+     "km_from_mouth": 505
+    }
+   ]
+  },
+  {
+   "slug": "fraser",
+   "name": "Fraser",
+   "main_riv": 70283328,
+   "bounds": [
+    -127.775,
+    48.8583,
+    -118.2,
+    56.1396
+   ],
+   "segments": 14575,
+   "segments_total": 15422,
+   "max_ord_flow": 7,
+   "travel_time_h": 506.3,
+   "monthly": "model",
+   "size_mb": 0.3,
+   "area_km2": 230824,
+   "discharge_cms": 3592.1,
+   "main_length_km": 1351,
+   "network_length_km": 60582,
+   "drainage_density": 0.262,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 7788,
+    "2": 3505,
+    "3": 1903,
+    "4": 1162,
+    "5": 632,
+    "6": 178,
+    "7": 254
+   },
+   "runoff_mm": 491,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 0.997
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Thompson",
+     "lon": -120.831,
+     "lat": 50.765,
+     "area_km2": 55417,
+     "discharge_cms": 832.1,
+     "length_km": 530,
+     "km_from_mouth": 256
+    },
+    {
+     "name": null,
+     "lon": -121.673,
+     "lat": 54.002,
+     "area_km2": 32492,
+     "discharge_cms": 747.0,
+     "length_km": 567,
+     "km_from_mouth": 790
+    },
+    {
+     "name": null,
+     "lon": -123.217,
+     "lat": 52.026,
+     "area_km2": 19708,
+     "discharge_cms": 93.7,
+     "length_km": 296,
+     "km_from_mouth": 471
+    },
+    {
+     "name": null,
+     "lon": -124.596,
+     "lat": 54.551,
+     "area_km2": 15504,
+     "discharge_cms": 139.7,
+     "length_km": 425,
+     "km_from_mouth": 881
+    },
+    {
+     "name": null,
+     "lon": -123.508,
+     "lat": 53.21,
+     "area_km2": 12276,
+     "discharge_cms": 49.3,
+     "length_km": 259,
+     "km_from_mouth": 696
+    },
+    {
+     "name": null,
+     "lon": -121.95,
+     "lat": 52.673,
+     "area_km2": 12053,
+     "discharge_cms": 190.6,
+     "length_km": 264,
+     "km_from_mouth": 635
+    }
+   ]
+  },
+  {
+   "slug": "caniapiscau",
+   "name": "Caniapiscau",
+   "main_riv": 70026246,
+   "bounds": [
+    -73.5833,
+    52.5146,
+    -66.6667,
+    58.2146
+   ],
+   "segments": 9852,
+   "segments_total": 9852,
+   "max_ord_flow": 7,
+   "travel_time_h": 365.5,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 135538,
+   "discharge_cms": 1907.0,
+   "main_length_km": 995,
+   "network_length_km": 38457,
+   "drainage_density": 0.284,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4971,
+    "2": 2335,
+    "3": 1186,
+    "4": 660,
+    "5": 344,
+    "6": 285,
+    "7": 71
+   },
+   "runoff_mm": 444,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Mlzes",
+     "lon": -70.74,
+     "lat": 57.266,
+     "area_km2": 40708,
+     "discharge_cms": 623.4,
+     "length_km": 496,
+     "km_from_mouth": 82
+    },
+    {
+     "name": null,
+     "lon": -68.535,
+     "lat": 56.302,
+     "area_km2": 15920,
+     "discharge_cms": 230.8,
+     "length_km": 350,
+     "km_from_mouth": 194
+    },
+    {
+     "name": null,
+     "lon": -69.173,
+     "lat": 54.569,
+     "area_km2": 9328,
+     "discharge_cms": 142.1,
+     "length_km": 256,
+     "km_from_mouth": 560
+    },
+    {
+     "name": null,
+     "lon": -68.271,
+     "lat": 55.252,
+     "area_km2": 6528,
+     "discharge_cms": 95.2,
+     "length_km": 186,
+     "km_from_mouth": 404
+    },
+    {
+     "name": null,
+     "lon": -68.11,
+     "lat": 53.49,
+     "area_km2": 5702,
+     "discharge_cms": 124.8,
+     "length_km": 199,
+     "km_from_mouth": 781
+    },
+    {
+     "name": null,
+     "lon": -69.006,
+     "lat": 55.627,
+     "area_km2": 5586,
+     "discharge_cms": 88.4,
+     "length_km": 209,
+     "km_from_mouth": 321
+    }
+   ]
+  },
+  {
+   "slug": "albany",
+   "name": "Albany",
+   "main_riv": 70174032,
+   "bounds": [
+    -92.8625,
+    48.4792,
+    -81.5729,
+    52.3021
+   ],
+   "segments": 6307,
+   "segments_total": 6466,
+   "max_ord_flow": 7,
+   "travel_time_h": 536.1,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 134726,
+   "discharge_cms": 1222.0,
+   "main_length_km": 1138,
+   "network_length_km": 33977,
+   "drainage_density": 0.252,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3250,
+    "2": 1505,
+    "3": 841,
+    "4": 434,
+    "5": 316,
+    "6": 75,
+    "7": 45
+   },
+   "runoff_mm": 286,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -84.475,
+     "lat": 50.617,
+     "area_km2": 51111,
+     "discharge_cms": 546.4,
+     "length_km": 447,
+     "km_from_mouth": 280
+    },
+    {
+     "name": null,
+     "lon": -87.386,
+     "lat": 50.922,
+     "area_km2": 22365,
+     "discharge_cms": 172.0,
+     "length_km": 697,
+     "km_from_mouth": 421
+    },
+    {
+     "name": null,
+     "lon": -82.149,
+     "lat": 51.881,
+     "area_km2": 6502,
+     "discharge_cms": 60.6,
+     "length_km": 233,
+     "km_from_mouth": 15
+    },
+    {
+     "name": null,
+     "lon": -83.506,
+     "lat": 51.218,
+     "area_km2": 3440,
+     "discharge_cms": 42.3,
+     "length_km": 157,
+     "km_from_mouth": 184
+    },
+    {
+     "name": null,
+     "lon": -88.073,
+     "lat": 51.298,
+     "area_km2": 2850,
+     "discharge_cms": 23.7,
+     "length_km": 171,
+     "km_from_mouth": 623
+    },
+    {
+     "name": null,
+     "lon": -90.888,
+     "lat": 50.825,
+     "area_km2": 2838,
+     "discharge_cms": 21.1,
+     "length_km": 145,
+     "km_from_mouth": 919
+    }
+   ]
+  },
+  {
+   "slug": "sacramento",
+   "name": "Sacramento",
+   "main_riv": 70617856,
+   "bounds": [
+    -123.075,
+    35.9667,
+    -118.3667,
+    42.4062
+   ],
+   "segments": 5918,
+   "segments_total": 6665,
+   "max_ord_flow": 7,
+   "travel_time_h": 820.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 124352,
+   "discharge_cms": 1179.5,
+   "main_length_km": 925,
+   "network_length_km": 33109,
+   "drainage_density": 0.266,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3350,
+    "2": 1615,
+    "3": 824,
+    "4": 529,
+    "5": 249,
+    "6": 96,
+    "7": 2
+   },
+   "runoff_mm": 299,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "San Joaquin",
+     "lon": -121.077,
+     "lat": 37.49,
+     "area_km2": 53385,
+     "discharge_cms": 390.6,
+     "length_km": 559,
+     "km_from_mouth": 10
+    },
+    {
+     "name": "Feather",
+     "lon": -121.486,
+     "lat": 39.535,
+     "area_km2": 16177,
+     "discharge_cms": 257.0,
+     "length_km": 329,
+     "km_from_mouth": 142
+    },
+    {
+     "name": null,
+     "lon": -121.165,
+     "lat": 38.69,
+     "area_km2": 5980,
+     "discharge_cms": 103.6,
+     "length_km": 203,
+     "km_from_mouth": 109
+    },
+    {
+     "name": null,
+     "lon": -121.921,
+     "lat": 38.967,
+     "area_km2": 3952,
+     "discharge_cms": 37.1,
+     "length_km": 170,
+     "km_from_mouth": 160
+    },
+    {
+     "name": null,
+     "lon": -122.196,
+     "lat": 38.846,
+     "area_km2": 3487,
+     "discharge_cms": 55.4,
+     "length_km": 212,
+     "km_from_mouth": 127
+    },
+    {
+     "name": null,
+     "lon": -121.99,
+     "lat": 38.501,
+     "area_km2": 3263,
+     "discharge_cms": 36.4,
+     "length_km": 185,
+     "km_from_mouth": 34
+    }
+   ]
+  },
+  {
+   "slug": "usumacinta",
+   "name": "Usumacinta",
+   "main_riv": 70897360,
+   "bounds": [
+    -94.2,
+    14.9167,
+    -89.15,
+    18.5875
+   ],
+   "segments": 13885,
+   "segments_total": 13902,
+   "max_ord_flow": 7,
+   "travel_time_h": 449.4,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 123639,
+   "discharge_cms": 3583.2,
+   "main_length_km": 1060,
+   "network_length_km": 40796,
+   "drainage_density": 0.33,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 7094,
+    "2": 3197,
+    "3": 1628,
+    "4": 906,
+    "5": 518,
+    "6": 356,
+    "7": 194,
+    "8": 9
+   },
+   "runoff_mm": 914,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Mexiko",
+     "share": 0.607
+    },
+    {
+     "name": "Guatemala",
+     "share": 0.392
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Grijalva",
+     "lon": -93.435,
+     "lat": 17.402,
+     "area_km2": 54136,
+     "discharge_cms": 1197.4,
+     "length_km": 741,
+     "km_from_mouth": 21
+    },
+    {
+     "name": null,
+     "lon": -90.917,
+     "lat": 16.133,
+     "area_km2": 17980,
+     "discharge_cms": 931.6,
+     "length_km": 360,
+     "km_from_mouth": 572
+    },
+    {
+     "name": null,
+     "lon": -91.133,
+     "lat": 17.667,
+     "area_km2": 12654,
+     "discharge_cms": 152.7,
+     "length_km": 316,
+     "km_from_mouth": 297
+    },
+    {
+     "name": null,
+     "lon": -90.176,
+     "lat": 16.541,
+     "area_km2": 11933,
+     "discharge_cms": 404.9,
+     "length_km": 314,
+     "km_from_mouth": 602
+    },
+    {
+     "name": null,
+     "lon": -90.592,
+     "lat": 15.862,
+     "area_km2": 1297,
+     "discharge_cms": 66.6,
+     "length_km": 99,
+     "km_from_mouth": 711
+    },
+    {
+     "name": null,
+     "lon": -91.64,
+     "lat": 17.562,
+     "area_km2": 1177,
+     "discharge_cms": 52.8,
+     "length_km": 90,
+     "km_from_mouth": 231
+    }
+   ]
+  },
+  {
+   "slug": "kuskokwim",
+   "name": "Kuskokwim",
+   "main_riv": 80259460,
+   "bounds": [
+    -163.1271,
+    59.8021,
+    -151.5083,
+    64.3729
+   ],
+   "segments": 8414,
+   "segments_total": 8423,
+   "max_ord_flow": 7,
+   "travel_time_h": 568.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 123077,
+   "discharge_cms": 1565.5,
+   "main_length_km": 1000,
+   "network_length_km": 33276,
+   "drainage_density": 0.27,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4258,
+    "2": 1925,
+    "3": 1026,
+    "4": 631,
+    "5": 354,
+    "6": 97,
+    "7": 132
+   },
+   "runoff_mm": 401,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -155.569,
+     "lat": 61.385,
+     "area_km2": 16512,
+     "discharge_cms": 333.7,
+     "length_km": 302,
+     "km_from_mouth": 504
+    },
+    {
+     "name": null,
+     "lon": -157.243,
+     "lat": 61.149,
+     "area_km2": 15536,
+     "discharge_cms": 264.5,
+     "length_km": 221,
+     "km_from_mouth": 475
+    },
+    {
+     "name": "S. Fork Kuskokwim",
+     "lon": -153.671,
+     "lat": 62.612,
+     "area_km2": 8057,
+     "discharge_cms": 144.8,
+     "length_km": 250,
+     "km_from_mouth": 722
+    },
+    {
+     "name": null,
+     "lon": -154.993,
+     "lat": 62.419,
+     "area_km2": 7776,
+     "discharge_cms": 103.4,
+     "length_km": 199,
+     "km_from_mouth": 707
+    },
+    {
+     "name": null,
+     "lon": -153.704,
+     "lat": 63.258,
+     "area_km2": 6056,
+     "discharge_cms": 75.9,
+     "length_km": 222,
+     "km_from_mouth": 746
+    },
+    {
+     "name": null,
+     "lon": -155.606,
+     "lat": 63.166,
+     "area_km2": 5799,
+     "discharge_cms": 69.1,
+     "length_km": 145,
+     "km_from_mouth": 670
+    }
+   ]
+  },
+  {
+   "slug": "rio-grande-de-santiago",
+   "name": "Río Grande de Santiago",
+   "main_riv": 70870210,
+   "bounds": [
+    -105.4542,
+    19.0854,
+    -99.3458,
+    23.3833
+   ],
+   "segments": 3158,
+   "segments_total": 6174,
+   "max_ord_flow": 7,
+   "travel_time_h": 433.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 122677,
+   "discharge_cms": 301.4,
+   "main_length_km": 1173,
+   "network_length_km": 28271,
+   "drainage_density": 0.23,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 3118,
+    "2": 1393,
+    "3": 728,
+    "4": 451,
+    "5": 283,
+    "6": 201
+   },
+   "runoff_mm": 77,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Mexiko",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -102.715,
+     "lat": 21.207,
+     "area_km2": 20938,
+     "discharge_cms": 30.9,
+     "length_km": 395,
+     "km_from_mouth": 420
+    },
+    {
+     "name": null,
+     "lon": -104.169,
+     "lat": 22.151,
+     "area_km2": 17753,
+     "discharge_cms": 28.7,
+     "length_km": 332,
+     "km_from_mouth": 128
+    },
+    {
+     "name": "Atengo",
+     "lon": -103.816,
+     "lat": 21.654,
+     "area_km2": 15010,
+     "discharge_cms": 15.5,
+     "length_km": 358,
+     "km_from_mouth": 265
+    },
+    {
+     "name": null,
+     "lon": -100.761,
+     "lat": 20.569,
+     "area_km2": 10108,
+     "discharge_cms": 10.5,
+     "length_km": 243,
+     "km_from_mouth": 800
+    },
+    {
+     "name": null,
+     "lon": -103.132,
+     "lat": 21.356,
+     "area_km2": 9374,
+     "discharge_cms": 16.7,
+     "length_km": 283,
+     "km_from_mouth": 375
+    },
+    {
+     "name": null,
+     "lon": -101.59,
+     "lat": 20.573,
+     "area_km2": 4892,
+     "discharge_cms": 6.4,
+     "length_km": 186,
+     "km_from_mouth": 726
+    }
+   ]
+  },
+  {
+   "slug": "back",
+   "name": "Back",
+   "main_riv": 80080215,
+   "bounds": [
+    -109.2042,
+    63.7833,
+    -90.3042,
+    67.7417
+   ],
+   "segments": 4408,
+   "segments_total": 5341,
+   "max_ord_flow": 7,
+   "travel_time_h": 816.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 118550,
+   "discharge_cms": 753.9,
+   "main_length_km": 1231,
+   "network_length_km": 25647,
+   "drainage_density": 0.216,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2700,
+    "2": 1239,
+    "3": 720,
+    "4": 300,
+    "5": 161,
+    "6": 219,
+    "7": 2
+   },
+   "runoff_mm": 201,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -93.923,
+     "lat": 67.431,
+     "area_km2": 22988,
+     "discharge_cms": 157.5,
+     "length_km": 380,
+     "km_from_mouth": 2
+    },
+    {
+     "name": null,
+     "lon": -105.479,
+     "lat": 64.944,
+     "area_km2": 14447,
+     "discharge_cms": 81.8,
+     "length_km": 321,
+     "km_from_mouth": 765
+    },
+    {
+     "name": null,
+     "lon": -96.346,
+     "lat": 65.713,
+     "area_km2": 7818,
+     "discharge_cms": 64.8,
+     "length_km": 208,
+     "km_from_mouth": 243
+    },
+    {
+     "name": null,
+     "lon": -103.097,
+     "lat": 65.93,
+     "area_km2": 3971,
+     "discharge_cms": 13.2,
+     "length_km": 199,
+     "km_from_mouth": 576
+    },
+    {
+     "name": null,
+     "lon": -100.785,
+     "lat": 65.617,
+     "area_km2": 3180,
+     "discharge_cms": 28.7,
+     "length_km": 148,
+     "km_from_mouth": 503
+    },
+    {
+     "name": null,
+     "lon": -95.731,
+     "lat": 66.081,
+     "area_km2": 3108,
+     "discharge_cms": 30.3,
+     "length_km": 135,
+     "km_from_mouth": 168
+    }
+   ]
+  },
+  {
+   "slug": "alabama",
+   "name": "Alabama",
+   "main_riv": 70790485,
+   "bounds": [
+    -89.15,
+    30.6812,
+    -84.0188,
+    35.1333
+   ],
+   "segments": 8574,
+   "segments_total": 8574,
+   "max_ord_flow": 7,
+   "travel_time_h": 454.5,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 112528,
+   "discharge_cms": 2099.8,
+   "main_length_km": 1193,
+   "network_length_km": 32385,
+   "drainage_density": 0.288,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4323,
+    "2": 1995,
+    "3": 1173,
+    "4": 482,
+    "5": 316,
+    "6": 270,
+    "7": 15
+   },
+   "runoff_mm": 588,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Tombigbee",
+     "lon": -88.122,
+     "lat": 31.947,
+     "area_km2": 52029,
+     "discharge_cms": 1051.5,
+     "length_km": 718,
+     "km_from_mouth": 70
+    },
+    {
+     "name": null,
+     "lon": -85.885,
+     "lat": 32.755,
+     "area_km2": 12170,
+     "discharge_cms": 195.5,
+     "length_km": 354,
+     "km_from_mouth": 563
+    },
+    {
+     "name": null,
+     "lon": -84.871,
+     "lat": 34.137,
+     "area_km2": 4828,
+     "discharge_cms": 87.8,
+     "length_km": 213,
+     "km_from_mouth": 982
+    },
+    {
+     "name": null,
+     "lon": -87.261,
+     "lat": 32.753,
+     "area_km2": 4769,
+     "discharge_cms": 83.1,
+     "length_km": 249,
+     "km_from_mouth": 376
+    },
+    {
+     "name": null,
+     "lon": -84.899,
+     "lat": 34.707,
+     "area_km2": 1880,
+     "discharge_cms": 41.4,
+     "length_km": 109,
+     "km_from_mouth": 1046
+    },
+    {
+     "name": null,
+     "lon": -86.008,
+     "lat": 33.556,
+     "area_km2": 1323,
+     "discharge_cms": 22.7,
+     "length_km": 103,
+     "km_from_mouth": 733
+    }
+   ]
+  },
+  {
+   "slug": "balsas",
+   "name": "Balsas",
+   "main_riv": 70907518,
+   "bounds": [
+    -103.2458,
+    17.0917,
+    -97.3938,
+    20.0021
+   ],
+   "segments": 5375,
+   "segments_total": 5766,
+   "max_ord_flow": 7,
+   "travel_time_h": 207.6,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 111464,
+   "discharge_cms": 1145.9,
+   "main_length_km": 936,
+   "network_length_km": 26288,
+   "drainage_density": 0.236,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2904,
+    "2": 1323,
+    "3": 806,
+    "4": 345,
+    "5": 181,
+    "6": 65,
+    "7": 142
+   },
+   "runoff_mm": 324,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Mexiko",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -102.128,
+     "lat": 18.843,
+     "area_km2": 17793,
+     "discharge_cms": 123.4,
+     "length_km": 297,
+     "km_from_mouth": 109
+    },
+    {
+     "name": null,
+     "lon": -100.68,
+     "lat": 18.688,
+     "area_km2": 13436,
+     "discharge_cms": 140.0,
+     "length_km": 257,
+     "km_from_mouth": 280
+    },
+    {
+     "name": null,
+     "lon": -98.213,
+     "lat": 18.562,
+     "area_km2": 10144,
+     "discharge_cms": 47.7,
+     "length_km": 301,
+     "km_from_mouth": 650
+    },
+    {
+     "name": null,
+     "lon": -99.056,
+     "lat": 18.265,
+     "area_km2": 9513,
+     "discharge_cms": 100.1,
+     "length_km": 241,
+     "km_from_mouth": 528
+    },
+    {
+     "name": null,
+     "lon": -101.176,
+     "lat": 18.748,
+     "area_km2": 5540,
+     "discharge_cms": 55.7,
+     "length_km": 181,
+     "km_from_mouth": 208
+    },
+    {
+     "name": null,
+     "lon": -98.6,
+     "lat": 17.85,
+     "area_km2": 5043,
+     "discharge_cms": 111.3,
+     "length_km": 161,
+     "km_from_mouth": 586
+    }
+   ]
+  },
+  {
+   "slug": "brazos",
+   "name": "Brazos",
+   "main_riv": 70816878,
+   "bounds": [
+    -103.625,
+    28.8771,
+    -95.3667,
+    34.6604
+   ],
+   "segments": 2488,
+   "segments_total": 5218,
+   "max_ord_flow": 7,
+   "travel_time_h": 1648.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 109492,
+   "discharge_cms": 240.4,
+   "main_length_km": 1877,
+   "network_length_km": 25227,
+   "drainage_density": 0.23,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2629,
+    "2": 1137,
+    "3": 666,
+    "4": 318,
+    "5": 213,
+    "6": 255
+   },
+   "runoff_mm": 69,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -97.489,
+     "lat": 31.165,
+     "area_km2": 19732,
+     "discharge_cms": 50.1,
+     "length_km": 483,
+     "km_from_mouth": 449
+    },
+    {
+     "name": null,
+     "lon": -99.244,
+     "lat": 33.006,
+     "area_km2": 14910,
+     "discharge_cms": 13.4,
+     "length_km": 358,
+     "km_from_mouth": 1098
+    },
+    {
+     "name": null,
+     "lon": -100.744,
+     "lat": 33.21,
+     "area_km2": 13652,
+     "discharge_cms": 2.9,
+     "length_km": 566,
+     "km_from_mouth": 1324
+    },
+    {
+     "name": null,
+     "lon": -96.187,
+     "lat": 30.788,
+     "area_km2": 5688,
+     "discharge_cms": 36.9,
+     "length_km": 230,
+     "km_from_mouth": 330
+    },
+    {
+     "name": null,
+     "lon": -97.638,
+     "lat": 31.885,
+     "area_km2": 4306,
+     "discharge_cms": 11.7,
+     "length_km": 205,
+     "km_from_mouth": 596
+    },
+    {
+     "name": null,
+     "lon": -96.619,
+     "lat": 30.302,
+     "area_km2": 3443,
+     "discharge_cms": 22.2,
+     "length_km": 128,
+     "km_from_mouth": 352
+    }
+   ]
+  },
+  {
+   "slug": "moose",
+   "name": "Moose",
+   "main_riv": 70207927,
+   "bounds": [
+    -84.45,
+    47.2542,
+    -78.575,
+    51.5333
+   ],
+   "segments": 6139,
+   "segments_total": 6149,
+   "max_ord_flow": 7,
+   "travel_time_h": 346.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 107727,
+   "discharge_cms": 1224.7,
+   "main_length_km": 650,
+   "network_length_km": 29786,
+   "drainage_density": 0.276,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3094,
+    "2": 1448,
+    "3": 761,
+    "4": 355,
+    "5": 330,
+    "6": 150,
+    "7": 11
+   },
+   "runoff_mm": 359,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -81.49,
+     "lat": 49.771,
+     "area_km2": 28780,
+     "discharge_cms": 318.1,
+     "length_km": 621,
+     "km_from_mouth": 48
+    },
+    {
+     "name": "Missinaibi",
+     "lon": -83.037,
+     "lat": 50.163,
+     "area_km2": 24693,
+     "discharge_cms": 269.9,
+     "length_km": 541,
+     "km_from_mouth": 108
+    },
+    {
+     "name": null,
+     "lon": -81.601,
+     "lat": 49.026,
+     "area_km2": 11769,
+     "discharge_cms": 151.0,
+     "length_km": 380,
+     "km_from_mouth": 266
+    },
+    {
+     "name": null,
+     "lon": -82.444,
+     "lat": 49.452,
+     "area_km2": 8928,
+     "discharge_cms": 118.5,
+     "length_km": 340,
+     "km_from_mouth": 247
+    },
+    {
+     "name": null,
+     "lon": -81.077,
+     "lat": 50.585,
+     "area_km2": 6978,
+     "discharge_cms": 70.0,
+     "length_km": 269,
+     "km_from_mouth": 30
+    },
+    {
+     "name": null,
+     "lon": -81.896,
+     "lat": 51.221,
+     "area_km2": 4238,
+     "discharge_cms": 41.1,
+     "length_km": 265,
+     "km_from_mouth": 36
+    }
+   ]
+  },
+  {
+   "slug": "god-s",
+   "name": "God's",
+   "main_riv": 70044290,
+   "bounds": [
+    -97.5688,
+    53.2292,
+    -90.0292,
+    57.0187
+   ],
+   "segments": 4930,
+   "segments_total": 5231,
+   "max_ord_flow": 7,
+   "travel_time_h": 472.4,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 107550,
+   "discharge_cms": 916.5,
+   "main_length_km": 796,
+   "network_length_km": 26875,
+   "drainage_density": 0.25,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2629,
+    "2": 1261,
+    "3": 651,
+    "4": 347,
+    "5": 211,
+    "6": 88,
+    "7": 44
+   },
+   "runoff_mm": 269,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -93.86,
+     "lat": 55.931,
+     "area_km2": 31299,
+     "discharge_cms": 203.6,
+     "length_km": 600,
+     "km_from_mouth": 96
+    },
+    {
+     "name": null,
+     "lon": -91.615,
+     "lat": 55.763,
+     "area_km2": 18685,
+     "discharge_cms": 122.0,
+     "length_km": 289,
+     "km_from_mouth": 181
+    },
+    {
+     "name": null,
+     "lon": -93.174,
+     "lat": 54.856,
+     "area_km2": 15451,
+     "discharge_cms": 143.4,
+     "length_km": 304,
+     "km_from_mouth": 263
+    },
+    {
+     "name": null,
+     "lon": -95.245,
+     "lat": 54.475,
+     "area_km2": 5173,
+     "discharge_cms": 39.9,
+     "length_km": 199,
+     "km_from_mouth": 480
+    },
+    {
+     "name": null,
+     "lon": -92.903,
+     "lat": 56.522,
+     "area_km2": 3603,
+     "discharge_cms": 25.1,
+     "length_km": 169,
+     "km_from_mouth": 51
+    },
+    {
+     "name": null,
+     "lon": -95.321,
+     "lat": 53.9,
+     "area_km2": 3524,
+     "discharge_cms": 20.1,
+     "length_km": 150,
+     "km_from_mouth": 583
+    }
+   ]
+  },
+  {
+   "slug": "colorado-texas",
+   "name": "Colorado (Texas)",
+   "main_riv": 70819626,
+   "bounds": [
+    -103.8042,
+    28.5979,
+    -95.9188,
+    33.7958
+   ],
+   "segments": 1828,
+   "segments_total": 5072,
+   "max_ord_flow": 7,
+   "travel_time_h": 1294.8,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 106730,
+   "discharge_cms": 225.5,
+   "main_length_km": 1510,
+   "network_length_km": 25335,
+   "drainage_density": 0.237,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2552,
+    "2": 1128,
+    "3": 568,
+    "4": 347,
+    "5": 184,
+    "6": 293
+   },
+   "runoff_mm": 67,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -100.348,
+     "lat": 31.465,
+     "area_km2": 16824,
+     "discharge_cms": 5.9,
+     "length_km": 328,
+     "km_from_mouth": 872
+    },
+    {
+     "name": null,
+     "lon": -98.932,
+     "lat": 30.706,
+     "area_km2": 11598,
+     "discharge_cms": 22.5,
+     "length_km": 296,
+     "km_from_mouth": 569
+    },
+    {
+     "name": null,
+     "lon": -101.356,
+     "lat": 32.627,
+     "area_km2": 10700,
+     "discharge_cms": 2.8,
+     "length_km": 450,
+     "km_from_mouth": 1045
+    },
+    {
+     "name": null,
+     "lon": -99.11,
+     "lat": 31.04,
+     "area_km2": 8101,
+     "discharge_cms": 10.7,
+     "length_km": 259,
+     "km_from_mouth": 681
+    },
+    {
+     "name": null,
+     "lon": -98.93,
+     "lat": 31.698,
+     "area_km2": 5695,
+     "discharge_cms": 7.2,
+     "length_km": 202,
+     "km_from_mouth": 721
+    },
+    {
+     "name": null,
+     "lon": -101.787,
+     "lat": 32.366,
+     "area_km2": 5011,
+     "discharge_cms": 0.6,
+     "length_km": 324,
+     "km_from_mouth": 1134
+    }
+   ]
+  },
+  {
+   "slug": "severn",
+   "name": "Severn",
+   "main_riv": 70066257,
+   "bounds": [
+    -95.7417,
+    52.0146,
+    -87.2,
+    56.0687
+   ],
+   "segments": 4116,
+   "segments_total": 4807,
+   "max_ord_flow": 7,
+   "travel_time_h": 747.0,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 101172,
+   "discharge_cms": 635.1,
+   "main_length_km": 1012,
+   "network_length_km": 25904,
+   "drainage_density": 0.256,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2415,
+    "2": 1152,
+    "3": 577,
+    "4": 322,
+    "5": 200,
+    "6": 99,
+    "7": 42
+   },
+   "runoff_mm": 198,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -90.238,
+     "lat": 54.995,
+     "area_km2": 20491,
+     "discharge_cms": 117.5,
+     "length_km": 455,
+     "km_from_mouth": 168
+    },
+    {
+     "name": null,
+     "lon": -88.021,
+     "lat": 54.612,
+     "area_km2": 14844,
+     "discharge_cms": 115.0,
+     "length_km": 448,
+     "km_from_mouth": 99
+    },
+    {
+     "name": null,
+     "lon": -91.931,
+     "lat": 52.927,
+     "area_km2": 12080,
+     "discharge_cms": 104.1,
+     "length_km": 254,
+     "km_from_mouth": 512
+    },
+    {
+     "name": null,
+     "lon": -88.783,
+     "lat": 55.74,
+     "area_km2": 7336,
+     "discharge_cms": 59.1,
+     "length_km": 340,
+     "km_from_mouth": 14
+    },
+    {
+     "name": null,
+     "lon": -93.885,
+     "lat": 52.856,
+     "area_km2": 5674,
+     "discharge_cms": 22.4,
+     "length_km": 237,
+     "km_from_mouth": 719
+    },
+    {
+     "name": null,
+     "lon": -91.041,
+     "lat": 53.626,
+     "area_km2": 4540,
+     "discharge_cms": 23.8,
+     "length_km": 182,
+     "km_from_mouth": 397
+    }
+   ]
+  },
+  {
+   "slug": "la-grande",
+   "name": "La Grande",
+   "main_riv": 70124198,
+   "bounds": [
+    -78.9104,
+    52.2854,
+    -69.65,
+    54.8271
+   ],
+   "segments": 7981,
+   "segments_total": 7981,
+   "max_ord_flow": 7,
+   "travel_time_h": 293.5,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 96570,
+   "discharge_cms": 1887.6,
+   "main_length_km": 939,
+   "network_length_km": 31127,
+   "drainage_density": 0.322,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 4025,
+    "2": 1935,
+    "3": 938,
+    "4": 565,
+    "5": 226,
+    "6": 182,
+    "7": 110
+   },
+   "runoff_mm": 616,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -76.221,
+     "lat": 54.149,
+     "area_km2": 18827,
+     "discharge_cms": 357.8,
+     "length_km": 452,
+     "km_from_mouth": 140
+    },
+    {
+     "name": null,
+     "lon": -74.473,
+     "lat": 53.18,
+     "area_km2": 18230,
+     "discharge_cms": 381.2,
+     "length_km": 405,
+     "km_from_mouth": 335
+    },
+    {
+     "name": null,
+     "lon": -76.685,
+     "lat": 53.41,
+     "area_km2": 10079,
+     "discharge_cms": 182.4,
+     "length_km": 243,
+     "km_from_mouth": 159
+    },
+    {
+     "name": null,
+     "lon": -72.71,
+     "lat": 54.09,
+     "area_km2": 9949,
+     "discharge_cms": 202.3,
+     "length_km": 295,
+     "km_from_mouth": 434
+    },
+    {
+     "name": null,
+     "lon": -75.03,
+     "lat": 53.801,
+     "area_km2": 3868,
+     "discharge_cms": 77.5,
+     "length_km": 191,
+     "km_from_mouth": 265
+    },
+    {
+     "name": null,
+     "lon": -71.259,
+     "lat": 53.815,
+     "area_km2": 3421,
+     "discharge_cms": 72.5,
+     "length_km": 148,
+     "km_from_mouth": 636
+    }
+   ]
+  },
+  {
+   "slug": "churchill-kanada",
+   "name": "Churchill (Kanada)",
+   "main_riv": 70138351,
+   "bounds": [
+    -67.7708,
+    51.6125,
+    -60.1292,
+    55.3333
+   ],
+   "segments": 7793,
+   "segments_total": 7793,
+   "max_ord_flow": 7,
+   "travel_time_h": 394.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 92709,
+   "discharge_cms": 1924.1,
+   "main_length_km": 970,
+   "network_length_km": 29125,
+   "drainage_density": 0.314,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3928,
+    "2": 1864,
+    "3": 1000,
+    "4": 462,
+    "5": 257,
+    "6": 150,
+    "7": 132
+   },
+   "runoff_mm": 654,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Churchill",
+     "lon": -64.725,
+     "lat": 53.308,
+     "area_km2": 24608,
+     "discharge_cms": 489.7,
+     "length_km": 417,
+     "km_from_mouth": 352
+    },
+    {
+     "name": null,
+     "lon": -64.639,
+     "lat": 54.044,
+     "area_km2": 17781,
+     "discharge_cms": 354.5,
+     "length_km": 266,
+     "km_from_mouth": 462
+    },
+    {
+     "name": null,
+     "lon": -63.456,
+     "lat": 53.16,
+     "area_km2": 4496,
+     "discharge_cms": 99.6,
+     "length_km": 170,
+     "km_from_mouth": 278
+    },
+    {
+     "name": null,
+     "lon": -66.566,
+     "lat": 53.205,
+     "area_km2": 3607,
+     "discharge_cms": 79.6,
+     "length_km": 168,
+     "km_from_mouth": 806
+    },
+    {
+     "name": null,
+     "lon": -66.902,
+     "lat": 54.14,
+     "area_km2": 3269,
+     "discharge_cms": 66.9,
+     "length_km": 129,
+     "km_from_mouth": 676
+    },
+    {
+     "name": null,
+     "lon": -63.188,
+     "lat": 53.508,
+     "area_km2": 3162,
+     "discharge_cms": 70.7,
+     "length_km": 151,
+     "km_from_mouth": 298
+    }
+   ]
+  },
+  {
+   "slug": "saguenay",
+   "name": "Saguenay",
+   "main_riv": 70318765,
+   "bounds": [
+    -74.4,
+    47.4437,
+    -69.7646,
+    52.2729
+   ],
+   "segments": 7450,
+   "segments_total": 7450,
+   "max_ord_flow": 7,
+   "travel_time_h": 289.3,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 87596,
+   "discharge_cms": 1924.8,
+   "main_length_km": 754,
+   "network_length_km": 27545,
+   "drainage_density": 0.314,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3756,
+    "2": 1736,
+    "3": 965,
+    "4": 558,
+    "5": 196,
+    "6": 162,
+    "7": 77
+   },
+   "runoff_mm": 693,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Saguenay",
+     "lon": -72.619,
+     "lat": 49.235,
+     "area_km2": 21993,
+     "discharge_cms": 466.7,
+     "length_km": 363,
+     "km_from_mouth": 209
+    },
+    {
+     "name": null,
+     "lon": -73.069,
+     "lat": 48.997,
+     "area_km2": 16796,
+     "discharge_cms": 300.8,
+     "length_km": 398,
+     "km_from_mouth": 209
+    },
+    {
+     "name": null,
+     "lon": -70.627,
+     "lat": 49.898,
+     "area_km2": 9489,
+     "discharge_cms": 197.6,
+     "length_km": 381,
+     "km_from_mouth": 373
+    },
+    {
+     "name": null,
+     "lon": -71.45,
+     "lat": 48.321,
+     "area_km2": 3557,
+     "discharge_cms": 87.5,
+     "length_km": 171,
+     "km_from_mouth": 119
+    },
+    {
+     "name": "Péribonka",
+     "lon": -71.429,
+     "lat": 51.554,
+     "area_km2": 2708,
+     "discharge_cms": 67.0,
+     "length_km": 175,
+     "km_from_mouth": 585
+    },
+    {
+     "name": null,
+     "lon": -71.367,
+     "lat": 49.758,
+     "area_km2": 2506,
+     "discharge_cms": 58.8,
+     "length_km": 153,
+     "km_from_mouth": 379
+    }
+   ]
+  },
+  {
+   "slug": "panuco",
+   "name": "Pánuco",
+   "main_riv": 70866051,
+   "bounds": [
+    -101.3333,
+    19.6292,
+    -97.7875,
+    23.9271
+   ],
+   "segments": 3471,
+   "segments_total": 4638,
+   "max_ord_flow": 7,
+   "travel_time_h": 347.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 85840,
+   "discharge_cms": 647.8,
+   "main_length_km": 673,
+   "network_length_km": 20934,
+   "drainage_density": 0.244,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2342,
+    "2": 1029,
+    "3": 625,
+    "4": 279,
+    "5": 238,
+    "6": 98,
+    "7": 27
+   },
+   "runoff_mm": 238,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Mexiko",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Verde",
+     "lon": -99.185,
+     "lat": 21.764,
+     "area_km2": 27707,
+     "discharge_cms": 111.5,
+     "length_km": 506,
+     "km_from_mouth": 172
+    },
+    {
+     "name": null,
+     "lon": -98.538,
+     "lat": 22.579,
+     "area_km2": 17033,
+     "discharge_cms": 141.4,
+     "length_km": 485,
+     "km_from_mouth": 16
+    },
+    {
+     "name": null,
+     "lon": -99.065,
+     "lat": 20.906,
+     "area_km2": 6901,
+     "discharge_cms": 130.7,
+     "length_km": 281,
+     "km_from_mouth": 330
+    },
+    {
+     "name": null,
+     "lon": -98.397,
+     "lat": 21.486,
+     "area_km2": 5898,
+     "discharge_cms": 122.3,
+     "length_km": 246,
+     "km_from_mouth": 217
+    },
+    {
+     "name": null,
+     "lon": -99.89,
+     "lat": 20.523,
+     "area_km2": 5368,
+     "discharge_cms": 8.3,
+     "length_km": 171,
+     "km_from_mouth": 482
+    },
+    {
+     "name": null,
+     "lon": -99.637,
+     "lat": 21.021,
+     "area_km2": 3912,
+     "discharge_cms": 4.6,
+     "length_km": 158,
+     "km_from_mouth": 415
+    }
+   ]
+  },
+  {
+   "slug": "yaqui",
+   "name": "Yaqui",
+   "main_riv": 70828572,
+   "bounds": [
+    -110.5896,
+    27.5375,
+    -107.1042,
+    31.8854
+   ],
+   "segments": 1438,
+   "segments_total": 3809,
+   "max_ord_flow": 7,
+   "travel_time_h": 333.3,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 72968,
+   "discharge_cms": 87.1,
+   "main_length_km": 974,
+   "network_length_km": 17217,
+   "drainage_density": 0.236,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1924,
+    "2": 825,
+    "3": 447,
+    "4": 288,
+    "5": 208,
+    "6": 117
+   },
+   "runoff_mm": 38,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Mexiko",
+     "share": 0.936
+    },
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.064
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -108.61,
+     "lat": 29.157,
+     "area_km2": 22884,
+     "discharge_cms": 33.9,
+     "length_km": 518,
+     "km_from_mouth": 459
+    },
+    {
+     "name": null,
+     "lon": -109.64,
+     "lat": 29.465,
+     "area_km2": 7095,
+     "discharge_cms": 7.5,
+     "length_km": 205,
+     "km_from_mouth": 343
+    },
+    {
+     "name": "Bavispe",
+     "lon": -108.999,
+     "lat": 30.636,
+     "area_km2": 7056,
+     "discharge_cms": 5.9,
+     "length_km": 265,
+     "km_from_mouth": 653
+    },
+    {
+     "name": null,
+     "lon": -109.196,
+     "lat": 28.975,
+     "area_km2": 2891,
+     "discharge_cms": 4.6,
+     "length_km": 122,
+     "km_from_mouth": 403
+    },
+    {
+     "name": null,
+     "lon": -109.397,
+     "lat": 28.163,
+     "area_km2": 2749,
+     "discharge_cms": 5.4,
+     "length_km": 131,
+     "km_from_mouth": 213
+    },
+    {
+     "name": "Rio Batepito",
+     "lon": -109.288,
+     "lat": 31.142,
+     "area_km2": 2566,
+     "discharge_cms": 1.5,
+     "length_km": 90,
+     "km_from_mouth": 685
+    }
+   ]
+  },
+  {
+   "slug": "susquehanna",
+   "name": "Susquehanna",
+   "main_riv": 70580124,
+   "bounds": [
+    -78.8875,
+    39.5687,
+    -74.6167,
+    42.9667
+   ],
+   "segments": 5244,
+   "segments_total": 5244,
+   "max_ord_flow": 7,
+   "travel_time_h": 245.4,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 70980,
+   "discharge_cms": 1170.8,
+   "main_length_km": 761,
+   "network_length_km": 19956,
+   "drainage_density": 0.281,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2642,
+    "2": 1251,
+    "3": 685,
+    "4": 306,
+    "5": 139,
+    "6": 153,
+    "7": 68
+   },
+   "runoff_mm": 520,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "W. Branch Susquehanna",
+     "lon": -77.153,
+     "lat": 41.218,
+     "area_km2": 18035,
+     "discharge_cms": 342.2,
+     "length_km": 376,
+     "km_from_mouth": 205
+    },
+    {
+     "name": null,
+     "lon": -77.567,
+     "lat": 40.588,
+     "area_km2": 8795,
+     "discharge_cms": 122.6,
+     "length_km": 297,
+     "km_from_mouth": 142
+    },
+    {
+     "name": null,
+     "lon": -76.915,
+     "lat": 42.094,
+     "area_km2": 6659,
+     "discharge_cms": 83.1,
+     "length_km": 175,
+     "km_from_mouth": 475
+    },
+    {
+     "name": null,
+     "lon": -75.959,
+     "lat": 42.326,
+     "area_km2": 4100,
+     "discharge_cms": 82.4,
+     "length_km": 141,
+     "km_from_mouth": 548
+    },
+    {
+     "name": null,
+     "lon": -76.671,
+     "lat": 40.296,
+     "area_km2": 1465,
+     "discharge_cms": 24.1,
+     "length_km": 104,
+     "km_from_mouth": 100
+    },
+    {
+     "name": null,
+     "lon": -75.385,
+     "lat": 42.44,
+     "area_km2": 1459,
+     "discharge_cms": 30.0,
+     "length_km": 96,
+     "km_from_mouth": 649
+    }
+   ]
+  },
+  {
+   "slug": "anderson",
+   "name": "Anderson",
+   "main_riv": 80039246,
+   "bounds": [
+    -132.3083,
+    66.5062,
+    -122.3208,
+    69.6979
+   ],
+   "segments": 1963,
+   "segments_total": 3174,
+   "max_ord_flow": 7,
+   "travel_time_h": 646.1,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 66575,
+   "discharge_cms": 156.2,
+   "main_length_km": 744,
+   "network_length_km": 14903,
+   "drainage_density": 0.224,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1603,
+    "2": 755,
+    "3": 324,
+    "4": 271,
+    "5": 92,
+    "6": 81,
+    "7": 48
+   },
+   "runoff_mm": 74,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -129.729,
+     "lat": 68.008,
+     "area_km2": 23076,
+     "discharge_cms": 55.2,
+     "length_km": 276,
+     "km_from_mouth": 204
+    },
+    {
+     "name": null,
+     "lon": -125.602,
+     "lat": 67.773,
+     "area_km2": 8991,
+     "discharge_cms": 33.3,
+     "length_km": 243,
+     "km_from_mouth": 420
+    },
+    {
+     "name": null,
+     "lon": -124.568,
+     "lat": 67.099,
+     "area_km2": 4497,
+     "discharge_cms": 17.1,
+     "length_km": 184,
+     "km_from_mouth": 560
+    },
+    {
+     "name": null,
+     "lon": -127.265,
+     "lat": 68.381,
+     "area_km2": 3041,
+     "discharge_cms": 8.3,
+     "length_km": 145,
+     "km_from_mouth": 274
+    },
+    {
+     "name": null,
+     "lon": -123.79,
+     "lat": 67.073,
+     "area_km2": 2521,
+     "discharge_cms": 8.4,
+     "length_km": 133,
+     "km_from_mouth": 573
+    },
+    {
+     "name": null,
+     "lon": -124.744,
+     "lat": 67.469,
+     "area_km2": 2299,
+     "discharge_cms": 7.3,
+     "length_km": 110,
+     "km_from_mouth": 554
+    }
+   ]
+  },
+  {
+   "slug": "nottaway",
+   "name": "Nottaway",
+   "main_riv": 70211926,
+   "bounds": [
+    -78.9188,
+    47.8,
+    -73.8542,
+    51.2146
+   ],
+   "segments": 4914,
+   "segments_total": 4914,
+   "max_ord_flow": 7,
+   "travel_time_h": 348.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 66042,
+   "discharge_cms": 1200.3,
+   "main_length_km": 787,
+   "network_length_km": 19440,
+   "drainage_density": 0.294,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2479,
+    "2": 1182,
+    "3": 605,
+    "4": 284,
+    "5": 235,
+    "6": 33,
+    "7": 96
+   },
+   "runoff_mm": 573,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Bell",
+     "lon": -77.262,
+     "lat": 49.387,
+     "area_km2": 25044,
+     "discharge_cms": 402.2,
+     "length_km": 542,
+     "km_from_mouth": 248
+    },
+    {
+     "name": null,
+     "lon": -75.246,
+     "lat": 49.981,
+     "area_km2": 9018,
+     "discharge_cms": 191.0,
+     "length_km": 247,
+     "km_from_mouth": 403
+    },
+    {
+     "name": null,
+     "lon": -76.588,
+     "lat": 49.956,
+     "area_km2": 6979,
+     "discharge_cms": 130.8,
+     "length_km": 191,
+     "km_from_mouth": 313
+    },
+    {
+     "name": null,
+     "lon": -76.465,
+     "lat": 49.461,
+     "area_km2": 3208,
+     "discharge_cms": 57.6,
+     "length_km": 144,
+     "km_from_mouth": 355
+    },
+    {
+     "name": null,
+     "lon": -78.086,
+     "lat": 50.457,
+     "area_km2": 3084,
+     "discharge_cms": 41.4,
+     "length_km": 231,
+     "km_from_mouth": 23
+    },
+    {
+     "name": null,
+     "lon": -76.14,
+     "lat": 49.243,
+     "area_km2": 1995,
+     "discharge_cms": 36.2,
+     "length_km": 126,
+     "km_from_mouth": 445
+    }
+   ]
+  },
+  {
+   "slug": "copper",
+   "name": "Copper",
+   "main_riv": 80244383,
+   "bounds": [
+    -147.7667,
+    60.3208,
+    -140.0792,
+    63.2896
+   ],
+   "segments": 7119,
+   "segments_total": 7119,
+   "max_ord_flow": 7,
+   "travel_time_h": 122.1,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 65703,
+   "discharge_cms": 1449.0,
+   "main_length_km": 496,
+   "network_length_km": 21243,
+   "drainage_density": 0.323,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3625,
+    "2": 1593,
+    "3": 948,
+    "4": 397,
+    "5": 361,
+    "6": 82,
+    "7": 113
+   },
+   "runoff_mm": 695,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.934
+    },
+    {
+     "name": "Kanada",
+     "share": 0.066
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -143.008,
+     "lat": 61.271,
+     "area_km2": 24218,
+     "discharge_cms": 706.4,
+     "length_km": 344,
+     "km_from_mouth": 152
+    },
+    {
+     "name": null,
+     "lon": -146.125,
+     "lat": 62.023,
+     "area_km2": 6908,
+     "discharge_cms": 102.2,
+     "length_km": 178,
+     "km_from_mouth": 245
+    },
+    {
+     "name": null,
+     "lon": -145.592,
+     "lat": 62.569,
+     "area_km2": 5172,
+     "discharge_cms": 76.1,
+     "length_km": 149,
+     "km_from_mouth": 273
+    },
+    {
+     "name": null,
+     "lon": -144.467,
+     "lat": 61.025,
+     "area_km2": 2714,
+     "discharge_cms": 85.8,
+     "length_km": 152,
+     "km_from_mouth": 52
+    },
+    {
+     "name": null,
+     "lon": -145.702,
+     "lat": 61.752,
+     "area_km2": 2304,
+     "discharge_cms": 60.2,
+     "length_km": 119,
+     "km_from_mouth": 233
+    },
+    {
+     "name": null,
+     "lon": -144.695,
+     "lat": 62.806,
+     "area_km2": 2249,
+     "discharge_cms": 32.8,
+     "length_km": 103,
+     "km_from_mouth": 329
+    }
+   ]
+  },
+  {
+   "slug": "winisk",
+   "name": "Winisk",
+   "main_riv": 70082321,
+   "bounds": [
+    -92.0063,
+    51.7271,
+    -85.1646,
+    55.3021
+   ],
+   "segments": 3019,
+   "segments_total": 3083,
+   "max_ord_flow": 7,
+   "travel_time_h": 370.6,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 65634,
+   "discharge_cms": 603.7,
+   "main_length_km": 914,
+   "network_length_km": 17872,
+   "drainage_density": 0.272,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1551,
+    "2": 776,
+    "3": 352,
+    "4": 194,
+    "5": 167,
+    "6": 43
+   },
+   "runoff_mm": 290,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -88.101,
+     "lat": 53.559,
+     "area_km2": 14544,
+     "discharge_cms": 117.2,
+     "length_km": 427,
+     "km_from_mouth": 246
+    },
+    {
+     "name": null,
+     "lon": -85.435,
+     "lat": 54.665,
+     "area_km2": 6801,
+     "discharge_cms": 66.2,
+     "length_km": 265,
+     "km_from_mouth": 34
+    },
+    {
+     "name": null,
+     "lon": -86.721,
+     "lat": 53.771,
+     "area_km2": 4726,
+     "discharge_cms": 45.0,
+     "length_km": 262,
+     "km_from_mouth": 279
+    },
+    {
+     "name": null,
+     "lon": -85.733,
+     "lat": 55.063,
+     "area_km2": 2784,
+     "discharge_cms": 38.0,
+     "length_km": 137,
+     "km_from_mouth": 17
+    },
+    {
+     "name": null,
+     "lon": -87.275,
+     "lat": 53.725,
+     "area_km2": 2322,
+     "discharge_cms": 22.4,
+     "length_km": 134,
+     "km_from_mouth": 293
+    },
+    {
+     "name": null,
+     "lon": -87.507,
+     "lat": 52.823,
+     "area_km2": 1982,
+     "discharge_cms": 20.4,
+     "length_km": 159,
+     "km_from_mouth": 406
+    }
+   ]
+  },
+  {
+   "slug": "koukdjuak-nettilling-see",
+   "name": "Koukdjuak (Nettilling-See)",
+   "main_riv": 80091157,
+   "bounds": [
+    -72.4,
+    63.7417,
+    -67.25,
+    68.3625
+   ],
+   "segments": 3423,
+   "segments_total": 3519,
+   "max_ord_flow": 7,
+   "travel_time_h": 237.3,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 64658,
+   "discharge_cms": 677.8,
+   "main_length_km": 491,
+   "network_length_km": 19828,
+   "drainage_density": 0.307,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1797,
+    "2": 738,
+    "3": 393,
+    "4": 241,
+    "5": 204,
+    "6": 128,
+    "7": 18
+   },
+   "runoff_mm": 331,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -71.225,
+     "lat": 66.708,
+     "area_km2": 24578,
+     "discharge_cms": 184.5,
+     "length_km": 347,
+     "km_from_mouth": 44
+    },
+    {
+     "name": null,
+     "lon": -70.554,
+     "lat": 66.287,
+     "area_km2": 5450,
+     "discharge_cms": 62.8,
+     "length_km": 145,
+     "km_from_mouth": 75
+    },
+    {
+     "name": null,
+     "lon": -71.533,
+     "lat": 64.758,
+     "area_km2": 4352,
+     "discharge_cms": 54.2,
+     "length_km": 191,
+     "km_from_mouth": 236
+    },
+    {
+     "name": null,
+     "lon": -69.204,
+     "lat": 66.137,
+     "area_km2": 4129,
+     "discharge_cms": 45.6,
+     "length_km": 321,
+     "km_from_mouth": 68
+    },
+    {
+     "name": null,
+     "lon": -70.428,
+     "lat": 64.465,
+     "area_km2": 2740,
+     "discharge_cms": 36.7,
+     "length_km": 123,
+     "km_from_mouth": 317
+    },
+    {
+     "name": null,
+     "lon": -69.703,
+     "lat": 64.555,
+     "area_km2": 1990,
+     "discharge_cms": 26.1,
+     "length_km": 115,
+     "km_from_mouth": 359
+    }
+   ]
+  },
+  {
+   "slug": "thlewiaza",
+   "name": "Thlewiaza",
+   "main_riv": 80245370,
+   "bounds": [
+    -102.1333,
+    59.0979,
+    -94.6938,
+    62.1146
+   ],
+   "segments": 2522,
+   "segments_total": 2918,
+   "max_ord_flow": 7,
+   "travel_time_h": 411.3,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 59710,
+   "discharge_cms": 351.0,
+   "main_length_km": 714,
+   "network_length_km": 14034,
+   "drainage_density": 0.235,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1473,
+    "2": 666,
+    "3": 333,
+    "4": 204,
+    "5": 187,
+    "6": 55
+   },
+   "runoff_mm": 185,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -97.246,
+     "lat": 61.079,
+     "area_km2": 19870,
+     "discharge_cms": 121.6,
+     "length_km": 437,
+     "km_from_mouth": 157
+    },
+    {
+     "name": null,
+     "lon": -100.173,
+     "lat": 60.552,
+     "area_km2": 5978,
+     "discharge_cms": 31.6,
+     "length_km": 225,
+     "km_from_mouth": 402
+    },
+    {
+     "name": null,
+     "lon": -99.616,
+     "lat": 59.806,
+     "area_km2": 3621,
+     "discharge_cms": 25.2,
+     "length_km": 175,
+     "km_from_mouth": 443
+    },
+    {
+     "name": null,
+     "lon": -100.397,
+     "lat": 60.018,
+     "area_km2": 3119,
+     "discharge_cms": 17.5,
+     "length_km": 181,
+     "km_from_mouth": 475
+    },
+    {
+     "name": null,
+     "lon": -100.125,
+     "lat": 59.529,
+     "area_km2": 2617,
+     "discharge_cms": 19.5,
+     "length_km": 144,
+     "km_from_mouth": 500
+    },
+    {
+     "name": null,
+     "lon": -99.342,
+     "lat": 60.221,
+     "area_km2": 2548,
+     "discharge_cms": 13.5,
+     "length_km": 112,
+     "km_from_mouth": 411
+    }
+   ]
+  },
+  {
+   "slug": "colville",
+   "name": "Colville",
+   "main_riv": 80032455,
+   "bounds": [
+    -160.6583,
+    67.7771,
+    -149.5333,
+    70.4542
+   ],
+   "segments": 2149,
+   "segments_total": 2630,
+   "max_ord_flow": 7,
+   "travel_time_h": 452.7,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 59613,
+   "discharge_cms": 251.5,
+   "main_length_km": 653,
+   "network_length_km": 13080,
+   "drainage_density": 0.219,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1326,
+    "2": 563,
+    "3": 327,
+    "4": 211,
+    "5": 103,
+    "6": 100
+   },
+   "runoff_mm": 133,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -153.575,
+     "lat": 68.777,
+     "area_km2": 7185,
+     "discharge_cms": 45.5,
+     "length_km": 208,
+     "km_from_mouth": 274
+    },
+    {
+     "name": null,
+     "lon": -151.537,
+     "lat": 69.185,
+     "area_km2": 6704,
+     "discharge_cms": 25.2,
+     "length_km": 214,
+     "km_from_mouth": 146
+    },
+    {
+     "name": null,
+     "lon": -151.181,
+     "lat": 68.99,
+     "area_km2": 6555,
+     "discharge_cms": 28.5,
+     "length_km": 234,
+     "km_from_mouth": 140
+    },
+    {
+     "name": null,
+     "lon": -156.266,
+     "lat": 68.61,
+     "area_km2": 5295,
+     "discharge_cms": 30.4,
+     "length_km": 190,
+     "km_from_mouth": 387
+    },
+    {
+     "name": null,
+     "lon": -151.073,
+     "lat": 69.651,
+     "area_km2": 5039,
+     "discharge_cms": 11.3,
+     "length_km": 308,
+     "km_from_mouth": 38
+    },
+    {
+     "name": null,
+     "lon": -156.435,
+     "lat": 69.073,
+     "area_km2": 2690,
+     "discharge_cms": 4.2,
+     "length_km": 185,
+     "km_from_mouth": 362
+    }
+   ]
+  },
+  {
+   "slug": "saint-john",
+   "name": "Saint John",
+   "main_riv": 70419457,
+   "bounds": [
+    -70.4,
+    45.2375,
+    -65.0458,
+    48.0729
+   ],
+   "segments": 4725,
+   "segments_total": 4725,
+   "max_ord_flow": 7,
+   "travel_time_h": 298.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 54912,
+   "discharge_cms": 1188.7,
+   "main_length_km": 716,
+   "network_length_km": 16460,
+   "drainage_density": 0.3,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2384,
+    "2": 1099,
+    "3": 636,
+    "4": 310,
+    "5": 147,
+    "6": 149
+   },
+   "runoff_mm": 683,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 0.66
+    },
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.34
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -67.963,
+     "lat": 46.704,
+     "area_km2": 6261,
+     "discharge_cms": 127.1,
+     "length_km": 220,
+     "km_from_mouth": 325
+    },
+    {
+     "name": null,
+     "lon": -67.398,
+     "lat": 46.927,
+     "area_km2": 4306,
+     "discharge_cms": 101.2,
+     "length_km": 170,
+     "km_from_mouth": 320
+    },
+    {
+     "name": null,
+     "lon": -66.002,
+     "lat": 46.027,
+     "area_km2": 3823,
+     "discharge_cms": 82.7,
+     "length_km": 159,
+     "km_from_mouth": 79
+    },
+    {
+     "name": null,
+     "lon": -69.236,
+     "lat": 46.889,
+     "area_km2": 3206,
+     "discharge_cms": 58.7,
+     "length_km": 152,
+     "km_from_mouth": 501
+    },
+    {
+     "name": null,
+     "lon": -68.721,
+     "lat": 47.602,
+     "area_km2": 3018,
+     "discharge_cms": 60.9,
+     "length_km": 170,
+     "km_from_mouth": 421
+    },
+    {
+     "name": null,
+     "lon": -68.594,
+     "lat": 47.063,
+     "area_km2": 2320,
+     "discharge_cms": 45.5,
+     "length_km": 121,
+     "km_from_mouth": 454
+    }
+   ]
+  },
+  {
+   "slug": "sabine",
+   "name": "Sabine",
+   "main_riv": 70807231,
+   "bounds": [
+    -96.3583,
+    29.6812,
+    -93.1792,
+    33.2792
+   ],
+   "segments": 2972,
+   "segments_total": 2980,
+   "max_ord_flow": 7,
+   "travel_time_h": 363.6,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 54155,
+   "discharge_cms": 545.1,
+   "main_length_km": 673,
+   "network_length_km": 12788,
+   "drainage_density": 0.236,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1501,
+    "2": 728,
+    "3": 314,
+    "4": 195,
+    "5": 195,
+    "6": 47
+   },
+   "runoff_mm": 317,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -94.083,
+     "lat": 30.666,
+     "area_km2": 25961,
+     "discharge_cms": 262.4,
+     "length_km": 518,
+     "km_from_mouth": 23
+    },
+    {
+     "name": null,
+     "lon": -94.008,
+     "lat": 29.86,
+     "area_km2": 1845,
+     "discharge_cms": 30.5,
+     "length_km": 109,
+     "km_from_mouth": 10
+    },
+    {
+     "name": null,
+     "lon": -95.459,
+     "lat": 32.763,
+     "area_km2": 1746,
+     "discharge_cms": 20.4,
+     "length_km": 95,
+     "km_from_mouth": 532
+    },
+    {
+     "name": null,
+     "lon": -93.392,
+     "lat": 30.912,
+     "area_km2": 1177,
+     "discharge_cms": 15.7,
+     "length_km": 92,
+     "km_from_mouth": 165
+    },
+    {
+     "name": null,
+     "lon": -94.06,
+     "lat": 31.869,
+     "area_km2": 1002,
+     "discharge_cms": 10.5,
+     "length_km": 69,
+     "km_from_mouth": 305
+    },
+    {
+     "name": null,
+     "lon": -93.79,
+     "lat": 30.646,
+     "area_km2": 926,
+     "discharge_cms": 11.3,
+     "length_km": 85,
+     "km_from_mouth": 120
+    }
+   ]
+  },
+  {
+   "slug": "skeena",
+   "name": "Skeena",
+   "main_riv": 70109884,
+   "bounds": [
+    -129.6792,
+    53.6708,
+    -124.5542,
+    57.2729
+   ],
+   "segments": 4456,
+   "segments_total": 4480,
+   "max_ord_flow": 7,
+   "travel_time_h": 320.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 51783,
+   "discharge_cms": 1531.5,
+   "main_length_km": 635,
+   "network_length_km": 15067,
+   "drainage_density": 0.291,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2266,
+    "2": 1008,
+    "3": 563,
+    "4": 263,
+    "5": 253,
+    "6": 127
+   },
+   "runoff_mm": 933,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -127.191,
+     "lat": 54.902,
+     "area_km2": 12118,
+     "discharge_cms": 215.8,
+     "length_km": 311,
+     "km_from_mouth": 235
+    },
+    {
+     "name": "Babine",
+     "lon": -126.852,
+     "lat": 55.59,
+     "area_km2": 10411,
+     "discharge_cms": 129.5,
+     "length_km": 337,
+     "km_from_mouth": 302
+    },
+    {
+     "name": null,
+     "lon": -126.999,
+     "lat": 56.287,
+     "area_km2": 3570,
+     "discharge_cms": 59.1,
+     "length_km": 137,
+     "km_from_mouth": 438
+    },
+    {
+     "name": null,
+     "lon": -128.129,
+     "lat": 54.465,
+     "area_km2": 3073,
+     "discharge_cms": 78.5,
+     "length_km": 151,
+     "km_from_mouth": 101
+    },
+    {
+     "name": null,
+     "lon": -128.783,
+     "lat": 54.725,
+     "area_km2": 2432,
+     "discharge_cms": 84.5,
+     "length_km": 109,
+     "km_from_mouth": 84
+    },
+    {
+     "name": null,
+     "lon": -127.922,
+     "lat": 55.557,
+     "area_km2": 2083,
+     "discharge_cms": 59.2,
+     "length_km": 147,
+     "km_from_mouth": 250
+    }
+   ]
+  },
+  {
+   "slug": "chattahoochee",
+   "name": "Chattahoochee",
+   "main_riv": 70806636,
+   "bounds": [
+    -85.5542,
+    29.7396,
+    -83.4417,
+    34.8208
+   ],
+   "segments": 3350,
+   "segments_total": 3350,
+   "max_ord_flow": 7,
+   "travel_time_h": 283.3,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 50745,
+   "discharge_cms": 773.8,
+   "main_length_km": 811,
+   "network_length_km": 13162,
+   "drainage_density": 0.259,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1689,
+    "2": 818,
+    "3": 381,
+    "4": 215,
+    "5": 205,
+    "6": 42
+   },
+   "runoff_mm": 481,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -84.14,
+     "lat": 31.537,
+     "area_km2": 21987,
+     "discharge_cms": 305.5,
+     "length_km": 474,
+     "km_from_mouth": 150
+    },
+    {
+     "name": null,
+     "lon": -85.169,
+     "lat": 30.407,
+     "area_km2": 3345,
+     "discharge_cms": 63.5,
+     "length_km": 168,
+     "km_from_mouth": 45
+    },
+    {
+     "name": null,
+     "lon": -85.209,
+     "lat": 32.052,
+     "area_km2": 1240,
+     "discharge_cms": 16.7,
+     "length_km": 79,
+     "km_from_mouth": 310
+    },
+    {
+     "name": null,
+     "lon": -84.788,
+     "lat": 32.419,
+     "area_km2": 1182,
+     "discharge_cms": 14.3,
+     "length_km": 80,
+     "km_from_mouth": 378
+    },
+    {
+     "name": null,
+     "lon": -84.994,
+     "lat": 31.806,
+     "area_km2": 1034,
+     "discharge_cms": 13.0,
+     "length_km": 78,
+     "km_from_mouth": 279
+    },
+    {
+     "name": null,
+     "lon": -85.109,
+     "lat": 32.358,
+     "area_km2": 863,
+     "discharge_cms": 11.2,
+     "length_km": 75,
+     "km_from_mouth": 366
+    }
+   ]
+  },
+  {
+   "slug": "stikine",
+   "name": "Stikine",
+   "main_riv": 70050354,
+   "bounds": [
+    -132.6417,
+    56.4104,
+    -126.8292,
+    59.2375
+   ],
+   "segments": 4478,
+   "segments_total": 4479,
+   "max_ord_flow": 7,
+   "travel_time_h": 145.0,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 50659,
+   "discharge_cms": 1648.4,
+   "main_length_km": 622,
+   "network_length_km": 14742,
+   "drainage_density": 0.291,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2260,
+    "2": 1082,
+    "3": 523,
+    "4": 336,
+    "5": 119,
+    "6": 159
+   },
+   "runoff_mm": 1026,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 0.963
+    },
+    {
+     "name": "Vereinigte Staaten",
+     "share": 0.037
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -131.251,
+     "lat": 56.723,
+     "area_km2": 9516,
+     "discharge_cms": 371.2,
+     "length_km": 279,
+     "km_from_mouth": 43
+    },
+    {
+     "name": null,
+     "lon": -130.791,
+     "lat": 58.487,
+     "area_km2": 3604,
+     "discharge_cms": 53.5,
+     "length_km": 176,
+     "km_from_mouth": 248
+    },
+    {
+     "name": null,
+     "lon": -129.599,
+     "lat": 57.749,
+     "area_km2": 3580,
+     "discharge_cms": 59.3,
+     "length_km": 138,
+     "km_from_mouth": 342
+    },
+    {
+     "name": null,
+     "lon": -128.49,
+     "lat": 57.669,
+     "area_km2": 3504,
+     "discharge_cms": 56.7,
+     "length_km": 135,
+     "km_from_mouth": 478
+    },
+    {
+     "name": null,
+     "lon": -128.201,
+     "lat": 58.031,
+     "area_km2": 2678,
+     "discharge_cms": 37.9,
+     "length_km": 102,
+     "km_from_mouth": 432
+    },
+    {
+     "name": null,
+     "lon": -131.958,
+     "lat": 57.706,
+     "area_km2": 2613,
+     "discharge_cms": 77.8,
+     "length_km": 102,
+     "km_from_mouth": 172
+    }
+   ]
+  },
+  {
+   "slug": "susitna",
+   "name": "Susitna",
+   "main_riv": 80218104,
+   "bounds": [
+    -153.2042,
+    61.3604,
+    -146.1875,
+    63.5917
+   ],
+   "segments": 5459,
+   "segments_total": 5459,
+   "max_ord_flow": 7,
+   "travel_time_h": 208.6,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 50346,
+   "discharge_cms": 1360.3,
+   "main_length_km": 493,
+   "network_length_km": 16442,
+   "drainage_density": 0.327,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2783,
+    "2": 1243,
+    "3": 666,
+    "4": 374,
+    "5": 172,
+    "6": 181,
+    "7": 40
+   },
+   "runoff_mm": 852,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Vereinigte Staaten",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -151.23,
+     "lat": 61.948,
+     "area_km2": 16015,
+     "discharge_cms": 537.6,
+     "length_km": 259,
+     "km_from_mouth": 25
+    },
+    {
+     "name": null,
+     "lon": -150.268,
+     "lat": 62.689,
+     "area_km2": 6732,
+     "discharge_cms": 191.1,
+     "length_km": 183,
+     "km_from_mouth": 126
+    },
+    {
+     "name": null,
+     "lon": -149.514,
+     "lat": 62.444,
+     "area_km2": 4605,
+     "discharge_cms": 106.9,
+     "length_km": 169,
+     "km_from_mouth": 121
+    },
+    {
+     "name": null,
+     "lon": -146.924,
+     "lat": 62.89,
+     "area_km2": 2316,
+     "discharge_cms": 53.9,
+     "length_km": 106,
+     "km_from_mouth": 364
+    },
+    {
+     "name": null,
+     "lon": -146.881,
+     "lat": 62.648,
+     "area_km2": 2231,
+     "discharge_cms": 30.2,
+     "length_km": 119,
+     "km_from_mouth": 348
+    },
+    {
+     "name": null,
+     "lon": -147.446,
+     "lat": 62.524,
+     "area_km2": 1484,
+     "discharge_cms": 19.6,
+     "length_km": 88,
+     "km_from_mouth": 334
+    }
+   ]
+  },
+  {
+   "slug": "seal",
+   "name": "Seal",
+   "main_riv": 70011099,
+   "bounds": [
+    -101.4708,
+    57.2833,
+    -94.8229,
+    60.1812
+   ],
+   "segments": 2530,
+   "segments_total": 2613,
+   "max_ord_flow": 7,
+   "travel_time_h": 344.2,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 50243,
+   "discharge_cms": 386.3,
+   "main_length_km": 677,
+   "network_length_km": 12334,
+   "drainage_density": 0.245,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1316,
+    "2": 643,
+    "3": 278,
+    "4": 177,
+    "5": 118,
+    "6": 81
+   },
+   "runoff_mm": 242,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kanada",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -98.29,
+     "lat": 58.262,
+     "area_km2": 16773,
+     "discharge_cms": 116.1,
+     "length_km": 408,
+     "km_from_mouth": 274
+    },
+    {
+     "name": null,
+     "lon": -97.67,
+     "lat": 59.258,
+     "area_km2": 6744,
+     "discharge_cms": 54.5,
+     "length_km": 235,
+     "km_from_mouth": 226
+    },
+    {
+     "name": null,
+     "lon": -99.559,
+     "lat": 58.72,
+     "area_km2": 4066,
+     "discharge_cms": 34.6,
+     "length_km": 168,
+     "km_from_mouth": 367
+    },
+    {
+     "name": null,
+     "lon": -98.593,
+     "lat": 59.002,
+     "area_km2": 2959,
+     "discharge_cms": 27.2,
+     "length_km": 136,
+     "km_from_mouth": 331
+    },
+    {
+     "name": null,
+     "lon": -99.21,
+     "lat": 58.735,
+     "area_km2": 2449,
+     "discharge_cms": 23.4,
+     "length_km": 145,
+     "km_from_mouth": 350
+    },
+    {
+     "name": null,
+     "lon": -99.563,
+     "lat": 59.204,
+     "area_km2": 1658,
+     "discharge_cms": 13.6,
+     "length_km": 85,
+     "km_from_mouth": 411
+    }
+   ]
+  }
+ ]
+}

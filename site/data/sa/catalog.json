@@ -1,0 +1,2964 @@
+{
+ "continent": "sa",
+ "label": "Südamerika",
+ "min_area_km2": 50000,
+ "format": "bin",
+ "source": "HydroRIVERS v1.0 (Lehner & Grill 2013); names: Natural Earth",
+ "basins": [
+  {
+   "slug": "amazonas",
+   "name": "Amazonas",
+   "main_riv": 60443230,
+   "bounds": [
+    -79.5833,
+    -20.4542,
+    -50.3667,
+    5.2625
+   ],
+   "segments": 118263,
+   "segments_total": 744786,
+   "max_ord_flow": 5,
+   "travel_time_h": 1520.7,
+   "monthly": "glofas",
+   "size_mb": 2.2,
+   "area_km2": 5912761,
+   "discharge_cms": 205603.7,
+   "main_length_km": 5992,
+   "network_length_km": 2057481,
+   "drainage_density": 0.348,
+   "max_strahler": 10,
+   "strahler_counts": {
+    "1": 379915,
+    "2": 171600,
+    "3": 88435,
+    "4": 48241,
+    "5": 28049,
+    "6": 16247,
+    "7": 6494,
+    "8": 3692,
+    "9": 1753,
+    "10": 360
+   },
+   "runoff_mm": 1097,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 0.608
+    },
+    {
+     "name": "Peru",
+     "share": 0.181
+    },
+    {
+     "name": "Bolivien",
+     "share": 0.094
+    },
+    {
+     "name": "Kolumbien",
+     "share": 0.076
+    },
+    {
+     "name": "Ecuador",
+     "share": 0.028
+    },
+    {
+     "name": "Venezuela",
+     "share": 0.012
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Madeira",
+     "lon": -61.846,
+     "lat": -6.238,
+     "area_km2": 1368840,
+     "discharge_cms": 34210.4,
+     "length_km": 3809,
+     "km_from_mouth": 1160
+    },
+    {
+     "name": "Rio Negro",
+     "lon": -63.484,
+     "lat": -0.499,
+     "area_km2": 714735,
+     "discharge_cms": 29608.2,
+     "length_km": 2379,
+     "km_from_mouth": 1320
+    },
+    {
+     "name": "Xingu",
+     "lon": -52.438,
+     "lat": -3.694,
+     "area_km2": 513314,
+     "discharge_cms": 10022.5,
+     "length_km": 2364,
+     "km_from_mouth": 132
+    },
+    {
+     "name": "Tapajós",
+     "lon": -56.981,
+     "lat": -5.268,
+     "area_km2": 494551,
+     "discharge_cms": 18753.0,
+     "length_km": 2323,
+     "km_from_mouth": 547
+    },
+    {
+     "name": "Purús",
+     "lon": -64.465,
+     "lat": -6.585,
+     "area_km2": 378762,
+     "discharge_cms": 6369.7,
+     "length_km": 3234,
+     "km_from_mouth": 1526
+    },
+    {
+     "name": "Ucayali",
+     "lon": -75.044,
+     "lat": -6.774,
+     "area_km2": 353729,
+     "discharge_cms": 13538.5,
+     "length_km": 2504,
+     "km_from_mouth": 3494
+    }
+   ]
+  },
+  {
+   "slug": "parana",
+   "name": "Paraná",
+   "main_riv": 61504467,
+   "bounds": [
+    -66.9708,
+    -34.5979,
+    -43.6104,
+    -14.1667
+   ],
+   "segments": 109819,
+   "segments_total": 137113,
+   "max_ord_flow": 7,
+   "travel_time_h": 2088.4,
+   "monthly": "glofas",
+   "size_mb": 2.7,
+   "area_km2": 2594295,
+   "discharge_cms": 18311.3,
+   "main_length_km": 3858,
+   "network_length_km": 624368,
+   "drainage_density": 0.241,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 69076,
+    "2": 31011,
+    "3": 17626,
+    "4": 9517,
+    "5": 5063,
+    "6": 2346,
+    "7": 1406,
+    "8": 852,
+    "9": 216
+   },
+   "runoff_mm": 223,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 0.484
+    },
+    {
+     "name": "Argentinien",
+     "share": 0.282
+    },
+    {
+     "name": "Paraguay",
+     "share": 0.15
+    },
+    {
+     "name": "Bolivien",
+     "share": 0.084
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Paraná",
+     "lon": -54.644,
+     "lat": -26.111,
+     "area_km2": 951737,
+     "discharge_cms": 13194.9,
+     "length_km": 2771,
+     "km_from_mouth": 1091
+    },
+    {
+     "name": "Salado",
+     "lon": -61.479,
+     "lat": -29.406,
+     "area_km2": 225844,
+     "discharge_cms": 515.9,
+     "length_km": 1659,
+     "km_from_mouth": 471
+    },
+    {
+     "name": "Pilcomayo",
+     "lon": -60.577,
+     "lat": -23.94,
+     "area_km2": 113765,
+     "discharge_cms": 227.4,
+     "length_km": 1667,
+     "km_from_mouth": 1464
+    },
+    {
+     "name": null,
+     "lon": -56.76,
+     "lat": -17.33,
+     "area_km2": 109241,
+     "discharge_cms": 1039.8,
+     "length_km": 876,
+     "km_from_mouth": 2786
+    },
+    {
+     "name": "Bermejo",
+     "lon": -60.194,
+     "lat": -25.613,
+     "area_km2": 107169,
+     "discharge_cms": 442.9,
+     "length_km": 1452,
+     "km_from_mouth": 1182
+    },
+    {
+     "name": null,
+     "lon": -59.552,
+     "lat": -20.81,
+     "area_km2": 78297,
+     "discharge_cms": 347.0,
+     "length_km": 801,
+     "km_from_mouth": 2319
+    }
+   ]
+  },
+  {
+   "slug": "orinoco",
+   "name": "Orinoco",
+   "main_riv": 60023012,
+   "bounds": [
+    -74.9042,
+    1.5125,
+    -60.5979,
+    10.325
+   ],
+   "segments": 55717,
+   "segments_total": 133754,
+   "max_ord_flow": 6,
+   "travel_time_h": 800.9,
+   "monthly": "glofas",
+   "size_mb": 1.0,
+   "area_km2": 938384,
+   "discharge_cms": 37053.3,
+   "main_length_km": 2937,
+   "network_length_km": 350954,
+   "drainage_density": 0.374,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 68418,
+    "2": 30470,
+    "3": 15879,
+    "4": 8873,
+    "5": 5246,
+    "6": 2864,
+    "7": 1499,
+    "8": 453,
+    "9": 52
+   },
+   "runoff_mm": 1245,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Venezuela",
+     "share": 0.584
+    },
+    {
+     "name": "Kolumbien",
+     "share": 0.416
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Apure",
+     "lon": -68.01,
+     "lat": 8.015,
+     "area_km2": 136724,
+     "discharge_cms": 2555.9,
+     "length_km": 996,
+     "km_from_mouth": 743
+    },
+    {
+     "name": "Meta",
+     "lon": -69.251,
+     "lat": 6.081,
+     "area_km2": 109267,
+     "discharge_cms": 5287.5,
+     "length_km": 1056,
+     "km_from_mouth": 987
+    },
+    {
+     "name": null,
+     "lon": -66.233,
+     "lat": 3.048,
+     "area_km2": 100975,
+     "discharge_cms": 5294.5,
+     "length_km": 728,
+     "km_from_mouth": 1276
+    },
+    {
+     "name": "Caroní",
+     "lon": -62.957,
+     "lat": 6.32,
+     "area_km2": 92046,
+     "discharge_cms": 4404.1,
+     "length_km": 881,
+     "km_from_mouth": 236
+    },
+    {
+     "name": null,
+     "lon": -68.854,
+     "lat": 2.944,
+     "area_km2": 53817,
+     "discharge_cms": 2948.4,
+     "length_km": 1078,
+     "km_from_mouth": 1307
+    },
+    {
+     "name": null,
+     "lon": -64.719,
+     "lat": 6.352,
+     "area_km2": 47862,
+     "discharge_cms": 2441.1,
+     "length_km": 808,
+     "km_from_mouth": 550
+    }
+   ]
+  },
+  {
+   "slug": "tocantins",
+   "name": "Tocantins",
+   "main_riv": 60545016,
+   "bounds": [
+    -55.375,
+    -18.0208,
+    -45.8563,
+    -2.1313
+   ],
+   "segments": 58722,
+   "segments_total": 58728,
+   "max_ord_flow": 7,
+   "travel_time_h": 676.4,
+   "monthly": "model",
+   "size_mb": 0.8,
+   "area_km2": 772470,
+   "discharge_cms": 11408.0,
+   "main_length_km": 2536,
+   "network_length_km": 209527,
+   "drainage_density": 0.271,
+   "max_strahler": 9,
+   "strahler_counts": {
+    "1": 29694,
+    "2": 13512,
+    "3": 7293,
+    "4": 3996,
+    "5": 2056,
+    "6": 780,
+    "7": 458,
+    "8": 784,
+    "9": 155
+   },
+   "runoff_mm": 466,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Tocantins",
+     "lon": -47.603,
+     "lat": -7.269,
+     "area_km2": 308345,
+     "discharge_cms": 4447.7,
+     "length_km": 1922,
+     "km_from_mouth": 472
+    },
+    {
+     "name": "Rio das Mortes",
+     "lon": -51.539,
+     "lat": -13.693,
+     "area_km2": 61613,
+     "discharge_cms": 900.8,
+     "length_km": 1040,
+     "km_from_mouth": 1462
+    },
+    {
+     "name": "Braco Menor",
+     "lon": -49.879,
+     "lat": -10.66,
+     "area_km2": 52758,
+     "discharge_cms": 1199.7,
+     "length_km": 548,
+     "km_from_mouth": 1210
+    },
+    {
+     "name": null,
+     "lon": -49.861,
+     "lat": -5.54,
+     "area_km2": 41529,
+     "discharge_cms": 596.0,
+     "length_km": 499,
+     "km_from_mouth": 410
+    },
+    {
+     "name": null,
+     "lon": -50.066,
+     "lat": -13.684,
+     "area_km2": 23196,
+     "discharge_cms": 341.1,
+     "length_km": 392,
+     "km_from_mouth": 1703
+    },
+    {
+     "name": null,
+     "lon": -51.024,
+     "lat": -10.778,
+     "area_km2": 21666,
+     "discharge_cms": 437.7,
+     "length_km": 245,
+     "km_from_mouth": 1321
+    }
+   ]
+  },
+  {
+   "slug": "sao-francisco",
+   "name": "São Francisco",
+   "main_riv": 61026669,
+   "bounds": [
+    -47.6083,
+    -20.9021,
+    -36.3271,
+    -7.2938
+   ],
+   "segments": 25792,
+   "segments_total": 31330,
+   "max_ord_flow": 7,
+   "travel_time_h": 808.6,
+   "monthly": "model",
+   "size_mb": 0.4,
+   "area_km2": 637199,
+   "discharge_cms": 2697.3,
+   "main_length_km": 2716,
+   "network_length_km": 147380,
+   "drainage_density": 0.231,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 15784,
+    "2": 7130,
+    "3": 4131,
+    "4": 2029,
+    "5": 1318,
+    "6": 373,
+    "7": 565
+   },
+   "runoff_mm": 133,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -43.795,
+     "lat": -11.283,
+     "area_km2": 77452,
+     "discharge_cms": 425.8,
+     "length_km": 529,
+     "km_from_mouth": 1154
+    },
+    {
+     "name": null,
+     "lon": -45.507,
+     "lat": -17.01,
+     "area_km2": 45169,
+     "discharge_cms": 518.9,
+     "length_km": 528,
+     "km_from_mouth": 1929
+    },
+    {
+     "name": null,
+     "lon": -44.079,
+     "lat": -13.365,
+     "area_km2": 34406,
+     "discharge_cms": 470.6,
+     "length_km": 402,
+     "km_from_mouth": 1428
+    },
+    {
+     "name": null,
+     "lon": -43.54,
+     "lat": -14.964,
+     "area_km2": 30809,
+     "discharge_cms": 178.8,
+     "length_km": 404,
+     "km_from_mouth": 1618
+    },
+    {
+     "name": "Velhas",
+     "lon": -44.561,
+     "lat": -17.943,
+     "area_km2": 27928,
+     "discharge_cms": 323.6,
+     "length_km": 649,
+     "km_from_mouth": 2028
+    },
+    {
+     "name": null,
+     "lon": -45.557,
+     "lat": -16.227,
+     "area_km2": 25266,
+     "discharge_cms": 278.8,
+     "length_km": 390,
+     "km_from_mouth": 1866
+    }
+   ]
+  },
+  {
+   "slug": "parnaiba",
+   "name": "Parnaíba",
+   "main_riv": 60587719,
+   "bounds": [
+    -47.0313,
+    -10.8958,
+    -40.0542,
+    -2.8021
+   ],
+   "segments": 11856,
+   "segments_total": 16193,
+   "max_ord_flow": 7,
+   "travel_time_h": 539.5,
+   "monthly": "model",
+   "size_mb": 0.2,
+   "area_km2": 332986,
+   "discharge_cms": 994.2,
+   "main_length_km": 1404,
+   "network_length_km": 71802,
+   "drainage_density": 0.216,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 8160,
+    "2": 3534,
+    "3": 2141,
+    "4": 1050,
+    "5": 430,
+    "6": 579,
+    "7": 116,
+    "8": 183
+   },
+   "runoff_mm": 94,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Piauí",
+     "lon": -42.535,
+     "lat": -7.185,
+     "area_km2": 75430,
+     "discharge_cms": 91.5,
+     "length_km": 610,
+     "km_from_mouth": 574
+    },
+    {
+     "name": null,
+     "lon": -42.14,
+     "lat": -5.635,
+     "area_km2": 52200,
+     "discharge_cms": 180.8,
+     "length_km": 540,
+     "km_from_mouth": 388
+    },
+    {
+     "name": null,
+     "lon": -43.79,
+     "lat": -7.896,
+     "area_km2": 48642,
+     "discharge_cms": 96.7,
+     "length_km": 621,
+     "km_from_mouth": 698
+    },
+    {
+     "name": null,
+     "lon": -45.406,
+     "lat": -7.175,
+     "area_km2": 25645,
+     "discharge_cms": 213.3,
+     "length_km": 539,
+     "km_from_mouth": 875
+    },
+    {
+     "name": null,
+     "lon": -41.927,
+     "lat": -3.646,
+     "area_km2": 24192,
+     "discharge_cms": 217.8,
+     "length_km": 384,
+     "km_from_mouth": 50
+    },
+    {
+     "name": null,
+     "lon": -44.797,
+     "lat": -7.936,
+     "area_km2": 16012,
+     "discharge_cms": 78.6,
+     "length_km": 328,
+     "km_from_mouth": 887
+    }
+   ]
+  },
+  {
+   "slug": "colorado",
+   "name": "Colorado",
+   "main_riv": 61552219,
+   "bounds": [
+    -70.5583,
+    -39.9813,
+    -62.1688,
+    -27.6208
+   ],
+   "segments": 4489,
+   "segments_total": 13152,
+   "max_ord_flow": 7,
+   "travel_time_h": 828.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 294151,
+   "discharge_cms": 156.9,
+   "main_length_km": 2102,
+   "network_length_km": 78661,
+   "drainage_density": 0.267,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 6625,
+    "2": 3075,
+    "3": 1448,
+    "4": 745,
+    "5": 627,
+    "6": 259,
+    "7": 373
+   },
+   "runoff_mm": 17,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Argentinien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "San Juan",
+     "lon": -68.348,
+     "lat": -31.703,
+     "area_km2": 50977,
+     "discharge_cms": 105.7,
+     "length_km": 580,
+     "km_from_mouth": 1325
+    },
+    {
+     "name": null,
+     "lon": -67.649,
+     "lat": -38.197,
+     "area_km2": 36956,
+     "discharge_cms": 54.7,
+     "length_km": 1001,
+     "km_from_mouth": 358
+    },
+    {
+     "name": null,
+     "lon": -67.496,
+     "lat": -35.549,
+     "area_km2": 31095,
+     "discharge_cms": 82.7,
+     "length_km": 557,
+     "km_from_mouth": 800
+    },
+    {
+     "name": null,
+     "lon": -68.125,
+     "lat": -30.255,
+     "area_km2": 27148,
+     "discharge_cms": 3.7,
+     "length_km": 469,
+     "km_from_mouth": 1503
+    },
+    {
+     "name": null,
+     "lon": -68.673,
+     "lat": -33.243,
+     "area_km2": 15344,
+     "discharge_cms": 57.1,
+     "length_km": 426,
+     "km_from_mouth": 1159
+    },
+    {
+     "name": null,
+     "lon": -66.967,
+     "lat": -34.165,
+     "area_km2": 11946,
+     "discharge_cms": 2.0,
+     "length_km": 299,
+     "km_from_mouth": 1047
+    }
+   ]
+  },
+  {
+   "slug": "uruguay",
+   "name": "Uruguay",
+   "main_riv": 61494133,
+   "bounds": [
+    -58.5625,
+    -32.9438,
+    -49.3125,
+    -26.2708
+   ],
+   "segments": 25917,
+   "segments_total": 25917,
+   "max_ord_flow": 7,
+   "travel_time_h": 579.1,
+   "monthly": "model",
+   "size_mb": 0.4,
+   "area_km2": 266131,
+   "discharge_cms": 6423.0,
+   "main_length_km": 2060,
+   "network_length_km": 82304,
+   "drainage_density": 0.309,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 13107,
+    "2": 5840,
+    "3": 3527,
+    "4": 1831,
+    "5": 996,
+    "6": 467,
+    "7": 149
+   },
+   "runoff_mm": 761,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 0.684
+    },
+    {
+     "name": "Argentinien",
+     "share": 0.173
+    },
+    {
+     "name": "Uruguay",
+     "share": 0.143
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Ibicuí",
+     "lon": -55.71,
+     "lat": -29.488,
+     "area_km2": 47203,
+     "discharge_cms": 1113.1,
+     "length_km": 564,
+     "km_from_mouth": 498
+    },
+    {
+     "name": null,
+     "lon": -57.091,
+     "lat": -30.128,
+     "area_km2": 14641,
+     "discharge_cms": 326.5,
+     "length_km": 319,
+     "km_from_mouth": 363
+    },
+    {
+     "name": null,
+     "lon": -51.016,
+     "lat": -27.959,
+     "area_km2": 13378,
+     "discharge_cms": 343.5,
+     "length_km": 408,
+     "km_from_mouth": 1607
+    },
+    {
+     "name": null,
+     "lon": -57.681,
+     "lat": -29.788,
+     "area_km2": 12474,
+     "discharge_cms": 168.2,
+     "length_km": 242,
+     "km_from_mouth": 365
+    },
+    {
+     "name": null,
+     "lon": -57.472,
+     "lat": -30.998,
+     "area_km2": 11996,
+     "discharge_cms": 234.9,
+     "length_km": 248,
+     "km_from_mouth": 264
+    },
+    {
+     "name": null,
+     "lon": -54.74,
+     "lat": -28.196,
+     "area_km2": 10794,
+     "discharge_cms": 307.0,
+     "length_km": 415,
+     "km_from_mouth": 802
+    }
+   ]
+  },
+  {
+   "slug": "magdalena",
+   "name": "Magdalena",
+   "main_riv": 60001946,
+   "bounds": [
+    -76.9375,
+    1.575,
+    -72.2917,
+    11.0687
+   ],
+   "segments": 28150,
+   "segments_total": 28171,
+   "max_ord_flow": 7,
+   "travel_time_h": 391.8,
+   "monthly": "model",
+   "size_mb": 0.4,
+   "area_km2": 260739,
+   "discharge_cms": 7248.0,
+   "main_length_km": 1577,
+   "network_length_km": 86421,
+   "drainage_density": 0.331,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 14358,
+    "2": 6654,
+    "3": 3562,
+    "4": 1585,
+    "5": 1066,
+    "6": 765,
+    "7": 111,
+    "8": 70
+   },
+   "runoff_mm": 877,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Kolumbien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Cauca",
+     "lon": -75.679,
+     "lat": 7.092,
+     "area_km2": 61902,
+     "discharge_cms": 2267.5,
+     "length_km": 1095,
+     "km_from_mouth": 315
+    },
+    {
+     "name": null,
+     "lon": -73.205,
+     "lat": 6.909,
+     "area_km2": 22559,
+     "discharge_cms": 565.4,
+     "length_km": 439,
+     "km_from_mouth": 633
+    },
+    {
+     "name": null,
+     "lon": -73.754,
+     "lat": 9.542,
+     "area_km2": 22212,
+     "discharge_cms": 355.1,
+     "length_km": 336,
+     "km_from_mouth": 399
+    },
+    {
+     "name": null,
+     "lon": -75.153,
+     "lat": 8.39,
+     "area_km2": 17105,
+     "discharge_cms": 453.4,
+     "length_km": 347,
+     "km_from_mouth": 277
+    },
+    {
+     "name": null,
+     "lon": -75.369,
+     "lat": 3.617,
+     "area_km2": 10045,
+     "discharge_cms": 369.7,
+     "length_km": 234,
+     "km_from_mouth": 1142
+    },
+    {
+     "name": null,
+     "lon": -73.76,
+     "lat": 7.742,
+     "area_km2": 8079,
+     "discharge_cms": 185.3,
+     "length_km": 251,
+     "km_from_mouth": 515
+    }
+   ]
+  },
+  {
+   "slug": "essequibo",
+   "name": "Essequibo",
+   "main_riv": 60078950,
+   "bounds": [
+    -62.8083,
+    1.1958,
+    -57.7771,
+    8.1167
+   ],
+   "segments": 18822,
+   "segments_total": 18823,
+   "max_ord_flow": 7,
+   "travel_time_h": 352.6,
+   "monthly": "model",
+   "size_mb": 0.3,
+   "area_km2": 154860,
+   "discharge_cms": 3934.7,
+   "main_length_km": 921,
+   "network_length_km": 52946,
+   "drainage_density": 0.342,
+   "max_strahler": 8,
+   "strahler_counts": {
+    "1": 9602,
+    "2": 4413,
+    "3": 2203,
+    "4": 970,
+    "5": 777,
+    "6": 673,
+    "7": 184,
+    "8": 1
+   },
+   "runoff_mm": 801,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Guyana",
+     "share": 0.789
+    },
+    {
+     "name": "Venezuela",
+     "share": 0.21
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Essequibo",
+     "lon": -58.815,
+     "lat": 5.41,
+     "area_km2": 69650,
+     "discharge_cms": 1863.8,
+     "length_km": 923,
+     "km_from_mouth": 1
+    },
+    {
+     "name": null,
+     "lon": -59.36,
+     "lat": 5.848,
+     "area_km2": 31705,
+     "discharge_cms": 1050.4,
+     "length_km": 592,
+     "km_from_mouth": 11
+    },
+    {
+     "name": null,
+     "lon": -62.016,
+     "lat": 6.7,
+     "area_km2": 9043,
+     "discharge_cms": 199.2,
+     "length_km": 279,
+     "km_from_mouth": 490
+    },
+    {
+     "name": null,
+     "lon": -61.008,
+     "lat": 6.927,
+     "area_km2": 6590,
+     "discharge_cms": 88.2,
+     "length_km": 163,
+     "km_from_mouth": 351
+    },
+    {
+     "name": null,
+     "lon": -61.702,
+     "lat": 6.481,
+     "area_km2": 4842,
+     "discharge_cms": 159.5,
+     "length_km": 152,
+     "km_from_mouth": 480
+    },
+    {
+     "name": null,
+     "lon": -61.181,
+     "lat": 6.48,
+     "area_km2": 3741,
+     "discharge_cms": 128.7,
+     "length_km": 154,
+     "km_from_mouth": 394
+    }
+   ]
+  },
+  {
+   "slug": "salinas-grandes-argentinien",
+   "name": "Salinas Grandes (Argentinien)",
+   "main_riv": 61457180,
+   "bounds": [
+    -68.5396,
+    -33.1083,
+    -64.2167,
+    -26.1417
+   ],
+   "segments": 1728,
+   "segments_total": 6914,
+   "max_ord_flow": 7,
+   "travel_time_h": 417.1,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 148722,
+   "discharge_cms": 126.2,
+   "main_length_km": 814,
+   "network_length_km": 41653,
+   "drainage_density": 0.28,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3486,
+    "2": 1748,
+    "3": 829,
+    "4": 455,
+    "5": 227,
+    "6": 115,
+    "7": 54
+   },
+   "runoff_mm": 27,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Argentinien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -65.529,
+     "lat": -30.863,
+     "area_km2": 39998,
+     "discharge_cms": 40.1,
+     "length_km": 550,
+     "km_from_mouth": 62
+    },
+    {
+     "name": null,
+     "lon": -66.736,
+     "lat": -30.007,
+     "area_km2": 21419,
+     "discharge_cms": 21.1,
+     "length_km": 353,
+     "km_from_mouth": 231
+    },
+    {
+     "name": null,
+     "lon": -66.487,
+     "lat": -28.177,
+     "area_km2": 21310,
+     "discharge_cms": 33.5,
+     "length_km": 404,
+     "km_from_mouth": 413
+    },
+    {
+     "name": null,
+     "lon": -65.624,
+     "lat": -29.534,
+     "area_km2": 12234,
+     "discharge_cms": 8.6,
+     "length_km": 368,
+     "km_from_mouth": 69
+    },
+    {
+     "name": null,
+     "lon": -64.961,
+     "lat": -29.63,
+     "area_km2": 9269,
+     "discharge_cms": 5.8,
+     "length_km": 236,
+     "km_from_mouth": 3
+    },
+    {
+     "name": null,
+     "lon": -67.963,
+     "lat": -27.705,
+     "area_km2": 5189,
+     "discharge_cms": 1.7,
+     "length_km": 203,
+     "km_from_mouth": 607
+    }
+   ]
+  },
+  {
+   "slug": "titicaca-desaguadero",
+   "name": "Titicaca–Desaguadero",
+   "main_riv": 61280216,
+   "bounds": [
+    -71.0917,
+    -20.2,
+    -66.3833,
+    -14.075
+   ],
+   "segments": 3816,
+   "segments_total": 6132,
+   "max_ord_flow": 7,
+   "travel_time_h": 483.4,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 129494,
+   "discharge_cms": 646.4,
+   "main_length_km": 1160,
+   "network_length_km": 30859,
+   "drainage_density": 0.238,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 3098,
+    "2": 1448,
+    "3": 777,
+    "4": 446,
+    "5": 142,
+    "6": 221
+   },
+   "runoff_mm": 157,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Bolivien",
+     "share": 0.607
+    },
+    {
+     "name": "Peru",
+     "share": 0.363
+    },
+    {
+     "name": "Chile",
+     "share": 0.03
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -69.319,
+     "lat": -15.715,
+     "area_km2": 11954,
+     "discharge_cms": 147.6,
+     "length_km": 261,
+     "km_from_mouth": 707
+    },
+    {
+     "name": null,
+     "lon": -69.721,
+     "lat": -16.354,
+     "area_km2": 10360,
+     "discharge_cms": 58.7,
+     "length_km": 260,
+     "km_from_mouth": 732
+    },
+    {
+     "name": null,
+     "lon": -69.038,
+     "lat": -17.488,
+     "area_km2": 9917,
+     "discharge_cms": 11.2,
+     "length_km": 235,
+     "km_from_mouth": 533
+    },
+    {
+     "name": null,
+     "lon": -70.076,
+     "lat": -15.491,
+     "area_km2": 7271,
+     "discharge_cms": 63.2,
+     "length_km": 316,
+     "km_from_mouth": 780
+    },
+    {
+     "name": null,
+     "lon": -68.194,
+     "lat": -19.569,
+     "area_km2": 7150,
+     "discharge_cms": 0.3,
+     "length_km": 175,
+     "km_from_mouth": 18
+    },
+    {
+     "name": null,
+     "lon": -67.369,
+     "lat": -18.29,
+     "area_km2": 7141,
+     "discharge_cms": 8.3,
+     "length_km": 213,
+     "km_from_mouth": 218
+    }
+   ]
+  },
+  {
+   "slug": "dulce",
+   "name": "Dulce",
+   "main_riv": 61469489,
+   "bounds": [
+    -66.1479,
+    -32.0229,
+    -62.1479,
+    -25.875
+   ],
+   "segments": 2235,
+   "segments_total": 5304,
+   "max_ord_flow": 7,
+   "travel_time_h": 488.0,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 119816,
+   "discharge_cms": 314.1,
+   "main_length_km": 860,
+   "network_length_km": 32275,
+   "drainage_density": 0.269,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2662,
+    "2": 1254,
+    "3": 728,
+    "4": 370,
+    "5": 94,
+    "6": 115,
+    "7": 81
+   },
+   "runoff_mm": 83,
+   "endorheic": true,
+   "countries": [
+    {
+     "name": "Argentinien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -63.912,
+     "lat": -28.896,
+     "area_km2": 25498,
+     "discharge_cms": 56.1,
+     "length_km": 385,
+     "km_from_mouth": 261
+    },
+    {
+     "name": null,
+     "lon": -63.25,
+     "lat": -30.513,
+     "area_km2": 24032,
+     "discharge_cms": 75.9,
+     "length_km": 328,
+     "km_from_mouth": 34
+    },
+    {
+     "name": null,
+     "lon": -62.488,
+     "lat": -31.263,
+     "area_km2": 10485,
+     "discharge_cms": 47.3,
+     "length_km": 354,
+     "km_from_mouth": 1
+    },
+    {
+     "name": null,
+     "lon": -65.102,
+     "lat": -27.602,
+     "area_km2": 10070,
+     "discharge_cms": 15.0,
+     "length_km": 192,
+     "km_from_mouth": 579
+    },
+    {
+     "name": null,
+     "lon": -63.185,
+     "lat": -31.044,
+     "area_km2": 7041,
+     "discharge_cms": 24.8,
+     "length_km": 355,
+     "km_from_mouth": 10
+    },
+    {
+     "name": null,
+     "lon": -62.796,
+     "lat": -31.042,
+     "area_km2": 5750,
+     "discharge_cms": 22.3,
+     "length_km": 368,
+     "km_from_mouth": 5
+    }
+   ]
+  },
+  {
+   "slug": "negro",
+   "name": "Negro",
+   "main_riv": 61560077,
+   "bounds": [
+    -71.9458,
+    -41.4792,
+    -62.7792,
+    -36.2
+   ],
+   "segments": 5383,
+   "segments_total": 6949,
+   "max_ord_flow": 7,
+   "travel_time_h": 390.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 112936,
+   "discharge_cms": 869.7,
+   "main_length_km": 1337,
+   "network_length_km": 29439,
+   "drainage_density": 0.261,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3514,
+    "2": 1544,
+    "3": 798,
+    "4": 514,
+    "5": 208,
+    "6": 207,
+    "7": 164
+   },
+   "runoff_mm": 243,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Argentinien",
+     "share": 0.999
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Neuquén",
+     "lon": -69.054,
+     "lat": -38.569,
+     "area_km2": 34515,
+     "discharge_cms": 347.2,
+     "length_km": 623,
+     "km_from_mouth": 709
+    },
+    {
+     "name": "Limay",
+     "lon": -71.029,
+     "lat": -40.721,
+     "area_km2": 10010,
+     "discharge_cms": 287.6,
+     "length_km": 234,
+     "km_from_mouth": 1056
+    },
+    {
+     "name": null,
+     "lon": -70.221,
+     "lat": -40.729,
+     "area_km2": 4531,
+     "discharge_cms": 41.9,
+     "length_km": 133,
+     "km_from_mouth": 1025
+    },
+    {
+     "name": null,
+     "lon": -69.55,
+     "lat": -39.442,
+     "area_km2": 4256,
+     "discharge_cms": 24.0,
+     "length_km": 192,
+     "km_from_mouth": 846
+    },
+    {
+     "name": null,
+     "lon": -67.219,
+     "lat": -38.943,
+     "area_km2": 3129,
+     "discharge_cms": 1.4,
+     "length_km": 179,
+     "km_from_mouth": 592
+    },
+    {
+     "name": null,
+     "lon": -68.756,
+     "lat": -39.677,
+     "area_km2": 2837,
+     "discharge_cms": 0.3,
+     "length_km": 172,
+     "km_from_mouth": 818
+    }
+   ]
+  },
+  {
+   "slug": "chubut",
+   "name": "Chubut",
+   "main_riv": 61572905,
+   "bounds": [
+    -72.0542,
+    -46.4792,
+    -65.0333,
+    -41.3333
+   ],
+   "segments": 3805,
+   "segments_total": 5542,
+   "max_ord_flow": 7,
+   "travel_time_h": 438.1,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 95222,
+   "discharge_cms": 238.9,
+   "main_length_km": 957,
+   "network_length_km": 25922,
+   "drainage_density": 0.272,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2802,
+    "2": 1234,
+    "3": 616,
+    "4": 365,
+    "5": 130,
+    "6": 337,
+    "7": 58
+   },
+   "runoff_mm": 79,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Argentinien",
+     "share": 0.999
+    }
+   ],
+   "tributaries": [
+    {
+     "name": "Chubut",
+     "lon": -68.135,
+     "lat": -43.815,
+     "area_km2": 41050,
+     "discharge_cms": 199.3,
+     "length_km": 736,
+     "km_from_mouth": 170
+    },
+    {
+     "name": null,
+     "lon": -70.368,
+     "lat": -45.673,
+     "area_km2": 8731,
+     "discharge_cms": 65.1,
+     "length_km": 213,
+     "km_from_mouth": 626
+    },
+    {
+     "name": null,
+     "lon": -68.782,
+     "lat": -45.801,
+     "area_km2": 5296,
+     "discharge_cms": 8.4,
+     "length_km": 304,
+     "km_from_mouth": 469
+    },
+    {
+     "name": null,
+     "lon": -70.423,
+     "lat": -44.44,
+     "area_km2": 5020,
+     "discharge_cms": 94.8,
+     "length_km": 221,
+     "km_from_mouth": 740
+    },
+    {
+     "name": null,
+     "lon": -68.698,
+     "lat": -45.506,
+     "area_km2": 4376,
+     "discharge_cms": 3.4,
+     "length_km": 141,
+     "km_from_mouth": 482
+    },
+    {
+     "name": null,
+     "lon": -70.459,
+     "lat": -44.623,
+     "area_km2": 2228,
+     "discharge_cms": 48.4,
+     "length_km": 174,
+     "km_from_mouth": 744
+    }
+   ]
+  },
+  {
+   "slug": "salado",
+   "name": "Salado",
+   "main_riv": 61519656,
+   "bounds": [
+    -62.1167,
+    -37.9792,
+    -57.3604,
+    -34.0083
+   ],
+   "segments": 3183,
+   "segments_total": 3800,
+   "max_ord_flow": 7,
+   "travel_time_h": 366.0,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 86110,
+   "discharge_cms": 740.9,
+   "main_length_km": 768,
+   "network_length_km": 23702,
+   "drainage_density": 0.275,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1914,
+    "2": 881,
+    "3": 455,
+    "4": 290,
+    "5": 198,
+    "6": 62
+   },
+   "runoff_mm": 271,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Argentinien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -59.635,
+     "lat": -35.86,
+     "area_km2": 23142,
+     "discharge_cms": 221.9,
+     "length_km": 378,
+     "km_from_mouth": 229
+    },
+    {
+     "name": null,
+     "lon": -59.857,
+     "lat": -35.16,
+     "area_km2": 15913,
+     "discharge_cms": 167.2,
+     "length_km": 396,
+     "km_from_mouth": 243
+    },
+    {
+     "name": null,
+     "lon": -58.229,
+     "lat": -36.05,
+     "area_km2": 10375,
+     "discharge_cms": 98.0,
+     "length_km": 296,
+     "km_from_mouth": 92
+    },
+    {
+     "name": null,
+     "lon": -60.496,
+     "lat": -35.823,
+     "area_km2": 5313,
+     "discharge_cms": 48.4,
+     "length_km": 256,
+     "km_from_mouth": 366
+    },
+    {
+     "name": null,
+     "lon": -59.871,
+     "lat": -35.377,
+     "area_km2": 2694,
+     "discharge_cms": 19.2,
+     "length_km": 147,
+     "km_from_mouth": 321
+    },
+    {
+     "name": null,
+     "lon": -61.527,
+     "lat": -36.998,
+     "area_km2": 2120,
+     "discharge_cms": 16.6,
+     "length_km": 199,
+     "km_from_mouth": 579
+    }
+   ]
+  },
+  {
+   "slug": "doce",
+   "name": "Doce",
+   "main_riv": 61287468,
+   "bounds": [
+    -43.8,
+    -21.1604,
+    -39.7938,
+    -17.7917
+   ],
+   "segments": 4929,
+   "segments_total": 4949,
+   "max_ord_flow": 7,
+   "travel_time_h": 240.0,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 82937,
+   "discharge_cms": 1060.9,
+   "main_length_km": 788,
+   "network_length_km": 20623,
+   "drainage_density": 0.249,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2492,
+    "2": 1125,
+    "3": 609,
+    "4": 428,
+    "5": 167,
+    "6": 51,
+    "7": 77
+   },
+   "runoff_mm": 403,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -42.044,
+     "lat": -18.476,
+     "area_km2": 12566,
+     "discharge_cms": 144.2,
+     "length_km": 302,
+     "km_from_mouth": 282
+    },
+    {
+     "name": null,
+     "lon": -42.61,
+     "lat": -19.131,
+     "area_km2": 10524,
+     "discharge_cms": 171.2,
+     "length_km": 257,
+     "km_from_mouth": 370
+    },
+    {
+     "name": null,
+     "lon": -41.56,
+     "lat": -19.463,
+     "area_km2": 8849,
+     "discharge_cms": 105.8,
+     "length_km": 288,
+     "km_from_mouth": 164
+    },
+    {
+     "name": null,
+     "lon": -42.805,
+     "lat": -19.626,
+     "area_km2": 5434,
+     "discharge_cms": 87.2,
+     "length_km": 213,
+     "km_from_mouth": 417
+    },
+    {
+     "name": null,
+     "lon": -41.808,
+     "lat": -19.288,
+     "area_km2": 3167,
+     "discharge_cms": 35.2,
+     "length_km": 197,
+     "km_from_mouth": 241
+    },
+    {
+     "name": null,
+     "lon": -42.365,
+     "lat": -18.929,
+     "area_km2": 2594,
+     "discharge_cms": 38.1,
+     "length_km": 152,
+     "km_from_mouth": 335
+    }
+   ]
+  },
+  {
+   "slug": "jaguaribe",
+   "name": "Jaguaribe",
+   "main_riv": 60698168,
+   "bounds": [
+    -40.8167,
+    -7.8167,
+    -37.5646,
+    -4.4438
+   ],
+   "segments": 1831,
+   "segments_total": 3501,
+   "max_ord_flow": 7,
+   "travel_time_h": 281.5,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 73470,
+   "discharge_cms": 110.9,
+   "main_length_km": 660,
+   "network_length_km": 16463,
+   "drainage_density": 0.224,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 1760,
+    "2": 814,
+    "3": 447,
+    "4": 213,
+    "5": 132,
+    "6": 109,
+    "7": 26
+   },
+   "runoff_mm": 48,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -38.603,
+     "lat": -5.163,
+     "area_km2": 19649,
+     "discharge_cms": 42.3,
+     "length_km": 326,
+     "km_from_mouth": 119
+    },
+    {
+     "name": null,
+     "lon": -38.954,
+     "lat": -6.837,
+     "area_km2": 13062,
+     "discharge_cms": 48.1,
+     "length_km": 351,
+     "km_from_mouth": 303
+    },
+    {
+     "name": null,
+     "lon": -39.779,
+     "lat": -6.692,
+     "area_km2": 5978,
+     "discharge_cms": 10.8,
+     "length_km": 155,
+     "km_from_mouth": 417
+    },
+    {
+     "name": null,
+     "lon": -40.002,
+     "lat": -6.688,
+     "area_km2": 3625,
+     "discharge_cms": 4.5,
+     "length_km": 143,
+     "km_from_mouth": 477
+    },
+    {
+     "name": null,
+     "lon": -38.819,
+     "lat": -5.631,
+     "area_km2": 2494,
+     "discharge_cms": 4.3,
+     "length_km": 120,
+     "km_from_mouth": 210
+    },
+    {
+     "name": null,
+     "lon": -38.006,
+     "lat": -4.786,
+     "area_km2": 2480,
+     "discharge_cms": 8.3,
+     "length_km": 123,
+     "km_from_mouth": 30
+    }
+   ]
+  },
+  {
+   "slug": "jacui-lagoa-dos-patos",
+   "name": "Jacuí (Lagoa dos Patos)",
+   "main_riv": 61457989,
+   "bounds": [
+    -54.5208,
+    -30.7854,
+    -49.9667,
+    -28.1604
+   ],
+   "segments": 7775,
+   "segments_total": 7775,
+   "max_ord_flow": 7,
+   "travel_time_h": 193.9,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 71807,
+   "discharge_cms": 2086.5,
+   "main_length_km": 634,
+   "network_length_km": 23353,
+   "drainage_density": 0.325,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3931,
+    "2": 1749,
+    "3": 1061,
+    "4": 580,
+    "5": 214,
+    "6": 222,
+    "7": 18
+   },
+   "runoff_mm": 916,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -51.898,
+     "lat": -29.3,
+     "area_km2": 26416,
+     "discharge_cms": 689.1,
+     "length_km": 551,
+     "km_from_mouth": 54
+    },
+    {
+     "name": null,
+     "lon": -53.492,
+     "lat": -29.89,
+     "area_km2": 10080,
+     "discharge_cms": 276.1,
+     "length_km": 265,
+     "km_from_mouth": 265
+    },
+    {
+     "name": null,
+     "lon": -52.585,
+     "lat": -29.769,
+     "area_km2": 3631,
+     "discharge_cms": 100.9,
+     "length_km": 170,
+     "km_from_mouth": 144
+    },
+    {
+     "name": null,
+     "lon": -53.088,
+     "lat": -30.221,
+     "area_km2": 2707,
+     "discharge_cms": 74.5,
+     "length_km": 133,
+     "km_from_mouth": 249
+    },
+    {
+     "name": null,
+     "lon": -53.126,
+     "lat": -29.244,
+     "area_km2": 2134,
+     "discharge_cms": 64.0,
+     "length_km": 131,
+     "km_from_mouth": 375
+    },
+    {
+     "name": null,
+     "lon": -51.705,
+     "lat": -30.08,
+     "area_km2": 2087,
+     "discharge_cms": 48.7,
+     "length_km": 114,
+     "km_from_mouth": 37
+    }
+   ]
+  },
+  {
+   "slug": "rio-negro",
+   "name": "Río Negro",
+   "main_riv": 61498719,
+   "bounds": [
+    -58.3667,
+    -33.9292,
+    -53.8042,
+    -30.8542
+   ],
+   "segments": 5148,
+   "segments_total": 5148,
+   "max_ord_flow": 7,
+   "travel_time_h": 323.2,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 71072,
+   "discharge_cms": 951.7,
+   "main_length_km": 776,
+   "network_length_km": 18994,
+   "drainage_density": 0.267,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 2593,
+    "2": 1229,
+    "3": 662,
+    "4": 358,
+    "5": 156,
+    "6": 150
+   },
+   "runoff_mm": 422,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Uruguay",
+     "share": 0.955
+    },
+    {
+     "name": "Brasilien",
+     "share": 0.045
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -54.906,
+     "lat": -32.365,
+     "area_km2": 14388,
+     "discharge_cms": 156.3,
+     "length_km": 290,
+     "km_from_mouth": 496
+    },
+    {
+     "name": null,
+     "lon": -56.62,
+     "lat": -33.356,
+     "area_km2": 13755,
+     "discharge_cms": 287.6,
+     "length_km": 277,
+     "km_from_mouth": 188
+    },
+    {
+     "name": null,
+     "lon": -55.721,
+     "lat": -31.858,
+     "area_km2": 3473,
+     "discharge_cms": 63.0,
+     "length_km": 142,
+     "km_from_mouth": 552
+    },
+    {
+     "name": null,
+     "lon": -57.302,
+     "lat": -33.308,
+     "area_km2": 3288,
+     "discharge_cms": 39.3,
+     "length_km": 133,
+     "km_from_mouth": 186
+    },
+    {
+     "name": null,
+     "lon": -55.264,
+     "lat": -31.939,
+     "area_km2": 2767,
+     "discharge_cms": 44.2,
+     "length_km": 149,
+     "km_from_mouth": 528
+    },
+    {
+     "name": null,
+     "lon": -57.335,
+     "lat": -32.819,
+     "area_km2": 2749,
+     "discharge_cms": 45.3,
+     "length_km": 124,
+     "km_from_mouth": 136
+    }
+   ]
+  },
+  {
+   "slug": "jequitinhonha",
+   "name": "Jequitinhonha",
+   "main_riv": 61210921,
+   "bounds": [
+    -43.7833,
+    -18.5792,
+    -38.8646,
+    -15.675
+   ],
+   "segments": 2775,
+   "segments_total": 3591,
+   "max_ord_flow": 7,
+   "travel_time_h": 275.9,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 70981,
+   "discharge_cms": 484.8,
+   "main_length_km": 971,
+   "network_length_km": 16182,
+   "drainage_density": 0.228,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1803,
+    "2": 866,
+    "3": 434,
+    "4": 287,
+    "5": 68,
+    "6": 133
+   },
+   "runoff_mm": 215,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -42.396,
+     "lat": -16.917,
+     "area_km2": 16266,
+     "discharge_cms": 111.1,
+     "length_km": 345,
+     "km_from_mouth": 487
+    },
+    {
+     "name": null,
+     "lon": -42.832,
+     "lat": -16.602,
+     "area_km2": 5138,
+     "discharge_cms": 49.4,
+     "length_km": 188,
+     "km_from_mouth": 576
+    },
+    {
+     "name": null,
+     "lon": -42.283,
+     "lat": -16.375,
+     "area_km2": 3502,
+     "discharge_cms": 11.0,
+     "length_km": 145,
+     "km_from_mouth": 533
+    },
+    {
+     "name": null,
+     "lon": -42.491,
+     "lat": -16.309,
+     "area_km2": 3148,
+     "discharge_cms": 15.3,
+     "length_km": 159,
+     "km_from_mouth": 548
+    },
+    {
+     "name": null,
+     "lon": -40.908,
+     "lat": -15.969,
+     "area_km2": 2901,
+     "discharge_cms": 5.7,
+     "length_km": 160,
+     "km_from_mouth": 270
+    },
+    {
+     "name": null,
+     "lon": -41.015,
+     "lat": -16.576,
+     "area_km2": 2389,
+     "discharge_cms": 9.9,
+     "length_km": 103,
+     "km_from_mouth": 325
+    }
+   ]
+  },
+  {
+   "slug": "maroni",
+   "name": "Maroni",
+   "main_riv": 60116052,
+   "bounds": [
+    -56.1667,
+    2.1396,
+    -53.0792,
+    5.6125
+   ],
+   "segments": 7699,
+   "segments_total": 7699,
+   "max_ord_flow": 7,
+   "travel_time_h": 203.1,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 66408,
+   "discharge_cms": 1842.2,
+   "main_length_km": 550,
+   "network_length_km": 22374,
+   "drainage_density": 0.337,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3913,
+    "2": 1737,
+    "3": 868,
+    "4": 572,
+    "5": 344,
+    "6": 128,
+    "7": 137
+   },
+   "runoff_mm": 875,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Suriname",
+     "share": 0.555
+    },
+    {
+     "name": "Frankreich",
+     "share": 0.444
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -54.822,
+     "lat": 3.976,
+     "area_km2": 19826,
+     "discharge_cms": 491.3,
+     "length_km": 388,
+     "km_from_mouth": 165
+    },
+    {
+     "name": null,
+     "lon": -53.744,
+     "lat": 3.232,
+     "area_km2": 8035,
+     "discharge_cms": 236.4,
+     "length_km": 215,
+     "km_from_mouth": 319
+    },
+    {
+     "name": null,
+     "lon": -53.994,
+     "lat": 2.982,
+     "area_km2": 5064,
+     "discharge_cms": 147.9,
+     "length_km": 193,
+     "km_from_mouth": 342
+    },
+    {
+     "name": null,
+     "lon": -53.815,
+     "lat": 3.555,
+     "area_km2": 4420,
+     "discharge_cms": 134.0,
+     "length_km": 161,
+     "km_from_mouth": 296
+    },
+    {
+     "name": null,
+     "lon": -54.444,
+     "lat": 3.148,
+     "area_km2": 4380,
+     "discharge_cms": 128.1,
+     "length_km": 169,
+     "km_from_mouth": 361
+    },
+    {
+     "name": null,
+     "lon": -54.552,
+     "lat": 3.96,
+     "area_km2": 3430,
+     "discharge_cms": 95.0,
+     "length_km": 149,
+     "km_from_mouth": 200
+    }
+   ]
+  },
+  {
+   "slug": "corantijn",
+   "name": "Corantijn",
+   "main_riv": 60106256,
+   "bounds": [
+    -58.4604,
+    1.5167,
+    -55.9292,
+    5.7896
+   ],
+   "segments": 4907,
+   "segments_total": 4907,
+   "max_ord_flow": 7,
+   "travel_time_h": 420.4,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 64284,
+   "discharge_cms": 584.5,
+   "main_length_km": 855,
+   "network_length_km": 17453,
+   "drainage_density": 0.272,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2487,
+    "2": 1047,
+    "3": 592,
+    "4": 317,
+    "5": 221,
+    "6": 93,
+    "7": 150
+   },
+   "runoff_mm": 287,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Suriname",
+     "share": 0.602
+    },
+    {
+     "name": "Guyana",
+     "share": 0.398
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -57.447,
+     "lat": 2.748,
+     "area_km2": 16054,
+     "discharge_cms": 211.6,
+     "length_km": 389,
+     "km_from_mouth": 454
+    },
+    {
+     "name": null,
+     "lon": -57.219,
+     "lat": 3.402,
+     "area_km2": 10050,
+     "discharge_cms": 187.8,
+     "length_km": 278,
+     "km_from_mouth": 419
+    },
+    {
+     "name": "Kabalebo",
+     "lon": -57.194,
+     "lat": 4.626,
+     "area_km2": 9660,
+     "discharge_cms": 226.8,
+     "length_km": 317,
+     "km_from_mouth": 150
+    },
+    {
+     "name": null,
+     "lon": -56.81,
+     "lat": 2.231,
+     "area_km2": 2406,
+     "discharge_cms": 33.5,
+     "length_km": 89,
+     "km_from_mouth": 700
+    },
+    {
+     "name": null,
+     "lon": -56.775,
+     "lat": 2.604,
+     "area_km2": 2363,
+     "discharge_cms": 26.0,
+     "length_km": 140,
+     "km_from_mouth": 659
+    },
+    {
+     "name": null,
+     "lon": -56.492,
+     "lat": 2.442,
+     "area_km2": 1405,
+     "discharge_cms": 16.0,
+     "length_km": 92,
+     "km_from_mouth": 726
+    }
+   ]
+  },
+  {
+   "slug": "paraiba",
+   "name": "Paraiba",
+   "main_riv": 61323213,
+   "bounds": [
+    -46.4083,
+    -23.6354,
+    -41.0396,
+    -20.4667
+   ],
+   "segments": 3867,
+   "segments_total": 3910,
+   "max_ord_flow": 7,
+   "travel_time_h": 280.1,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 57227,
+   "discharge_cms": 753.5,
+   "main_length_km": 958,
+   "network_length_km": 15315,
+   "drainage_density": 0.268,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1975,
+    "2": 900,
+    "3": 432,
+    "4": 218,
+    "5": 314,
+    "6": 71
+   },
+   "runoff_mm": 415,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -42.353,
+     "lat": -21.451,
+     "area_km2": 8686,
+     "discharge_cms": 113.9,
+     "length_km": 269,
+     "km_from_mouth": 136
+    },
+    {
+     "name": null,
+     "lon": -43.355,
+     "lat": -21.973,
+     "area_km2": 8590,
+     "discharge_cms": 123.0,
+     "length_km": 222,
+     "km_from_mouth": 278
+    },
+    {
+     "name": null,
+     "lon": -41.69,
+     "lat": -21.423,
+     "area_km2": 8145,
+     "discharge_cms": 90.8,
+     "length_km": 256,
+     "km_from_mouth": 47
+    },
+    {
+     "name": null,
+     "lon": -42.052,
+     "lat": -21.905,
+     "area_km2": 3165,
+     "discharge_cms": 41.5,
+     "length_km": 203,
+     "km_from_mouth": 100
+    },
+    {
+     "name": null,
+     "lon": -43.069,
+     "lat": -22.219,
+     "area_km2": 2025,
+     "discharge_cms": 33.0,
+     "length_km": 102,
+     "km_from_mouth": 278
+    },
+    {
+     "name": null,
+     "lon": -46.029,
+     "lat": -23.194,
+     "area_km2": 1808,
+     "discharge_cms": 38.9,
+     "length_km": 86,
+     "km_from_mouth": 692
+    }
+   ]
+  },
+  {
+   "slug": "lagoa-mirim",
+   "name": "Lagoa Mirim",
+   "main_riv": 61481564,
+   "bounds": [
+    -55.3375,
+    -34.4125,
+    -52.2125,
+    -31.3375
+   ],
+   "segments": 4594,
+   "segments_total": 4594,
+   "max_ord_flow": 7,
+   "travel_time_h": 310.5,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 56207,
+   "discharge_cms": 1184.5,
+   "main_length_km": 494,
+   "network_length_km": 16755,
+   "drainage_density": 0.298,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 2325,
+    "2": 1082,
+    "3": 572,
+    "4": 273,
+    "5": 226,
+    "6": 47,
+    "7": 69
+   },
+   "runoff_mm": 665,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Uruguay",
+     "share": 0.575
+    },
+    {
+     "name": "Brasilien",
+     "share": 0.425
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -53.59,
+     "lat": -33.427,
+     "area_km2": 7561,
+     "discharge_cms": 142.1,
+     "length_km": 224,
+     "km_from_mouth": 233
+    },
+    {
+     "name": null,
+     "lon": -53.458,
+     "lat": -32.513,
+     "area_km2": 7541,
+     "discharge_cms": 148.4,
+     "length_km": 269,
+     "km_from_mouth": 141
+    },
+    {
+     "name": null,
+     "lon": -52.668,
+     "lat": -31.881,
+     "area_km2": 5590,
+     "discharge_cms": 141.8,
+     "length_km": 162,
+     "km_from_mouth": 41
+    },
+    {
+     "name": null,
+     "lon": -54.159,
+     "lat": -33.281,
+     "area_km2": 5442,
+     "discharge_cms": 104.1,
+     "length_km": 183,
+     "km_from_mouth": 269
+    },
+    {
+     "name": null,
+     "lon": -53.676,
+     "lat": -32.756,
+     "area_km2": 4795,
+     "discharge_cms": 91.2,
+     "length_km": 229,
+     "km_from_mouth": 159
+    },
+    {
+     "name": null,
+     "lon": -54.529,
+     "lat": -33.938,
+     "area_km2": 2805,
+     "discharge_cms": 53.4,
+     "length_km": 128,
+     "km_from_mouth": 362
+    }
+   ]
+  },
+  {
+   "slug": "mearim",
+   "name": "Mearim",
+   "main_riv": 60622264,
+   "bounds": [
+    -46.8083,
+    -6.8958,
+    -44.3458,
+    -3.3271
+   ],
+   "segments": 3340,
+   "segments_total": 3427,
+   "max_ord_flow": 7,
+   "travel_time_h": 273.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 55842,
+   "discharge_cms": 605.7,
+   "main_length_km": 640,
+   "network_length_km": 13536,
+   "drainage_density": 0.242,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1732,
+    "2": 827,
+    "3": 405,
+    "4": 188,
+    "5": 204,
+    "6": 71
+   },
+   "runoff_mm": 342,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -45.331,
+     "lat": -4.395,
+     "area_km2": 21767,
+     "discharge_cms": 335.5,
+     "length_km": 539,
+     "km_from_mouth": 46
+    },
+    {
+     "name": null,
+     "lon": -44.681,
+     "lat": -5.102,
+     "area_km2": 6072,
+     "discharge_cms": 39.7,
+     "length_km": 175,
+     "km_from_mouth": 241
+    },
+    {
+     "name": null,
+     "lon": -45.377,
+     "lat": -5.882,
+     "area_km2": 4704,
+     "discharge_cms": 36.7,
+     "length_km": 156,
+     "km_from_mouth": 359
+    },
+    {
+     "name": null,
+     "lon": -44.84,
+     "lat": -4.235,
+     "area_km2": 3092,
+     "discharge_cms": 43.3,
+     "length_km": 145,
+     "km_from_mouth": 122
+    },
+    {
+     "name": null,
+     "lon": -44.923,
+     "lat": -3.838,
+     "area_km2": 2086,
+     "discharge_cms": 40.8,
+     "length_km": 119,
+     "km_from_mouth": 50
+    },
+    {
+     "name": null,
+     "lon": -45.543,
+     "lat": -5.465,
+     "area_km2": 1938,
+     "discharge_cms": 20.0,
+     "length_km": 115,
+     "km_from_mouth": 368
+    }
+   ]
+  },
+  {
+   "slug": "contas",
+   "name": "Contas",
+   "main_riv": 61170643,
+   "bounds": [
+    -42.5521,
+    -15.1563,
+    -38.9938,
+    -12.9875
+   ],
+   "segments": 1582,
+   "segments_total": 2747,
+   "max_ord_flow": 7,
+   "travel_time_h": 280.8,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 55393,
+   "discharge_cms": 141.2,
+   "main_length_km": 674,
+   "network_length_km": 12389,
+   "drainage_density": 0.224,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1384,
+    "2": 615,
+    "3": 396,
+    "4": 196,
+    "5": 61,
+    "6": 95
+   },
+   "runoff_mm": 80,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -41.191,
+     "lat": -14.633,
+     "area_km2": 10210,
+     "discharge_cms": 14.8,
+     "length_km": 334,
+     "km_from_mouth": 342
+    },
+    {
+     "name": null,
+     "lon": -39.669,
+     "lat": -14.328,
+     "area_km2": 5296,
+     "discharge_cms": 29.3,
+     "length_km": 222,
+     "km_from_mouth": 63
+    },
+    {
+     "name": null,
+     "lon": -41.768,
+     "lat": -14.347,
+     "area_km2": 5109,
+     "discharge_cms": 7.5,
+     "length_km": 229,
+     "km_from_mouth": 425
+    },
+    {
+     "name": null,
+     "lon": -41.506,
+     "lat": -13.893,
+     "area_km2": 3589,
+     "discharge_cms": 6.8,
+     "length_km": 204,
+     "km_from_mouth": 390
+    },
+    {
+     "name": null,
+     "lon": -41.747,
+     "lat": -13.811,
+     "area_km2": 2808,
+     "discharge_cms": 4.4,
+     "length_km": 120,
+     "km_from_mouth": 442
+    },
+    {
+     "name": null,
+     "lon": -40.706,
+     "lat": -13.632,
+     "area_km2": 2229,
+     "discharge_cms": 3.4,
+     "length_km": 105,
+     "km_from_mouth": 266
+    }
+   ]
+  },
+  {
+   "slug": "paraguacu",
+   "name": "Paraguaçu",
+   "main_riv": 61117809,
+   "bounds": [
+    -42.0167,
+    -13.5958,
+    -38.9146,
+    -11.2958
+   ],
+   "segments": 1317,
+   "segments_total": 2596,
+   "max_ord_flow": 7,
+   "travel_time_h": 245.2,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 54759,
+   "discharge_cms": 125.6,
+   "main_length_km": 602,
+   "network_length_km": 12103,
+   "drainage_density": 0.221,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1309,
+    "2": 604,
+    "3": 283,
+    "4": 226,
+    "5": 137,
+    "6": 37
+   },
+   "runoff_mm": 72,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -39.398,
+     "lat": -11.794,
+     "area_km2": 12376,
+     "discharge_cms": 7.1,
+     "length_km": 431,
+     "km_from_mouth": 36
+    },
+    {
+     "name": null,
+     "lon": -40.169,
+     "lat": -12.223,
+     "area_km2": 5934,
+     "discharge_cms": 10.1,
+     "length_km": 249,
+     "km_from_mouth": 150
+    },
+    {
+     "name": null,
+     "lon": -39.802,
+     "lat": -12.404,
+     "area_km2": 4830,
+     "discharge_cms": 6.7,
+     "length_km": 168,
+     "km_from_mouth": 104
+    },
+    {
+     "name": null,
+     "lon": -41.148,
+     "lat": -12.402,
+     "area_km2": 2933,
+     "discharge_cms": 7.0,
+     "length_km": 120,
+     "km_from_mouth": 414
+    },
+    {
+     "name": null,
+     "lon": -41.39,
+     "lat": -12.983,
+     "area_km2": 2575,
+     "discharge_cms": 9.1,
+     "length_km": 130,
+     "km_from_mouth": 381
+    },
+    {
+     "name": null,
+     "lon": -41.131,
+     "lat": -13.071,
+     "area_km2": 2113,
+     "discharge_cms": 6.4,
+     "length_km": 103,
+     "km_from_mouth": 338
+    }
+   ]
+  },
+  {
+   "slug": "itapecuru",
+   "name": "Itapecuru",
+   "main_riv": 60587404,
+   "bounds": [
+    -45.9333,
+    -6.9208,
+    -43.0688,
+    -2.8188
+   ],
+   "segments": 2711,
+   "segments_total": 3038,
+   "max_ord_flow": 7,
+   "travel_time_h": 323.6,
+   "monthly": "model",
+   "size_mb": 0.0,
+   "area_km2": 52991,
+   "discharge_cms": 442.1,
+   "main_length_km": 840,
+   "network_length_km": 12058,
+   "drainage_density": 0.228,
+   "max_strahler": 6,
+   "strahler_counts": {
+    "1": 1538,
+    "2": 662,
+    "3": 314,
+    "4": 326,
+    "5": 45,
+    "6": 153
+   },
+   "runoff_mm": 263,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -43.729,
+     "lat": -5.846,
+     "area_km2": 7036,
+     "discharge_cms": 34.0,
+     "length_km": 205,
+     "km_from_mouth": 468
+    },
+    {
+     "name": null,
+     "lon": -44.803,
+     "lat": -6.119,
+     "area_km2": 6953,
+     "discharge_cms": 51.6,
+     "length_km": 255,
+     "km_from_mouth": 557
+    },
+    {
+     "name": null,
+     "lon": -44.146,
+     "lat": -4.646,
+     "area_km2": 5589,
+     "discharge_cms": 46.6,
+     "length_km": 205,
+     "km_from_mouth": 256
+    },
+    {
+     "name": null,
+     "lon": -44.3,
+     "lat": -3.892,
+     "area_km2": 3059,
+     "discharge_cms": 48.1,
+     "length_km": 163,
+     "km_from_mouth": 133
+    },
+    {
+     "name": null,
+     "lon": -43.991,
+     "lat": -5.388,
+     "area_km2": 2308,
+     "discharge_cms": 10.8,
+     "length_km": 144,
+     "km_from_mouth": 456
+    },
+    {
+     "name": null,
+     "lon": -43.279,
+     "lat": -5.108,
+     "area_km2": 2067,
+     "discharge_cms": 17.2,
+     "length_km": 119,
+     "km_from_mouth": 353
+    }
+   ]
+  },
+  {
+   "slug": "pacaja-anapu",
+   "name": "Pacajá–Anapu",
+   "main_riv": 60523796,
+   "bounds": [
+    -51.9333,
+    -5.175,
+    -49.8208,
+    -1.5313
+   ],
+   "segments": 7561,
+   "segments_total": 7561,
+   "max_ord_flow": 7,
+   "travel_time_h": 245.7,
+   "monthly": "model",
+   "size_mb": 0.1,
+   "area_km2": 52959,
+   "discharge_cms": 2674.6,
+   "main_length_km": 637,
+   "network_length_km": 20450,
+   "drainage_density": 0.386,
+   "max_strahler": 7,
+   "strahler_counts": {
+    "1": 3858,
+    "2": 1760,
+    "3": 919,
+    "4": 432,
+    "5": 339,
+    "6": 241,
+    "7": 12
+   },
+   "runoff_mm": 1593,
+   "endorheic": false,
+   "countries": [
+    {
+     "name": "Brasilien",
+     "share": 1.0
+    }
+   ],
+   "tributaries": [
+    {
+     "name": null,
+     "lon": -51.446,
+     "lat": -2.258,
+     "area_km2": 22140,
+     "discharge_cms": 1003.4,
+     "length_km": 484,
+     "km_from_mouth": 55
+    },
+    {
+     "name": null,
+     "lon": -50.444,
+     "lat": -3.854,
+     "area_km2": 4493,
+     "discharge_cms": 169.1,
+     "length_km": 213,
+     "km_from_mouth": 367
+    },
+    {
+     "name": null,
+     "lon": -50.401,
+     "lat": -3.126,
+     "area_km2": 3633,
+     "discharge_cms": 157.4,
+     "length_km": 189,
+     "km_from_mouth": 218
+    },
+    {
+     "name": null,
+     "lon": -50.144,
+     "lat": -3.419,
+     "area_km2": 3397,
+     "discharge_cms": 120.6,
+     "length_km": 130,
+     "km_from_mouth": 316
+    },
+    {
+     "name": null,
+     "lon": -50.68,
+     "lat": -2.185,
+     "area_km2": 3209,
+     "discharge_cms": 145.7,
+     "length_km": 151,
+     "km_from_mouth": 69
+    },
+    {
+     "name": null,
+     "lon": -50.823,
+     "lat": -2.609,
+     "area_km2": 1292,
+     "discharge_cms": 63.4,
+     "length_km": 98,
+     "km_from_mouth": 145
+    }
+   ]
+  }
+ ]
+}
