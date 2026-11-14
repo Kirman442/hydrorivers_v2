@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="comet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fd3ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e8fbff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0b0f14"/>
+  <!-- tributaries, thin to thick downstream -->
+  <path d="M10 12 C16 18 22 22 30 28" fill="none" stroke="#2f8fc7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M54 30 C46 33 38 36 31.5 40" fill="none" stroke="#2f8fc7" stroke-width="3" stroke-linecap="round"/>
+  <!-- main stem from the source (top right) to the mouth (bottom left) -->
+  <path d="M46 8 C42 16 34 20 30 28 C26 36 34 42 28 50 C25 54 20 56 14 58" fill="none" stroke="#1f6f9f" stroke-width="6" stroke-linecap="round"/>
+  <!-- a particle travelling down the main stem -->
+  <path d="M33 40 C33 44 31 47 28 50" fill="none" stroke="url(#comet)" stroke-width="6" stroke-linecap="round"/>
+</svg>
