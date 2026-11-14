@@ -14,17 +14,17 @@
  *   load.js     loading views and basins, state in the URL
  *   intro.js    welcome window (DE/EN) on the first visit, "?" button on the map
  */
-import {$, params, HELP} from './util.js?v=a7be80b2';
-import {state, S, ui, FIRST_VISIT, START} from './store.js?v=a7be80b2';
-import {loadCatalogs} from './data.js?v=a7be80b2';
-import {map, redraw} from './map.js?v=a7be80b2';
-import {initIntro} from './intro.js?v=a7be80b2';
-import {bindBasemap} from './basemap.js?v=a7be80b2';
-import {setTab} from './panel.js?v=a7be80b2';
-import {renderRiver} from './card.js?v=a7be80b2';
-import {bindCompare} from './compare.js?v=a7be80b2';
-import {renderTimebar, setColor, setMonth, setYear} from './timebar.js?v=a7be80b2';
-import {openView} from './load.js?v=a7be80b2';
+import {$, params, HELP} from './util.js?v=0715c5af';
+import {state, S, ui, FIRST_VISIT, START} from './store.js?v=0715c5af';
+import {loadCatalogs} from './data.js?v=0715c5af';
+import {map, redraw} from './map.js?v=0715c5af';
+import {initIntro} from './intro.js?v=0715c5af';
+import {bindBasemap} from './basemap.js?v=0715c5af';
+import {setTab} from './panel.js?v=0715c5af';
+import {renderRiver} from './card.js?v=0715c5af';
+import {bindCompare} from './compare.js?v=0715c5af';
+import {renderTimebar, setColor, setMonth, setYear} from './timebar.js?v=0715c5af';
+import {openView} from './load.js?v=0715c5af';
 
 function bindControls() {
   // speed: the slider in Info and the one in the time bar are the same control

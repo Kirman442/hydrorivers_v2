@@ -1,8 +1,8 @@
 /* The map: MapLibre base map, deck.gl layers on top (network, pinned path,
  * flowing particles, river names), the tooltip and the animation loop. */
-import {$, MONTHS, fmt} from './util.js?v=a7be80b2';
-import {state, S, qOf, tOf, colorOf, widthOf, alphaOf, speedOf} from './store.js?v=a7be80b2';
-import {riverType} from './data.js?v=a7be80b2';
+import {$, MONTHS, fmt} from './util.js?v=0715c5af';
+import {state, S, qOf, tOf, colorOf, widthOf, alphaOf, speedOf} from './store.js?v=0715c5af';
+import {riverType} from './data.js?v=0715c5af';
 
 const {MapboxOverlay, PathLayer, TextLayer, TripsLayer} = deck;
 const TAIL = 0.45; // visible part of each particle, as a share of the spacing

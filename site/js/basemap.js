@@ -1,7 +1,7 @@
 /* Switches for the base map: relief, its place names and its borders.
  * All three are remembered in the browser. */
-import {$} from './util.js?v=a7be80b2';
-import {map} from './map.js?v=a7be80b2';
+import {$} from './util.js?v=0715c5af';
+import {map} from './map.js?v=0715c5af';
 
 const stored = (key, def) => {
   try { const v = localStorage.getItem(key); return v == null ? def : v === '1'; } catch (e) { return def; }  // storage blocked

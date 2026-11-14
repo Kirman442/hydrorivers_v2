@@ -1,11 +1,11 @@
 /* The panel's tabs, the river list (catalog and "compare with" share it) and
  * the Methode text. */
-import {$, esc, fmt0, FRESH} from './util.js?v=a7be80b2';
-import {S, ui, VIEWS, catalogs} from './store.js?v=a7be80b2';
-import {loadCatalogs} from './data.js?v=a7be80b2';
-import {TOP} from './top.js?v=a7be80b2';
-import {renderRiver} from './card.js?v=a7be80b2';
-import {renderCompare} from './compare.js?v=a7be80b2';
+import {$, esc, fmt0, FRESH} from './util.js?v=0715c5af';
+import {S, ui, VIEWS, catalogs} from './store.js?v=0715c5af';
+import {loadCatalogs} from './data.js?v=0715c5af';
+import {TOP} from './top.js?v=0715c5af';
+import {renderRiver} from './card.js?v=0715c5af';
+import {renderCompare} from './compare.js?v=0715c5af';
 
 /* ---------- tabs ---------- */
 export function renderTabs() {
@@ -17,11 +17,16 @@ export function setTab(t) {
   // "Flüsse" again while the river card is open: show the list of all rivers
   // (from another tab it returns to whatever the Flüsse tab showed last)
   if (t === 'rivers' && ui.tab === 'rivers' && !ui.showList) ui.showList = true;
+  const entering = ui.tab !== t;
   ui.tab = t;
   if (t === 'compare') renderCompare();
   if (t === 'rivers') renderRiver();
   if (t === 'method') loadMethod();
   renderTabs();
+  // Vergleich opens at the top (A, B and the start of the river list), not
+  // where the list was scrolled during the last pick; after renderTabs, as a
+  // hidden section keeps no scroll position
+  if (t === 'compare' && entering) $('v-compare').scrollTop = 0;
 }
 // the Methode text lives in methode.html (plain markup), fetched once
 let methodLoaded = false;
@@ -84,7 +89,14 @@ export function renderList(box, mode, onPick) {
     items.innerHTML = listItems(mode);
     // one region open at a time (while searching, every region with a hit stays open)
     const regions = items.querySelectorAll('details.region');
+    regions.forEach((d) => { if (d.open) d.dataset.init = ''; });
     regions.forEach((d) => d.ontoggle = () => {
+      // a region rendered open fires one toggle by itself: the main list then
+      // scrolls to it (back where the river was picked), the compare list
+      // stays at its start
+      const init = d.dataset.init !== undefined;
+      delete d.dataset.init;
+      if (init && mode === 'pick') return;
       if (ui.q[mode]) return;
       if (!d.open) { ui.open.delete(d.dataset.c); return; }
       ui.open.clear();

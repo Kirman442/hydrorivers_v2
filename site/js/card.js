@@ -1,9 +1,9 @@
 /* Flüsse tab: the river card (figures in blocks) and its small charts. */
-import {$, esc, sum, avg, fmt, fmt0, pct, titleOf, srcText, iBtn, MONTHS, MONL, MON1} from './util.js?v=a7be80b2';
-import {state, S, ui, VIEWS, curMonth} from './store.js?v=a7be80b2';
-import {yearAnoms, mouthTemp} from './data.js?v=a7be80b2';
-import {renderList, renderTabs} from './panel.js?v=a7be80b2';
-import {openView} from './load.js?v=a7be80b2';
+import {$, esc, sum, avg, fmt, fmt0, pct, titleOf, srcText, iBtn, MONTHS, MONL, MON1} from './util.js?v=0715c5af';
+import {state, S, ui, VIEWS, curMonth} from './store.js?v=0715c5af';
+import {yearAnoms, mouthTemp} from './data.js?v=0715c5af';
+import {renderList, renderTabs} from './panel.js?v=0715c5af';
+import {openView} from './load.js?v=0715c5af';
 
 const kv = (k, v, help, extra = '', id = '') =>
   `<div class="kv"><span class="k">${k}</span>${help ? iBtn(help) : ''}<span class="v"${id ? ` id="${id}"` : ''}>${v}</span>${extra}</div>`;

@@ -1,11 +1,11 @@
 /* Vergleich: the basin on the map (A) next to any other (B).
  * Of B only the meta header is read: statistics, climate, profile, hydrographs. */
-import {$, esc, sum, avg, fmt, fmt0, titleOf, srcText, iBtn, MONTHS, MONL, MON1, FRESH} from './util.js?v=a7be80b2';
-import {S, ui, VIEWS, fileOf, curMonth, curYear} from './store.js?v=a7be80b2';
-import {gunzip, readMeta, hydro12} from './data.js?v=a7be80b2';
-import {renderList, renderTabs} from './panel.js?v=a7be80b2';
-import {renderTimebar} from './timebar.js?v=a7be80b2';
-import {openView, setUrl, renderAll} from './load.js?v=a7be80b2';
+import {$, esc, sum, avg, fmt, fmt0, titleOf, srcText, iBtn, MONTHS, MONL, MON1, FRESH} from './util.js?v=0715c5af';
+import {S, ui, VIEWS, fileOf, curMonth, curYear} from './store.js?v=0715c5af';
+import {gunzip, readMeta, hydro12} from './data.js?v=0715c5af';
+import {renderList, renderTabs} from './panel.js?v=0715c5af';
+import {renderTimebar} from './timebar.js?v=0715c5af';
+import {openView, setUrl, renderAll} from './load.js?v=0715c5af';
 
 export const entryOf = (v, s) => ({view: v, slug: VIEWS[v].catalog ? s : null, url: fileOf(v, s)});
 export function chooseCompare(entry) {
@@ -18,6 +18,7 @@ export function chooseCompare(entry) {
       S.cmpB = {meta: d instanceof ArrayBuffer ? readMeta(d) : d.meta, entry};
       ui.picking = false;
       renderCompare();
+      $('v-compare').scrollTop = 0;  // the result starts at the top, not at the list position
       renderTimebar();
       renderTabs();
       setUrl();
@@ -178,8 +179,9 @@ export function bindCompare() {
     if (!S.cmpB && p.dataset.slot === 'b') return;  // the list is already open
     ui.picking = ui.picking === p.dataset.slot ? false : p.dataset.slot;
     renderCompare();
+    $('v-compare').scrollTop = 0;
   });
-  $('picker-close').onclick = () => { ui.picking = false; renderCompare(); };
+  $('picker-close').onclick = () => { ui.picking = false; renderCompare(); $('v-compare').scrollTop = 0; };
   // show B on the map; the basin that was there becomes the one compared
   $('cmp-open').onclick = () => {
     if (!S.cmpB) return;
