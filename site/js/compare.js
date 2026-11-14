@@ -1,15 +1,16 @@
 /* Vergleich: the basin on the map (A) next to any other (B).
  * Of B only the meta header is read: statistics, climate, profile, hydrographs. */
-import {$, esc, sum, avg, fmt, fmt0, titleOf, srcText, iBtn, MONTHS, MONL, MON1, FRESH} from './util.js';
-import {S, ui, VIEWS, fileOf, curMonth, curYear} from './store.js';
-import {gunzip, readMeta, hydro12} from './data.js';
-import {renderList, renderTabs} from './panel.js';
-import {renderTimebar} from './timebar.js';
-import {openView, setUrl, renderAll} from './load.js';
+import {$, esc, sum, avg, fmt, fmt0, titleOf, srcText, iBtn, MONTHS, MONL, MON1, FRESH} from './util.js?v=a7be80b2';
+import {S, ui, VIEWS, fileOf, curMonth, curYear} from './store.js?v=a7be80b2';
+import {gunzip, readMeta, hydro12} from './data.js?v=a7be80b2';
+import {renderList, renderTabs} from './panel.js?v=a7be80b2';
+import {renderTimebar} from './timebar.js?v=a7be80b2';
+import {openView, setUrl, renderAll} from './load.js?v=a7be80b2';
 
 export const entryOf = (v, s) => ({view: v, slug: VIEWS[v].catalog ? s : null, url: fileOf(v, s)});
 export function chooseCompare(entry) {
   const token = ++S.cmpToken;
+  ui.pickedFrom = null;  // a pick for B does not change where the main list opens
   return fetch(entry.url, FRESH)
     .then((r) => { if (!r.ok) throw new Error(`${entry.url}: ${r.status}`); return entry.url.endsWith('.bin') ? r.arrayBuffer().then(gunzip) : r.json(); })
     .then((d) => {

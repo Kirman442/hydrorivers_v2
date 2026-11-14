@@ -1,9 +1,9 @@
 /* Flüsse tab: the river card (figures in blocks) and its small charts. */
-import {$, esc, sum, avg, fmt, fmt0, pct, titleOf, srcText, iBtn, MONTHS, MONL, MON1} from './util.js';
-import {state, S, ui, VIEWS, curMonth} from './store.js';
-import {yearAnoms, mouthTemp} from './data.js';
-import {renderList, renderTabs} from './panel.js';
-import {openView} from './load.js';
+import {$, esc, sum, avg, fmt, fmt0, pct, titleOf, srcText, iBtn, MONTHS, MONL, MON1} from './util.js?v=a7be80b2';
+import {state, S, ui, VIEWS, curMonth} from './store.js?v=a7be80b2';
+import {yearAnoms, mouthTemp} from './data.js?v=a7be80b2';
+import {renderList, renderTabs} from './panel.js?v=a7be80b2';
+import {openView} from './load.js?v=a7be80b2';
 
 const kv = (k, v, help, extra = '', id = '') =>
   `<div class="kv"><span class="k">${k}</span>${help ? iBtn(help) : ''}<span class="v"${id ? ` id="${id}"` : ''}>${v}</span>${extra}</div>`;
@@ -11,10 +11,14 @@ const colorChip = (c) => `<button type="button" class="cchip ${c}${state.color =
 // smallest discharge drawn: HydroRIVERS flow class k covers 10^(6-k) .. 10^(7-k) m³/s
 const minShown = (k) => (k ? fmt.format(Math.pow(10, 6 - k)) : null);
 
+// list and card share one scrolling panel: a different view starts at the top
+let shownView = '';
 export function renderRiver() {
   const meta = S.meta;
   $('river').hidden = ui.showList;
   $('list').hidden = !ui.showList;
+  const viewKey = ui.showList ? 'list' : `card:${S.view}/${S.slug || ''}`;
+  if (viewKey !== shownView) { $('v-rivers').scrollTop = 0; shownView = viewKey; }
   if (ui.showList) {
     $('to-river').textContent = meta ? `← zurück zu ${titleOf(meta)}` : '';
     renderList($('main-list'), 'main', (v, s) => {

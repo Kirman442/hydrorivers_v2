@@ -1,7 +1,7 @@
 /* Welcome window: what the page is and where to click, in German and English.
  * Shown once on a first visit (no view in the URL); the "?" button under the
  * zoom buttons opens it again. The river keeps flowing behind it. */
-import {FIRST_VISIT} from './store.js';
+import {FIRST_VISIT} from './store.js?v=a7be80b2';
 
 const TEXT = {
   de: {

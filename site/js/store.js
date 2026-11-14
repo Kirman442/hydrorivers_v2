@@ -2,7 +2,7 @@
  * so everything that changes while the page runs lives in `state` (what the
  * user chose) or `S` (what is loaded). Also the values and colours that depend
  * on the chosen month and year. */
-import {params} from './util.js';
+import {params} from './util.js?v=a7be80b2';
 
 // color: q = discharge, t = water temperature; month: index into meta.months, -1 = annual mean
 export const state = {speed: 24, spacing: 24, playing: true, network: true, time: 0,

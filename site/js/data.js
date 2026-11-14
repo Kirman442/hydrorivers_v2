@@ -1,8 +1,8 @@
 /* Reading the data files and what is computed from them: the binary basin
  * format, the downstream links and the travel times of the chosen month. */
-import {FRESH, avg} from './util.js';
-import {state, S, VIEWS, catalogs, speedOf} from './store.js';
-import {updateTravel} from './card.js';
+import {FRESH, avg} from './util.js?v=a7be80b2';
+import {state, S, VIEWS, catalogs, speedOf} from './store.js?v=a7be80b2';
+import {updateTravel} from './card.js?v=a7be80b2';
 
 /* Binary basin file (pipeline/binfmt.py): "HRB1", meta JSON, then typed
  * arrays listed in meta.arrays. Paths and timestamps become views into two

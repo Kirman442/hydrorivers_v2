@@ -1,10 +1,11 @@
 /* The panel's tabs, the river list (catalog and "compare with" share it) and
  * the Methode text. */
-import {$, esc, fmt0, FRESH} from './util.js';
-import {S, ui, VIEWS, catalogs} from './store.js';
-import {loadCatalogs} from './data.js';
-import {renderRiver} from './card.js';
-import {renderCompare} from './compare.js';
+import {$, esc, fmt0, FRESH} from './util.js?v=a7be80b2';
+import {S, ui, VIEWS, catalogs} from './store.js?v=a7be80b2';
+import {loadCatalogs} from './data.js?v=a7be80b2';
+import {TOP} from './top.js?v=a7be80b2';
+import {renderRiver} from './card.js?v=a7be80b2';
+import {renderCompare} from './compare.js?v=a7be80b2';
 
 /* ---------- tabs ---------- */
 export function renderTabs() {
@@ -13,6 +14,9 @@ export function renderTabs() {
   $('cmp-n').hidden = !S.cmpB;
 }
 export function setTab(t) {
+  // "Flüsse" again while the river card is open: show the list of all rivers
+  // (from another tab it returns to whatever the Flüsse tab showed last)
+  if (t === 'rivers' && ui.tab === 'rivers' && !ui.showList) ui.showList = true;
   ui.tab = t;
   if (t === 'compare') renderCompare();
   if (t === 'rivers') renderRiver();
@@ -41,6 +45,21 @@ function listItems(mode) {
     `<span class="nm">${esc(name)}</span>${g ? '<span class="g-badge" title="Monatswerte aus GloFAS">G</span>' : ''}` +
     (area ? `<span class="ar">${fmt0.format(area / 1000)} Tsd. km²</span>` : '') + '</li>';
   let html = '';
+  // Top 10 lists: published values, our map value small below (see Methode)
+  for (const [k, t] of Object.entries(TOP)) {
+    const rows = t.rivers.filter((r) => !q || r.name.toLowerCase().includes(q) || t.label.toLowerCase().includes(q));
+    if (!rows.length) continue;
+    const ours = (r) => {
+      const b = catalogs[r.view] && catalogs[r.view].basins.find((x) => x.slug === r.slug);
+      const v = b && (k === 'q' ? b.discharge_cms : b.main_length_km);
+      return v ? `Karte: ${fmt0.format(v)} ${t.unit}${r.note ? ` (${r.note})` : ''}` : (r.note || '');
+    };
+    html += `<details class="region top" data-c="top-${k}" ${q || ui.open.has('top-' + k) ? 'open' : ''}><summary>${esc(t.label)}<span class="cnt">${rows.length}</span></summary>` +
+      `<ul class="rivers">${rows.map((r) => `<li class="${isA(r.view, r.slug) ? 'a' : isB(r.view, r.slug) ? 'b' : ''}" data-v="${r.view}" data-s="${r.slug}">` +
+        `<span class="nm">${t.rivers.indexOf(r) + 1}. ${esc(r.name)}<small class="top-ours">${esc(ours(r))}</small></span>` +
+        `<span class="ar" title="${r.gauge ? 'Pegel ' + esc(r.gauge) : ''}">${fmt0.format(Math.round(k === 'q' ? r.value / 100 : r.value) * (k === 'q' ? 100 : 1))} ${t.unit}</span></li>`).join('')}</ul>` +
+      `<p class="top-src">${esc(t.source)}</p></details>`;
+  }
   if (!q || 'orinoco volles netz prototyp glofas'.includes(q)) {
     html += `<details class="region" data-c="orinoco" ${ui.open.has('orinoco') || q ? 'open' : ''}><summary>Volles Netz<span class="cnt">1</span></summary>` +
       `<ul class="rivers">${li('orinoco', null, 'Orinoco · volles Netz', 0, true)}</ul></details>`;
@@ -77,7 +96,12 @@ export function renderList(box, mode, onPick) {
       while (sc && !(sc.scrollHeight > sc.clientHeight && /auto|scroll/.test(getComputedStyle(sc).overflowY))) sc = sc.parentElement;
       if (sc) sc.scrollTop += d.getBoundingClientRect().top - sc.getBoundingClientRect().top - 4;
     });
-    items.querySelectorAll('li[data-v]').forEach((el) => el.onclick = () => listPick[mode](el.dataset.v, el.dataset.s || null));
+    items.querySelectorAll('li[data-v]').forEach((el) => el.onclick = () => {
+      // remember the region the river was picked from (a Top 10 list, not only
+      // its continent), so "← Alle Flüsse" opens that one again
+      ui.pickedFrom = el.closest('details.region')?.dataset.c || null;
+      listPick[mode](el.dataset.v, el.dataset.s || null);
+    });
   };
   if (!box.dataset.built) {  // built once, so typing keeps the focus
     box.innerHTML = `<input type="search" placeholder="Fluss, Nebenfluss oder Land suchen" autocomplete="off">

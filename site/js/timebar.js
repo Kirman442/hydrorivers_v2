@@ -1,12 +1,12 @@
 /* Time bar (months as the hydrograph of the river on the map, single years),
  * the map legend and the colour mode; what follows a change of month or year. */
-import {$, esc, avg, fmt0, pct, wetDry, titleOf, srcText, MONTHS, MONL} from './util.js';
-import {state, S, curYear} from './store.js';
-import {retime, hydro12, yearAnoms} from './data.js';
-import {redraw} from './map.js';
-import {updateMonthRows, renderCharts} from './card.js';
-import {renderCompare} from './compare.js';
-import {setUrl} from './load.js';
+import {$, esc, avg, fmt0, pct, wetDry, titleOf, srcText, MONTHS, MONL} from './util.js?v=a7be80b2';
+import {state, S, curYear} from './store.js?v=a7be80b2';
+import {retime, hydro12, yearAnoms} from './data.js?v=a7be80b2';
+import {redraw} from './map.js?v=a7be80b2';
+import {updateMonthRows, renderCharts} from './card.js?v=a7be80b2';
+import {renderCompare} from './compare.js?v=a7be80b2';
+import {setUrl} from './load.js?v=a7be80b2';
 
 /* ---------- legend (bottom left) and colour mode ---------- */
 const LEG = {

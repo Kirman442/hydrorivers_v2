@@ -1,12 +1,12 @@
 /* Loading a view and a basin, and the state in the URL. */
-import {$, params, FRESH} from './util.js';
-import {state, S, ui, VIEWS, catalogs, fileOf, FIRST_VISIT, START} from './store.js';
-import {gunzip, decodeBin, decodeJson, link, retime, loadCatalogs} from './data.js';
-import {redraw, fit, tooltip, startAnimation} from './map.js';
-import {renderRiver, renderCharts} from './card.js';
-import {renderTabs} from './panel.js';
-import {renderCompare, chooseCompare, entryOf} from './compare.js';
-import {renderLegend, renderTimebar, afterTime} from './timebar.js';
+import {$, params, FRESH} from './util.js?v=a7be80b2';
+import {state, S, ui, VIEWS, catalogs, fileOf, FIRST_VISIT, START} from './store.js?v=a7be80b2';
+import {gunzip, decodeBin, decodeJson, link, retime, loadCatalogs} from './data.js?v=a7be80b2';
+import {redraw, fit, tooltip, startAnimation} from './map.js?v=a7be80b2';
+import {renderRiver, renderCharts} from './card.js?v=a7be80b2';
+import {renderTabs} from './panel.js?v=a7be80b2';
+import {renderCompare, chooseCompare, entryOf} from './compare.js?v=a7be80b2';
+import {renderLegend, renderTimebar, afterTime} from './timebar.js?v=a7be80b2';
 
 /* The state lives in the URL: view, basin, month (m = 1..12), year (y),
  * compared basin (cmp = view/slug), colour (c = t). Links can be shared and
@@ -94,8 +94,10 @@ function loadDetail(url, token) {
 
 export function openView(name, basin) {
   S.view = name;
-  ui.open.clear();  // the list opens at the region of the river on the map
-  ui.open.add(name);
+  // the list opens at the region the river was picked from, else its continent
+  ui.open.clear();
+  ui.open.add(ui.pickedFrom || name);
+  ui.pickedFrom = null;
   const v = VIEWS[name];
   if (!v.catalog) { S.slug = null; return loadBasin(v.basin); }
   return loadCatalogs().then(() => {
