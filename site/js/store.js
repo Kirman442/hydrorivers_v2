@@ -2,7 +2,7 @@
  * so everything that changes while the page runs lives in `state` (what the
  * user chose) or `S` (what is loaded). Also the values and colours that depend
  * on the chosen month and year. */
-import {params} from './util.js?v=0715c5af';
+import {params} from './util.js?v=78a1ce87';
 
 // color: q = discharge, t = water temperature; month: index into meta.months, -1 = annual mean
 export const state = {speed: 24, spacing: 24, playing: true, network: true, time: 0,
@@ -72,7 +72,7 @@ export const speedOf = (d) => ((state.month >= 0 && d.m) || (state.year >= 0 && 
 
 // discharge (m³/s) -> colour, log scale 1 .. 10 000
 const RAMP = [[31, 78, 121], [47, 143, 199], [111, 211, 255], [232, 251, 255]];
-function dischargeColor(q, alpha) {
+export function dischargeColor(q, alpha) {
   const x = Math.min(Math.max(Math.log10(Math.max(q, 1)) / 4, 0), 1) * (RAMP.length - 1);
   const i = Math.min(Math.floor(x), RAMP.length - 2);
   const f = x - i;
@@ -81,7 +81,7 @@ function dischargeColor(q, alpha) {
 }
 // water temperature (°C) -> colour, 0 .. 30 °C
 const TRAMP = [[49, 54, 149], [69, 117, 180], [116, 173, 209], [254, 224, 144], [244, 109, 67], [215, 48, 39]];
-function tempColor(t, alpha) {
+export function tempColor(t, alpha) {
   if (t == null) return [120, 120, 120, alpha];
   const x = Math.min(Math.max(t / 30, 0), 1) * (TRAMP.length - 1);
   const i = Math.min(Math.floor(x), TRAMP.length - 2);

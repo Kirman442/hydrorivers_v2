@@ -1,8 +1,8 @@
 /* The map: MapLibre base map, deck.gl layers on top (network, pinned path,
  * flowing particles, river names), the tooltip and the animation loop. */
-import {$, MONTHS, fmt} from './util.js?v=0715c5af';
-import {state, S, qOf, tOf, colorOf, widthOf, alphaOf, speedOf} from './store.js?v=0715c5af';
-import {riverType} from './data.js?v=0715c5af';
+import {$, MONTHS, fmt} from './util.js?v=78a1ce87';
+import {state, S, qOf, tOf, colorOf, widthOf, alphaOf, speedOf} from './store.js?v=78a1ce87';
+import {riverType} from './data.js?v=78a1ce87';
 
 const {MapboxOverlay, PathLayer, TextLayer, TripsLayer} = deck;
 const TAIL = 0.45; // visible part of each particle, as a share of the spacing
@@ -49,8 +49,10 @@ map.addControl(overlay);
 // new layer objects with the current state; deck.gl keeps the GPU buffers
 export function redraw() { overlay.setProps({layers: layers()}); }
 
-function layers() {
-  const pinned = S.pinned;
+// print = true (js/print.js): the same river layers for a print sheet,
+// without picking, the pinned river and the deck.gl names
+export function layers(print = false) {
+  const pinned = !print && S.pinned;
   return [
     new PathLayer({
       id: 'network',
@@ -63,7 +65,7 @@ function layers() {
       widthUnits: 'pixels',
       getColor: (d) => colorOf(d, 70),
       updateTriggers: {getWidth: [state.month, state.year], getColor: [state.month, state.year, state.color]},
-      pickable: true,
+      pickable: !print,
       autoHighlight: true,
       highlightColor: [255, 255, 255, 160],
       onHover: (info) => {
@@ -99,7 +101,7 @@ function layers() {
       trailLength: state.spacing,
       currentTime: state.time,
     }),
-    state.labels && S.meta && S.meta.labels && new TextLayer({
+    !print && state.labels && S.meta && S.meta.labels && new TextLayer({
       id: 'labels',
       data: S.meta.labels,
       getPosition: (d) => [d.lon, d.lat],

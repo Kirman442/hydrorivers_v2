@@ -1,7 +1,7 @@
 /* Switches for the base map: relief, its place names and its borders.
  * All three are remembered in the browser. */
-import {$} from './util.js?v=0715c5af';
-import {map} from './map.js?v=0715c5af';
+import {$} from './util.js?v=78a1ce87';
+import {map} from './map.js?v=78a1ce87';
 
 const stored = (key, def) => {
   try { const v = localStorage.getItem(key); return v == null ? def : v === '1'; } catch (e) { return def; }  // storage blocked
@@ -14,22 +14,25 @@ const store = (key, on) => { try { localStorage.setItem(key, on ? '1' : '0'); } 
  * goes under the first label layer of the base map. */
 const DEM = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png';
 let reliefOn = stored('hillshade', true);  // on unless switched off
+// the relief layer on any map (also the print map in js/print.js)
+export function addRelief(m) {
+  if (!m.getSource('dem')) {
+    m.addSource('dem', {type: 'raster-dem', tiles: [DEM], tileSize: 256, maxzoom: 15, encoding: 'terrarium'});
+  }
+  const label = m.getStyle().layers.find((l) => l.type === 'symbol');
+  m.addLayer({id: 'relief', type: 'hillshade', source: 'dem', paint: {
+    'hillshade-exaggeration': 0.5,
+    'hillshade-illumination-direction': 315,
+    'hillshade-shadow-color': '#000000',
+    'hillshade-highlight-color': '#55606c',
+    'hillshade-accent-color': '#161c23',
+  }}, label && label.id);
+}
+export const basemapState = () => ({relief: reliefOn, labels: baseLabels, borders});
 function applyRelief() {
   if (reliefOn && !map.getLayer('relief')) {
     // before the base style is parsed addSource throws; then try again on the next style event
-    try {
-      if (!map.getSource('dem')) {
-        map.addSource('dem', {type: 'raster-dem', tiles: [DEM], tileSize: 256, maxzoom: 15, encoding: 'terrarium'});
-      }
-    } catch (e) { map.once('styledata', applyRelief); return; }
-    const label = map.getStyle().layers.find((l) => l.type === 'symbol');
-    map.addLayer({id: 'relief', type: 'hillshade', source: 'dem', paint: {
-      'hillshade-exaggeration': 0.5,
-      'hillshade-illumination-direction': 315,
-      'hillshade-shadow-color': '#000000',
-      'hillshade-highlight-color': '#55606c',
-      'hillshade-accent-color': '#161c23',
-    }}, label && label.id);
+    try { addRelief(map); } catch (e) { map.once('styledata', applyRelief); return; }
   }
   if (map.getLayer('relief')) map.setLayoutProperty('relief', 'visibility', reliefOn ? 'visible' : 'none');
 }

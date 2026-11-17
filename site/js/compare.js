@@ -1,11 +1,11 @@
 /* Vergleich: the basin on the map (A) next to any other (B).
  * Of B only the meta header is read: statistics, climate, profile, hydrographs. */
-import {$, esc, sum, avg, fmt, fmt0, titleOf, srcText, iBtn, MONTHS, MONL, MON1, FRESH} from './util.js?v=0715c5af';
-import {S, ui, VIEWS, fileOf, curMonth, curYear} from './store.js?v=0715c5af';
-import {gunzip, readMeta, hydro12} from './data.js?v=0715c5af';
-import {renderList, renderTabs} from './panel.js?v=0715c5af';
-import {renderTimebar} from './timebar.js?v=0715c5af';
-import {openView, setUrl, renderAll} from './load.js?v=0715c5af';
+import {$, esc, sum, avg, fmt, fmt0, titleOf, srcText, iBtn, MONTHS, MONL, MON1, FRESH} from './util.js?v=78a1ce87';
+import {S, ui, VIEWS, fileOf, curMonth, curYear} from './store.js?v=78a1ce87';
+import {gunzip, readMeta, hydro12} from './data.js?v=78a1ce87';
+import {renderList, renderTabs} from './panel.js?v=78a1ce87';
+import {renderTimebar} from './timebar.js?v=78a1ce87';
+import {openView, setUrl, renderAll} from './load.js?v=78a1ce87';
 
 export const entryOf = (v, s) => ({view: v, slug: VIEWS[v].catalog ? s : null, url: fileOf(v, s)});
 export function chooseCompare(entry) {

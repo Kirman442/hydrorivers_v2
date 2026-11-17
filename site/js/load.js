@@ -1,12 +1,12 @@
 /* Loading a view and a basin, and the state in the URL. */
-import {$, params, FRESH} from './util.js?v=0715c5af';
-import {state, S, ui, VIEWS, catalogs, fileOf, FIRST_VISIT, START} from './store.js?v=0715c5af';
-import {gunzip, decodeBin, decodeJson, link, retime, loadCatalogs} from './data.js?v=0715c5af';
-import {redraw, fit, tooltip, startAnimation} from './map.js?v=0715c5af';
-import {renderRiver, renderCharts} from './card.js?v=0715c5af';
-import {renderTabs} from './panel.js?v=0715c5af';
-import {renderCompare, chooseCompare, entryOf} from './compare.js?v=0715c5af';
-import {renderLegend, renderTimebar, afterTime} from './timebar.js?v=0715c5af';
+import {$, params, FRESH} from './util.js?v=78a1ce87';
+import {state, S, ui, VIEWS, catalogs, fileOf, FIRST_VISIT, START} from './store.js?v=78a1ce87';
+import {gunzip, decodeBin, decodeJson, link, retime, loadCatalogs} from './data.js?v=78a1ce87';
+import {redraw, fit, tooltip, startAnimation} from './map.js?v=78a1ce87';
+import {renderRiver, renderCharts} from './card.js?v=78a1ce87';
+import {renderTabs} from './panel.js?v=78a1ce87';
+import {renderCompare, chooseCompare, entryOf} from './compare.js?v=78a1ce87';
+import {renderLegend, renderTimebar, afterTime} from './timebar.js?v=78a1ce87';
 
 /* The state lives in the URL: view, basin, month (m = 1..12), year (y),
  * compared basin (cmp = view/slug), colour (c = t). Links can be shared and

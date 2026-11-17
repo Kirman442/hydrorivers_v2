@@ -14,17 +14,18 @@
  *   load.js     loading views and basins, state in the URL
  *   intro.js    welcome window (DE/EN) on the first visit, "?" button on the map
  */
-import {$, params, HELP} from './util.js?v=0715c5af';
-import {state, S, ui, FIRST_VISIT, START} from './store.js?v=0715c5af';
-import {loadCatalogs} from './data.js?v=0715c5af';
-import {map, redraw} from './map.js?v=0715c5af';
-import {initIntro} from './intro.js?v=0715c5af';
-import {bindBasemap} from './basemap.js?v=0715c5af';
-import {setTab} from './panel.js?v=0715c5af';
-import {renderRiver} from './card.js?v=0715c5af';
-import {bindCompare} from './compare.js?v=0715c5af';
-import {renderTimebar, setColor, setMonth, setYear} from './timebar.js?v=0715c5af';
-import {openView} from './load.js?v=0715c5af';
+import {$, params, HELP} from './util.js?v=78a1ce87';
+import {state, S, ui, FIRST_VISIT, START} from './store.js?v=78a1ce87';
+import {loadCatalogs} from './data.js?v=78a1ce87';
+import {map, redraw} from './map.js?v=78a1ce87';
+import {initIntro} from './intro.js?v=78a1ce87';
+import {initLegal} from './legal.js?v=78a1ce87';
+import {bindBasemap} from './basemap.js?v=78a1ce87';
+import {setTab} from './panel.js?v=78a1ce87';
+import {renderRiver} from './card.js?v=78a1ce87';
+import {bindCompare} from './compare.js?v=78a1ce87';
+import {renderTimebar, setColor, setMonth, setYear} from './timebar.js?v=78a1ce87';
+import {openView} from './load.js?v=78a1ce87';
 
 function bindControls() {
   // speed: the slider in Info and the one in the time bar are the same control
@@ -75,7 +76,8 @@ function bindControls() {
     $('lg-min').textContent = box.classList.contains('min') ? '▸' : '▾';
   };
   document.querySelectorAll('#tabs button').forEach((b) => b.onclick = () => setTab(b.dataset.tab));
-  $('to-list').onclick = () => { ui.showList = true; renderRiver(); };
+  // back to the list where the river was picked; the tab "Flüsse" opens it at its start
+  $('to-list').onclick = () => { ui.showList = true; ui.toRegion = true; renderRiver(); };
   $('to-river').onclick = () => { ui.showList = false; renderRiver(); };
   $('go-cmp').onclick = () => setTab('compare');
   document.querySelectorAll('.to-method').forEach((b) => b.onclick = () => { setTab('method'); $('v-method').scrollTop = 0; });
@@ -104,6 +106,8 @@ function bindControls() {
   $('gloss').innerHTML = Object.values(HELP).map(([t, x]) => `<dt>${t}</dt><dd>${x}</dd>`).join('');
 }
 
+initLegal();
+import('./print.js?v=78a1ce87').then((m) => m.initPrint());  // print sheet: "Druckblatt" in the river card
 bindControls();
 bindCompare();
 loadCatalogs();

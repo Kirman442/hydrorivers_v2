@@ -1,11 +1,11 @@
 /* The panel's tabs, the river list (catalog and "compare with" share it) and
  * the Methode text. */
-import {$, esc, fmt0, FRESH} from './util.js?v=0715c5af';
-import {S, ui, VIEWS, catalogs} from './store.js?v=0715c5af';
-import {loadCatalogs} from './data.js?v=0715c5af';
-import {TOP} from './top.js?v=0715c5af';
-import {renderRiver} from './card.js?v=0715c5af';
-import {renderCompare} from './compare.js?v=0715c5af';
+import {$, esc, fmt0, FRESH} from './util.js?v=78a1ce87';
+import {S, ui, VIEWS, catalogs} from './store.js?v=78a1ce87';
+import {loadCatalogs} from './data.js?v=78a1ce87';
+import {TOP} from './top.js?v=78a1ce87';
+import {renderRiver} from './card.js?v=78a1ce87';
+import {renderCompare} from './compare.js?v=78a1ce87';
 
 /* ---------- tabs ---------- */
 export function renderTabs() {
@@ -16,7 +16,7 @@ export function renderTabs() {
 export function setTab(t) {
   // "Flüsse" again while the river card is open: show the list of all rivers
   // (from another tab it returns to whatever the Flüsse tab showed last)
-  if (t === 'rivers' && ui.tab === 'rivers' && !ui.showList) ui.showList = true;
+  if (t === 'rivers' && ui.tab === 'rivers' && !ui.showList) { ui.showList = true; ui.toRegion = false; }
   const entering = ui.tab !== t;
   ui.tab = t;
   if (t === 'compare') renderCompare();
@@ -91,12 +91,14 @@ export function renderList(box, mode, onPick) {
     const regions = items.querySelectorAll('details.region');
     regions.forEach((d) => { if (d.open) d.dataset.init = ''; });
     regions.forEach((d) => d.ontoggle = () => {
-      // a region rendered open fires one toggle by itself: the main list then
-      // scrolls to it (back where the river was picked), the compare list
-      // stays at its start
+      // a region rendered open fires one toggle by itself. "← Alle Flüsse"
+      // (ui.toRegion) goes back to it: scroll there; the tab "Flüsse" and the
+      // compare list stay at their start with the region just open
       const init = d.dataset.init !== undefined;
       delete d.dataset.init;
-      if (init && mode === 'pick') return;
+      if (init && !(mode === 'main' && ui.toRegion)) return;
+      if (init) ui.toRegion = false;
+      const back = init && ui.listScroll != null && ui.listFrom === d.dataset.c ? ui.listScroll : null;
       if (ui.q[mode]) return;
       if (!d.open) { ui.open.delete(d.dataset.c); return; }
       ui.open.clear();
@@ -106,12 +108,14 @@ export function renderList(box, mode, onPick) {
       // (scrollIntoView would also try to scroll the page)
       let sc = d.parentElement;
       while (sc && !(sc.scrollHeight > sc.clientHeight && /auto|scroll/.test(getComputedStyle(sc).overflowY))) sc = sc.parentElement;
-      if (sc) sc.scrollTop += d.getBoundingClientRect().top - sc.getBoundingClientRect().top - 4;
+      // back from the card: the very place the river was picked at, else the region's top
+      if (sc) sc.scrollTop = back != null ? back : sc.scrollTop + d.getBoundingClientRect().top - sc.getBoundingClientRect().top - 4;
     });
     items.querySelectorAll('li[data-v]').forEach((el) => el.onclick = () => {
       // remember the region the river was picked from (a Top 10 list, not only
       // its continent), so "← Alle Flüsse" opens that one again
       ui.pickedFrom = el.closest('details.region')?.dataset.c || null;
+      if (mode === 'main') { ui.listScroll = $('v-rivers').scrollTop; ui.listFrom = ui.pickedFrom; }
       listPick[mode](el.dataset.v, el.dataset.s || null);
     });
   };

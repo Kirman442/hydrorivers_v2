@@ -6,7 +6,7 @@
   <title>Flussströmung</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="vendor/maplibre-gl-5.24.0/maplibre-gl.css">
-  <link rel="stylesheet" href="style.css?v=ccf560cd">
+  <link rel="stylesheet" href="style.css?v=bc65d898">
 </head>
 <body>
   <div id="map"></div>
@@ -160,13 +160,26 @@
 
   <div id="credits">© <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>-Mitwirkende ·
     HydroRIVERS / RiverATLAS · GloFAS (Copernicus EMS)<span id="cr-relief" hidden> · Relief: Mapzen Terrain Tiles (AWS Open Data; SRTM, GMTED, ETOPO1 u. a.)</span> ·
-    <a href="#sources" id="cr-more">Quellen</a></div>
+    <a href="#sources" id="cr-more">Quellen</a> ·
+    <a href="#impressum" class="legal-link" data-page="impressum">Impressum</a> ·
+    <a href="#datenschutz" class="legal-link" data-page="datenschutz">Datenschutz</a></div>
+
+  <!-- Impressum and Datenschutz: one window, text in legal.html (js/legal.js) -->
+  <div id="legal" hidden role="dialog" aria-modal="true" aria-labelledby="legal-title">
+    <div class="legal-card">
+      <div class="legal-head">
+        <div class="seg" id="legal-tabs"><button type="button" data-page="impressum">Impressum</button><button type="button" data-page="datenschutz">Datenschutz</button></div>
+        <button type="button" class="link" id="legal-close" aria-label="Schließen">✕</button>
+      </div>
+      <div id="legal-body" class="prose"></div>
+    </div>
+  </div>
 
   <div id="tooltip" hidden></div>
   <div id="pop" hidden></div>
 
   <script src="vendor/maplibre-gl-5.24.0/maplibre-gl.js"></script>
   <script src="vendor/deck.gl-9.3.12/dist.min.js"></script>
-  <script type="module" src="js/main.js?v=0715c5af"></script>
+  <script type="module" src="js/main.js?v=78a1ce87"></script>
 </body>
 </html>

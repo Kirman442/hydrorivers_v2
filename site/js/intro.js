@@ -1,7 +1,7 @@
 /* Welcome window: what the page is and where to click, in German and English.
  * Shown once on a first visit (no view in the URL); the "?" button under the
  * zoom buttons opens it again. The river keeps flowing behind it. */
-import {FIRST_VISIT} from './store.js?v=0715c5af';
+import {FIRST_VISIT} from './store.js?v=78a1ce87';
 
 const TEXT = {
   de: {
@@ -13,6 +13,7 @@ const TEXT = {
       ['Auf einen Fluss klicken', 'Abfluss, Geschwindigkeit, Fließzeit bis zur Mündung. Ein Klick auf einen Monat in den Diagrammen färbt die Karte.'],
       ['Vergleich und Methode', 'Zwei beliebige Flüsse nebeneinander; wie jede Zahl berechnet wird.'],
       ['Relief und Namen', 'Unten links in der Legende: „Relief“ zeigt Gebirge und Täler als Schummerung, „Namen“ die Orte der Grundkarte. Mehr Schalter im Tab „Info“.'],
+      ['Druckblatt', '„⎙ Druckblatt“ oben in der Flusskarte: der Fluss als Karte im Format A3, hoch oder quer, mit Nordpfeil, Maßstab, Legende und Namen, auf dunklem oder hellem Grund, auf Wunsch mit zwölf Monatskarten. Speichern als PDF oder PNG (am Computer).'],
     ],
     now: 'Gerade zu sehen: der Ganges im Juli, mitten im Monsun, gefärbt nach der geschätzten Wassertemperatur.',
     data: 'Daten: HydroRIVERS, RiverATLAS, GloRiC, GloFAS (Copernicus). Geschwindigkeiten und Temperaturen sind Schätzungen.',
@@ -27,6 +28,7 @@ const TEXT = {
       ['Click a river', 'Discharge, speed, travel time to the mouth. A click on a month in the charts colours the map.'],
       ['Compare and method', '„Vergleich“: any two rivers side by side; „Methode“: how every number is computed.'],
       ['Relief and names', 'Bottom left in the legend: „Relief“ shades mountains and valleys, „Namen“ shows the place names of the base map. More switches in the „Info“ tab.'],
+      ['Print sheet', '„⎙ Druckblatt“ at the top of the river card: the river as an A3 map, portrait or landscape, with north arrow, scale bar, legend and names, on a dark or light ground, optionally with twelve month maps. Saved as PDF or PNG (on a computer).'],
     ],
     now: 'Now showing: the Ganges in July, in the middle of the monsoon, coloured by estimated water temperature.',
     data: 'Data: HydroRIVERS, RiverATLAS, GloRiC, GloFAS (Copernicus). Speeds and temperatures are estimates. The page itself is in German.',
