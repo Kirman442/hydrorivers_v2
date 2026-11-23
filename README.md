@@ -4,6 +4,10 @@ An animated map of water flowing through the world's large river basins, from
 the sources to the mouth: particles follow every river segment at the speed
 the water would have there, month by month. Page in German.
 
+Live: https://gis.krmn.app/hydrorivers_v2/ (GitHub Pages with a custom domain,
+published by the workflow below; the custom domain is set in the repository's
+Pages settings, there is no CNAME file).
+
 The site is static: HTML, CSS and plain JavaScript modules, no build step and
 no server code. Development (data pipeline, tools) happens in a separate
 repository; this one only holds what the site needs and is generated from it.
